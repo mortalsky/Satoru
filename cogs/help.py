@@ -74,10 +74,10 @@ class Help(commands.Cog):
 `{prf}ban` `{prf}kick` `{prf}clear`
 
 **INFO**
-`{prf}info` `{prf}roleinfo` `{prf}guildinfo`
+`{prf}info` `{prf}roleinfo` `{prf}guildinfo` `{prf}avatar` 
 
 **MISC**
-`{prf}ping` `{prf}addemoji` `{prf}feedback` `{prf}say` `{prf}looneytunes`
+`{prf}ping` `{prf}invite` `{prf}addemoji` `{prf}feedback` `{prf}say` `{prf}looneytunes`
 
 **WEEB**
 `{prf}satoru` `{prf}kayo` `{prf}punch` `{prf}hug`"""

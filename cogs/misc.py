@@ -460,6 +460,16 @@ class Misc(commands.Cog):
       for a in guild.emojis:
 
         emojis += f"{a} "
+
+      online = sum(m.status == discord.Status.online and not m.bot for m in ctx.guild.members)
+
+      dnd = sum(m.status == discord.Status.dnd and not m.bot for m in ctx.guild.members)
+
+      idle = sum(m.status == discord.Status.idle and not m.bot for m in ctx.guild.members)
+
+      offline = sum(m.status == discord.Status.offline and not m.bot for m in ctx.guild.members)
+
+      bots = sum(m.bot for m in ctx.guild.members)
       
       emb = discord.Embed(title = guild.name, description = f"""😀  | {guild.name}
 
@@ -485,9 +495,19 @@ class Misc(commands.Cog):
 
 💢 | {guild.premium_subscription_count} Boosters
 
-📜 | {roles}
+👥 | {guild.member_count} Members
 
-""", colour = ctx.author.colour)
+<:status_online:596576749790429200> | {online} Members
+
+<:status_dnd:596576774364856321> | {dnd} Members
+
+<:status_idle:596576773488115722> | {idle} Members
+
+<:status_offline:596576752013279242> | {offline} Members
+
+🤖 | {bots} Bots
+
+📜 | {roles}""", colour = ctx.author.colour)
       emb.set_thumbnail(url = guild.icon_url)
       emb.set_footer(text = guild.name, icon_url = guild.icon_url)
 
@@ -495,6 +515,31 @@ class Misc(commands.Cog):
 
         emb.set_image(url = guild.banner_url)
 
+      await ctx.send(embed = emb)
+
+    @commands.command()
+    async def invite(self, ctx):
+
+       "Invite the bot to your server"
+       
+       await ctx.send(embed = discord.Embed(description = "[Invite Me](https://discordapp.com/api/oauth2/authorize?client_id=635044836830871562&permissions=321606&scope=bot)", colour = colour))
+
+    @commands.command()
+    async def avatar(self, ctx, *, member: discord.Member = None):
+
+      "See a member avatar"
+
+      if not member:
+
+        member = ctx.author
+
+      else:
+
+        member = member
+
+      emb = discord.Embed(colour = member.colour, timestamp = ctx.message.created_at)
+      emb.set_image(url = member.avatar_url)
+      emb.set_footer(text = member.guild.name, icon_url = member.guild.icon_url)
       await ctx.send(embed = emb)
 
 def setup(bot):
