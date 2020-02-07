@@ -77,7 +77,7 @@ class Help(commands.Cog):
 `{prf}info` `{prf}roleinfo` `{prf}guildinfo` `{prf}avatar` 
 
 **MISC**
-`{prf}ping` `{prf}invite` `{prf}addemoji` `{prf}feedback` `{prf}say` `{prf}looneytunes` `{prf}uptime`
+`{prf}ping` `{prf}invite` `{prf}addemoji` `{prf}feedback` `{prf}say` `{prf}looneytunes` `{prf}uptime` `{prf}about`
 
 **WEEB**
 `{prf}satoru` `{prf}kayo` `{prf}punch` `{prf}hug`"""
