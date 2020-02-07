@@ -551,7 +551,8 @@ class Misc(commands.Cog):
 Library: `discord.py 1.2.5`
 Python: `3.7.4`
 Invite Link: [Click Me](https://discordapp.com/api/oauth2/authorize?client_id=635044836830871562&permissions=321606&scope=bot)
-Support Server: [Click Me](https://discord.gg/w8cbssP)**""", colour = colour)
+Support Server: [Click Me](https://discord.gg/w8cbssP)
+GitHub: [Click Me](https://github.com/ssebastianoo/Satoru)**""", colour = colour)
 
       await ctx.send(embed = emb)
 
