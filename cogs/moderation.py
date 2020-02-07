@@ -29,6 +29,13 @@ class Moderation(commands.Cog):
 
     await ctx.send(embed = emb)
 
+  @ban.error
+  async def ban_error(self, ctx, error):
+
+    emb = discord.Embed(description = f"❌ | {error}", colour = discord.Colour.red())
+
+    await ctx.send(embed = emb)
+
   @commands.command()
   @commands.has_permissions(kick_members = True)
   async def kick(self, ctx, member: discord.Member = None, *, reason = None):
@@ -40,6 +47,76 @@ class Moderation(commands.Cog):
     emb = discord.Embed(description = f"✅ | {member.mention} was kicked by {ctx.author.mention}", colour = discord.Colour.red())
 
     await ctx.send(embed = emb)
+
+  @kick.error
+  async def kick_error(self, ctx, error):
+
+    emb = discord.Embed(description = f"❌ | {error}", colour = discord.Colour.red())
+
+    await ctx.send(embed = emb)
+
+  @commands.command()
+  @commands.has_permissions(kick_members = True)
+  async def mute(self, ctx, member: discord.Member = None, *, reason = None):
+
+    "Mute a member"
+
+    r = discord.utils.get(ctx.guild.roles, name = "Muted")
+
+    if not r:
+
+      r = await ctx.guild.create_role(name = "Muted")
+
+    await member.add_roles(r, reason = reason)
+
+    emb = discord.Embed(description = f"✅ | {member.mention} was muted by {ctx.author.mention}", colour = discord.Colour.red())
+
+    await ctx.send(embed = emb)
+
+    try:
+      
+      for a in ctx.guild.channels:
+        
+        await a.set_permissions(r, send_messages = False)
+
+    except:
+
+      return
+
+  @mute.error
+  async def mute_error(self, ctx, error):
+
+    emb = discord.Embed(description = f"❌ | {error}", colour = discord.Colour.red())
+
+    await ctx.send(embed = emb)
+
+
+  @commands.command()
+  @commands.has_permissions(kick_members = True)
+  async def unmute(self, ctx, member: discord.Member = None):
+
+    "Unmute a member"
+
+    r = discord.utils.get(ctx.guild.roles, name = "Muted")
+
+    await member.remove_roles(r)
+
+    emb = discord.Embed(description = f"✅ | {member.mention} was unmuted by {ctx.author.mention}", colour = discord.Colour.green())
+
+    await ctx.send(embed = emb)
+
+  @unmute.error
+  async def unmute_error(self, ctx, error):
+
+    emb = discord.Embed(description = f"❌ | {error}", colour = discord.Colour.red())
+
+    await ctx.send(embed = emb)
+
+  
+  
+
+  
+
 
 
 def setup(bot):

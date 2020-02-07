@@ -71,13 +71,13 @@ class Help(commands.Cog):
 [Support Server](https://discord.gg/w8cbssP)
 
 **MODERATION**
-`{prf}ban` `{prf}kick` `{prf}clear`
+`{prf}ban` `{prf}kick` `{prf}mute` `{prf}unmute` `{prf}clear`
 
 **INFO**
 `{prf}info` `{prf}roleinfo` `{prf}guildinfo` `{prf}avatar` 
 
 **MISC**
-`{prf}ping` `{prf}invite` `{prf}addemoji` `{prf}feedback` `{prf}say` `{prf}looneytunes`
+`{prf}ping` `{prf}invite` `{prf}addemoji` `{prf}feedback` `{prf}say` `{prf}looneytunes` `{prf}uptime`
 
 **WEEB**
 `{prf}satoru` `{prf}kayo` `{prf}punch` `{prf}hug`"""

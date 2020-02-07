@@ -471,7 +471,7 @@ class Misc(commands.Cog):
 
       bots = sum(m.bot for m in ctx.guild.members)
       
-      emb = discord.Embed(title = guild.name, description = f"""😀  | {guild.name}
+      emb = discord.Embed(timestamp = ctx.message.created_at, title = guild.name, description = f"""😀  | {guild.name}
 
 🆔 | {guild.id}
 
