@@ -33,8 +33,8 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
   @commands.command()
   @commands.is_owner()
   async def load(self, ctx, extension):
-    emb = discord.Embed(title = '<a:loading:637936881937547274>', colour = 0xbf794b)
-    emb1 = discord.Embed(title = f'Loaded {extension}<a:done:637937876830650369>', colour = 0xbf794b)
+    emb = discord.Embed(title = 'Loading...', colour = 0xbf794b)
+    emb1 = discord.Embed(title = f'Loaded {extension}!', colour = 0xbf794b)
     msg = await ctx.send(embed = emb)
     await asyncio.sleep(0.5)
     error = discord.Embed(title = f"""UH! There was an error with {extension}! Check this list:
@@ -55,8 +55,8 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
   @commands.is_owner()
   async def reload(self, ctx, extension):
     
-    emb = discord.Embed(title = '<a:loading:637936881937547274>', colour = 0xbf794b)
-    emb1 = discord.Embed(title = f'Reloaded {extension}<a:done:637937876830650369>', colour = 0xbf794b)
+    emb = discord.Embed(title = 'Loading...', colour = 0xbf794b)
+    emb1 = discord.Embed(title = f'Reloaded {extension}!', colour = 0xbf794b)
     msg = await ctx.send(embed = emb)
     await asyncio.sleep(0.5)
     error = discord.Embed(title = f"""UH! There was an error with {extension}!
@@ -78,8 +78,8 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
   @commands.command()
   @commands.is_owner()
   async def unload(self, ctx, extension):
-    emb = discord.Embed(title = '<a:loading:637936881937547274>', colour = 0xbf794b)
-    emb1 = discord.Embed(title = f'Unoaded {extension}<a:done:637937876830650369>', colour = 0xbf794b)
+    emb = discord.Embed(title = 'Loading...', colour = 0xbf794b)
+    emb1 = discord.Embed(title = f'Unloaded {extension}!', colour = 0xbf794b)
     msg = await ctx.send(embed = emb)
     await asyncio.sleep(0.5)
     error = discord.Embed(title = f"""UH! There was an error with {extension}! Check this list:

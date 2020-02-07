@@ -57,8 +57,30 @@ class Help(commands.Cog):
       for c in self.bot.commands:
 
         if not c.hidden:
+
+          if ctx.prefix == f"<@!{self.bot.user.id}> ":
+
+            prf = f"@{self.bot.user} "
           
-          res += f"\n**{ctx.prefix}{c.name} {c.signature}**\n*{c.help}*\n"
+          else:
+            
+            prf = ctx.prefix
+          
+          res = f"""Prefixes: `e?`, `@{self.bot.user}`
+
+[Support Server](https://discord.gg/w8cbssP)
+
+**MODERATION**
+`{prf}ban` `{prf}kick` `{prf}clear`
+
+**INFO**
+`{prf}info` `{prf}roleinfo` `{prf}guildinfo`
+
+**MISC**
+`{prf}ping` `{prf}addemoji` `{prf}feedback` `{prf}say` `{prf}looneytunes`
+
+**WEEB**
+`{prf}satoru` `{prf}kayo` `{prf}punch` `{prf}hug`"""
 
       emb.description = res
 
