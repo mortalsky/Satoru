@@ -313,7 +313,7 @@ class Misc(commands.Cog):
 
       try:
         
-        with open("cogs/list.json", "r") as f:
+        with open("list.json", "r") as f:
           
           l = json.load(f)
           
@@ -336,7 +336,7 @@ class Misc(commands.Cog):
 
       "Add something to the list"
 
-      with open("cogs/list.json", "r") as f:
+      with open("list.json", "r") as f:
 
         l = json.load(f)
 
@@ -348,7 +348,7 @@ class Misc(commands.Cog):
 
         l[str(ctx.author.id)] = [f"{item}"]
 
-      with open("cogs/list.json", "w") as f:
+      with open("list.json", "w") as f:
 
         json.dump(l, f, indent = 4)
 
