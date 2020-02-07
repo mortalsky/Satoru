@@ -542,5 +542,18 @@ class Misc(commands.Cog):
       emb.set_footer(text = member.guild.name, icon_url = member.guild.icon_url)
       await ctx.send(embed = emb)
 
+    @commands.command()
+    async def about(self, ctx):
+
+      "Info about the bot"
+
+      emb = discord.Embed(description = f"""**Developer: `Sebastiano#5005`
+Library: `discord.py 1.2.5`
+Python: `3.7.4`
+Invite Link: [Click Me](https://discordapp.com/api/oauth2/authorize?client_id=635044836830871562&permissions=321606&scope=bot)
+Support Server: [Click Me](https://discord.gg/w8cbssP)**""", colour = colour)
+
+      await ctx.send(embed = emb)
+
 def setup(bot):
     bot.add_cog(Misc(bot))
