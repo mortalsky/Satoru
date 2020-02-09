@@ -5,6 +5,7 @@ import json
 import random
 import asyncio
 from googletrans import Translator
+import requests
 
 translator = Translator()
 
@@ -23,10 +24,10 @@ class Misc(commands.Cog):
 
       await ctx.send(f":ping_pong: | {pong}ms")
 
-    @commands.command()
+    @commands.command(aliases = ["tr"])
     async def translate(self, ctx, text, source = None, destination = None):
 
-      "Translate a phrase in every language"
+      'Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr....'
 
       if destination:
         
@@ -71,7 +72,15 @@ class Misc(commands.Cog):
       if t.dest == "fr":
 
         t.dest = "🇫🇷 | Fr"
-        
+
+      if t.src == "ja":
+
+        t.src = "🇯🇵 | Ja"
+
+      if t.dest == "ja":
+
+        t.dest = "🇯🇵 | Ja"
+
       emb = discord.Embed(colour = colour)
       emb.add_field(name = t.src, value = text, inline = False)
       emb.add_field(name = t.dest, value = t.text, inline = False)
@@ -611,6 +620,41 @@ Python: `3.7.4`
 Invite Link: [Click Me](https://discordapp.com/api/oauth2/authorize?client_id=635044836830871562&permissions=321606&scope=bot)
 Support Server: [Click Me](https://discord.gg/w8cbssP)
 GitHub: [Click Me](https://github.com/ssebastianoo/Satoru)**""", colour = colour)
+
+      await ctx.send(embed = emb)
+
+    @commands.command()
+    async def male(self, ctx, thing, member: discord.Member = None):
+
+      "Use this when someone says that a thing is a female but is a male"
+
+      if member:
+
+        res = f"Damnit {member.mention}<:bahrooscreaming:676018783332073472>! {thing} is a **male**!"
+
+      else:
+
+        res = f"Damnit<:bahrooscreaming:676018783332073472>! {thing} is a **male**!"
+
+      emb = discord.Embed(description = res, colour = discord.Colour.red())
+
+      await ctx.send(embed = emb)
+
+    @commands.command()
+    async def female(self, ctx, thing, member: discord.Member = None):
+
+      "Use this when someone says that a thing is a male but is a female"
+
+
+      if member:
+
+        res = f"Damnit {member.mention}<:bahrooscreaming:676018783332073472>! {thing} is a **female**!"
+
+      else:
+
+        res = f"Damnit<:bahrooscreaming:676018783332073472>! {thing} is a **female**!"
+
+      emb = discord.Embed(description = res, colour = discord.Colour.red())
 
       await ctx.send(embed = emb)
 
