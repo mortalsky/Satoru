@@ -4,6 +4,9 @@ import aiohttp
 import json
 import random
 import asyncio
+from googletrans import Translator
+
+translator = Translator()
 
 colour = 0xbf794b
 
@@ -19,6 +22,61 @@ class Misc(commands.Cog):
       pong = round(self.bot.latency * 1000)
 
       await ctx.send(f":ping_pong: | {pong}ms")
+
+    @commands.command()
+    async def translate(self, ctx, text, source = None, destination = None):
+
+      "Translate a phrase in every language"
+
+      if destination:
+        
+        t = translator.translate(text, dest = destination)
+
+      elif source:
+
+        t = translator.translate(text, src = source)
+
+      else:
+
+        t = translator.translate(text)
+
+      if t.dest == "en":
+
+        t.dest = "🇬🇧 | En"
+
+      if t.src == "en":
+
+        t.src = "🇬🇧 | En"
+
+      if t.dest == "es":
+
+        t.dest = "🇪🇸 | Es"
+
+      if t.src == "es":
+
+        t.src = "🇪🇸 | Es"
+
+      if t.src == "it":
+
+        t.src = "🇮🇹 | It"
+
+      if t.dest == "it":
+
+        t.dest = "🇮🇹 | It"
+
+      if t.src == "fr":
+
+        t.src = "🇫🇷 | Fr"
+
+      if t.dest == "fr":
+
+        t.dest = "🇫🇷 | Fr"
+        
+      emb = discord.Embed(colour = colour)
+      emb.add_field(name = t.src, value = text, inline = False)
+      emb.add_field(name = t.dest, value = t.text, inline = False)
+
+      await ctx.send(embed = emb)
 
     @commands.command(aliases = ["fb"])
     async def feedback(self, ctx, *, feedback):

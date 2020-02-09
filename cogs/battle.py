@@ -2,12 +2,84 @@ import discord
 from discord.ext import commands
 import asyncio
 import random
+import json
 
 #colour = 0xbf794b
 
 class Battle(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+
+    @commands.command()
+    async def gun(self, ctx):
+
+      "Make a gun battle"
+
+      end = False
+
+      emb = discord.Embed(description = "Who react with :gun: more times wins!", colour = discord.Colour.green())
+
+      msg = await ctx.send(embed = emb)
+
+      await msg.add_reaction("🔫")
+      await msg.add_reaction("❌")
+
+      def check(reaction, user):
+        
+        return user != self.bot.user
+
+      while not end:
+        
+        reaction, user = await self.bot.wait_for('reaction_add', check = check)
+        
+        if str(reaction.emoji) == "🔫":
+
+          with open("gun.json", "r") as f:
+
+            l = json.load(f)
+
+          try:
+            
+            l[str(user.id)] += 1
+
+          except KeyError:
+
+            l[str(user.id)] = 1
+
+          with open("gun.json", "w") as f:
+            
+            json.dump(l, f , indent = 4)
+
+        elif str(reaction.emoji) == "❌":
+
+          if user == ctx.author:
+
+            with open("gun.json", "r") as f:
+              
+              l = json.load(f)
+
+            res = ""
+
+            for a in l:
+
+              res += f"\n<@{a}> - {l[a]}"
+
+            emb2 = discord.Embed(description = res, colour = discord.Colour.green())
+
+            await ctx.send(embed = emb2)
+
+            with open("gun.json", "w") as f:
+              
+              f.write("{}")
+
+            end = True
+            
+
+          else:
+
+            msg = await ctx.send(f"{user.mention} only who started the game can stop it!")
+            await asyncio.sleep(4)
+            await msg.delete()
 
     @commands.command(hidden = True)
     @commands.is_owner()
@@ -131,6 +203,8 @@ class Battle(commands.Cog):
               await ctx.send(embed = emb)
 
               turn = 1
+
+      
 
 
         

@@ -34,13 +34,13 @@ async def uptime(ctx):
 
   "See bot uptime"
 
-  days = round(launch_time.tm_mday - time.gmtime().tm_mday)
+  days = round(time.gmtime().tm_mday - launch_time.tm_mday)
 
-  hour = round(launch_time.tm_hour - time.gmtime().tm_hour)
+  hour = round(time.gmtime().tm_hour - launch_time.tm_hour)
 
-  min = round(launch_time.tm_min - time.gmtime().tm_min)
+  min = round(time.gmtime().tm_min - launch_time.tm_min )
 
-  sec = round(launch_time.tm_sec - time.gmtime().tm_sec)
+  sec = round(time.gmtime().tm_sec - launch_time.tm_sec)
 
   emb = discord.Embed(description = f":clock: | {days} days {hour} hours {min} mins {sec} secs", colour = colour)
 

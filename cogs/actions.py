@@ -16,7 +16,7 @@ class Actions(commands.Cog):
     """Hug a user"""
 
     hug = [
-      'https://media1.tenor.com/images/3c5c8c58f71c8443fd97487cf3c79fae/tenor.gif?itemid=5178498', 'https://i.pinimg.com/originals/11/3c/9c/113c9c00893d75c115cf6a7aab754e06.gif', "https://cdn.nekos.life/hug/hug_034.gif"
+      'https://media1.tenor.com/images/3c5c8c58f71c8443fd97487cf3c79fae/tenor.gif?itemid=5178498', 'https://i.pinimg.com/originals/11/3c/9c/113c9c00893d75c115cf6a7aab754e06.gif', "https://cdn.nekos.life/hug/hug_034.gif", "https://media3.giphy.com/media/143v0Z4767T15e/giphy.gif", "https://nimg.taadd.com/article/201709/1/1000004_150433331317721.gif", "https://i.kym-cdn.com/photos/images/original/000/935/627/3a5.gif", "https://gifimage.net/wp-content/uploads/2017/09/anime-hug-kiss-gif.gif", "https://media1.giphy.com/media/qscdhWs5o3yb6/giphy.gif", "https://media1.giphy.com/media/yziFo5qYAOgY8/giphy.gif", "https://data.whicdn.com/images/135392484/original.gif", "https://i.pinimg.com/originals/08/de/7a/08de7ad3dcac4e10d27b2c203841a99f.gif", "https://gifimage.net/wp-content/uploads/2018/10/anime-hug-cry-gif.gif", "https://media.indiedb.com/images/groups/1/25/24269/ezgif.com-624b1ca218.gif", "https://images-ext-1.discordapp.net/external/wwKXAwjVHOpM65WE-urMHLfbsi8wcu-QeINmkVUeVJs/https/cdn.ram.moe/B1BzEkMql.gif", "https://i.imgur.com/FCXa6Gx.gif", "https://i.pinimg.com/originals/7f/76/10/7f76102bedf6de4e34065709d16a9ef8.gif", "https://media1.tenor.com/images/d0ce45027c5b5612600ceb8166b2bfe1/tenor.gif?itemid=5226254"
     ]
 
     r = random.choice(hug)
