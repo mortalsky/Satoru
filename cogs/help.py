@@ -7,6 +7,34 @@ class Help(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
+    @commands.Cog.listener()
+    async def on_ready(self):
+      
+      commands = ""
+
+      for a in self.bot.commands:
+
+        if not a.hidden:
+
+          if a.name != "jishaku":
+            
+            commands += f"`e?{a.name} {a.signature}`\n\n> {a.help} \n\n"
+    
+      with open("README.md", "w") as f:
+      
+        f.write(f"""# Satoru
+Satoru is a Discord Bot made with discord.py
+- Moderation
+- Info 
+- Misc
+
+**[Invite the bot](https://discordapp.com/api/oauth2/authorize?client_id=635044836830871562&permissions=321606&scope=bot)**
+
+# Commands
+
+{commands}""")
+
+
     @commands.command(hidden = True)
     async def help(self, ctx, *, command: str = None):
 

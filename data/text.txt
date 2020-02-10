@@ -78,3 +78,48 @@ That’s literally what I’m trying to do wtf
 Willy#7692: e!heal <@94271181271605248>
 Evangelist#4804: I'm sure they know how to treat themselves, we've got others to worry about for now.
 NCPlayz#7941: a is private u fuck,,
+Scragly#5146: <@547861735391100931> who said I'm not updating lol.
+GitHub#0000: 
+Ava#4982: no
+Ava#4982: that's not the issue
+Scragly#5146: I'm just slow to do so because it's a bit of a rewrite
+Scragly#5146: No rush though.
+taaal#6666: len(bot.commands) will count the commands? <:thrinking:597590667669274651>
+Ava#4982: anyway I solved it by doing this incredibly stupid thing:
+
+```cpp
+struct Foo {
+    enum : char {
+        a = 'a'
+    };
+};```
+Scragly#5146: e!stats
+Evangelist#4804: 
+Willy#7692: e!hug 174764205927432192
+Evangelist#4804: Probably shouldn't be hugging people right now.
+Scragly#5146: e!info
+Evangelist#4804: 
+Scragly#5146: e!shop
+Evangelist#4804: 
+NCPlayz#7941: "in D this would not be a problem" - alexandrescu
+Willy#7692: e!info
+Evangelist#4804: 
+Eugene#3778: e!shop
+Evangelist#4804: 
+Anti Lol#3119: 
+Eugene#3778: e!heal  Willy#7692
+Evangelist#4804: I'm sure they know how to treat themselves, we've got others to worry about for now.
+Eugene#3778: e!stats
+Evangelist#4804: 
+Willy#7692: e!hug 253384991940149249
+Evangelist#4804: Probably shouldn't be hugging people right now.
+Eugene#3778: Help, who do I heal
+Satoru#6725: 
+Sebastiano#5005: e?reload hel
+Satoru#6725: 
+Sebastiano#5005: e?reload help
+Willy#7692: 
+peeeeeta#4718: ?rtfm emoji
+R. Danny#6348: 
+MilaDog#8249: e!shop
+Evangelist#4804: 
