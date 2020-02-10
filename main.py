@@ -22,7 +22,7 @@ async def on_message(message):
 
   await bot.process_commands(message)
 
-  with open('text.txt', 'a') as f:
+  with open('data/text.txt', 'a') as f:
 
     f.write(f'{message.author}: {message.content}\n')
 
