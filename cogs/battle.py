@@ -34,7 +34,7 @@ class Battle(commands.Cog):
         
         if str(reaction.emoji) == "🔫":
 
-          with open("gun.json", "r") as f:
+          with open("data/gun.json", "r") as f:
 
             l = json.load(f)
 
@@ -46,7 +46,7 @@ class Battle(commands.Cog):
 
             l[str(user.id)] = 1
 
-          with open("gun.json", "w") as f:
+          with open("data/gun.json", "w") as f:
             
             json.dump(l, f , indent = 4)
 
@@ -54,7 +54,7 @@ class Battle(commands.Cog):
 
           if user == ctx.author:
 
-            with open("gun.json", "r") as f:
+            with open("data/gun.json", "r") as f:
               
               l = json.load(f)
 
@@ -68,7 +68,7 @@ class Battle(commands.Cog):
 
             await ctx.send(embed = emb2)
 
-            with open("gun.json", "w") as f:
+            with open("data/gun.json", "w") as f:
               
               f.write("{}")
 
