@@ -86,59 +86,62 @@ class Help(commands.Cog):
 
       await ctx.send(embed = emb)
 
-    @commands.command(hidden = True)
-    @commands.is_owner()
-    async def test(self, ctx, command: str = None):
+    @commands.command(hidden = True, aliases = ["cmd"])
+    async def commands(self, ctx):
 
-      error = f'```css\nThat command, "{command}", does not exist!\n```'
+      "See all commands"
 
-      emb = discord.Embed(title = f'Help for {ctx.author.name}', colour = 0xbf794b)
-      emb.set_footer(text = f"Need help about a command? {ctx.prefix.replace(self.bot.user.mention, f'@{self.bot.user.name}#{self.bot.user.discriminator}')}help <command>")
-      
-      if command:
+      count = 0
 
-        cmd = self.bot.get_command(command)
+      pag = commands.Paginator(prefix = f"```\n", suffix = "\n```", max_size = 500)
 
-        if not cmd:
+      for a in self.bot.commands:
 
-          for cog in self.bot.cogs:
-
-            cmd1 = list(int(command).get_commands())
-
-            emb.add_field(name = cmd1.name, value = cmd1.help)
-
-            await ctx.send(embed = emb)
-
-          await ctx.send(error)
-
-          return
-
-        if not cmd.hidden:
+        if not a.hidden:
           
-          emb.add_field(name = f'{ctx.prefix}{cmd.name} {cmd.signature}', value = cmd.help, inline = False)
-          
-          if cmd.aliases:
-            
-            emb.add_field(name = 'Aliases', value = cmd.aliases, inline = False)
+          pag.add_line(f"{a.name} {a.signature}")
+
+      msg = await ctx.send(f"Page number {count}\n{pag.pages[count]}")
+
+      await msg.add_reaction("◀️")
+      await msg.add_reaction("▶️")
+      await msg.add_reaction("⏹️")
+
+      def check(reaction, user):
         
-        else:
+        return user == ctx.author 
 
-          await ctx.send(error)
-          return
+      end = False
 
-
-        await ctx.send(embed = emb)
+      while not end:
         
-        return
+        reaction, user = await self.bot.wait_for('reaction_add', check = check)
 
-      for c in self.bot.commands:
-
-  
-        if not c.hidden:
+        try:
           
-          emb.add_field(name = f'<a:dance:637619812989796363> {ctx.prefix}{c.name} {c.signature}', value = f'<a:text:637622070351495169> {c.help}', inline = False)
+          if str(reaction.emoji) == "▶️":
+          
+            count += 1
+          
+            await msg.edit(content = f"Pages number {count}\n{pag.pages[count]}")
 
-      await ctx.send(embed = emb)
+          elif str(reaction.emoji) == "◀️":
+
+            count -= 1
+
+            if count < 0:
+
+              count = 0
+
+            await msg.edit(content = f"Page number {count}\n{pag.pages[count]}")
+
+          elif str(reaction.emoji) == "⏹️":
+ 
+            end = True
+
+        except:
+
+          pass
       
 def setup(bot):
     bot.add_cog(Help(bot))

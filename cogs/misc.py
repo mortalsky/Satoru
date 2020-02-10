@@ -157,8 +157,8 @@ class Misc(commands.Cog):
         
       await ctx.send(a)
 
-    @commands.command()
-    async def info(self, ctx, *, member: discord.Member = None):
+    @commands.command(aliases = ["info", "ui"])
+    async def userinfo(self, ctx, *, member: discord.Member = None):
 
       "See a member's info"
 
@@ -426,7 +426,7 @@ class Misc(commands.Cog):
 
       "Clear the list"    
 
-      with open("cogs/list.json", "r") as f:
+      with open("list.json", "r") as f:
 
         l = json.load(f)
 
