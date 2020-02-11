@@ -1,0 +1,6 @@
+{
+  "webhooks": {
+    "join": "https://discordapp.com/api/webhooks/676537348187488296/0m2FaPch9nwKBRUo2GddU4tvVqthUGXNN6Re7a293jAxLAWElWuaBqPAqBCxqEl4Z64W",
+    "errors": "https://discordapp.com/api/webhooks/676549434368196642/fLQCMUQfVEpTYZK_HuwGEGwgeFH1n4bNHuocJs8wX40-b0ngdA9oMQ0SEt8BM7ufxmi3",
+  }
+}

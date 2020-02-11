@@ -516,11 +516,11 @@ class Misc(commands.Cog):
 
       if guild.premium_subscription_count > 0:
 
-        boosters = f"💢 | {guild.premium_subscription_count} Boosters"
+        boosters = f"💢 | {guild.premium_subscription_count} Boosts"
 
       else:
 
-        booster = "~~💢 | No Boosters~~"
+        boosters = "~~💢 | No Boosts~~"
 
       emojis = ""
 
@@ -560,7 +560,7 @@ class Misc(commands.Cog):
 
 {level}
 
-💢 | {guild.premium_subscription_count} Boosters
+{boosters}
 
 👥 | {guild.member_count} Members
 

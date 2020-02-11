@@ -102,10 +102,10 @@ Satoru is a Discord Bot made with discord.py
 `{prf}ban` `{prf}kick` `{prf}mute` `{prf}unmute` `{prf}clear`
 
 **INFO**
-`{prf}info` `{prf}roleinfo` `{prf}guildinfo` `{prf}avatar` 
+`{prf}userinfo` `{prf}roleinfo` `{prf}guildinfo` `{prf}avatar` 
 
 **MISC**
-`{prf}ping` `{prf}invite` `{prf}addemoji` `{prf}feedback` `{prf}say` `{prf}looneytunes` `{prf}uptime` `{prf}about` `{prf}translate` `{prf}gun` `{prf}male` `{prf}female` 
+`{prf}ping` `{prf}invite` `{prf}addemoji` `{prf}feedback` `{prf}say` `{prf}looneytunes` `{prf}uptime` `{prf}about` `{prf}translate` `{prf}gun` `{prf}male` `{prf}female` `{prf}list` `{prf}list add` `{prf}list clear` 
 
 **WEEB**
 `{prf}satoru` `{prf}kayo` `{prf}punch` `{prf}hug`"""
@@ -114,14 +114,14 @@ Satoru is a Discord Bot made with discord.py
 
       await ctx.send(embed = emb)
 
-    @commands.command(hidden = True, aliases = ["cmd"])
+    @commands.command(hidden = True, aliases = ["cmd", "cmds", "command"])
     async def commands(self, ctx):
 
       "See all commands"
 
       count = 0
 
-      pag = commands.Paginator(prefix = f"```\n", suffix = "\n```", max_size = 500)
+      pag = commands.Paginator(prefix = f"```\n", suffix = "\n```", max_size = 50)
 
       for a in self.bot.commands:
 
@@ -129,7 +129,7 @@ Satoru is a Discord Bot made with discord.py
           
           pag.add_line(f"{a.name} {a.signature}")
 
-      msg = await ctx.send(f"Page number {count}\n{pag.pages[count]}")
+      msg = await ctx.send(f"Page number {count}/{len(pag.pages)}\n{pag.pages[0]}")
 
       await msg.add_reaction("◀️")
       await msg.add_reaction("▶️")
@@ -144,32 +144,57 @@ Satoru is a Discord Bot made with discord.py
       while not end:
         
         reaction, user = await self.bot.wait_for('reaction_add', check = check)
-
-        try:
           
-          if str(reaction.emoji) == "▶️":
+        if str(reaction.emoji) == "▶️":
           
             count += 1
-          
-            await msg.edit(content = f"Pages number {count}\n{pag.pages[count]}")
 
-          elif str(reaction.emoji) == "◀️":
+            if count == 1:
+              
+              await msg.edit(content = f"Page number {count}/{len(pag.pages)}\n{pag.pages[1]}")
+
+            elif count == 2:
+
+              await msg.edit(content = f"Page number {count}/{len(pag.pages)}\n{pag.pages[1]}")
+            
+            else:
+
+              if count > len(pag.pages):
+
+                count = 0
+              
+              else:
+
+                count = count
+
+              await msg.edit(content = f"Page number {count}/{len(pag.pages)}\n{pag.pages[count]}")
+
+        elif str(reaction.emoji) == "◀️":
 
             count -= 1
 
-            if count < 0:
+            if count == 1:
+              
+              await msg.edit(content = f"Page number {count}\n{pag.pages[1]}")
+
+            elif count == 2:
+
+              await msg.edit(content = f"Page number {count}\n{pag.pages[2]}")
+
+            elif count == 0:
+
+              await msg.edit(content = f"Page number {count}\n{pag.pages[0]}")
+            
+            else:
 
               count = 0
 
-            await msg.edit(content = f"Page number {count}\n{pag.pages[count]}")
+              await msg.edit(content = f"Page number {count}\n{pag.pages[0]}")
 
-          elif str(reaction.emoji) == "⏹️":
+        elif str(reaction.emoji) == "⏹️":
  
             end = True
 
-        except:
-
-          pass
       
 def setup(bot):
     bot.add_cog(Help(bot))

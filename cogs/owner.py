@@ -2,8 +2,7 @@ import discord
 from discord.ext import commands
 import asyncio
 
-
-#COLOUR: 0xbf794b
+colour = 0xbf794b
 
 class Owner(commands.Cog, command_attrs=dict(hidden=True)):
 
@@ -95,6 +94,7 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
     except:
       
       await msg.edit(embed = error)
+
 
 
 

@@ -8,17 +8,13 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`e?mute [member] [reason]`
+`e?gun `
 
-> Mute a member 
+> Make a gun battle 
 
-`e?punch [member]`
+`e?ban [member] [reason]`
 
-> Punch a user 
-
-`e?unmute [member]`
-
-> Unmute a member 
+> Ban a member 
 
 `e?looneytunes `
 
@@ -28,13 +24,25 @@ Satoru is a Discord Bot made with discord.py
 
 > Send a feedback to the bot or suggest a new command 
 
-`e?guildinfo `
+`e?kick [member] [reason]`
 
-> See the actual guild info 
+> Kick a member 
 
 `e?addemoji [name] [emoji_link]`
 
 > Add an emoji 
+
+`e?guildinfo `
+
+> See the actual guild info 
+
+`e?satoru `
+
+> See a random image of Satoru Fujinuma 
+
+`e?mute [member] [reason]`
+
+> Mute a member 
 
 `e?invite `
 
@@ -44,33 +52,33 @@ Satoru is a Discord Bot made with discord.py
 
 > Say something with Satoru 
 
+`e?punch [member]`
+
+> Punch a user 
+
 `e?translate <text> [source] [destination]`
 
 > Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
+
+`e?unmute [member]`
+
+> Unmute a member 
 
 `e?avatar [member]`
 
 > See a member avatar 
 
-`e?hug [member]`
-
-> Hug a user 
-
 `e?userinfo [member]`
 
 > See a member's info 
 
+`e?kayo `
+
+> See a random image of Kayo Hinazuki 
+
 `e?about `
 
 > Info about the bot 
-
-`e?uptime `
-
-> See bot uptime 
-
-`e?clear [amount=100]`
-
-> Delete Messages 
 
 `e?roleinfo <role>`
 
@@ -84,31 +92,23 @@ Satoru is a Discord Bot made with discord.py
 
 > See your list 
 
-`e?satoru `
-
-> See a random image of Satoru Fujinuma 
-
 `e?female <thing> [member]`
 
 > Use this when someone says that a thing is a male but is a female 
+
+`e?hug [member]`
+
+> Hug a user 
+
+`e?clear [amount=100]`
+
+> Delete Messages 
 
 `e?ping `
 
 > See bot latency 
 
-`e?ban [member] [reason]`
+`e?uptime `
 
-> Ban a member 
-
-`e?gun `
-
-> Make a gun battle 
-
-`e?kayo `
-
-> See a random image of Kayo Hinazuki 
-
-`e?kick [member] [reason]`
-
-> Kick a member 
+> See bot uptime 
 

@@ -6,7 +6,7 @@ import time
 
 colour = 0xbf794b
 
-bot = commands.Bot(command_prefix = commands.when_mentioned_or('e?'))
+bot = commands.AutoShardedBot(command_prefix = commands.when_mentioned_or('e?'))
 bot.remove_command('help')
 bot.load_extension('jishaku')
 
