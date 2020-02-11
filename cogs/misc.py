@@ -5,7 +5,9 @@ import json
 import random
 import asyncio
 from googletrans import Translator
-import requests
+import aiohttp
+import psutil
+import platform
 
 translator = Translator()
 
@@ -615,8 +617,11 @@ class Misc(commands.Cog):
       "Info about the bot"
 
       emb = discord.Embed(description = f"""**Developer: `Sebastiano#5005`
-Library: `discord.py 1.2.5`
-Python: `3.7.4`
+Library: `{discord.__version__}`
+Python: `{platform.python_version()}`
+Memory: `{psutil.virtual_memory()[2]}%`
+CPU: `{psutil.cpu_percent()}%`
+Running on: `{platform.system()}`
 Invite Link: [Click Me](https://discordapp.com/api/oauth2/authorize?client_id=635044836830871562&permissions=321606&scope=bot)
 Support Server: [Click Me](https://discord.gg/w8cbssP)
 GitHub: [Click Me](https://github.com/ssebastianoo/Satoru)**""", colour = colour)
@@ -657,6 +662,27 @@ GitHub: [Click Me](https://github.com/ssebastianoo/Satoru)**""", colour = colour
       emb = discord.Embed(description = res, colour = discord.Colour.red())
 
       await ctx.send(embed = emb)
+
+    @commands.command(aliases = ["himym"], hidden = True)
+    async def howimetyourmother(self, ctx, season, episode: int):
+
+      episode -= 1
+
+      if season:
+
+        if episode:
+          
+          async with aiohttp.ClientSession() as cs:
+            
+            async with cs.get('http://epguides.frecar.no/show/howimetyourmother/') as r:
+              
+              r = await r.json()  
+
+          await ctx.send(f'''Title: {r[season][episode]["title"]}
+Season: {r[season][episode]["season"]}
+Episode: {r[season][episode]["number"]}
+Release Date: {r[season][episode]["release_date"]}
+''')
 
 def setup(bot):
     bot.add_cog(Misc(bot))

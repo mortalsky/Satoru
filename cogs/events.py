@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from discord import Webhook, AsyncWebhookAdapter
 import aiohttp
+import json
 
 colour = 0xbf794b
 
@@ -55,10 +56,10 @@ class Events(commands.Cog):
       await webhook.send(embed = emb)
 
     @commands.Cog.listener()
-    async def on_command_error(ctx, error):
+    async def on_command_error(self, ctx, error):
 
       emb = discord.Embed(description = f"""📛 | **ERROR**
-<a:typing:597589448607399949> | {ctx.invoke}
+<a:typing:597589448607399949> | {ctx.command}
 👤 | {ctx.author}
 ⁉️ | ```css\n{error}\n```""", timestamp = ctx.message.created_at, colour = discord.Colour.red())
 

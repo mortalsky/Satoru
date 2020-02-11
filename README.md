@@ -8,13 +8,29 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`e?gun `
+`e?satoru `
 
-> Make a gun battle 
+> See a random image of Satoru Fujinuma 
 
-`e?ban [member] [reason]`
+`e?kick [member] [reason]`
 
-> Ban a member 
+> Kick a member 
+
+`e?uptime `
+
+> See bot uptime 
+
+`e?punch [member]`
+
+> Punch a user 
+
+`e?mute [member] [reason]`
+
+> Mute a member 
+
+`e?ping `
+
+> See bot latency 
 
 `e?looneytunes `
 
@@ -24,25 +40,25 @@ Satoru is a Discord Bot made with discord.py
 
 > Send a feedback to the bot or suggest a new command 
 
-`e?kick [member] [reason]`
+`e?kayo `
 
-> Kick a member 
+> See a random image of Kayo Hinazuki 
+
+`e?unmute [member]`
+
+> Unmute a member 
 
 `e?addemoji [name] [emoji_link]`
 
 > Add an emoji 
 
+`e?translate <text> [source] [destination]`
+
+> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
+
 `e?guildinfo `
 
 > See the actual guild info 
-
-`e?satoru `
-
-> See a random image of Satoru Fujinuma 
-
-`e?mute [member] [reason]`
-
-> Mute a member 
 
 `e?invite `
 
@@ -52,18 +68,6 @@ Satoru is a Discord Bot made with discord.py
 
 > Say something with Satoru 
 
-`e?punch [member]`
-
-> Punch a user 
-
-`e?translate <text> [source] [destination]`
-
-> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
-
-`e?unmute [member]`
-
-> Unmute a member 
-
 `e?avatar [member]`
 
 > See a member avatar 
@@ -72,17 +76,25 @@ Satoru is a Discord Bot made with discord.py
 
 > See a member's info 
 
-`e?kayo `
-
-> See a random image of Kayo Hinazuki 
-
 `e?about `
 
 > Info about the bot 
 
+`e?hug [member]`
+
+> Hug a user 
+
 `e?roleinfo <role>`
 
 > See a role info 
+
+`e?clear [amount=100]`
+
+> Delete Messages 
+
+`e?gun `
+
+> Make a gun battle 
 
 `e?male <thing> [member]`
 
@@ -96,19 +108,7 @@ Satoru is a Discord Bot made with discord.py
 
 > Use this when someone says that a thing is a male but is a female 
 
-`e?hug [member]`
+`e?ban [member] [reason]`
 
-> Hug a user 
-
-`e?clear [amount=100]`
-
-> Delete Messages 
-
-`e?ping `
-
-> See bot latency 
-
-`e?uptime `
-
-> See bot uptime 
+> Ban a member 
 

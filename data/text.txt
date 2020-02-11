@@ -11859,3 +11859,3419 @@ for dingdong in range(10000):
 AXVin#2130: Why are you using time.sleep lol
 AXVin#2130: That will kill your bot for blocking too much
 Away#1337: I don't wanna use asyncio.sleep
+Away#1337: That's the point
+Satoru#6725: 
+Satoru#6725: 
+Sebastiano#5005: e?list
+Satoru#6725: :ping_pong: | 56ms
+Sebastiano#5005: e?ping
+Satoru#6725: :ping_pong: | 61ms
+Sebastiano#5005: oof
+Sebastiano#5005: e?ping
+Satoru#6725: :ping_pong: | 76ms
+Satoru#6725: :ping_pong: | 74ms
+Sebastiano#5005: e?jsk py await _bot.logout()
+Sebastiano#5005: e?jsk
+Satoru#6725: Jishaku v1.17.1, discord.py `1.2.5`, `Python 3.7.4 (default, Sep 12 2019, 16:02:06) [GCC 6.3.0 20170516]` on `linux`
+Module was loaded 10 seconds ago, cog was loaded 10 seconds ago.
+
+This bot is automatically sharded and can see 5 guild(s) and 15434 user(s).
+Average websocket latency: 61.11ms
+Satoru#6725: 
+Sebastiano#5005: e?uptime
+Sebastiano#5005: e?ping
+Satoru#6725: :ping_pong: | 61ms
+Ava#4982: <@!103675685343612928> <@!129855424198475776> it's the 2-year anniversary of this legendary post https://twitter.com/FilthyHeretic/status/962208974476103686
+Ava#4982: 🎉 🍰
+RTFM#1338: 
+Sebastiano#5005: do help coding
+RTFM#1338: No command or cog named "coding" found. Remember names are case-sensitive.
+Sebastiano#5005: do help Coding
+RTFM#1338: 
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Satoru#6725: 
+Sebastiano#5005: e?about
+Dutchy#6127: Dpy 1.2.5👀
+Satoru#6725: 
+Sebastiano#5005: e?reload about
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Satoru#6725: 
+Sebastiano#5005: e?about
+Dutchy#6127: //system
+Charles#5244: 
+Dutchy#6127: 666
+Dutchy#6127: <:GWpieHyperS:393085077866938368>
+Sebastiano#5005: <:ImmaHaveToStopYou:606115089841520660>
+Dutchy#6127: //m
+Charles#5244: 
+Dutchy#6127: //m
+Charles#5244: 
+Dutchy#6127: //m
+Charles#5244: 
+Dutchy#6127: //m
+Charles#5244: 
+Dutchy#6127: //m
+Sebastiano#5005: HAHAHAH
+Charles#5244: 
+Sebastiano#5005: //m
+Charles#5244: 
+Dutchy#6127: //m
+Charles#5244: 
+Dutchy#6127: //m
+Charles#5244: 
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Sebastiano#5005: e?about
+Satoru#6725: 
+Dutchy#6127: //m
+Charles#5244: 
+Dutchy#6127: //m
+Charles#5244: 
+Dutchy#6127: 9th grade?
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Satoru#6725: 
+Sebastiano#5005: e?about
+Dutchy#6127: Bruh I'm 21 and still feel like that
+Sebastiano#5005: LEL
+Dutchy#6127: //m
+Charles#5244: 
+Sebastiano#5005: because you're a coder
+Dutchy#6127: I've only been coding for a year
+Dutchy#6127: //m
+Charles#5244: 
+Sebastiano#5005: coder != relationship with someone
+Dutchy#6127: //m
+Charles#5244: 
+Dutchy#6127: //m
+Charles#5244: 
+Sebastiano#5005: > I've only been coding for a year
+<@!171539705043615744> that doesn't matter
+Dutchy#6127: <:rooThink:596576798351949847>
+Sebastiano#5005: e?tr "era scritto nel destino" it en
+Satoru#6725: 
+Sebastiano#5005: thet
+Dutchy#6127: //m
+Charles#5244: 
+Dutchy#6127: //m
+Charles#5244: 
+Dutchy#6127: //m
+Charles#5244: 
+Dutchy#6127: Bruh
+Dutchy#6127: //m
+Charles#5244: 
+Dutchy#6127: //m
+Charles#5244: 
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Sebastiano#5005: e!info
+Evangelist#4804: 
+Sebastiano#5005: grazie
+BeatButton#1713: I
+Sebastiano#5005: e?about
+Satoru#6725: 
+Satoru#6725: :ping_pong: | 60ms
+Sebastiano#5005: e?ping
+Sebastiano#5005: e?about
+Satoru#6725: 
+MrRandom#9258: l-jsk
+Life#2673: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.6 (default, Dec 19 2019, 23:50:13) [GCC 7.4.0]` on `linux`
+Module was loaded 18 hours ago, cog was loaded 18 hours ago.
+
+Using 129.2 MB physical memory and 1.3 GB virtual memory, 116.9 MB of which unique to this process.
+Running on PID 18683 (`python`) with 13 thread(s).
+
+This bot is not sharded and can see 7 guild(s) and 18331 user(s).
+Average websocket latency: 34.8ms
+MrRandom#9258: l-ping
+Life#2673: ```py
+Type         |Ping
+Average Lat. |24.84ms
+Latency      |34.8ms
+Typing       |84.54ms
+Discord      |65.28ms
+```
+MrRandom#9258: l-pg 999999
+Life#2673: 
+Life#2673: That took 26.847sec to complete
+MrRandom#9258: l-pg
+Life#2673: 
+Life#2673: That took 5.291sec to complete
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Sebastiano#5005: e?himym 3 6
+BeatButton#1713: also lol mathologer wasn't even a good channel, dab
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Sebastiano#5005: e?himym 3 6
+peeeeeta#4718: ?tags ❌
+R. Danny#6348: Member "❌" not found
+Lgan#0001: e!info 182668063882215424
+Evangelist#4804: 
+Lgan#0001: e!heal <@!182668063882215424>
+Evangelist#4804: *some sound effect*
+Lgan#0001: e!heal <@!150750980097441792>
+Evangelist#4804: This person's already been treated today, other people need to be treated too.
+Lgan#0001: p-info
+Server Pets#6679: 
+peeeeeta#4718: ?charinfo ❌
+R. Danny#6348: `\U0000274c`: CROSS MARK - ❌ — <http://www.fileformat.info/info/unicode/char/274c>
+Lgan#0001: p-dbl
+Server Pets#6679: 
+TrustedMercury#1953: ?tags
+R. Danny#6348: TrustedMercury#1953 has no tags.
+TrustedMercury#1953: ?custom-emojis
+TrustedMercury#1953: ?robot-emojis
+TrustedMercury#1953: ?emoji
+TrustedMercury#1953: ?emojis
+Sebastiano#5005: e?himym 3 4
+Satoru#6725: Little Boys
+2007-10-15
+TrustedMercury#1953: ?bot-emojis
+Sebastiano#5005: e?uptime
+Satoru#6725: 
+Satoru#6725: 
+Sebastiano#5005: e?s
+hamza1311#1371: ?tag zws
+R. Danny#6348: "Zero Width Samus"
+hamza1311#1371: ?tag zero white space
+R. Danny#6348: Tag not found. Did you mean...
+zero width space
+white
+zero width space but readable
+hamza1311#1371: ?rag zero width space
+hamza1311#1371: ?tag zero width space
+R. Danny#6348: \\u200b
+hamza1311#1371: >jsk py 'u200b'
+BitchBot#7930: u200b
+hamza1311#1371: >jsk py '\u200b'
+BitchBot#7930: ​
+Sebastiano#5005: e?himym 1 1
+Satoru#6725: Little Boys
+2007-10-15
+Sebastiano#5005: e?himym 3 4
+Sebastiano#5005: e?ping
+Satoru#6725: :ping_pong: | 59ms
+Kamran#0001: >help
+BitchBot#7930: 
+ExoBot#4178: 
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Sebastiano#5005: e?himym 1 1
+Sebastiano#5005: e?himym 6 7
+Satoru#6725: Title: Canning Randy
+Release Date: 2010-11-01
+Kamran#0001: >about
+BitchBot#7930: 
+ExoBot#4178: 
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Kamran#0001: :o
+Sebastiano#5005: e?himym 1 1
+Satoru#6725: Title: Purple Giraffe
+Release Date: 2005-09-26
+Sebastiano#5005: e?help himym
+Satoru#6725: 
+Sebastiano#5005: e?himym 1 0
+Sebastiano#5005: e?himym 1 2
+Satoru#6725: Title: Sweet Taste of Liberty
+Release Date: 2005-10-03
+Satoru#6725: Title: Milk
+Release Date: 2006-05-08
+Kamran#0001: e?himym 1 20
+Sebastiano#5005: It's how i met your mother
+Kamran#0001: yeah, ik
+Sebastiano#5005: nicd
+Kamran#0001: ive been watching it lately haha]
+Sebastiano#5005: I've seen it all
+Dutchy#6127: Same
+Sebastiano#5005: Awesome
+Dutchy#6127: Ur like Marshall
+Sebastiano#5005: why?
+Dutchy#6127: A big goof <:GWmythiBlobLUL:389447025592238092>
+Sebastiano#5005: e?tr goof en it
+Satoru#6725: 
+Sebastiano#5005: no
+Kamran#0001: e?help
+Satoru#6725: 
+Sebastiano#5005: <@!171539705043615744> why?
+Sebastiano#5005: I don't  believe in ghosts
+Kamran#0001: a goof isnt a ghost lol
+Away#1337: s!jsk
+Sebastiano#5005: I know
+Away#1337: s!help
+Sparklybot ✨#2325: 
+Sebastiano#5005: but marshall believes in them
+Kamran#0001: ohhh
+Kamran#0001: careful of spoilers though
+Sebastiano#5005: It's from the season 1
+Vex#3110: Nothing better than poorly drawn furry politics
+Sebastiano#5005: lmao
+Kamran#0001: im still on season 1 tho :p
+Sebastiano#5005: oh
+Sebastiano#5005: I'm sorry
+Kamran#0001: i've been watching so many series that it's hard to focus on one at a time lol
+Sebastiano#5005: kk
+Dutchy#6127: //tr cantonata en
+Charles#5244: 
+Dutchy#6127: Bruh what
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/cog_base.py", line 489, in jsk_python
+    async for send, result in AsyncSender(executor):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/repl/compilation.py", line 148, in traverse
+    async for send, result in AsyncSender(func(*self.args)):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "<repl>", line 1, in _repl_coroutine
+NameError: name 'requests' is not defined
+
+```
+Sebastiano#5005: e?jsk py r = requests.get('http://epguides.frecar.no/show/howimetyourmother/').json()
+await ctx.send(f'Title: {r["1"][1]["title"]}\nRelease Date: {r["1"][1]["release_date"]}')
+Dutchy#6127: Thats not goof
+Sebastiano#5005: no it is wrong
+Dutchy#6127: //tr goof it
+Charles#5244: 
+Sebastiano#5005: in italy means stupid
+Dutchy#6127: Goof doesnt mean stupid really
+Dutchy#6127: //tr a big goof it
+Charles#5244: 
+Sebastiano#5005: sciocco is a nice way to say stupid
+Dutchy#6127: Goof is more like a silly person
+Kamran#0001: ^
+Kamran#0001: goof means silly
+Sebastiano#5005: silly means sciocco too
+Sebastiano#5005: (-G Translate)
+Dutchy#6127: //tr silly it
+Charles#5244: 
+Dutchy#6127: Bruh
+Sebastiano#5005: Lorenzo could help
+Dutchy#6127: Well Italy is just weird
+Sebastiano#5005: ik
+Dutchy#6127: silly doesnt mean stupid. Not in a nice way either
+Dutchy#6127: Just silly
+Sebastiano#5005: e?translate cretino
+Satoru#6725: 
+Sebastiano#5005: nope
+Dutchy#6127: Which is like "funny with a little bit of crazy"
+Sebastiano#5005: okok
+Dutchy#6127: Fun crazy
+Sebastiano#5005: nice
+Dutchy#6127: I also just noticed this
+Sebastiano#5005: owo
+Dutchy#6127: Imagine having "HD" in your app name but have a terribly low quality logo smfh
+twitch 🔋#7443: oh trench died
+Sebastiano#5005: -> <:lmao:634036443504705546>
+Dutchy#6127: Ye lol
+Sebastiano#5005: <:lmao:634036443504705546>
+Dutchy#6127: <:GWpieHyperS:393085077866938368>
+Dutchy#6127: //jsk
+Charles#5244: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.8.1 (default, Dec 31 2019, 18:42:42) [GCC 7.4.0]` on `linux`
+Module was loaded a day ago, cog was loaded a day ago.
+
+Using 449.6 MB physical memory and 1.1 GB virtual memory, 437.3 MB of which unique to this process.
+Running on PID 8190 (`python3.8`) with 6 thread(s).
+
+This bot is automatically sharded and can see 365 guild(s) and 214637 user(s).
+Average websocket latency: 18.05ms
+Dutchy#6127: //sudo <@488398758812319745> stab <@488398758812319745>
+Charles#5244: 
+Sebastiano#5005: e?jsk py import requests
+import json
+r = requests.get('http://epguides.frecar.no/show/howimetyourmother/%27).json()
+await ctx.send(f'Title: {r["1"][1]["title"]}\nRelease Date: {r["1"][1]["release_date"]}')
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "<string>", line 3
+    r = requests.get('http://epguides.frecar.no/show/howimetyourmother/%27).json()
+                                                                                 ^
+SyntaxError: EOL while scanning string literal
+
+```
+Dutchy#6127: Ew requests
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/cog_base.py", line 489, in jsk_python
+    async for send, result in AsyncSender(executor):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/repl/compilation.py", line 148, in traverse
+    async for send, result in AsyncSender(func(*self.args)):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "<repl>", line 4, in _repl_coroutine
+NameError: name 'ctx' is not defined
+
+```
+Sebastiano#5005: e?jsk py import requests
+import json
+r = requests.get('http://epguides.frecar.no/show/howimetyourmother/').json()
+await ctx.send(f'Title: {r["1"][1]["title"]}\nRelease Date: {r["1"][1]["release_date"]}')
+Satoru#6725: Title: Purple Giraffe
+Release Date: 2005-09-26
+Satoru#6725: <Message id=676840094547836944 channel=<TextChannel id=381963689470984203 name='testing' position=26 nsfw=False news=False category_id=381963669778595840> type=<MessageType.default: 0> author=<Member id=635044836830871562 name='Satoru' discriminator='6725' bot=True nick='SOS' guild=<Guild id=336642139381301249 name='discord.py' shard_id=0 chunked=True member_count=15285>>>
+Sebastiano#5005: e?jsk py import requests
+import json
+r = requests.get('http://epguides.frecar.no/show/howimetyourmother/').json()
+await _ctx.send(f'Title: {r["1"][1]["title"]}\nRelease Date: {r["1"][1]["release_date"]}')
+Dutchy#6127: Why use requests
+Sebastiano#5005: how should I do that?
+Dutchy#6127: ?tag requests
+R. Danny#6348: **Use aiohttp.**
+`requests` and `urllib` are blocking. Do **not** use these libraries within your asynchronous code. 
+(http://discordpy.readthedocs.io/en/latest/faq.html#what-does-blocking-mean)
+
+discord.py uses `aiohttp`, so it should already be installed. An example of code using aiohttp and discord.py:
+
+```py
+async with aiohttp.ClientSession() as cs:
+    async with cs.get('https://httpbin.org/json') as r:
+        res = await r.json()  # returns dict
+        await ctx.send(res['slideshow']['author'])
+```
+
+For more help, see aiohttp's documentation: <http://aiohttp.readthedocs.io/en/stable/>
+Satoru#6725: Title: Pilot
+Release Date: 2005-09-26
+Satoru#6725: <Message id=676840230849871882 channel=<TextChannel id=381963689470984203 name='testing' position=26 nsfw=False news=False category_id=381963669778595840> type=<MessageType.default: 0> author=<Member id=635044836830871562 name='Satoru' discriminator='6725' bot=True nick='SOS' guild=<Guild id=336642139381301249 name='discord.py' shard_id=0 chunked=True member_count=15285>>>
+Sebastiano#5005: e?jsk py import requests
+import json
+r = requests.get('http://epguides.frecar.no/show/howimetyourmother/').json()
+await _ctx.send(f'Title: {r["1"][0]["title"]}\nRelease Date: {r["1"][1]["release_date"]}')
+Dutchy#6127: Use that
+Sebastiano#5005: ok
+Sebastiano#5005: Is it faster?
+Dutchy#6127: aiohttp is async
+Dutchy#6127: Requests is blocking
+『Mugiman』#3310: ?charinfo 🅾️
+Sebastiano#5005: e?jsk py import aiohttps
+async with aiohttp.ClientSession() as cs:
+    async with cs.get('http://epguides.frecar.no/show/howimetyourmother/').json()') as r:
+        r = await r.json()  # returns dict
+await _ctx.send(f'Title: {r["1"][0]["title"]}\nRelease Date: {r["1"][1]["release_date"]}')
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "<string>", line 5
+    await _ctx.send(f'Title: {r["1"][0]["title"]}\nRelease Date: {r["1"][1]["release_date"]}')
+                                                                                             ^
+SyntaxError: EOF in multi-line statement
+
+```
+R. Danny#6348: `\U0001f17e`: NEGATIVE SQUARED LATIN CAPITAL LETTER O - 🅾 — <http://www.fileformat.info/info/unicode/char/1f17e>
+`\U0000fe0f`: VARIATION SELECTOR-16 - ️ — <http://www.fileformat.info/info/unicode/char/fe0f>
+Nerrix#5439: q!eval
+def check(m):
+ if m.channel.id == msg.channel.id and m.author.bot == False:
+  return m
+for i in range(40):
+ x = await client.wait_for("message", check = check, timeout = None)
+ await x.add_reaction("🥳")
+Nerrix#5439: Hi
+Dutchy#6127: Remove the .json() at the url
+Dutchy#6127: //jsk py import aiohttp
+async with aiohttp.ClientSession() as cs:
+    async with cs.get('http://epguides.frecar.no/show/howimetyourmother/') as r:
+        r = await r.json()  # returns dict
+await _ctx.send(f'Title: {r["1"][0]["title"]}\nRelease Date: {r["1"][1]["release_date"]}')
+Charles#5244: Title: Pilot
+Release Date: 2005-09-26
+Charles#5244: <Message id=676841008981606460 channel=<TextChannel id=381963689470984203 name='testing' position=26 nsfw=False news=False category_id=381963669778595840> type=<MessageType.default: 0> author=<Member id=505532526257766411 name='Charles' discriminator='5244' bot=True nick=None guild=<Guild id=336642139381301249 name='discord.py' shard_id=0 chunked=True member_count=15284>> flags=<MessageFlags value=0>>
+Nerrix#5439: oh should move that to playground
+Nerrix#5439: q!eval
+sys.exit(0)
+Dutchy#6127: Boi wot
+Nerrix#5439: that reaction
+Sebastiano#5005: ok
+Nerrix#5439: ?tag background
+R. Danny#6348: ```py
+from discord.ext import tasks, commands
+
+class MyCog(commands.Cog):
+
+    def __init__(self, bot):
+        self.bot = bot
+        self.index = 0
+        self.printer.start()
+
+    def cog_unload(self):
+        self.printer.cancel()
+
+    @tasks.loop(seconds=5.0)
+    async def printer(self):
+        print(self.index)
+        self.index += 1
+
+    @printer.before_loop
+    async def before_printer(self):
+        print('waiting...')
+        await self.bot.wait_until_ready()
+
+def setup(bot):
+    bot.add_cog(MyCog(bot))```
+Full docs: <https://discordpy.readthedocs.io/en/latest/ext/tasks/>
+Nerrix#5439: ?tag back
+R. Danny#6348: Tag not found. Did you mean...
+fuck go back
+backdoor
+black
+Nerrix#5439: ?tag thread
+R. Danny#6348: Tag not found. Did you mean...
+threading
+read
+asyncio threading
+Nerrix#5439: ?tag asyncio threading
+R. Danny#6348: You most likely don't need it.
+Nerrix#5439: ok
+Nerrix#5439: ?tag threading
+R. Danny#6348: https://docs.python.org/3/library/threading.html < first link found when googling threading
+Nerrix#5439: don't need that
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Sebastiano#5005: e?himym 1 0
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Sebastiano#5005: e?himym 1 0
+Sebastiano#5005: e?himym 1 0
+Sebastiano#5005: e?himym 1 6
+Satoru#6725: Title: Matchmaker
+Release Date: 2005-11-07
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Sebastiano#5005: e?himym 8 7
+Satoru#6725: Title: Twelve Horny Women
+Episode: 2012-11-26
+Season: 2012-11-26
+Release Date: 2012-11-26
+Sebastiano#5005: ops
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Satoru#6725: Title: Twelve Horny Women
+Episode: 8
+Season: 8
+Release Date: 2012-11-26
+Sebastiano#5005: e?himym 8 7
+IAmTomahawkx#1000: ]jsk
+BOB#0346: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.5 (default, Feb  3 2020, 23:15:56) [GCC 8.3.0]` on `linux`
+Module was loaded a day ago, cog was loaded a day ago.
+
+Using 160.4 MB physical memory and 2.1 GB virtual memory, 133.0 MB of which unique to this process.
+Running on PID 5540 (`python3`) with 22 thread(s).
+
+This bot is not sharded and can see 5 guild(s) and 15337 user(s).
+Average websocket latency: 81.74ms
+Silical#8156: e!shop
+Evangelist#4804: 
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Satoru#6725: Title: Daisy
+Season: 9
+Episode: 20
+Release Date: 2014-03-10
+Sebastiano#5005: e?himym 9 20
+Evangelist#4804: "from:neabou#1065 infected" might bring up some interesting results <:rooThink:596576798351949847> (330 infected)
+Sebastiano#5005: e?himym 9 \
+Sebastiano#5005: e?himym 9 1
+Sebastiano#5005: e?himym 9 2
+Satoru#6725: Title: Coming Back
+Season: 9
+Episode: 2
+Release Date: 2013-09-23
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Sebastiano#5005: e?himym 1 1
+Sebastiano#5005: e?himym 1 2
+Satoru#6725: Title: Purple Giraffe
+Season: 1
+Episode: 2
+Release Date: 2005-09-26
+Sebastiano#5005: why not episode 1 oof
+Sebastiano#5005: e?himym 5 1
+Equity#3464: do run 
+```c++
+#include <iostream>
+
+
+int main(){
+     int b = 2;
+     int a = 3;
+     int& cb = b
+     int& ca = a;
+     std::cout << "a -> " << ca << std::endl;
+     std::cout << "b -> " << cb << std::endl;
+     a = 1;
+     b = 333;
+     std::cout << "a -> " << ca << std::endl;
+     std::cout << "b -> " << cb << std::endl;
+     return 0;
+}
+```
+RTFM#1338: ```ph
+.code.tio.cpp: In function ‘int main()’:
+.code.tio.cpp:8:6: error: expected ‘,’ or ‘;’ before ‘int’
+      int& ca = a;
+      ^~~
+.code.tio.cpp:9:30: error: ‘ca’ was not declared in this scope
+      std::cout << "a -> " << ca << std::endl;
+                              ^~
+.code.tio.cpp:9:30: note: suggested alternative: ‘cb’
+      std::cout << "a -> " << ca << std::endl;
+                              ^~
+                              cb
+/srv/wrappers/cpp-gcc: line 5: ./.bin.tio: No such file or directory
+
+Exit code: 127```
+Equity#3464: do run cpp
+#include <iostream>
+
+
+int main(){
+     int b = 2;
+     int a = 3;
+     int& cb = b;
+     int& ca = a;
+     std::cout << "a -> " << ca << std::endl;
+     std::cout << "b -> " << cb << std::endl;
+     a = 1;
+     b = 333;
+     std::cout << "a -> " << ca << std::endl;
+     std::cout << "b -> " << cb << std::endl;
+     return 0;
+}
+RTFM#1338: ```ph
+a -> 3
+b -> 2
+a -> 1
+b -> 333
+
+Exit code: 0```
+Equity#3464: Lit
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Satoru#6725: ```py
+    @commands.command(aliases = ["himym"])
+    async def howimetyourmother(self, ctx, season, episode: int):
+
+      episode -= 1
+
+      if season:
+
+        if episode:
+          
+          async with aiohttp.ClientSession() as cs:
+            
+            async with cs.get('http://epguides.frecar.no/show/howimetyourmother/') as r:
+              
+              r = await r.json()  
+
+          await ctx.send(f'''Title: {r[season][episode]["title"]}
+Season: {r[season][episode]["season"]}
+Episode: {r[season][episode]["number"]}
+Release Date: {r[season][episode]["release_date"]}
+''')
+
+```
+Page 1/1
+Sebastiano#5005: e?jsk source himym
+Sebastiano#5005: do you have any idea on why if I choose the episode 1 (so episode = 0 because it's a list) it doesn't work?
+Sebastiano#5005: ?tag mtp
+R. Danny#6348: Tag not found.
+Sebastiano#5005: ?tag python
+R. Danny#6348: https://www.python.org/
+Sebastiano#5005: nope
+ハーリ-さん (CF8)#6621: ?tag logging
+R. Danny#6348: https://discordpy.readthedocs.io/en/latest/logging.html
+DarkEnvy#6792: ?tester
+Nerrix#5439: q!eval
+def check(m):
+ if m.channel.id == msg.channel.id and m.author.bot == False:
+  return m
+for i in range(40):
+ x = await client.wait_for("message", check = check, timeout = None)
+ await x.add_reaction("🥳")q!eval
+await msg.delete()
+def check(m):
+ if m.channel.id == msg.channel.id and m.author.bot == False:
+  return m
+async def di(m):
+ await asyncio.sleep(5)
+ await m.remove_reaction("🥳", m.guild.me)
+for i in range(50):
+ x = await client.wait_for("message", check = check, timeout = None)
+ await x.add_reaction("🥳")
+ await client.loop.create_task(di(x))
+Nerrix#5439: q!eval
+def check(m):
+ if m.channel.id == msg.channel.id and m.author.bot == False:
+  return m
+async def di(m):
+ await asyncio.sleep(5)
+ await m.remove_reaction("🥳", m.guild.me)
+for i in range(50):
+ x = await client.wait_for("message", check = check, timeout = None)
+ await x.add_reaction("🥳")
+ await client.loop.create_task(di(x))
+Nerrix#5439: q!eval
+sys.exit(0)
+Nerrix#5439: q!eval
+def check(m):
+ if m.channel.id == msg.channel.id and m.author.bot == False:
+  return m
+async def di(m):
+ await asyncio.sleep(5)
+ await m.remove_reaction("🥳", m.guild.me)
+for i in range(50):
+ x = await client.wait_for("message", check = check, timeout = None)
+ await x.add_reaction("🥳")
+ await client.loop.create_task(di(x))
+Nerrix#5439: q!eval
+EmojiMaster#8109: ```py
+SyntaxError: unexpected EOF while parsing (<string>, line 1)
+```
+Nerrix#5439: lol
+Nerrix#5439: q!eval
+await msg.delete()
+def check(m):
+ if m.channel.id == msg.channel.id and m.author.bot == False:
+  return m
+async def di(m):
+ await asyncio.sleep(5)
+ await m.remove_reaction("🥳", m.guild.me)
+for i in range(50):
+ x = await client.wait_for("message", check = check, timeout = None)
+ await x.add_reaction("🥳")
+ await client.loop.create_task(di(x))
+EmojiMaster#8109: ```py
+Traceback (most recent call last):
+  File "/root/bots/emoji.py", line 46, in evaluate
+    ret = await func()
+  File "<string>", line 2, in func
+  File "/usr/local/lib/python3.6/dist-packages/discord/message.py", line 762, in delete
+    await self._state.http.delete_message(self.channel.id, self.id)
+  File "/usr/local/lib/python3.6/dist-packages/discord/http.py", line 216, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: 403 FORBIDDEN (error code: 50013): Missing Permissions
+
+```
+EmojiMaster#8109: ```py
+Traceback (most recent call last):
+  File "/root/bots/emoji.py", line 46, in evaluate
+    ret = await func()
+  File "<string>", line 11, in func
+  File "<string>", line 7, in di
+  File "/usr/local/lib/python3.6/dist-packages/discord/message.py", line 965, in remove_reaction
+    await self._state.http.remove_own_reaction(self.channel.id, self.id, emoji)
+  File "/usr/local/lib/python3.6/dist-packages/discord/http.py", line 218, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 NOT FOUND (error code: 10008): Unknown Message
+
+```
+Nerrix#5439: q!eval
+sys.exit(0)
+Nerrix#5439: q!eval
+Nerrix#5439: q!eval
+async for s in msg.channel.history(limit = 20):
+ try:
+  await s.delete()
+ except:
+  k=0
+Nerrix#5439: q!eval
+async for s in msg.channel.history(limit = 20):
+ try:
+  await s.delete()
+ except:
+  k=0
+Nerrix#5439: q!eval
+Nerrix#5439: q!eval
+async for s in msg.channel.history(limit = 20):
+ try:
+  await s.delete()
+ except:
+  k=0
+Ava#4982: Honestly it's not even that poorly drawn if you compare it to the stuff you can find online
+Ava#4982: It's just very badly shaded
+Sasa#7557: https://pokemonshowdown.com/
+Sasa#7557: omg
+BeatButton#1713: it's fine
+Sasa#7557: link embeds.
+Sasa#7557: fuck fuck fuck
+Evangelist#4804: TrustedMercury#1953 is officially infected. Feel free to stay away from them and 330 more.
+Lgan#0001: p-jsk
+Server Pets#6679: Jishaku v1.16.3, discord.py `1.3.1`, `Python 3.7.6 (default, Dec 19 2019, 23:50:13) [GCC 7.4.0]` on `linux`
+Module was loaded 5 days ago, cog was loaded 5 days ago.
+
+This bot is automatically sharded and can see 192 guild(s) and 114251 user(s).
+Average websocket latency: 22.51ms
+IAmTomahawkx#1000: ]jsk
+BOB#0346: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.5 (default, Feb  3 2020, 23:15:56) [GCC 8.3.0]` on `linux`
+Module was loaded a day ago, cog was loaded a day ago.
+
+Using 161.1 MB physical memory and 2.1 GB virtual memory, 133.7 MB of which unique to this process.
+Running on PID 5540 (`python3`) with 22 thread(s).
+
+This bot is not sharded and can see 5 guild(s) and 15337 user(s).
+Average websocket latency: 86.28ms
+IAmTomahawkx#1000: <:youwot:627298571812601856>
+IAmTomahawkx#1000: Oi Logan where's you're psutil
+Lgan#0001: Oh the python reinstall
+Lgan#0001: 1 sec
+twitch 🔋#7443: <@!214128381762076672> you fucking cunt
+Lgan#0001: p-jsk sh pip install psutil
+Server Pets#6679: ```sh
+$ pip install psutil
+
+```
+Page 1/1
+Lgan#0001: hey twitch is back
+twitch 🔋#7443: yeah english mock didn't kill me that much
+IAmTomahawkx#1000: <:pepePoint:670521339869790209>
+Lgan#0001: p-jsk reload jishaku
+Server Pets#6679: 🔁 `jishaku`
+twitch 🔋#7443: just wanted to die for the first 50 minutes
+Lgan#0001: p-jsk
+Server Pets#6679: Jishaku v1.16.3, discord.py `1.3.1`, `Python 3.7.6 (default, Dec 19 2019, 23:50:13) [GCC 7.4.0]` on `linux`
+Module was loaded 3 seconds ago, cog was loaded 3 seconds ago.
+
+Using 292.2 MB physical memory and 1.5 GB virtual memory, 279.4 MB of which unique to this process.
+Running on PID 18523 (`python`) with 12 thread(s).
+
+This bot is automatically sharded and can see 192 guild(s) and 114250 user(s).
+Average websocket latency: 22.18ms
+Lgan#0001: fair
+aknalumos#7317: <@!440113725970710528> wot <:fufu:605255050289348620>
+aknalumos#7317: e!info
+Evangelist#4804: 
+aknalumos#7317: e!stats
+Evangelist#4804: 
+aknalumos#7317: hehe
+aknalumos#7317: e!info <@!449278811369111553>
+Evangelist#4804: 
+Kaleido 𒆙 Cli#2705: > <@!214128381762076672>, my prefix is **`cli  `** (remember, `cli help`, not `Cli help`)
+aknalumos#7317: e!shop
+Evangelist#4804: 
+aknalumos#7317: cli jsk py "e!shop"
+Kaleido 𒆙 Cli#2705: e!shop
+Evangelist#4804: 
+Equity#3464: someone kill cli
+aknalumos#7317: cli jsk py "e!hug 668531491931684968"
+Kaleido 𒆙 Cli#2705: e!hug 668531491931684968
+Evangelist#4804: Some people die, some people live, others just disappear altogether. One thing is certain: A Discord User#5290 isn't alive. Oh also, 54 dead so far.
+Evangelist#4804: Aw isn't that cute. You hugged someone!
+Equity#3464: e!info <@!449278811369111553>
+Evangelist#4804: 
+Kaleido 𒆙 Cli#2705: > <@!373256462211874836>, my prefix is **`cli  `** (remember, `cli help`, not `Cli help`)
+aknalumos#7317: <:fufu:605255050289348620>
+Equity#3464: ??jsk py "e!info"
+hmmm#3441: e!info
+Evangelist#4804: 
+aknalumos#7317: ?tag make
+R. Danny#6348: Hello. What would you like the name tag to be?
+aknalumos#7317: death: discord user
+R. Danny#6348: Neat. So the name is death: discord user. What about the tag's content? **You can type ?abort to abort the tag make process.**
+aknalumos#7317: 
+R. Danny#6348: Tag death: discord user successfully created.
+PikalaxALT#5823: pk!eval await ctx.send("\u2611l)
+PikalaxBOT#8243: ```py
+SyntaxError: EOL while scanning string literal (<string>, line 2)
+```
+PikalaxALT#5823: pk!eval await ctx.send("\u2611")
+PikalaxBOT#8243: ☑
+PikalaxBOT#8243: 
+Evangelist#4804: "from:PikalaxBOT#8243 infected" might bring up some interesting results <:rooThink:596576798351949847> (332 infected)
+aknalumos#7317: e!stats
+Evangelist#4804: 
+PikalaxALT#5823: e!info <@170736535790944256>
+Evangelist#4804: 
+PikalaxBOT#8243: <@!148462033770119168>: Only 1 emote away fae the subreddit afore ye began the rewirte
+Lgan#0001: hah]
+PikalaxALT#5823: pk!eval await ctx.send("e!shop")
+PikalaxBOT#8243: e!shop
+Evangelist#4804: 
+PikalaxBOT#8243: 
+Lgan#0001: p-jsk py "e!info"
+Server Pets#6679: e!info
+Evangelist#4804: 
+PikalaxALT#5823: pk!eval await ctx.send("e!shop buy 🛎️ ")
+PikalaxBOT#8243: e!shop buy 🛎️
+PikalaxBOT#8243: 
+Evangelist#4804: Alright <@170736535790944256>, you bought 🛎️. Check your backpack.
+Lgan#0001: p-jsk py "e!shop"
+Server Pets#6679: e!shop
+Evangelist#4804: 
+PikalaxALT#5823: pk!eval await ctx.send("e!shop buy 🛎️ ")
+PikalaxBOT#8243: e!shop buy 🛎️
+Evangelist#4804: Whoops, the item fell and I need to go look for it. Maybe it doesn't like you?
+PikalaxBOT#8243: 
+Lgan#0001: <:thinkmon:436537420067110913>
+PikalaxALT#5823: pk!eval await ctx.send("e!bp use  🛎️")
+PikalaxBOT#8243: e!bp use  🛎️
+PikalaxBOT#8243: 
+Evangelist#4804: Someone that goes by PikalaxBOT#8243 died. RIP. Kinda forgot what's supposed to go here. Oh yeah 55 dead so far.
+Evangelist#4804: The item was used... I wonder what happened?
+PikalaxALT#5823: e!info <@170736535790944256>
+Evangelist#4804: 
+PikalaxBOT#8243: <@!148462033770119168>: actually i think it would require a bit of code unfortunately, the core (the main program) is still palindrome day <:Kappa:592401882379714561>
+Orangutan#9393: e!info
+Evangelist#4804: 
+just blake#0552: e!heal Orangutan#9393
+Evangelist#4804: Don't push yourself too hard, you've already done enough.
+just blake#0552: ok
+Painezor#8489: e!info
+Evangelist#4804: 
+Painezor#8489: i gon die
+Eugene#3778: e!shop
+Evangelist#4804: 
+twitch 🔋#7443: <@!214128381762076672> i am going to punch you
+aknalumos#7317: Kiss me <:fefe:627674131349110784>
+aknalumos#7317: <:fufu:605255050289348620>
+twitch 🔋#7443: no thanks
+twitch 🔋#7443: you kill my bot
+twitch 🔋#7443: i won't forget this
+Dutchy#6127: One more victim form <@214128381762076672>'s deadly hugs
+Lgan#0001: Healer gang
+Joquliina#9090: e!shop
+Evangelist#4804: 
+aknalumos#7317: <:fefe:627674131349110784>
+aknalumos#7317: <@!342244480709296139> <a:yay:469953799394557962>
+Dutchy#6127: e!shop
+Evangelist#4804: 
+Dutchy#6127: e!info
+Evangelist#4804: 
+twitch 🔋#7443: Trench, Rest in peace 😔
+aknalumos#7317: Lgan sama can you heal my bot <:fufu:605255050289348620>
+twitch 🔋#7443: Trench was hated by everyone around it
+twitch 🔋#7443: it sucked
+aknalumos#7317: I love him <:fufu:605255050289348620>
+Lgan#0001: No
+aknalumos#7317: nuuuuu
+Lgan#0001: You killed twitch’s bot
+aknalumos#7317: <a:cryy:586408756016054292>
+aknalumos#7317: I was situational <a:crii:586408788311932939>
+Lgan#0001: We kill yours
+aknalumos#7317: m!help
+Moopity Moop#7827: 
+Lgan#0001: ?rtfm category.cre
+R. Danny#6348: 
+aknalumos#7317: m!say as
+aknalumos#7317: m!echo hm
+aknalumos#7317: <a:crii:586408788311932939>
+MrRandom#9258: e!shop
+Evangelist#4804: 
+MrRandom#9258: e!shop buy 🧬
+Evangelist#4804: Alright <@238356301439041536>, you bought 🧬. Check your backpack.
+MrRandom#9258: pog
+MrRandom#9258: e!info
+Evangelist#4804: 
+MrRandom#9258: im gonna die!
+MrRandom#9258: soon
+twitch 🔋#7443: e!info
+Evangelist#4804: 
+Sasa#7557: e!info
+Evangelist#4804: 
+Sasa#7557: e!shop
+Evangelist#4804: 
+chickenmatty#4766: ?faq local
+R. Danny#6348: **How do I use a local image file for an embed image?**
+https://discordpy.readthedocs.io/en/latest/faq.html#how-do-i-use-a-local-image-file-for-an-embed-image
+aknalumos#7317: e!info <@!449278811369111553>
+Evangelist#4804: 
+Kaleido 𒆙 Cli#2705: > <@!214128381762076672>, my prefix is **`cli  `** (remember, `cli help`, not `Cli help`)
+aknalumos#7317: <a:cryy:586408756016054292>
+aknalumos#7317: Lgan heal my bot I'm not gonna kill anyone again <a:crii:586408788311932939>
+aknalumos#7317: My beloved cli
+aknalumos#7317: My sun
+aknalumos#7317: My eclipse
+aknalumos#7317: My solar system
+aknalumos#7317: urgh
+Lgan#0001: Sure
+aknalumos#7317: that comes out weird
+aknalumos#7317: <a:yay:469953799394557962>
+Lgan#0001: \e!heal <@449278811369111553>
+Kaleido 𒆙 Cli#2705: > <@!342244480709296139>, my prefix is **`cli  `** (remember, `cli help`, not `Cli help`)
+Lgan#0001: Didn’t work
+aknalumos#7317: <a:crii:586408788311932939>
+Lgan#0001: Sad
+MrRandom#9258: l-play vouslez vouz
+Life#2673: Added the track **Abba - Voulez-Vous (Official Video)** to the queue.
+Life#2673: 
+MrRandom#9258: fuck spelling
+MrRandom#9258: l-play money money money
+Life#2673: Added the track **Abba - Money, Money, Money** to the queue.
+MrRandom#9258: l-play abba babylone
+Life#2673: Added the track **[Boney M] Rivers of Babylon (1978)** to the queue.
+aknalumos#7317: l_say something
+aknalumos#7317: l_echo something
+aknalumos#7317: <a:crii:586408788311932939>
+aknalumos#7317: Random senpaiiiii
+aknalumos#7317: Can you heal my dying Cli <a:yay:469953799394557962>
+MrRandom#9258: i aint not healing 🤔
+aknalumos#7317: idk why but her sickness keeps worsening seconds by seconds
+aknalumos#7317: It worries me alot <a:crii:586408788311932939>
+MrRandom#9258: e!bp
+Evangelist#4804: 
+aknalumos#7317: nuuuu <a:crii:586408788311932939>
+MrRandom#9258: i have 2 waterguns left <:rooThink:596576798351949847>
+twitch 🔋#7443: akna 😤
+aknalumos#7317: <a:crii:586408788311932939>
+MrRandom#9258: do i do it twitch
+aknalumos#7317: <:scare:470520091059159051>
+twitch 🔋#7443: do it
+twitch 🔋#7443: e!shop
+Evangelist#4804: 
+twitch 🔋#7443: sad
+aknalumos#7317: e!stats
+Evangelist#4804: 
+MrRandom#9258: e!bp use 🔫
+Evangelist#4804: Who do you want to shoot?
+MrRandom#9258: <@!449278811369111553>
+Kaleido 𒆙 Cli#2705: > <@238356301439041536>, my prefix is **`cli  `** (remember, `cli help`, not `Cli help`)
+Evangelist#4804: A moment silence for Kaleido 𒆙 Cli#2705 <:rooBless:597589960270544916> (by the way, 56 dead so far)
+aknalumos#7317: cli jsk py "e!hug 319753218592866315"
+Kaleido 𒆙 Cli#2705: e!hug 319753218592866315
+Evangelist#4804: The item was used... I wonder what happened?
+Evangelist#4804: How do you expect to hug someone as a rotting corpse?
+aknalumos#7317: nuuuuu
+MrRandom#9258: O
+aknalumos#7317: <a:crii:586408788311932939>
+aknalumos#7317: alright then
+MrRandom#9258: RIP
+aknalumos#7317: aaaaaa
+twitch 🔋#7443: lol
+aknalumos#7317: e!hug 319753218592866315
+Evangelist#4804: Aw isn't that cute. You hugged someone!
+twitch 🔋#7443: loooool
+aknalumos#7317: e!stats
+Evangelist#4804: 
+MrRandom#9258: e!info
+Evangelist#4804: 
+aknalumos#7317: dang almost <:fufu:605255050289348620>
+aknalumos#7317: e!info
+Evangelist#4804: 
+MrRandom#9258: l-play find the blue
+Life#2673: Added the track **CHAOS;HEAD FIND THE BLUE** to the queue.
+aknalumos#7317: l-queue
+Life#2673: 
+aknalumos#7317: you fixed it?
+MrRandom#9258: yeh im done now
+Life#2673: 
+aknalumos#7317: it sounds way better now xD
+MrRandom#9258: im gonna do playlists now
+aknalumos#7317: noice <:fufu:605255050289348620>
+twitch 🔋#7443: ew playlists
+MrRandom#9258: ikr
+MrRandom#9258: disgusting
+aknalumos#7317: <:widu:470083327571787776>
+twitch 🔋#7443: just make the user queue each song themselves
+MrRandom#9258: this song is 🔥
+Life#2673: 
+MrRandom#9258: might skip this one
+MrRandom#9258: l-skip
+Life#2673: The current tracks requester has skipped `1` track(s).
+Life#2673: 
+lambda#0987: https://twitter.com/chris_swenson/status/1225836060938125313
+MrRandom#9258: yeh
+twitch 🔋#7443: <:rooThink:596576798351949847>
+twitch 🔋#7443: time to do cool stuff
+twitch 🔋#7443: <@!503212304171532289>
+twitch 🔋#7443: or not
+lambda#0987: when are we adding this to ?tag lp <:dabJuicy:596576797588717588>
+MrRandom#9258: lmao sucks
+Skorpa#5632: ?charinfo •
+R. Danny#6348: `\U00002022`: BULLET - • — <http://www.fileformat.info/info/unicode/char/2022>
+MrRandom#9258: ?choose gtav or playlists
+R. Danny#6348: playlists
+aknalumos#7317: Why do they call it HashMap?
+aknalumos#7317: or a map in general
+aknalumos#7317: It sounds weird
+twitch 🔋#7443: t.jsk
+Trench#3160: Jishaku v1.15.0, discord.py `1.3.1`, `Python 3.7.5 (default, Nov 20 2019, 09:21:52) [GCC 9.2.1 20191008]` on `linux`
+Module was loaded 36 seconds ago, cog was loaded 36 seconds ago.
+
+Using 82.3 MB physical memory and 1.3 GB virtual memory, 73.2 MB of which unique to this process.
+Running on PID 18413 (`python3`) with 17 thread(s).
+
+This bot is not sharded and can see 7 guild(s) and 15754 user(s).
+Average websocket latency: 101.62ms
+MrRandom#9258: owo
+twitch 🔋#7443: t.jsk
+Trench#3160: Jishaku v1.18.0, discord.py `1.3.1`, `Python 3.7.5 (default, Nov 20 2019, 09:21:52) [GCC 9.2.1 20191008]` on `linux`
+Module was loaded 3 seconds ago, cog was loaded 3 seconds ago.
+
+Using 81.3 MB physical memory and 1.2 GB virtual memory, 71.9 MB of which unique to this process.
+Running on PID 18562 (`python3`) with 15 thread(s).
+
+This bot is not sharded and can see 7 guild(s) and 8224 user(s).
+Average websocket latency: 119.72ms
+twitch 🔋#7443: okay hm time to spend three years writing some stupid frontend
+MrRandom#9258: imagine frontend 🤢
+MrRandom#9258: l_jsk
+MrRandom#9258: l_jsk
+MrRandom#9258: l_jsk
+MrRandom#9258: fuck sake
+MrRandom#9258: i gonna fucking kill my self
+aknalumos#7317: <:fefe:627674131349110784>
+twitch 🔋#7443: nice one random
+MrRandom#9258: l-jsk
+Life#2673: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.6 (default, Dec 19 2019, 23:50:13) [GCC 7.4.0]` on `linux`
+Module was loaded 20 hours ago, cog was loaded 20 hours ago.
+
+Using 138.1 MB physical memory and 1.3 GB virtual memory, 125.8 MB of which unique to this process.
+Running on PID 18683 (`python`) with 13 thread(s).
+
+This bot is not sharded and can see 7 guild(s) and 18327 user(s).
+Average websocket latency: 23.33ms
+MrRandom#9258: l-play junjou spectra
+Life#2673: Added the track **Robotics notes - Junjou Spectra (OP Full)** to the queue.
+Ava#4982: why is there `(U)` all over the place
+aknalumos#7317: urgh I hate this song
+MrRandom#9258: why
+aknalumos#7317: reminds me of mama
+MrRandom#9258: o
+aknalumos#7317: mama Kururs
+twitch 🔋#7443: akna are you trying to get me to punch you today
+aknalumos#7317: <a:BLELELE:655616708895178782>
+Chiky#5518: 
+Tatsu#8792: `<--` Somebody è uscito da Discord Bots Italia
+Chiky#5518: 
+Chiky#5518: 
+Tatsu#8792: 
+aknalumos#7317: ?tag death: trench
+R. Danny#6348: https://cdn.discordapp.com/attachments/381963689470984203/676665613506314241/unknown.png
+Life#2673: 
+devon#4089: it's indicating it's the US NTSC release, the japanese version has more bugs in it
+Ava#4982: hah ayes
+aknalumos#7317: ?tag make
+R. Danny#6348: Hello. What would you like the name tag to be?
+aknalumos#7317: death: cli
+R. Danny#6348: Neat. So the name is death: cli. What about the tag's content? **You can type ?abort to abort the tag make process.**
+aknalumos#7317: 
+R. Danny#6348: Tag death: cli successfully created.
+Ava#4982: I like the approach taken here of "mess around" but I don't so much like the like
+Ava#4982: teaching part
+gogurt enjoyer#8035: woah the rituals section is fucked-up
+gogurt enjoyer#8035: i never had to pull legs off of living chickens when learning
+Anti Lol#3119: 
+Gartenteichspringbrunnen#1111: You need to get out more
+just blake#0552: ;;eval
+for thing in bot.socket_resp:
+     print(f'{thing} | {bot.socket_resp[thing]}')
+Ictoan#2967: ```py
+PRESENCE_UPDATE | 14900
+MESSAGE_CREATE | 208
+MESSAGE_UPDATE | 27
+CHANNEL_CREATE | 29
+TYPING_START | 146
+MESSAGE_REACTION_ADD | 17
+None | 32
+GUILD_MEMBER_UPDATE | 21
+MESSAGE_REACTION_REMOVE | 1
+VOICE_STATE_UPDATE | 12
+MESSAGE_DELETE | 2
+GUILD_MEMBER_REMOVE | 1
+
+```
+Gartenteichspringbrunnen#1111: Or maybe you've not learnt anything for the past century because you know all there is to know
+Sebastiano#5005: @here https://twitch.tv/ssebordd Live (:flav_it:)
+DVSAEZI#2020: Ping
+Sebastiano#5005: Sorry man
+Lupus#6426: ?help
+R. Danny#6348: 
+Lupus#6426: ?ratelimit
+Lupus#6426: fuck
+Evangelist#4804: Unfortunately Lupus#6426 has fallen ill. Get well soon. Oh and 333 infected so far.
+Lupus#6426: ?limits
+Miky88#3229: ping
+aknalumos#7317: l-play hated by life kanzaki aori
+Miky88#3229: hey good live
+Life#2673: Added the track **【Kagamine Len & FUKASE】Hated by Life Itself./命に嫌われている。 【kanzaki】【cover】 + VSQx** to the queue.
+Life#2673: 
+aknalumos#7317: what?
+aknalumos#7317: no
+aknalumos#7317: l-leave
+Life#2673: Left the voice channel `Music`.
+aknalumos#7317: oh shit
+aknalumos#7317: sorry <:scare:470520091059159051>
+aknalumos#7317: l-play hated by life kobasolo
+Life#2673: Added the track **命に嫌われている。/ カンザキイオリ(Covered by コバソロ & 相沢)** to the queue.
+Life#2673: 
+chickenmatty#4766: vai in centro
+chickenmatty#4766: 😂
+twitch 🔋#7443: random
+MrRandom#9258: ye
+twitch 🔋#7443: nothing
+MrRandom#9258: wow
+MrRandom#9258: rude
+Vex#3110: <@!140516693242937345> this is actually a solid course
+Vex#3110: the section on ipy widgets is better than I've seen anywhere else
+Tsubasa#8884: e!info
+Evangelist#4804: 
+Tsubasa#8884: e!info 184385816066392064
+Evangelist#4804: 
+twitch 🔋#7443: l_np
+Life#2673: I am not connected to any voice channels.
+twitch 🔋#7443: ioh
+MrRandom#9258: l-
+Tsubasa#8884: e!info 95473026350452736
+Evangelist#4804: 
+aknalumos#7317: wot
+aknalumos#7317: l-np
+Life#2673: I am not currently playing anything.
+aknalumos#7317: random
+aknalumos#7317: <:loli_smug:669172843879071793>
+MrRandom#9258: did it cut off
+MrRandom#9258: hmmm
+twitch 🔋#7443: yes
+aknalumos#7317: <:fefe:627674131349110784>
+MrRandom#9258: i dont think it did
+Tsubasa#8884: 🤔
+Evangelist#4804: Kiwi#4114 has been infected. 334 infected so far...
+aknalumos#7317: l-leave
+Life#2673: Left the voice channel `Music`.
+MrRandom#9258: cuz current was set to None
+MrRandom#9258: so
+aknalumos#7317: l-join
+Life#2673: Joined the voice channel `Music`.
+MrRandom#9258: it must have ended
+twitch 🔋#7443: hmm
+aknalumos#7317: okai <:fufu:605255050289348620>
+aknalumos#7317: l-play hollowness minami
+Life#2673: Added the track **美波「ホロネス」MV** to the queue.
+Life#2673: 
+twitch 🔋#7443: random
+aknalumos#7317: cpp syntax is the most hideous thing i've even seen
+aknalumos#7317: <:facepalm:444516764454486017>
+twitch 🔋#7443: no
+twitch 🔋#7443: first most hideous thing is you
+aknalumos#7317: <a:crii:586408788311932939>
+twitch 🔋#7443: sorry
+aknalumos#7317: twitch san has become a yandere today <:fefe:627674131349110784>
+twitch 🔋#7443: no.
+twitch 🔋#7443: english exam ruined me
+MrRandom#9258: yes
+gogurt enjoyer#8035: i think there's some segregation between data science with python versus general python and i wish that weren't the case
+aknalumos#7317: <:fefe:627674131349110784>
+twitch 🔋#7443: it was a horrible exam
+twitch 🔋#7443: i don't want to talk about macbeth being heroic
+R. Danny#6348: <@120636888418615300>, 6 hours, 6 minutes and 18 seconds ago: some tag idk
+
+<https://discordapp.com/channels/336642139381301249/381963689470984203/676772856704532491>
+Sebastiano#5005: Mi hanno suonato il campanello
+Sebastiano#5005: Torno subito in live
+Vex#3110: they're super distinct methods of programming
+Style#6862: ?tag biggest servers
+R. Danny#6348: Tag not found. Did you mean...
+server boost
+server
+twitch 🔋#7443: l_play something good can work
+MrRandom#9258: wai
+MrRandom#9258: t
+twitch 🔋#7443: no
+MrRandom#9258: im editng sutff
+MrRandom#9258: fuck
+MrRandom#9258: i cant type
+twitch 🔋#7443: t.jsk py await ctx.player.connect(author.voice.channel.id)
+twitch 🔋#7443: t.play something good can work
+Trench#3160: Queued TWO DOOR CINEMA CLUB | SOMETHING GOOD CAN WORK
+Trench#3160: Now playing: TWO DOOR CINEMA CLUB | SOMETHING GOOD CAN WORK
+gogurt enjoyer#8035: for sure. but there's a lot of overlap that could be shared back and forth
+gogurt enjoyer#8035: i think ipython and jupyter are way more well-known on the data science side for instance
+twitch 🔋#7443: <@!503212304171532289> you are hated by everyone
+MrRandom#9258: wow bad
+Evangelist#4804: Michael SoySauce#8749 is officially infected. Feel free to stay away from them and 334 more.
+Vex#3110: ye, cause it sucks dick for anything outside of one file
+Vex#3110: at that point it becomes the presentation layer and everything else is coded in something that isn't jup
+MrRandom#9258: ?rtfm loop
+R. Danny#6348: 
+Tsubasa#8884: ?rtfm guild.create
+R. Danny#6348: 
+Silical#8156: e!shop
+Evangelist#4804: 
+Silical#8156: e!info
+Evangelist#4804: 
+Silical#8156: e!info Painezor#8489
+Evangelist#4804: 
+aknalumos#7317: l-play let's start a ww3
+Life#2673: Added the track **WORLD ORDER "Let's start WW3”** to the queue.
+Life#2673: 
+twitch 🔋#7443: sad
+Silical#8156: e!hug Painezor#8489
+Evangelist#4804: A moment silence for Painezor#8489 <:rooBless:597589960270544916> (by the way, 57 dead so far)
+Evangelist#4804: <:pepoS:596577130893279272>
+twitch 🔋#7443: t.jsk py await ctx.player.disconnect()
+MrRandom#9258: l_help
+Life#2673: 
+MrRandom#9258: ok cool
+MrRandom#9258: l-sys
+Life#2673: 
+MrRandom#9258: l-info
+Life#2673: 
+MrRandom#9258: l_info
+Life#2673: 
+aknalumos#7317: l-skip
+Life#2673: The current tracks requester has skipped `1` track(s).
+MrRandom#9258: das alot of functions
+aknalumos#7317: l-play world order have a nice day
+Life#2673: Added the track **WORLD ORDER "HAVE A NICE DAY"** to the queue.
+Life#2673: 
+MrRandom#9258: ?tag teardown
+R. Danny#6348: Tag not found.
+MrRandom#9258: ?rtfm teardown
+R. Danny#6348: 
+MrRandom#9258: heck
+MrRandom#9258: ?rtfm cog
+R. Danny#6348: 
+Spoon#0001: ?tag source custom checks
+R. Danny#6348: Tag not found. Did you mean...
+custom checks
+custom check
+better custom checks
+Spoon#0001: ?help tag
+R. Danny#6348: 
+Spoon#0001: ?tag raw custom checks
+R. Danny#6348: \`\`\`py
+def my\_custom\_check():
+    def predicate(ctx):
+        # a function that takes ctx as it's only arg, that returns a truethy or falsey value, or raises an exception
+    return commands.check(predicate)
+\`\`\`
+In rewrite the predicate can be a coro
+Spoon#0001: ?tag edit "custom check" ```py
+def my_custom_check():
+    def predicate(ctx):
+        # a function that takes ctx as it's only arg, that returns a truethy or falsey value, or raises an exception
+    return commands.check(predicate)
+```
+The predicate can be a coroutine
+R. Danny#6348: Successfully edited tag.
+Spoon#0001: <@!373256462211874836> done https://discordapp.com/channels/336642139381301249/381963689470984203/676566336696221697
+MrRandom#9258: l_jsk py bot.get_cog("cogs.voice.voice")
+Life#2673: <cogs.voice.voice.Voice object at 0x000001E1A0E10F48>
+MrRandom#9258: o
+twitch 🔋#7443: nice random
+lambda#0987: e!info gogurt enjoyer
+Evangelist#4804: 
+lambda#0987: oh he ded
+gogurt enjoyer#8035: hehe
+lambda#0987: e!info
+Evangelist#4804: 
+lambda#0987: stayin alive / stayin alive
+Style#6862: e!info
+Evangelist#4804: 
+clam#5985: e!info
+Evangelist#4804: 
+Style#6862: e!shop
+Evangelist#4804: 
+Style#6862: e!shopbuy gift
+Style#6862: e!shop buy gift
+Evangelist#4804: Hmm.. what are you buying? <:rooThink:596576798351949847>
+Style#6862: e!shop buy 🎁
+Evangelist#4804: Alright <@!185712375628824577>, you bought 🎁. Check your backpack.
+Style#6862: e!bp use 🎁
+Evangelist#4804: The item was used... I wonder what happened?
+Style#6862: e!bp
+Evangelist#4804: 
+Style#6862: e!bp use 🚿
+Evangelist#4804: The item was used... I wonder what happened?
+Style#6862: e!info
+Evangelist#4804: 
+Eugene#3778: e!shop
+Evangelist#4804: 
+Eugene#3778: e!info
+Evangelist#4804: 
+Eugene#3778: e!hug Xua
+Evangelist#4804: Let's leave the dead body alone...
+Eugene#3778: 😦
+MrRandom#9258: l_play voulez vous
+Life#2673: Added the track **Abba - Voulez-Vous (Official Video)** to the queue.
+Life#2673: 
+Eugene#3778: e!hug  MrRandom#9258
+Evangelist#4804: <:pepoS:596577130893279272>
+MrRandom#9258: l_play voulez vous
+Life#2673: Added the track **Abba - Voulez-Vous (Official Video)** to the queue.
+Life#2673: 
+MrRandom#9258: l_jsk reload cogs.voice.music
+Life#2673: 🔁 `cogs.voice.music`
+MrRandom#9258: pain is me
+MrRandom#9258: l_play voulez vous
+Life#2673: There are no nodes available.
+MrRandom#9258: l_play voulez vous
+Life#2673: Added the track **Abba - Voulez-Vous (Official Video)** to the queue.
+Life#2673: 
+MrRandom#9258: l_jsk py bot.remove_cog(bot.get_cog("Music"))
+MrRandom#9258: hmmmmmmmm
+Life#2673: No tracks added for 5 minutes, Leaving the voice channel.
+MrRandom#9258: l_play voulez vous
+Life#2673: Added the track **Abba - Voulez-Vous (Official Video)** to the queue.
+Life#2673: 
+MrRandom#9258: l_jsk py bot.remove_cog(bot.get_cog("Music"))
+MrRandom#9258: uh
+MrRandom#9258: ok
+MrRandom#9258: l_np
+Life#2673: 
+MrRandom#9258: l_lrav
+Vex#3110: the importance of realizing when it's time to migrate code out of a notebook cannot be understated
+MrRandom#9258: l_leave
+Life#2673: Left the voice channel `Music`.
+Vex#3110: t.thousand line notebook
+MrRandom#9258: l_play find the blue
+Life#2673: Added the track **CHAOS;HEAD FIND THE BLUE** to the queue.
+Life#2673: 
+MrRandom#9258: l_play find the blue
+MrRandom#9258: l_play find the blue
+Life#2673: There are no nodes available.
+MrRandom#9258: l_play find the blue
+Life#2673: Added the track **CHAOS;HEAD FIND THE BLUE** to the queue.
+Life#2673: 
+twitch 🔋#7443: nice one random
+MrRandom#9258: l_jsk py bot.remove_cog(bot.get_cog("Music"))
+twitch 🔋#7443: i wonder if this still works
+MrRandom#9258: why isnt it being called tf
+twitch 🔋#7443: now
+007_whitetiger#7871: ?tester
+twitch 🔋#7443: t.jsk py await ctx.player.connect(author.voice.channel.id)
+twitch 🔋#7443: t.play test
+Trench#3160: Queued A Simple Test Will Reveal Your Deepest Fear
+Trench#3160: Now playing: A Simple Test Will Reveal Your Deepest Fear
+twitch 🔋#7443: t.play test
+Trench#3160: Queued A Color Test That Can Tell Your Mental Age
+MrRandom#9258: l_play find the blue
+Life#2673: Added the track **CHAOS;HEAD FIND THE BLUE** to the queue.
+Life#2673: 
+twitch 🔋#7443: FUCK
+twitch 🔋#7443: 
+MrRandom#9258: l_jsk py bot.unload_extension("Music")
+MrRandom#9258: oof
+twitch 🔋#7443: queue retention bROKE
+xenonsb#9313: ?tag variable
+R. Danny#6348: Tag not found. Did you mean...
+truev variables
+xenonsb#9313: ?hinting
+xenonsb#9313: ?tag length
+R. Danny#6348: Tag not found. Did you mean...
+id length
+max nickname length
+lenny
+MrRandom#9258: ?rtfm extension
+R. Danny#6348: 
+twitch 🔋#7443: oh yeah sure i remember t his
+xenonsb#9313: ?command length
+xenonsb#9313: ?tag command lenghth
+R. Danny#6348: Tag not found. Did you mean...
+command
+"command"
+math command
+MrRandom#9258: ?rtfm unload
+R. Danny#6348: 
+xenonsb#9313: ?tag command length
+R. Danny#6348: Tag not found. Did you mean...
+command
+"command"
+math command
+MrRandom#9258: bitch tf
+twitch 🔋#7443: t.jsk py await ctx.player.connect(author.voice.channel.id)
+twitch 🔋#7443: t.play test
+randomSphere#4274: ?rtfm reaction
+R. Danny#6348: 
+Trench#3160: Queued A Color Test That Can Tell Your Mental Age
+MrRandom#9258: l_jsk py bot.unload_extension("cogs.voice.music")
+Trench#3160: Now playing: A Color Test That Can Tell Your Mental Age
+MrRandom#9258: oh ok
+randomSphere#4274: ?rtfm event reaction
+R. Danny#6348: Could not find anything. Sorry.
+twitch 🔋#7443: fuck what
+randomSphere#4274: reee
+twitch 🔋#7443: oh yeah i was making a fake context thing
+randomSphere#4274: ?rtfm reeeaction
+R. Danny#6348: 
+twitch 🔋#7443: i remember now
+randomSphere#4274: ?rtfm reaction
+R. Danny#6348: 
+MrRandom#9258: l_play money momey money
+Life#2673: Added the track **Abba - Money, Money, Money** to the queue.
+Life#2673: 
+MrRandom#9258: l-play money momey money
+Life#2673: Added the track **Abba - Money, Money, Money** to the queue.
+Life#2673: 
+Lgan#0001: l_play big cook little cook
+Life#2673: Added the track **Big Cook Little Cook: Series 2: Jack and the Beanstalk** to the queue.
+Life#2673: 
+Lgan#0001: Wait this is a whole episode
+Lgan#0001: l_play im infected
+Life#2673: Added the track **4 I'm Infected Cry Baby Musical** to the queue.
+Lgan#0001: l_skip
+Life#2673: The current tracks requester has skipped `1` track(s).
+Life#2673: 
+Lgan#0001: l_skip
+Life#2673: The current tracks requester has skipped `1` track(s).
+Lgan#0001: l_play Blue sky
+Life#2673: Added the track **Electric Light Orchestra - Mr. Blue Sky (Audio)** to the queue.
+Life#2673: 
+Lorenzo#6154: <:monkaS:596577132063490060>
+Lorenzo#6154: im scared
+Lgan#0001: l_play twitch stop streaming code in music vc
+Life#2673: Added the track **New Twitch Copyright Music Policy - What Can You Stream On Twitch!** to the queue.
+007_whitetiger#7871: ?rewrite
+Lgan#0001: l_skip
+Life#2673: The current tracks requester has skipped `1` track(s).
+Life#2673: 
+Lgan#0001: lol
+Lorenzo#6154: I'm gonna fuckin post my programmer socks
+MrRandom#9258: oh no
+Lgan#0001: l_play bass boosted linus
+Life#2673: Added the track **Bass-boosted Linus** to the queue.
+Lgan#0001: l_skip
+Life#2673: The current tracks requester has skipped `1` track(s).
+Life#2673: 
+Lgan#0001: jesus
+Lgan#0001: that was loud
+Lgan#0001: l_play return to earth trans
+Life#2673: Added the track **Return to Earth - Anthill Films - Official Teaser #2** to the queue.
+Life#2673: 
+Lgan#0001: no
+Lgan#0001: wrong one
+Lgan#0001: l_skip
+Life#2673: The current tracks requester has skipped `1` track(s).
+Lgan#0001: l_play return to earth transformers
+Life#2673: Added the track **Arrival to earth-Transformers Soundtrack** to the queue.
+Life#2673: 
+Lgan#0001: there we go
+twitch 🔋#7443: t.jsk py await ctx.player.connect(author.voice.channel.id)
+twitch 🔋#7443: t.play dna bts
+Trench#3160: Queued BTS (방탄소년단) 'DNA' Official MV
+Trench#3160: Now playing: BTS (방탄소년단) 'DNA' Official MV
+Lgan#0001: time to unbreak dashcord
+Lgan#0001: l_skip
+Life#2673: The current tracks requester has skipped `1` track(s).
+Lgan#0001: wot
+Lgan#0001: lol
+lambda#0987: cm/recent
+Cautious Memory#9597: #1685) “limits” was revised by lambda#0987 at 2020-02-11 10:20:20 AM UTC
+#1684) “limits” was revised by MrSnek#3442 at 2020-02-11 09:59:19 AM UTC
+#1683) “event badges” was revised by Xua#1137 at 2020-02-11 07:12:02 AM UTC
+#1682) “a” was revised by ShadowHanzo#2108 at 2020-02-11 07:09:54 AM UTC
+#1681) “a” was revised by ShadowHanzo#2108 at 2020-02-11 07:09:21 AM UTC
+#1680) “a” was revised by Eugene#3778 at 2020-02-11 07:08:49 AM UTC
+#1679) “a” was revised by ShadowHanzo#2108 at 2020-02-11 07:08:35 AM UTC
+
+Confused? React with ℹ for more info.
+Page 1⁄28 (193 entries)
+twitch 🔋#7443: t.jsk py await ctx.player.connect(author.voice.channel.id)
+gogurt enjoyer#8035: true
+twitch 🔋#7443: t.jsk py await ctx.player.connect(author.voice.channel.id)
+twitch 🔋#7443: t.play bts dna
+Trench#3160: Queued BTS (방탄소년단) 'DNA' Official MV
+Trench#3160: Now playing: BTS (방탄소년단) 'DNA' Official MV
+MrRandom#9258: <@!627491967391236097>
+Trench#3160: Now playing: BTS (방탄소년단) 'DNA' Official MV
+Trench#3160: Now playing: BTS (방탄소년단) 'DNA' Official MV
+Life#2673: No tracks added for 5 minutes, Leaving the voice channel.
+Lgan#0001: I might make my own audio lib
+twitch 🔋#7443: 
+Lgan#0001: for experiance
+Lgan#0001: <a:dboatsSharkDance:575397354635657227>
+Lgan#0001: what is this
+Lgan#0001: i dont understand it but this shit bumps
+twitch 🔋#7443: t.jsk py ctx.player.current.title
+Trench#3160: BTS (방탄소년단) 'DNA' Official MV
+Lgan#0001: oh no
+Lgan#0001: did i just say BTS is good
+Lgan#0001: fuck
+Lgan#0001: fuck
+twitch 🔋#7443: logan
+twitch 🔋#7443: by
+Lgan#0001: turn it down
+MrRandom#9258: 
+twitch 🔋#7443: t.jsk py await ctx.player.set_volume(30)
+Lgan#0001: oh no
+MrRandom#9258: <@!371741730455814145> twitch called u bad
+Lgan#0001: both
+twitch 🔋#7443: i
+twitch 🔋#7443: no you did random
+twitch 🔋#7443: i
+Lorenzo#6154: yall
+Lgan#0001: like the beast i am
+MrRandom#9258: no it twas not i
+Lgan#0001: sure
+xenonsb#9313: ?tag parameter
+R. Danny#6348: https://discordpy.readthedocs.io/en/latest/ext/commands/commands.html#parameters
+Lgan#0001: if i do this then pay me
+Lgan#0001: lol
+Lgan#0001: yeah no
+Lgan#0001: i wanna try though
+Lgan#0001: hell no
+Lorenzo#6154: go
+Lorenzo#6154: is
+Lorenzo#6154: gAY
+Life#2673: No tracks added for 5 minutes, Leaving the voice channel.
+Lorenzo#6154: go doesn't have generics
+twitch 🔋#7443: did you make go then
+Lorenzo#6154: like python
+Lorenzo#6154: so
+Lorenzo#6154: python
+Lorenzo#6154: is
+Lorenzo#6154: BAD
+Lorenzo#6154: :bigbrain:
+Emote Collector#3350: <:bigbrain:573326997451833344>
+Lorenzo#6154: just yeet it to yt
+Lorenzo#6154: ez
+Lgan#0001: i cant even get this hecking decorator to accept args
+Lgan#0001: and now i want to write a node
+Lgan#0001: hell yeah
+MrRandom#9258: l-colour <@!628284183579721747>
+Life#2673: 
+Life#2673: That took 1.165sec to complete
+Lgan#0001: alright lets start]
+Lgan#0001: Ok i am going with c++
+PikalaxALT#5823: ?rtfm on_member_update
+R. Danny#6348: 
+Lgan#0001: twitch where do i start
+aknalumos#7317: t.queue
+aknalumos#7317: t.ping
+Trench#3160: Typing: `187ms` :keyboard:
+Heartbeat: `124ms` :heartbeat:
+aknalumos#7317: play something twitch <:fufu:605255050289348620>
+Lorenzo#6154: wot
+Lorenzo#6154: why
+Lorenzo#6154: :)
+twitch 🔋#7443: t.jsk py await ctx.player.connect(author.voice.channel.id)
+Lorenzo#6154: to wott
+twitch 🔋#7443: t.play danger zone
+Trench#3160: Queued Kenny Loggins - Danger Zone (Video)
+Trench#3160: Now playing: Kenny Loggins - Danger Zone (Video)
+Lorenzo#6154: oh
+Lorenzo#6154: 😍
+PikalaxALT#5823: pk!eval ```py
+@bot.listen()
+async def on_member_update(before, after):
+  if before.guild != guild:
+    return
+  role = discord.utils.get(guild.roles, name='Infected')
+  if role in after.roles and role not in before.roles:
+    await ctx.send(f'{after.mention} get infected nerd')
+```
+PikalaxBOT#8243: 
+twitch 🔋#7443: t.jsk py await ctx.player.stop()
+twitch 🔋#7443: t.play dna bts
+Trench#3160: Queued BTS (방탄소년단) 'DNA' Official MV
+Trench#3160: Now playing: BTS (방탄소년단) 'DNA' Official MV
+randomSphere#4274: ?rtfm wait_for
+R. Danny#6348: 
+Lorenzo#6154: 😎
+Lorenzo#6154: I'm an asian guy with CLEAR SKIN and PLASTIC SURGERY
+Lorenzo#6154: 😎
+Evangelist#4804: "from:Nicholas#6221 infected" might bring up some interesting results <:rooThink:596576798351949847> (336 infected)
+PikalaxBOT#8243: <@579332504792858626> get infected nerd
+Lgan#0001: Oh i forgot to install rust
+Lgan#0001: nice
+MrRandom#9258: l-jsk
+Life#2673: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.6 (default, Dec 19 2019, 23:50:13) [GCC 7.4.0]` on `linux`
+Module was loaded 21 hours ago, cog was loaded 21 hours ago.
+
+Using 146.6 MB physical memory and 1.3 GB virtual memory, 134.5 MB of which unique to this process.
+Running on PID 18683 (`python`) with 13 thread(s).
+
+This bot is not sharded and can see 7 guild(s) and 18324 user(s).
+Average websocket latency: 23.09ms
+Lorenzo#6154: t.play idol bts
+Trench#3160: Queued BTS (방탄소년단) 'IDOL' Official MV
+twitch 🔋#7443: QAAAjwIAJ0JUUyAo67Cp7YOE7IaM64WE64uoKSAnRE5BJyBPZmZpY2lhbCBNVgAOQmlnIEhpdCBMYWJlbHMAAAAAAAPoAAALTUJkVlhrU2Rod1UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1NQmRWWGtTZGh3VQAHeW91dHViZQAAAAAAAAAA
+twitch 🔋#7443: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Lorenzo#6154: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+PikalaxALT#5823: yeet my listener works
+twitch 🔋#7443: <:rooThink:596576798351949847>
+Lorenzo#6154: YEET
+Lorenzo#6154: show ur token sis
+Trench#3160: Now playing: BTS (방탄소년단) 'IDOL' Official MV
+MrRandom#9258: l_help
+Life beta#1705: 
+Lgan#0001: how do i install external packages in rust
+Sasa#7557: e!stats
+Evangelist#4804: 
+Lorenzo#6154: use cargo
+Lgan#0001: I have ```rs
+[dependencies]
+rafy = "0.2"
+``` in my `Cargo.toml`
+Lgan#0001: but it isnt working
+Equity#3464: try cargo lock or smth
+Lorenzo#6154: run cargo build
+Lorenzo#6154: or lock
+Lorenzo#6154: shrug
+SebbyLaw#2597: ?tag lp
+R. Danny#6348: <https://automatetheboringstuff.com/> (for complete beginners to programming)
+<https://learnxinyminutes.com/docs/python3/> (for people who know programming already)
+<https://docs.python.org/3/tutorial/> (official tutorial)
+<http://python.swaroopch.com/> (useful book)
+<http://greenteapress.com/wp/think-python-2e/> (another decent book)
+see also: <http://www.codeabbey.com/> (exercises for beginners)
+Lorenzo#6154: 500
+Lorenzo#6154: internal server error
+Lorenzo#6154: disconnected
+lambda#0987: ?tag why rewrite
+R. Danny#6348: **Why migrate to the new stable discord.py v1.0 (previously rewrite branch)?**
+  • Better documentation 
+  • `ctx` always passed
+  • `ctx` new shortcuts
+  • Websocket reconnections
+  • Model-based API
+  • Ability for sub-commands to not invoke parent
+  • Async checks and events
+  • Case insensitive commands
+  • NSFW channel checking
+  • Full category support
+  • Animated emoji support
+  • Audit log support
+  • Webhook support
+  • Improved activity support
+  • New raw events and functions
+  • Bot and Cog Template creator
+  • Python 3.7 compatibility
+  • Jumplink support
+  • `Guild.get_role` method for O(1) role fetching
+  • New Union, Optional, Greedy Converters
+  • New Cog model with new methods, cog names and cog-wide command attribute setting
+  • Improved bulk message delete handling
+
+Migrating Guide: <https://discordpy.readthedocs.io/en/latest/migrating.html>
+lambda#0987: ?tag why not rewrite
+R. Danny#6348: **Why not?**
+Rewrite is stable, but still in active development. It is discouraged to use if:
+   • You won't keep your library up to date
+   • You won't keep your code up to date with any breaking changes
+   • You won't subscribe to news of breaking changes with `?rewrite`
+   • You don't want to rewrite your existing code to be compatible
+Lorenzo#6154: t.play boy with luv
+Trench#3160: Queued BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) (feat. Halsey)' Official MV
+Lorenzo#6154: STABBING <@!440113725970710528>
+Trench#3160: Now playing: BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) (feat. Halsey)' Official MV
+Lorenzo#6154: yall
+MrRandom#9258: l-jsk
+Life#2673: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.6 (default, Dec 19 2019, 23:50:13) [GCC 7.4.0]` on `linux`
+Module was loaded 21 hours ago, cog was loaded 21 hours ago.
+
+Using 146.6 MB physical memory and 1.3 GB virtual memory, 134.5 MB of which unique to this process.
+Running on PID 18683 (`python`) with 13 thread(s).
+
+This bot is not sharded and can see 7 guild(s) and 18326 user(s).
+Average websocket latency: 22.16ms
+Lorenzo#6154: I have a video to edit for tomorrow I've still yet to do any progress
+Lgan#0001: omg i did it
+Lgan#0001: ish
+Lorenzo#6154: tsubasa is bork
+Lgan#0001: this takes a while
+MrRandom#9258: l_jsk
+SebbyLaw#2597: ?tag learn async
+R. Danny#6348: Tag not found. Did you mean...
+learn asyncio
+learn asynchronous
+async
+Life beta#1705: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.6 (tags/v3.7.6:43364a7ae0, Dec 19 2019, 00:42:30) [MSC v.1916 64 bit (AMD64)]` on `win32`
+Module was loaded 4 minutes ago, cog was loaded 4 minutes ago.
+
+Using 217.5 MB physical memory and 438.2 MB virtual memory, 209.7 MB of which unique to this process.
+Running on PID 15664 (`python.exe`) with 13 thread(s).
+
+This bot is not sharded and can see 14 guild(s) and 98601 user(s).
+Average websocket latency: 103.97ms
+SebbyLaw#2597: ?tag learn asyncio
+R. Danny#6348: Read this blog entry to get a basic understanding of how asyncio works: https://www.blog.pythonlibrary.org/2016/07/26/python-3-an-intro-to-asyncio/
+If you're confident that you have a basic understanding of asyncio, read this as well: https://docs.python.org/3/library/asyncio-dev.html
+Lgan#0001: How i wrote a rust music node in 10 lines of code
+MrRandom#9258: l-jsk
+Life#2673: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.6 (default, Dec 19 2019, 23:50:13) [GCC 7.4.0]` on `linux`
+Module was loaded 21 hours ago, cog was loaded 21 hours ago.
+
+Using 146.6 MB physical memory and 1.3 GB virtual memory, 134.5 MB of which unique to this process.
+Running on PID 18683 (`python`) with 13 thread(s).
+
+This bot is not sharded and can see 7 guild(s) and 18326 user(s).
+Average websocket latency: 27.51ms
+Lorenzo#6154: 😍
+Lorenzo#6154: big fan
+MrRandom#9258: do these new pfp looks good
+Lorenzo#6154: now go do libav bindings
+twitch 🔋#7443: just import an external crate that does it all
+Lgan#0001: haha i dont get it
+Lorenzo#6154: 😍
+Tsubasa#8884: Hi
+Lgan#0001: hehe
+Lgan#0001: hoohoo
+twitch 🔋#7443: libsodium bindings for rust more like rust oxide amirite
+Lgan#0001: twitch nobody laughed the first time
+Tsubasa#8884: <@503212304171532289> help
+Trench#3160: ```
+Trench is a music bot that doesn't work so don't even try.
+
+Misc:
+  about     
+  musicinfo 
+  ping      
+Music:
+  play      Play music from many sources
+  queue     
+​No Category:
+  help      Shows this message
+
+Type @Trench help command for more info on a command.
+You can also type @Trench help category for more info on a category.
+```
+Tsubasa#8884: <@503212304171532289> about
+Trench#3160: 
+Sebastiano#5005: !d bump
+DISBOARD#2760: 
+IAmTomahawkx#1000: Todo add √
+Todo#9724: Todo task successfully added!
+twitch 🔋#7443: shwaa
+IAmTomahawkx#1000: No
+IAmTomahawkx#1000: Bad
+IAmTomahawkx#1000: Todo add https://color.adobe.com/create
+Todo#9724: Todo task successfully added!
+twitch 🔋#7443: Shwaa 2
+PikalaxALT#5823: ```py
+from discord.ext import tasks
+
+@tasks.loop(seconds=60)
+async def communicative_loop():
+  try:
+    # do stuff
+  except Exception as e:
+    bot.dispatch('error', 'task_error', communicative_loop)
+    raise  # make the loop die
+```
+Tsubasa#8884: <@503212304171532289> musicinfo
+Trench#3160: 
+Lorenzo#6154: t.play spring day bts
+Trench#3160: Queued BTS (방탄소년단) '봄날 (Spring Day)' Official MV
+Trench#3160: Now playing: BTS (방탄소년단) '봄날 (Spring Day)' Official MV
+twitch 🔋#7443: t.jsk reload cogs.misc
+Trench#3160: 🔁 `cogs.misc`
+Lorenzo#6154: wow mrrandom calling ppl edgy
+Tsubasa#8884: t.play unravel
+Lorenzo#6154: ppppp
+Trench#3160: Queued TK - unravel HQ [Tokyo Ghoul] FULL
+Lida#6399: ?tag way
+R. Danny#6348: Tag not found. Did you mean...
+wayd
+wat
+was
+Lorenzo#6154: fite me irl
+Lida#6399: ?tag give
+R. Danny#6348: Tag not found. Did you mean...
+go live
+Lida#6399: ?tag giaways
+Tsubasa#8884: Hey guys
+R. Danny#6348: Tag not found.
+Tsubasa#8884: <:drakeYea:596577437182197791>
+PikalaxALT#5823: ?tag event vs listen
+R. Danny#6348: Tag not found. Did you mean...
+event list
+events list
+event
+PikalaxALT#5823: ?tag listen
+R. Danny#6348: Tag not found. Did you mean...
+listener
+listening
+listen to toad
+PikalaxALT#5823: ?tag listener
+R. Danny#6348: Syntax as of discord.py v1.2.5
+
+**In a cog:**
+```py
+class MyCog(commands.Cog):
+    @commands.Cog.listener()
+    async def on_ready(self):
+        pass
+
+    @commands.Cog.listener('on_message')
+    async def foo(self, message: discord.Message):
+        pass
+```
+
+**On the bot:**
+```py
+bot = commands.Bot(...)
+@bot.listen()
+async def on_ready():
+    pass
+
+@bot.listen('on_message')
+async def foo(message: discord.Message):
+    pass
+```
+Tsubasa#8884: t.queue
+Trench#3160: TK - unravel HQ [Tokyo Ghoul] FULL
+Lgan#0001: ```unused `std::result::Result` that must be used``` what does this mean
+Lorenzo#6154: it explains it in the tutorial
+Tsubasa#8884: Show the whole error
+Xithrius#1318: \
+Tsubasa#8884: <:waitwhat:596577409768226816>
+Tsubasa#8884: t.help
+Trench#3160: ```
+Trench is a music bot that doesn't work so don't even try.
+
+Misc:
+  about     
+  musicinfo 
+  ping      
+Music:
+  play      Play music from many sources
+  queue     
+​No Category:
+  help      Shows this message
+
+Type t.help command for more info on a command.
+You can also type t.help category for more info on a category.
+```
+Lgan#0001: I just wanna fix this
+Lorenzo#6154: https://doc.rust-lang.org/book/ch09-02-recoverable-errors-with-result.html#recoverable-errors-with-result <@!342244480709296139>
+Tsubasa#8884: t.info
+twitch 🔋#7443: <:rooThink:596576798351949847>
+Tsubasa#8884: t.musicinfo
+Trench#3160: 
+twitch 🔋#7443: why do you keep on thinking that
+Lorenzo#6154: yes?
+Lorenzo#6154: no
+Tsubasa#8884: Why does ID and region always return unknown?
+twitch 🔋#7443: 🔫
+Lorenzo#6154: hell no
+Tsubasa#8884: I see
+Lgan#0001: `thread 'main' panicked at 'no entry found for key', src\libcore\option.rs:1034:5`
+Lgan#0001: wot
+Lorenzo#6154: show code sir
+Lgan#0001: ```rs
+extern crate rafy;
+use rafy::Rafy;
+
+fn main() {
+    let content = Rafy::new("https://www.youtube.com/watch?v=4I_NYya-WWg").unwrap();
+    
+    let audio_streams = content.audiostreams;
+    let _dl = audio_streams[0].download(&content.title);
+}
+```
+Trench#3160: Now playing: BTS (방탄소년단) '봄날 (Spring Day)' Official MV
+Lorenzo#6154: it errored
+twitch 🔋#7443: t.jsk py await ctx.player.set_volume(30)
+PikalaxALT#5823: ?tag create "event vs listen"
+**Using bot.event**
+```py
+print(bot.on_message)
+
+@bot.event
+async def on_message(message):
+  # Do custom stuff
+  await bot.process_commands(message)
+
+print(bot.on_message)  # it's different now
+```
+**Using bot.listen**
+```py
+print(bot.on_message)
+
+@bot.listen()
+async def on_message(message):
+  # Do custom stuff
+  # await bot.process_commands(message) # there's no need for this now
+
+print(bot.on_message)  # it hasn't changed
+```
+`listen` is only available on `commands.Bot` -- **NOT** `discord.Client`!!
+For more examples including in cogs: `?tag listener`
+Docs on bot: <https://discordpy.readthedocs.io/en/latest/ext/commands/api.html#discord.ext.commands.Bot.listen>
+Docs in cog: <https://discordpy.readthedocs.io/en/latest/ext/commands/api.html#discord.ext.commands.Cog.listener>
+R. Danny#6348: Tag event vs listen successfully created.
+MrRandom#9258: 
+MrRandom#9258: 
+Lgan#0001: bottom
+Tsubasa#8884: Increase the volume
+Tsubasa#8884: <:dabJuicy:596576797588717588>
+Lgan#0001: I no longer want to use rust
+Lgan#0001: I am now writing a music node in swift
+Tsubasa#8884: t.play unravel
+Trench#3160: Queued TK - unravel HQ [Tokyo Ghoul] FULL
+Trench#3160: Now playing: TK - unravel HQ [Tokyo Ghoul] FULL
+Lgan#0001: just gotta buy a mac first
+Sebastiano#5005: ~help
+Anti Lol#3119: 
+Equity#3464: just use go™️™️
+Sebastiano#5005: ~info
+Anti Lol#3119: 
+Sebastiano#5005: ~invite
+Anti Lol#3119: 
+MrRandom#9258: l-jsk
+Life#2673: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.6 (default, Dec 19 2019, 23:50:13) [GCC 7.4.0]` on `linux`
+Module was loaded 21 hours ago, cog was loaded 21 hours ago.
+
+Using 146.6 MB physical memory and 1.3 GB virtual memory, 134.5 MB of which unique to this process.
+Running on PID 18683 (`python`) with 13 thread(s).
+
+This bot is not sharded and can see 7 guild(s) and 18326 user(s).
+Average websocket latency: 21.05ms
+Lgan#0001: I might go with java
+Lgan#0001: p-jsk
+Server Pets#6679: Jishaku v1.16.3, discord.py `1.3.1`, `Python 3.7.6 (default, Dec 19 2019, 23:50:13) [GCC 7.4.0]` on `linux`
+Module was loaded 2 hours ago, cog was loaded 2 hours ago.
+
+Using 292.3 MB physical memory and 1.5 GB virtual memory, 279.5 MB of which unique to this process.
+Running on PID 18523 (`python`) with 12 thread(s).
+
+This bot is automatically sharded and can see 192 guild(s) and 114276 user(s).
+Average websocket latency: 26.29ms
+randomSphere#4274: ?rtfm remove
+R. Danny#6348: 
+MrRandom#9258: l-avatar <@!628284183579721747>
+Life#2673: 
+Lgan#0001: I know c# how hard can it be
+Life#2673: 
+MrRandom#9258: ok cool
+MrRandom#9258: l_jsk
+Life beta#1705: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.6 (tags/v3.7.6:43364a7ae0, Dec 19 2019, 00:42:30) [MSC v.1916 64 bit (AMD64)]` on `win32`
+Module was loaded 10 minutes ago, cog was loaded 10 minutes ago.
+
+Using 215.6 MB physical memory and 436.4 MB virtual memory, 208.6 MB of which unique to this process.
+Running on PID 9736 (`python.exe`) with 12 thread(s).
+
+This bot is not sharded and can see 14 guild(s) and 98602 user(s).
+Average websocket latency: 111.49ms
+Sebastiano#5005: ~reload misc
+Sebastiano#5005: ~jsk py reload misc
+chickenmatty#4766: e!sho
+Anti Lol#3119: ```py
+Traceback (most recent call last):
+  File "<string>", line 1
+    reload misc
+              ^
+SyntaxError: invalid syntax
+
+```
+Lgan#0001: Nah ill name it "shit"
+chickenmatty#4766: e!shop
+Evangelist#4804: 
+Sebastiano#5005: ~jsk py reload misc.py
+Anti Lol#3119: ```py
+Traceback (most recent call last):
+  File "<string>", line 1
+    reload misc.py
+              ^
+SyntaxError: invalid syntax
+
+```
+twitch 🔋#7443: t.jsk
+Trench#3160: Jishaku v1.18.0, discord.py `1.3.1`, `Python 3.7.5 (default, Nov 20 2019, 09:21:52) [GCC 9.2.1 20191008]` on `linux`
+Module was loaded 2 minutes ago, cog was loaded 2 minutes ago.
+
+Using 82.9 MB physical memory and 1.4 GB virtual memory, 73.6 MB of which unique to this process.
+Running on PID 22847 (`python3`) with 18 thread(s).
+
+This bot is not sharded and can see 7 guild(s) and 15752 user(s).
+Average websocket latency: 105.04ms
+twitch 🔋#7443: <:rooThink:596576798351949847>
+Sebastiano#5005: ~jsk py cogs/reload misc
+Anti Lol#3119: ```py
+Traceback (most recent call last):
+  File "<string>", line 1
+    cogs/reload misc
+                   ^
+SyntaxError: invalid syntax
+
+```
+chickenmatty#4766: e!shop buy 🧬
+Sebastiano#5005: ~jsk reload reload misc
+Anti Lol#3119: 📥⚠ `reload`
+```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/discord/ext/commands/bot.py", line 621, in load_extension
+    lib = importlib.import_module(name)
+ModuleNotFoundError: No module named 'reload'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/cog_base.py", line 204, in jsk_load
+    method(extension)
+discord.ext.commands.errors.ExtensionNotFound: Extension 'reload' could not be loaded.
+
+```
+
+📥⚠ `misc`
+```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/discord/ext/commands/bot.py", line 621, in load_extension
+    lib = importlib.import_module(name)
+ModuleNotFoundError: No module named 'misc'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/cog_base.py", line 204, in jsk_load
+    method(extension)
+discord.ext.commands.errors.ExtensionNotFound: Extension 'misc' could not be loaded.
+
+```
+Evangelist#4804: Alright <@!446650423416193034>, you bought 🧬. Check your backpack.
+chickenmatty#4766: e!bp use 🧬
+Evangelist#4804: Uh I don't think this item can be used...
+MrRandom#9258: l-jsk
+Life#2673: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.6 (default, Dec 19 2019, 23:50:13) [GCC 7.4.0]` on `linux`
+Module was loaded 21 hours ago, cog was loaded 21 hours ago.
+
+Using 146.6 MB physical memory and 1.3 GB virtual memory, 134.5 MB of which unique to this process.
+Running on PID 18683 (`python`) with 13 thread(s).
+
+This bot is not sharded and can see 7 guild(s) and 18326 user(s).
+Average websocket latency: 22.41ms
+chickenmatty#4766: e!shop buy 🔬
+Sebastiano#5005: ~jsk reload cogs/misc.py
+Anti Lol#3119: 📥⚠ `cogs/misc.py`
+```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/discord/ext/commands/bot.py", line 621, in load_extension
+    lib = importlib.import_module(name)
+ModuleNotFoundError: No module named 'cogs/misc'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/cog_base.py", line 204, in jsk_load
+    method(extension)
+discord.ext.commands.errors.ExtensionNotFound: Extension 'cogs/misc.py' could not be loaded.
+
+```
+Evangelist#4804: Alright <@!446650423416193034>, you bought 🔬. Check your backpack.
+MrRandom#9258: l_jsk
+Life beta#1705: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.6 (tags/v3.7.6:43364a7ae0, Dec 19 2019, 00:42:30) [MSC v.1916 64 bit (AMD64)]` on `win32`
+Module was loaded 10 minutes ago, cog was loaded 10 minutes ago.
+
+Using 216.1 MB physical memory and 436.8 MB virtual memory, 208.8 MB of which unique to this process.
+Running on PID 9736 (`python.exe`) with 14 thread(s).
+
+This bot is not sharded and can see 14 guild(s) and 98602 user(s).
+Average websocket latency: 107.01ms
+chickenmatty#4766: e!bp use 🔬
+Evangelist#4804: Uh I don't think this item can be used...
+chickenmatty#4766: mhh
+chickenmatty#4766: e!bp
+Evangelist#4804: 
+chickenmatty#4766: e!bp use 🚿
+Evangelist#4804: The item was used... I wonder what happened?
+Tsubasa#8884: e!shop
+Evangelist#4804: 
+Lgan#0001: p-dbl
+Server Pets#6679: 
+Sebastiano#5005: ~info
+Anti Lol#3119: 
+MrRandom#9258: l-help
+Life#2673: 
+MrRandom#9258: l_help
+Life beta#1705: 
+twitch 🔋#7443: t.help
+Trench#3160: ```
+Trench is a music bot that doesn't work so don't even try.
+
+Misc:
+  about     
+  musicinfo 
+  ping      
+Music:
+  play      Play music from many sources
+  queue     
+​No Category:
+  help      Shows this message
+
+Type t.help command for more info on a command.
+You can also type t.help category for more info on a category.
+```
+twitch 🔋#7443: t.ping
+Trench#3160: Typing: `183ms` :keyboard:
+Heartbeat: `123ms` :heartbeat:
+Lgan#0001: Hey java files end with `.java`, right?
+Tsubasa#8884: Yes
+twitch 🔋#7443: no they end in .py
+MrRandom#9258: l-jsk py await guild.me.edit(nick=None)
+Lgan#0001: thanks
+Tsubasa#8884: Lmao twitch
+Equity#3464: yall both wrong
+twitch 🔋#7443: .go
+Equity#3464: they end in `.as`
+Equity#3464: <:mmLul:596577058642198538>
+Away#1337: do run c++
+```cpp
+#include <iostream>
+
+namespace HelloWorld
+{
+    struct HelloWorld
+    {
+        const char* HelloWorld;
+    };
+}
+
+
+
+void loopOverThis(char* characterLooper)
+{
+    size_t arraySize = 11;
+    char* arrayForLooping = new char[arraySize];
+    for (int i = 0; i < arraySize; i++)
+    {
+        arrayForLooping[i] = characterLooper[i];
+    }
+    for (int i = 0; i < arraySize; i++)
+    {
+        std::cout << *(arrayForLooping+i);
+    }
+    delete[] arrayForLooping;
+}
+
+
+void main()
+{
+    HelloWorld::HelloWorld HeyWorld;
+    HelloWorld::HelloWorld* HelloWorld = &HeyWorld;
+    HelloWorld->HelloWorld = "Hello World";
+    char* Heyoo = (char*)malloc(sizeof(char[11]));
+    for (int i = 0; i < 11; i++)
+    {
+        Heyoo[i] = HelloWorld->HelloWorld[i];
+    }
+    loopOverThis(static_cast<char*>(Heyoo));
+    free(Heyoo);
+    
+}```
+RTFM#1338: ```ph
+.code.tio.cpp:29:11: error: ‘::main’ must return ‘int’
+ void main()
+           ^
+/srv/wrappers/cpp-gcc: line 5: ./.bin.tio: No such file or directory
+
+Exit code: 127```
+Away#1337: HeMlo WorlD
+Equity#3464: wtf away
+lambda#0987: they end in .java, compiled they end in .class
+Equity#3464: using malloc in cpp
+Away#1337: yes
+Away#1337: the point is for it to be retarded
+Equity#3464: ~~oh ur good at that~~
+Sebastiano#5005: ~jsk reload cogs/misc.py
+Anti Lol#3119: 📥⚠ `cogs/misc.py`
+```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/discord/ext/commands/bot.py", line 621, in load_extension
+    lib = importlib.import_module(name)
+ModuleNotFoundError: No module named 'cogs/misc'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/cog_base.py", line 204, in jsk_load
+    method(extension)
+discord.ext.commands.errors.ExtensionNotFound: Extension 'cogs/misc.py' could not be loaded.
+
+```
+Equity#3464: na jk
+Away#1337: nice
+Sebastiano#5005: ~jsk reload /cogs/misc.py
+Anti Lol#3119: 📥⚠ `/cogs/misc.py`
+```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/discord/ext/commands/bot.py", line 621, in load_extension
+    lib = importlib.import_module(name)
+ModuleNotFoundError: No module named '/cogs/misc'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/cog_base.py", line 204, in jsk_load
+    method(extension)
+discord.ext.commands.errors.ExtensionNotFound: Extension '/cogs/misc.py' could not be loaded.
+
+```
+Sebastiano#5005: ~jsk reload cogs/misc.pys
+Anti Lol#3119: 📥⚠ `cogs/misc.pys`
+```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/discord/ext/commands/bot.py", line 621, in load_extension
+    lib = importlib.import_module(name)
+ModuleNotFoundError: No module named 'cogs/misc'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/cog_base.py", line 204, in jsk_load
+    method(extension)
+discord.ext.commands.errors.ExtensionNotFound: Extension 'cogs/misc.pys' could not be loaded.
+
+```
+Sebastiano#5005: ~jsk reload cog.misc
+Anti Lol#3119: 📥⚠ `cog.misc`
+```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/discord/ext/commands/bot.py", line 621, in load_extension
+    lib = importlib.import_module(name)
+ModuleNotFoundError: No module named 'cog'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.7/site-packages/jishaku/cog_base.py", line 204, in jsk_load
+    method(extension)
+discord.ext.commands.errors.ExtensionNotFound: Extension 'cog.misc' could not be loaded.
+
+```
+Sebastiano#5005: ~jsk reload cogs.misc
+Anti Lol#3119: 🔁 `cogs.misc`
+Sebastiano#5005: ~reload misc.py
+Anti Lol#3119: 
+Sebastiano#5005: ops quel comando era in misc
+Evangelist#4804: 『Mugiman』#3310 has been infected. 337 infected so far...
+PikalaxBOT#8243: <@361158149371199488> get infected nerd
+Tsubasa#8884: <:yert:596577410888105995>
+『Mugiman』#3310: <@!170736535790944256> fuck you lol
+PikalaxBOT#8243: <@361158149371199488>: he can still get practice group points for being present even though i forgot that we need for it all makes sense
+Tsubasa#8884: <@170736535790944256> huh
+PikalaxBOT#8243: <@!302467968095223820>: and also we should just put all of those shows that leaves you confused while it slowly pieces things together, which can be a way to my friend's very late Christmas present. I'm almost done coloring but wanted a grade of 3-5 (aka average to best) and now i'm paranoid this morning
+Tsubasa#8884: <@170736535790944256> yo
+PikalaxBOT#8243: <@!302467968095223820>: but i was asked to disable the command
+Tsubasa#8884: <@170736535790944256> toad
+PikalaxBOT#8243: <@!302467968095223820>: One of my dog unexpectedly, but I didn't choose the manga life, the manga life chose me
+Tsubasa#8884: <@170736535790944256> danny
+PikalaxBOT#8243: <@!302467968095223820>: this is the best public transport option is a nice place with reindeer. Me and my family needed that many for making a fun game than that <:Kappa:592401882379714561>
+Tsubasa#8884: <:waitwhat:596577409768226816>
+NeKit[DS]#1110: ?ratelimit
+NeKit[DS]#1110: ?tag search rate
+R. Danny#6348: 
+NeKit[DS]#1110: ?tag ratelimit
+R. Danny#6348: ```
+REST:
+        POST Message |  5/5s    | per-channel
+      DELETE Message |  5/1s    | per-channel
+ PUT/DELETE Reaction |  1/0.25s | per-channel
+        PATCH Member |  10/10s  | per-guild
+   PATCH Member Nick |  1/1s    | per-guild
+      PATCH Username |  2/3600s | per-account
+      |All Requests| |  50/1s   | per-account
+WS:
+     Gateway Connect |   1/5s   | per-account
+     Presence Update |   5/60s  | per-session
+ |All Sent Messages| | 120/60s  | per-session```
+Sebastiano#5005: ~jsk reload cogs.owner
+Anti Lol#3119: 🔁 `cogs.owner`
+Sebastiano#5005: ~reload misc.py
+Anti Lol#3119: 
+spoopy🍡#0567: e!info <@109379894718234624>
+Evangelist#4804: 
+『Mugiman』#3310: \<@361158149371199488>
+『Mugiman』#3310: <@!361158149371199488>
+spoopy🍡#0567: e!info <@112684233302011904>
+Evangelist#4804: 
+spoopy🍡#0567: plsbeta eval await ctx.send("e!shop")
+Satori#0668: e!shop
+Evangelist#4804: 
+『Mugiman』#3310: \@Mr. Waifu#2009
+『Mugiman』#3310: hm
+『Mugiman』#3310: 361158149371199488
+『Mugiman』#3310: <@!392130312383234049>
+『Mugiman』#3310: o
+twitch 🔋#7443: <:rooThink:596576798351949847>
+Tsubasa#8884: ?tag cache
+R. Danny#6348: Tag not found. Did you mean...
+new message cache
+cactus
+apache
+Naegin#0049: disco ping
+Disco#2037: <:discoWireless:512871778872459266> **Ping**: **`148ms`**
+Mellow#0025: ?tag abuse
+R. Danny#6348: Discord has a very loose interpretation of API abuse; as quoted by them:
+
+```
+American Jake01/21/2018
+@Danny automating the API in that way /is/ abuse. Automatically doing "X" every N is generally not a good idea. Where X could be posting a message, changing someone's nickname, renaming a role, changing a channel topic, etc... 
+
+Generally bots should only react to user actions... 
+
+Although, for very large N we generally don't care. But for small N, we do care. Think rainbow bots, etc....
+```
+
+"N" is not really defined, as rate limits are not a good thing to try to get very close to. You're going to have to mostly use common sense here, compare how close you are the rate limit, how often you do this, etc.
+Sebastiano#5005: ~reload misc.py
+Tsubasa#8884: ?tag new message cache
+Anti Lol#3119: 
+R. Danny#6348: Client._connection._messages **v1.1.0 andup  only**
+Equity#3464: disco help
+Disco#2037: <@!373256462211874836>
+Sebastiano#5005: ~jsk reload cogs.misc
+Anti Lol#3119: 🔁 `cogs.misc`
+Sebastiano#5005: ~info
+Anti Lol#3119: 
+Equity#3464: disco botinfo
+Equity#3464: disco help botinfo
+Disco#2037: <@!373256462211874836>
+Disco#2037: <@!373256462211874836>
+Tsubasa#8884: ?rtfm cache
+R. Danny#6348: 
+『Mugiman』#3310: ?help
+R. Danny#6348: 
+『Mugiman』#3310: ?rtfm content
+R. Danny#6348: 
+『Mugiman』#3310: ?rtfm message
+R. Danny#6348: 
+Lgan#0001: That scared nme
+aknalumos#7317: what?
+aknalumos#7317: t.np
+twitch 🔋#7443: sorry
+aknalumos#7317: wor
+aknalumos#7317: t.ping
+Trench#3160: Typing: `207ms` :keyboard:
+Heartbeat: `101ms` :heartbeat:
+aknalumos#7317: t.play world domination neru p
+Trench#3160: Queued [Eng Sub] World Domination How-To [Kagamine Rin・Len]
+Trench#3160: Now playing: [Eng Sub] World Domination How-To [Kagamine Rin・Len]
+Lgan#0001: Ok idk how to make an audio player
+Lgan#0001: ?tag lavalink
+R. Danny#6348: **Looking to set up a Lavalink server?**
+It's pretty simple to do so, and I'll show you here.
+
+**Setup**
+Download the latest `Lavalink.jar` from <https://github.com/Frederikam/Lavalink/releases> here and place an `application.yml` file in the same directory. The file should look like <https://github.com/Frederikam/Lavalink/blob/master/LavalinkServer/application.yml.example> this.
+
+**Starting it**
+Cd into your lavalink directory: e.g `cd <directory>`
+Run `java -jar Lavalink.jar`
+Check that it started successfully.
+*You preferably, should use a process manager for this in the future*
+
+**Using it!**
+See `?tag lavalink.py` for more information on Lavalink.py, `?tag pylava` for info on the Pylava library, or `?tag waterlink` for more info on the Waterlink library.
+Lgan#0001: <@!440113725970710528> hey i give up
+Chiky#5518: 
+Tatsu#8792: `-->` WolveZx è arrivato su Discord Bots Italia
+Tatsu#8792: 
+Chiky#5518: 
+Chiky#5518: 
+twitch 🔋#7443: sad
+Equity#3464: ?tag lcpp
+R. Danny#6348: Tag not found. Did you mean...
+lc
+Equity#3464: ?tag lc
+R. Danny#6348: https://www.pythonforbeginners.com/basics/list-comprehensions-in-python
+Lgan#0001: idk where to start or what to do
+Chiky#5518: 
+Tatsu#8792: `<--` WolveZx è uscito da Discord Bots Italia
+Chiky#5518: 
+Tatsu#8792: 
+Chiky#5518: 
+Dutchy#6127: I forgot where I was with the rewrite <:GWpieHyperS:393085077866938368>
+WolveZx#6964: 
+PostIt#4899: 
+Dutchy#6127: eh
+Dutchy#6127: crêpe
+Lgan#0001: guess ill do some pixel art
+PostIt#4899: 
+aknalumos#7317: do me :>
+Dutchy#6127: ew
+aknalumos#7317: t.play idola circus neru p
+Dutchy#6127: <:GWtloLaugh:399972379926724610>
+Trench#3160: Queued Neru - イドラのサーカス(Idola Circus) feat. Kagamine Rin
+Trench#3160: Now playing: Neru - イドラのサーカス(Idola Circus) feat. Kagamine Rin
+aknalumos#7317: wot :<
+Dutchy#6127: "do me"
+Dutchy#6127: *do* me
+aknalumos#7317: you take it your own way <:fufu:605255050289348620>
+Dutchy#6127: <:GWtloLaugh:399972379926724610>
+Dutchy#6127: I just noticed discord hasnt updated on my pc yet
+Dutchy#6127: which is good, means I can still enjoy it without the annoying message highlighting
+aknalumos#7317: they barely update the app on android
+Dutchy#6127: true
+aknalumos#7317: <:facepalm:444516764454486017>
+Dutchy#6127: codeblock colored markdown when
+Dutchy#6127: embed fix when
+aknalumos#7317: <:widu:470083327571787776>
+Dutchy#6127: /giphy when
+Maiakel#0325: ?rtfm py random.sample
+R. Danny#6348: 
+Maiakel#0325: e!sttae
+Maiakel#0325: e!state
+Maiakel#0325: e!stats
+Evangelist#4804: 
+aknalumos#7317: I doubt any human being vocal would be this high <:facepalm:444516764454486017>
+Maiakel#0325: e!info <@214128381762076672>
+Evangelist#4804: 
+Maiakel#0325: e!hug <@214128381762076672>
+Evangelist#4804: How do you expect to hug someone as a rotting corpse?
+Maiakel#0325: ;-;
+aknalumos#7317: <:fefe:627674131349110784>
+aknalumos#7317: t.play re-education neru p
+Trench#3160: Queued Kagamine Rin and Len - Re-Education (再教育)
+Trench#3160: Now playing: Kagamine Rin and Len - Re-Education (再教育)
+Maiakel#0325: wait u from china? <@214128381762076672>
+Lgan#0001: uh, i think i broke vsc
+aknalumos#7317: nu
+aknalumos#7317: I'm from vietnam
+aknalumos#7317: right underneath
+Maiakel#0325: ah
+aknalumos#7317: <:fufu:605255050289348620>
+Maiakel#0325: idk where is it lmao
+lambda#0987: <@285148358815776768> can u set up a bot to scrape <#674833398744743936> and update cm/page dead accordingly
+aknalumos#7317: yea
+Connor#8645: e!info
+Evangelist#4804: 
+aknalumos#7317: just somewhere below china
+Connor#8645: What
+aknalumos#7317: <a:8994_TohruThumbsUp:531060438490677258>
+Connor#8645: e!bp
+Evangelist#4804: 
+Maiakel#0325: oof
+randomSphere#4274: https://twitter.com/BarnettElectra/status/1227260078492966913?s=19
+Connor#8645: e!bp use 🚿
+Evangelist#4804: The item was used... I wonder what happened?
+Dutchy#6127: rw jsk load core.cogs.settings
+Charles#5244: 📥⚠ `core.cogs.settings`
+```py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 596, in _load_from_module_spec
+    spec.loader.exec_module(lib)
+NameError: name 'groupExtra' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/jishaku/cog_base.py", line 199, in jsk_load
+    method(extension)
+discord.ext.commands.errors.ExtensionFailed: Extension 'core.cogs.settings' raised an error: NameError: name 'groupExtra' is not defined
+
+```
+Maiakel#0325: virus is spreading so fast
+Connor#8645: e!bp use 🧼
+Evangelist#4804: The item was used... I wonder what happened?
+Dutchy#6127: eh
+Dutchy#6127: wot
+Dutchy#6127: o
+Maiakel#0325: noob error
+NCPlayz#7941: scratch by MIGoat
+aknalumos#7317: ?tag search death:
+R. Danny#6348: 
+Connor#8645: e!bp use 🛏️
+Evangelist#4804: The item was used... I wonder what happened?
+aknalumos#7317: <a:8994_TohruThumbsUp:531060438490677258>
+Connor#8645: e!bp info
+Evangelist#4804: 
+Connor#8645: e!bp info
+Evangelist#4804: 
+Maiakel#0325: fuzzy
+Xua#1137: my death isnt on there <:feelsbadman:473997964109676547>
+Connor#8645: oof
+twitch 🔋#7443: sad
+Connor#8645: e!info
+Evangelist#4804: 
+aknalumos#7317: <:fefe:627674131349110784>
+Connor#8645: e!info 🚿
+Maiakel#0325: <@293555442670370817> werent u healer?
+Lgan#0001: jesus
+aknalumos#7317: ?tag death: trench
+R. Danny#6348: https://cdn.discordapp.com/attachments/381963689470984203/676665613506314241/unknown.png
+Connor#8645: e!bp use 🚿
+Evangelist#4804: The item was used... I wonder what happened?
+Connor#8645: No
+Dutchy#6127: rw jsk load core.cogs.settings
+Charles#5244: 📥⚠ `core.cogs.settings`
+```py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 596, in _load_from_module_spec
+    spec.loader.exec_module(lib)
+NameError: name 're' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/jishaku/cog_base.py", line 199, in jsk_load
+    method(extension)
+discord.ext.commands.errors.ExtensionFailed: Extension 'core.cogs.settings' raised an error: NameError: name 're' is not defined
+
+```
+Connor#8645: e!info
+Evangelist#4804: 
+Dutchy#6127: ffs
+Connor#8645: e!bp
+Evangelist#4804: 
+Maiakel#0325: reeee
+Connor#8645: e!store
+Evangelist#4804: 
+Paddi#9718: !rtfm user.getname
+R. Danny#6348: Could not find anything. Sorry.
+Paddi#9718: !rtfm user.get
+R. Danny#6348: 
+Dutchy#6127: rw jsk load core.cogs.setting
+Charles#5244: 📥⚠ `core.cogs.setting`
+```py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/jishaku/cog_base.py", line 199, in jsk_load
+    method(extension)
+discord.ext.commands.errors.ExtensionNotFound: Extension 'core.cogs.setting' could not be loaded.
+
+```
+Dutchy#6127: rw jsk load core.cogs.settings
+Charles#5244: 📥 `core.cogs.settings`
+Dutchy#6127: ah
+Connor#8645: e!store buy 🎁
+Evangelist#4804: Alright <@293555442670370817>, you bought 🎁. Check your backpack.
+Paddi#9718: !author.getname
+Dutchy#6127: rw jsk len(set(_bot.walk_commands()))
+Paddi#9718: !rtfm author.get
+R. Danny#6348: Could not find anything. Sorry.
+Connor#8645: e!store buy 🎁
+Evangelist#4804: Hm.. doesn't seem like you can buy that one bub.
+Dutchy#6127: rw jsk py len(set(_bot.walk_commands()))
+Charles#5244: 187
+Dutchy#6127: //jsk py len(set(_bot.walk_commands()))
+Charles#5244: 275
+Connor#8645: e!bp use 🎁
+Evangelist#4804: Got a letter saying that Connor#8645 isn't with us anymore. Can you believe we have 58 dead to this thing?
+Evangelist#4804: The item was used... I wonder what happened?
+aknalumos#7317: lol
+Xua#1137: g!dev eval len(set(ctx.bot.walk_commands()))
+MostDefinitelyGrant2#9892: ```
+109```
+Connor#8645: Wtf
+Xua#1137: aha
+Xua#1137: rip
+Connor#8645: Fuck me
+aknalumos#7317: ?tag make
+R. Danny#6348: Hello. What would you like the name tag to be?
+aknalumos#7317: death: connor
+R. Danny#6348: Neat. So the name is death: connor. What about the tag's content? **You can type ?abort to abort the tag make process.**
+Dutchy#6127: //jsk py c = _bot.get_cog("Test")
+len(set(c.walk_commands()))
+Charles#5244: 53
+aknalumos#7317: 
+R. Danny#6348: Tag death: connor successfully created.
+aknalumos#7317: <a:8994_TohruThumbsUp:531060438490677258>
+Dutchy#6127: still missing 50 commands <:rooThink:596576798351949847>
+Quadrum#4350: ?death: connor
+Connor#8645: :(
+twitch 🔋#7443: akna
+twitch 🔋#7443: i want you to know i am still angry at you
+Quadrum#4350: ?tag death: connor
+R. Danny#6348: https://cdn.discordapp.com/attachments/381963689470984203/676889340210577437/Screenshot_20200211-123619_Discord.jpg
+Xua#1137: im still angry at starr
+aknalumos#7317: t.play tokyo teddy bear neru p
+Trench#3160: Queued Neru - 東京テディベア(Tokyo Teddy Bear) feat. Kagamine Rin
+Trench#3160: Now playing: Neru - 東京テディベア(Tokyo Teddy Bear) feat. Kagamine Rin
+Xua#1137: shot me in my sleep
+Equity#3464: ??jsk py "e!info")
+hmmm#3441: ```py
+Traceback (most recent call last):
+  File "<string>", line 1
+    "e!info")
+            ^
+SyntaxError: EOF in multi-line statement
+
+```
+aknalumos#7317: i love you twitch :>
+Equity#3464: ??jsk py "e!info"
+hmmm#3441: e!info
+Evangelist#4804: 
+Connor#8645: e!shop
+Evangelist#4804: 
+Connor#8645: e!info
+Evangelist#4804: 
+Equity#3464: ??jsk git pull
+hmmm#3441: ```sh
+$ git pull
+
+```
+Page 1/1
+aknalumos#7317: ?tag death: cy
+R. Danny#6348: https://cdn.discordapp.com/attachments/381963689470984203/675813627567144970/unknown.png
+Connor#8645: e!bp
+Evangelist#4804: 
+Quadrum#4350: e!bp
+Evangelist#4804: 
+Connor#8645: e!bp use 🚿
+Evangelist#4804: Can't let you do that chief.
+Quadrum#4350: e!shop
+Evangelist#4804: 
+aknalumos#7317: <:fefe:627674131349110784>
+aknalumos#7317: ded
+Dutchy#6127: rw help
+Charles#5244: 
+Connor#8645: Why can’t a corpse take a shower that’s racist
+aknalumos#7317: showering zombie <:fufu:605255050289348620>
+Connor#8645: Zombies gotta stay clean
+aknalumos#7317: i donn know
+aknalumos#7317: xD
+Dutchy#6127: //jsk py c = _bot.get_cog("YTT")
+len(set(c.walk_commands()))
+Charles#5244: 8
+Dutchy#6127: hm
+Dutchy#6127: //jsk py c = _bot.get_cog("Owner")
+len(set(c.walk_commands()))
+Charles#5244: 33
+『Mugiman』#3310: ?tag message.emojis
+R. Danny#6348: Tag not found. Did you mean...
+message ==
+message
+message __eq__
+Xua#1137: g!dev eval {c.qualified_name: len(set(c.walk_commands())) for c in ctx.bot.cogs.values()}
+MostDefinitelyGrant2#9892: ```
+{'API': 3, 'BotList': 3, 'CustomCommands': 3, 'Developers': 29, 'Games': 1, 'ErrorHandler': 0, 'Information': 2, '2401536d-3322-48b2-9962-9a8f8c2ada3d': 0, 'Locale': 4, '5ec51ee3-a7ed-4ff0-ad37-e11af2837f4f': 0, 'Logging': 4, 'Dank': 3, 'Moderation': 11, 'Random': 9, 'BotRating': 9, 'Reminders': 4, 'Songs': 2, 'Tags': 9, 'Utilities': 13}```
+aknalumos#7317: dang I miss vocaloid
+Dutchy#6127: rw jsk py c = _bot.get_cog("Owner")
+len(set(c.walk_commands()))
+Charles#5244: 32
+『Mugiman』#3310: ?tag message
+R. Danny#6348: yes
+Xua#1137: <:oneEye:230106059438686209>
+Dutchy#6127: huh
+Xua#1137: secret cogs
+『Mugiman』#3310: ?rtfm message.emoji
+R. Danny#6348: Could not find anything. Sorry.
+twitch 🔋#7443: 👁️
+『Mugiman』#3310: ?rtfm message
+R. Danny#6348: 
+aknalumos#7317: t.play ievan polka
+Trench#3160: Queued Loituma - Ievan Polkka
+Trench#3160: Now playing: Loituma - Ievan Polkka
+twitch 🔋#7443: imagine using cogs
+『Mugiman』#3310: hl
+aknalumos#7317: t.skip
+twitch 🔋#7443: trench uses on message commands
+aknalumos#7317: t.skip
+twitch 🔋#7443: t.jsk py await ctx.player.stop()
+aknalumos#7317: aye
+aknalumos#7317: t.play ievan polka hatsune miku
+Trench#3160: Queued Hatsune Miku "Ievan Polkka" Project Diva Dreamy Theatre (HD)
+Trench#3160: Now playing: Hatsune Miku "Ievan Polkka" Project Diva Dreamy Theatre (HD)
+aknalumos#7317: <:facepalm:444516764454486017>
+aknalumos#7317: classic
+Dutchy#6127: //jsk py c = _bot.get_cog("Info")
+len(set(c.walk_commands()))
+Charles#5244: 20
+Dutchy#6127: rw jsk py c = _bot.get_cog("Info")
+len(set(c.walk_commands()))
+Charles#5244: 20
+Dutchy#6127: //jsk py c = _bot.get_cog("Images")
+len(set(c.walk_commands()))
+Charles#5244: 12
+Dutchy#6127: rw jsk py c = _bot.get_cog("Images")
+len(set(c.walk_commands()))
+Charles#5244: 11
+Dutchy#6127: hmmmm
+『Mugiman』#3310: ?tag fetch
+R. Danny#6348: .
+R. Danny#6348: <@373256462211874836>, 6 hours ago: `?tag learnsql`
+
+<https://discordapp.com/channels/336642139381301249/381963689470984203/676800266485497860>
+『Mugiman』#3310: ?rtfm fetch_message
+R. Danny#6348: 
+Dutchy#6127: //help images
+Charles#5244: 
+Dutchy#6127: rw help images
+Equity#3464: nah
+DuckMasterAl#0001: ?rtfm channe;
+R. Danny#6348: Could not find anything. Sorry.
+Dutchy#6127: ah
+DuckMasterAl#0001: ?rtfm channel
+R. Danny#6348: 
+DuckMasterAl#0001: ?rtfm get_channel
+R. Danny#6348: 
+twitch 🔋#7443: sad
+twitch 🔋#7443: t.play sweat little jean
+Trench#3160: Queued Cage The Elephant - Sweetie Little Jean (Audio)
+Trench#3160: Now playing: Cage The Elephant - Sweetie Little Jean (Audio)
+Lorenzo#6154: //play wataridori
+Charles#5244: 
+Charles#5244: 
+Dutchy#6127: rw help
+Charles#5244: 
+Dutchy#6127: rw jsk py c = _bot.get_cog("Fun")
+len(set(c.walk_commands()))
+Charles#5244: 20
+Dutchy#6127: //jsk py c = _bot.get_cog("Fun")
+len(set(c.walk_commands()))
+Charles#5244: 17
+Dutchy#6127: huh
+Dutchy#6127: ok
+Dutchy#6127: rw jsk py c = _bot.get_cog("Utility")
+len(set(c.walk_commands()))
+Charles#5244: 18
+Dutchy#6127: //jsk py c = _bot.get_cog("Utility")
+len(set(c.walk_commands()))
+Charles#5244: 20
+Dutchy#6127: ah
+Dutchy#6127: rw help utility
+Dutchy#6127: ffs
+Dutchy#6127: rw jsk dbg help utility
+Charles#5244: Command `help` finished in 0.251s.
+Maiakel#0325: oof
+Dutchy#6127: damn typos
+Lorenzo#6154: //loop
+Lorenzo#6154: //repeat
+Charles#5244: 
+Lorenzo#6154: ugh
+Xua#1137: >votelock
+Lorenzo#6154: //repeat
+Charles#5244: 
+Lorenzo#6154: I voted
+Lorenzo#6154: :picardy:
+Emote Collector#3350: <:picardy:633797439438061579>
+twitch 🔋#7443: imagine vote locking
+Dutchy#6127: //help voteremind
+Charles#5244: 
+Dutchy#6127: :picardy:
+Emote Collector#3350: <:picardy:633797439438061579>
+twitch 🔋#7443: vote lock volume or something
+twitch 🔋#7443: or nothing
+Xua#1137: imagine vote locking anything
+Dutchy#6127: votelock help
+Evangelist#4804: sxhxbx#0001 is officially infected. Feel free to stay away from them and 337 more.
+PikalaxBOT#8243: <@415610937303760921> get infected nerd
+twitch 🔋#7443: i can only imagine vote locking volume because of resources
+Dutchy#6127: rw jsk reload cogs.help
+Charles#5244: 🔁 `cogs.help`
+twitch 🔋#7443: but literally nothing else
+Dutchy#6127: rw help utility
+Charles#5244: 
+just blake#0552: ;;eval
+await bot.socket_stats()
+Ictoan#2967: ```py
+PRESENCE_UPDATE | 17508
+CHANNEL_CREATE | 52
+MESSAGE_CREATE | 367
+None | 38
+GUILD_MEMBER_UPDATE | 26
+MESSAGE_REACTION_REMOVE_ALL | 1
+GUILD_MEMBER_REMOVE | 1
+TYPING_START | 258
+MESSAGE_DELETE | 12
+MESSAGE_UPDATE | 47
+VOICE_STATE_UPDATE | 8
+MESSAGE_REACTION_ADD | 71
+READY | 1
+GUILD_CREATE | 5
+GUILD_MEMBERS_CHUNK | 16
+MESSAGE_REACTION_REMOVE | 4
+
+```
+Dutchy#6127: //help utility
+Charles#5244: 
+twitch 🔋#7443: t.play rasputin
+Trench#3160: Queued RASPUTIN - Vladimir Putin - Love The Way You Move (Funk Overload) @slocband
+Trench#3160: Now playing: RASPUTIN - Vladimir Putin - Love The Way You Move (Funk Overload) @slocband
+twitch 🔋#7443: what
+twitch 🔋#7443: t.jsk py await ctx.player.stop()
+twitch 🔋#7443: t.play https://open.spotify.com/track/5lWSa1rmuSL6OBPOnkAqoa?si=pBkPZ2D2QQG7SIKjdxSkPQ
+Trench#3160: Queued Rasputin - Boney M.
+Trench#3160: Now playing: Boney M. - Rasputin
+Lorenzo#6154: //stop
+Charles#5244: 
+Lorenzo#6154: any functioning bots
+Lorenzo#6154: music bot
+Lorenzo#6154: s
+Dutchy#6127: //jsk py c = _bot.get_cog("Utility")
+set(c.walk_commands())
+Charles#5244: {<utils.default.GroupPlus object at 0x7ff768a48070>, <utils.default.commandsPlus object at 0x7ff768a3c880>, <utils.default.commandsPlus object at 0x7ff768a480a0>, <utils.default.commandsPlus object at 0x7ff768a48130>, <discord.ext.commands.core.Command object at 0x7ff768a481f0>, <utils.default.commandsPlus object at 0x7ff768a482e0>, <utils.default.commandsPlus object at 0x7ff768a3cb20>, <utils.default.commandsPlus object at 0x7ff768a3cb50>, <utils.default.commandsPlus object at 0x7ff768a483d0>, <utils.default.commandsPlus object at 0x7ff768a3cc40>, <utils.default.commandsPlus object at 0x7ff768a48490>, <utils.default.commandsPlus object at 0x7ff768a3ccd0>, <utils.default.commandsPlus object at 0x7ff768a48520>, <utils.default.commandsPlus object at 0x7ff768a3cd60>, <utils.default.commandsPlus object at 0x7ff768a485b0>, <utils.default.commandsPlus object at 0x7ff768a3cdf0>, <utils.default.commandsPlus object at 0x7ff768a48640>, <utils.default.commandsPlus object at 0x7ff768a3ce80>, <utils.default.commandsPlus object at 0x7ff768a3cf10>, <utils.default.commandsPlus object at 0x7ff768a3cfa0>}
+twitch 🔋#7443: trench doesn't work
+Xua#1137: dj doesnt either :[
+twitch 🔋#7443: if only i had eval acess
+Lorenzo#6154: amazing
+twitch 🔋#7443: one node works
+twitch 🔋#7443: dj play test
+Dutchy#6127: //jsk py c = _bot.get_cog("Utility")
+', '.join([x.name for x in set(c.walk_commands())])
+Charles#5244: rtfm, voteremind, tr, fraktur, python, aesthetics, tinyurl, reactionroles, boldfaktur, randomcolor, fancy, colorinfo, boldfancy, urban, double, password, smallcaps, poll, strawpoll, hastebin
+Dutchy#6127: rw jsk py c = _bot.get_cog("Utility")
+', '.join([x.name for x in set(c.walk_commands())])
+Charles#5244: hastebin, poll, boldfancy, tinyurl, boldfaktur, fraktur, strawpoll, aesthetic, tr, randomcolor, urban, voteremind, password, smallcaps, colorinfo, double, reactionroles, fancy
+twitch 🔋#7443: dj dc
+DJ#3340: 
+Lorenzo#6154: dj help
+DJ#3340: 
+DJ#3340: Disconnected.
+DJ#3340: 
+twitch 🔋#7443: or not
+twitch 🔋#7443: dj play test
+twitch 🔋#7443: wut
+DJ#3340: 
+DJ#3340: 
+twitch 🔋#7443: oh nice
+twitch 🔋#7443: dj dc
+DJ#3340: Disconnected.
+twitch 🔋#7443: lolo use dj
+Lorenzo#6154: dj play wataridori
+Lgan#0001: lol
+DJ#3340: 
+DJ#3340: 
+twitch 🔋#7443: this server is on a working node
+Lorenzo#6154: dj loop
+Lorenzo#6154: dj repeat
+Lorenzo#6154: uh
+Lorenzo#6154: dj help
+DJ#3340: 
+twitch 🔋#7443: dj loop
+twitch 🔋#7443: lol
+Dutchy#6127: //help
+Charles#5244: 
+Lorenzo#6154: dj playnext
+DJ#3340: 
+Dutchy#6127: //jsk py c = _bot.get_cog("Settings")
+len(set(c.walk_commands()))
+Charles#5244: 35
+Lgan#0001: ghost2 help
+GhostPing#8766: 
+Dutchy#6127: rw jsk py c = _bot.get_cog("Settings")
+len(set(c.walk_commands()))
+Charles#5244: 34
+Dutchy#6127: hm
+Infinity#1806: ?tag emoji
+R. Danny#6348: **How to show emotions for robots:**
+Custom emotes are represented internally in the following format:
+`<:name:id>`
+Where the name is the name of the custom emote, and the ID is the id of the custom emote. 
+For example, `<:python3:232720527448342530>` is the name:id for <:python3:232720527448342530>
+
+When sending *standard* unicode/discord emojis, you just send the unicode character. This is handled differently from language to language, but in python, you can send  `\N{NAME}`, the codepoint, `\uFFFF`, or just the unicode char itself: `🇦` You can get info on this by using the ?charinfo command
+
+You can quickly obtain the `<:name:id>` format by putting a backslash in front of the custom emoji when you put it in your client. 
+Example: `\:python3:` would give you the `<:name:id>` format.
+
+When **adding reactions**, you can either send the unicode for standard emojis, or send `name:id`, *not* `<:name:id>` for custom emojis.
+*New in 1.1.0* You can use `<:name:id>`
+
+**Animated emojis** are the same as above but have an `a` before the name- ie: `<a:name:id>`
+Lgan#0001: Ok dashcord doesnt interfere with the bot
+Lorenzo#6154: dj play 24/7
+DJ#3340: 
+Lorenzo#6154: woops
+DJ#3340: im a spaced otter has removed **Meek Mill - 24/7 feat. Ella Mai [Official Audio]** from the queue.
+twitch 🔋#7443: granitepy is a virus
+Lorenzo#6154: dj 24/7
+DJ#3340: 
+Xua#1137: ?help choosebestof
+R. Danny#6348: 
+twitch 🔋#7443: dj 24/7
+DJ#3340: Enabled 24/7 mode.
+Dutchy#6127: //jsk py c = _bot.get_cog("Moderation")
+len(set(c.walk_commands()))
+Charles#5244: 20
+twitch 🔋#7443: dj 24/7
+DJ#3340: Disabled 24/7 mode.
+Dutchy#6127: rw jsk py c = _bot.get_cog("Moderation")
+len(set(c.walk_commands()))
+Dutchy#6127: rw jsk load core.cogs.moderation
+Charles#5244: 🔁 `core.cogs.moderation`
+Dutchy#6127: rw jsk py c = _bot.get_cog("Moderation")
+len(set(c.walk_commands()))
+Dutchy#6127: huh
+MrRandom#9258: l-jsk
+Life#2673: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.6 (default, Dec 19 2019, 23:50:13) [GCC 7.4.0]` on `linux`
+Module was loaded 22 hours ago, cog was loaded 22 hours ago.
+
+Using 146.6 MB physical memory and 1.3 GB virtual memory, 134.5 MB of which unique to this process.
+Running on PID 18683 (`python`) with 13 thread(s).
+
+This bot is not sharded and can see 7 guild(s) and 18326 user(s).
+Average websocket latency: 24.35ms
+Lgan#0001: ghost2 jsk py print("test")
+Lgan#0001: nice
+Dutchy#6127: //jsk py [x.name for x in set(_bot.walk_commands()) if not isinstance(x, commands.Command) and x.category.lower() == "hidden"]
+Charles#5244: []
+Maiakel#0325: rw help
+Maiakel#0325: saf
+Dutchy#6127: //jsk py [x.name for x in set(_bot.walk_commands()) if x.hidden]
+Charles#5244: ['sudo', 'rtfm', 'editmessage', 'dm', 'guildlist', 'suggestdeny', 'suggestapprove', 'eval', 'configedit', 'botversion', 'supportinvite', 'project-info', 'botblock', 'botunblock', 'load', 'guildblacklist', 'reload', 'add', 'unload', 'remove', 'git', 'setnews', 'getinv', 'createinv', 'global-disable', 'global-enable', 'change', 'playing', 'listening', 'watching', 'nickname', 'avatar', 'reboot', 'msg', 'rainbowline']
+Lgan#0001: getting somewhere
+Maiakel#0325: hm
+Lgan#0001: me?
+twitch 🔋#7443: yessir
+Lgan#0001: Dashcord
+twitch 🔋#7443: ah
+Lgan#0001: Just need to get routing working properly
+Lgan#0001: this aint too bad
+Lgan#0001: Alright i am leaving now
+Lgan#0001: cya
+NCPlayz#7941: <@!396290259907903491> (U) for unclassified
+twitch 🔋#7443: cya
+Lorenzo#6154: is this
+Lorenzo#6154: quart!!
+Lorenzo#6154: 🔫
+Lgan#0001: no
+Lorenzo#6154: good
+Lgan#0001: it actually isnt
+twitch 🔋#7443: ~~it is quart he just won't admit it~~
+Lgan#0001: It is actually fastapi
+Lgan#0001: Wonder if I can write my own web server
+Lgan#0001: <:thinkmon:436537420067110913>
+Lgan#0001: That is something i can write
+twitch 🔋#7443: dewit
+Lorenzo#6154: use aiohttp web
+twitch 🔋#7443: imagine using aiohttp.web
+twitch 🔋#7443: totally can't relate
+Lorenzo#6154: it comes with dpy so comfy no extra deps
+『Mugiman』#3310: ?rtfm message converter
+R. Danny#6348: Could not find anything. Sorry.
+Lgan#0001: I was going to
+Lgan#0001: Not sure why I didn’t
+Dutchy#6127: rw jsk reload ~
+Charles#5244: 🔁 `cogs.owner.dev`
+
+🔁 `cogs.owner.messages`
+
+🔁 `cogs.owner.other`
+
+🔁 `cogs.owner.settings`
+
+🔁 `core.cogs.owner`
+
+🔁 `jishaku`
+
+🔁 `cogs.fun.games`
+
+🔁 `cogs.fun.funny`
+
+🔁 `cogs.fun.random`
+
+🔁 `core.cogs.fun`
+
+🔁 `cogs.info.user`
+
+🔁 `cogs.info.bot`
+
+🔁 `cogs.info.guild`
+
+🔁 `core.cogs.info`
+
+🔁 `cogs.utility.reactionroles`
+
+🔁 `cogs.utility.utility`
+
+🔁 `cogs.utility.fonts`
+
+🔁 `cogs.utility.colors`
+
+🔁 `cogs.utility.polls`
+
+🔁 `core.cogs.utility`
+
+🔁 `cogs.images.animals`
+
+🔁 `cogs.images.funny`
+
+🔁 `cogs.images.nsfw`
+
+🔁 `core.cogs.images`
+
+🔁 `cogs.settings.guild`
+
+🔁 `cogs.settings.bot`
+
+🔁 `cogs.settings.backups`
+
+🔁 `core.cogs.settings`
+
+🔁 `cogs.help`
+
+🔁 `cogs.moderation.banning`
+
+🔁 `cogs.moderation.basic`
+
+🔁 `core.cogs.moderation`
+Lgan#0001: <@!440113725970710528> I will
+Lgan#0001: I have all of Friday off
+『Mugiman』#3310: ?rtfm converter
+R. Danny#6348: 
+twitch 🔋#7443: oh nice
+Lgan#0001: year 6 taster days be like
+twitch 🔋#7443: flex
+Lorenzo#6154: wait but fastapi is
+Dutchy#6127: rw jsk py len(set(_bot.walk_commands()))
+Charles#5244: 188
+Lorenzo#6154: not async
+Lorenzo#6154: 🤔
+Lgan#0001: It is async
+Lorenzo#6154: ```py
+from fastapi import FastAPI
+
+app = FastAPI()
+
+
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+
+
+@app.get("/items/{item_id}")
+def read_item(item_id: int, q: str = None):
+    return {"item_id": item_id, "q": q}```
+Lgan#0001: It accepts both async and sync funcs
+Lorenzo#6154: oh
+Lorenzo#6154: that's p cool
+Lgan#0001: (I think)
+Lorenzo#6154: oh it uses starlette
+Lorenzo#6154: it's p comfy iirc
+Lgan#0001: I need to have a lib that has manual route adding and not just deco
+Evangelist#4804: Ya know, shaming someone for being sick isn't very nice. Protect Edison#6666 and their 338 friends.
+PikalaxBOT#8243: <@82947273561997312> get infected nerd
+Dutchy#6127: I have 37 lines of imports in my testing file <:blobsweats:596577181518266378>
+Dutchy#6127: ```py
+import discord
+import json
+import pytube
+import asyncio
+import youtube_dl
+import os
+import random
+import math
+import aiohttp
+import datetime
+import lyricsgenius
+import multiprocessing
+import zipfile
+from sr_api.client import Client
+import gmailpy
+import time
+
+from PIL import Image, ImageSequence, ImageDraw, ImageFont, ImageOps, ImageEnhance
+from io import BytesIO
+
+from discord.ext import commands, tasks, flags
+from enum import Enum
+from youtube_dl import YoutubeDL
+from collections import namedtuple, OrderedDict
+from geopy.geocoders import Nominatim
+from functools import partial
+from collections import Counter
+from utils.testing import create_embed, changePNGColor
+from utils.default import commandExtra, commandsPlus, GroupPlus
+from utils.translate import get_text
+from utils import checks
+import numpy as np
+from utils.paginator import FieldPages, Pages
+from db import BaseUrls
+
+import email, smtplib, ssl # GMAIL
+
+from email import encoders # GMAIL
+from email.mime.base import MIMEBase # GMAIL
+from email.mime.multipart import MIMEMultipart # GMAIL
+from email.mime.text import MIMEText # GMAIL```
+Dutchy#6127: lmfao
+Dutchy#6127: I never cleaned up the imports whenever I removed a command from the testing file
+twitch 🔋#7443: <:rooThink:596576798351949847>
+randomSphere#4274: ?rtfm edit
+R. Danny#6348: 
+randomSphere#4274: ?rtfm message
+R. Danny#6348: 
+『Mugiman』#3310: ?rtfm emoji
+R. Danny#6348: 
+『Mugiman』#3310: ?rtfm emoji
+R. Danny#6348: 
+『Mugiman』#3310: ?rtfm message
+R. Danny#6348: 
+Dutchy#6127: hmm... I forgot about this command
+Dutchy#6127: //testfight twitch
+Charles#5244: 
+Dutchy#6127: oh
+Dutchy#6127: //r test
+Charles#5244: Reloaded extension **Test.py**
+Dutchy#6127: //testfight twitch
+Charles#5244: 
+Dutchy#6127: bruh
+Dutchy#6127: //r test
+Charles#5244: Reloaded extension **Test.py**
+Dutchy#6127: OH
+Dutchy#6127: right
+Dutchy#6127: //r test
+Charles#5244: Reloaded extension **Test.py**
+Dutchy#6127: //testfight twitch
+Charles#5244: 
+Dutchy#6127: bruh
+twitch 🔋#7443: nice
+Dutchy#6127: //r test
+Charles#5244: Reloaded extension **Test.py**
+Dutchy#6127: //testfight twitch
+Charles#5244: 
+Dutchy#6127: there we go
+Dutchy#6127: just dont know why ur avy messed up
+Dutchy#6127: //testfight <@!547861735391100931>
+Charles#5244: 
+Dutchy#6127: bruh wtf. Why does only my avy work
+Dutchy#6127: //r test
+Charles#5244: Reloaded extension **Test.py**
+Dutchy#6127: //testfight 547861735391100931
+Charles#5244: 
+Dutchy#6127: ...
+Dutchy#6127: //testfight 122043518544904192
+Charles#5244: 
+Dutchy#6127: huh
+Dutchy#6127: stfu
+Dutchy#6127: //r test
+Charles#5244: Reloaded extension **Test.py**
+Dutchy#6127: //testfight 122043518544904192
+Charles#5244: 
+Dutchy#6127: //r test
+Charles#5244: Reloaded extension **Test.py**
+Dutchy#6127: //testfight 122043518544904192
+Charles#5244: 
+Dutchy#6127: hm
+Dutchy#6127: //testfight 357047316680671245
+Charles#5244: 
+Dutchy#6127: ....
+Dutchy#6127: why
+Maiakel#0325: ?
+Dutchy#6127: it doesnt round the avatar for other people for some reason
+Maiakel#0325: pillow?
+Dutchy#6127: mhm
+Maiakel#0325: //testfight Dutchy
+Charles#5244: 
+Maiakel#0325: ok
+Dutchy#6127: //jsk src testfight
+Charles#5244: ```py
+    @checks.testcommand()
+    @commands.command()
+    async def testfight(self, ctx, user1:discord.Member, user2:discord.Member=None):
+        if user2 is None:
+            user2 = ctx.author
+
+        win = random.choice([user1, user2])
+        if win == user1:
+            lose = user2
+        else:
+            lose = user1
+
+        mask = Image.open('db/images/mask_circle.jpg').convert("L")
+        mask = mask.resize((75,75), Image.ANTIALIAS)
+
+        bg = Image.open('db/images/punch.PNG')
+
+        async with aiohttp.ClientSession() as cs:
+            async with cs.get(str(win.avatar_url_as(format="png"))) as r:
+                winner = Image.open(BytesIO(await r.read()))
+                winner = winner.resize((75, 75), Image.ANTIALIAS)
+                try:
+                    bg.paste(winner, (510, 25), winner)
+                except ValueError:
+                    bg.paste(winner, (510, 25), mask)
+
+
+        async with aiohttp.ClientSession() as cs:
+            async with cs.get(str(lose.avatar_url_as(format="png"))) as r:
+                loser = Image.open(BytesIO(await r.read()))
+                loser = loser.resize((75, 75), Image.ANTIALIAS)
+                try:
+                    bg.paste(loser, (160, 10), loser)
+                except ValueError:
+                    bg.paste(loser, (160, 10), mask)
+
+
+        file = BytesIO()
+        bg.save(file, 'png')
+        file.seek(0)
+        bg.close()
+        f = discord.File(fp=file, filename='Punch.png')
+        await ctx.send(embed=discord.Embed(color=self.bot.embed_color, description=f"{win.mention} has knocked out {lose.mention}!").set_image(url="attachment://Punch.png"), file=f)
+
+```
+Page 1/1
+Maiakel#0325: ¯\\_(ツ)\_/¯
+Evangelist#4804: Ya know, shaming someone for being sick isn't very nice. Protect mourn#6439 and their 339 friends.
+PikalaxBOT#8243: <@611248321046118487> get infected nerd
+Mary Johanna#0420: Kid: Dad, why should I use mongodb as my db engine for my discord bot?
+Dad: https://youtu.be/0vPt7GI-2kc
+Kid: say no more
+Dutchy#6127: Lmao
+Dutchy#6127: ?tag search mongo
+R. Danny#6348: 
+Dutchy#6127: ?tag mongo
+R. Danny#6348: Nice guide to connect MongoDB to your bot https://www.linkedin.com/pulse/how-setup-install-run-start-mongodb-windows-64-apurv-gupta?trk=prof-post
+ShinySnover✨#5136: c/invite
+Cryptic#2065: 
+Dutchy#6127: ?tag mongodb
+R. Danny#6348: Nice guide to connect MongoDB to your bot https://www.linkedin.com/pulse/how-setup-install-run-start-mongodb-windows-64-apurv-gupta?trk=prof-post
+Dutchy#6127: ?tag info mongo
+R. Danny#6348: 
+Dutchy#6127: ?tag info mongodb
+R. Danny#6348: 
+PikalaxALT#5823: nice
+Dutchy#6127: ?tag claim mongodb
+R. Danny#6348: Tag owner is still in server.
+Dutchy#6127: O
+Dutchy#6127: > nice
+<@148462033770119168> Nice
+Dutchy#6127: Double nice if it was since 4:2
+PikalaxALT#5823: you win some, you lose some
+Dutchy#6127: @PikalaxALT#5823 I'll do you one better
+Dutchy#6127: Fucking discord
+Dutchy#6127: <@148462033770119168>
+Dutchy#6127: 
+Dutchy#6127: <#448285120634421278>
+ShinySnover✨#5136: al invite
+Albedo#2311: **ShinySnover✨**, for ideal bot usage please, ask the admin or owner to give `MANAGE_MESSAGES` permission to my role
+PikalaxALT#5823: nice
+ShinySnover✨#5136: ok
+Cy#2501: K.sockres
+Kanade#5520: 
+Cy#2501: K.jsk
+Kanade#5520: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.7.5 (default, Nov  7 2019, 10:50:52) [GCC 8.3.0]` on `linux`
+Module was loaded 11 hours ago, cog was loaded 11 hours ago.
+
+Using 74.3 MB physical memory and 550.0 MB virtual memory, 61.7 MB of which unique to this process.
+Running on PID 21841 (`python3`) with 5 thread(s).
+
+This bot is not sharded and can see 4 guild(s) and 15789 user(s).
+Average websocket latency: 235.21ms
+Cy#2501: K.sudo py
+m = type(kanade.core!.Kanade).__module__
+return inspect!.getsourcefile(m)
+Kanade#5520: 
+MrRandom#9258: l-play find the blue
+Life#2673: Added the track **CHAOS;HEAD FIND THE BLUE** to the queue.
+Life#2673: 
+MrRandom#9258: l_play find the blue
+Life beta#1705: Added the track **CHAOS;HEAD FIND THE BLUE** to the queue.
+Life beta#1705: 
+Cy#2501: K.sudo py
+m = type(kanade!.Kanade).module
+return inspect!.getsourcefile(m)
+Kanade#5520: 
+twitch 🔋#7443: jesus
+MrRandom#9258: lmao
+MrRandom#9258: l_leave
+Life beta#1705: Left the voice channel `Music`.
+Cy#2501: K.sudo py return help(inspect!.getsourcefile)
+Kanade#5520: 
+Impaex#3197: ?rtfm channel
+R. Danny#6348: 
+Cy#2501: K.sudo py
+m = type(kanade!.Kanade)
+return inspect!.getsourcefile(m)
+Kanade#5520: 
+Impaex#3197: ?rtfm discord.Channel
+R. Danny#6348: 
+Cy#2501: K.sudo py
+return inspect!.getsourcefile(_bot)
+Kanade#5520: 
+Cy#2501: K.sudo py
+return type(_bot)
+Kanade#5520: 
+Cy#2501: K.sudo py
+return inspect!.getsourcefile(type(_bot))
+Kanade#5520: 
+Cy#2501: K.sudo py
+t = threading.enumerate()[-1]
+return inspect!.getsourcefile(type(t))
+Kanade#5520: 
+Cy#2501: K.sudo py
+t = threading!.enumerate()[-1]
+return inspect!.getsourcefile(type(t))
+Kanade#5520: 
+Cy#2501: K.sudo py
+for t in threading!.enumerate():
+    print(inspect!.getsourcefile(type(t)))
+Kanade#5520: 
+Cy#2501: One is main thread, second is asyncio, last is keep alive handler
+Cy#2501: What are the rest <:thrinking:597590667669274651>
+Cy#2501: K.sudo py return threading!.enumerate()
+Kanade#5520: 
+Zomatree#7757: apt jsk py return threading!.enumerate()
+Champions#1090: [<_MainThread(MainThread, started 140190456186112)>, <Thread(ThreadPoolExecutor-0_0, started daemon 140190305974016)>, <Thread(ThreadPoolExecutor-0_1, started daemon 140190291097344)>, <Thread(ThreadPoolExecutor-0_2, started daemon 140189891839744)>, <Thread(ThreadPoolExecutor-0_3, started daemon 140189883447040)>, <Thread(ThreadPoolExecutor-0_4, started daemon 140189875054336)>, <KeepAliveHandler(Thread-24, started daemon 140189866661632)>]
+Zomatree#7757: apt jsk py [[threading!.Thread(target=lambda: time!.sleep(100)).start() for _ in range(10000)], threading!.enumerate()][-1]
+Champions#1090: ```py
+[<_MainThread(MainThread, started 140190456186112)>, <Thread(ThreadPoolExecutor-0_0, started daemon 140190305974016)>, <Thread(ThreadPoolExecutor-0_1, started daemon 140190291097344)>, <Thread(ThreadPoolExecutor-0_2, started daemon 140189891839744)>, <Thread(ThreadPoolExecutor-0_3, started daemon 140189883447040)>, <Thread(ThreadPoolExecutor-0_4, started daemon 140189875054336)>, <KeepAliveHandler(Thread-24, started daemon 140189866661632)>, <Thread(Thread-25, started 140190215304960)>, <Thread(Thread-26, started 140189856077568)>, <Thread(Thread-27, started 140189779031808)>, <Thread(Thread-28, started 140189770639104)>, <Thread(Thread-29, started 140189762246400)>, <Thread(Thread-30, started 140189410260736)>, <Thread(Thread-31, started 140189401868032)>, <Thread(Thread-32, started 140189393475328)>, <Thread(Thread-33, started 140189385082624)>, <Thread(Thread-34, started 140189376689920)>, <Thread(Thread-35, started 140189368297216)>, <Thread(Thread-36, started 140189359904512)>, <Thread(Thread-37, started 140189351511808)>, <Thread(Thread-38, started 140189343119104)>, <Thread(Thread-39, started 140189334726400)>, <Thread(Thread-40, started 140189326333696)>, <Thread(Thread-41, started 140189317940992)>, <Thread(Thread-42, started 140189309548288)>, <Thread(Thread-43, started 140189301155584)>, <Thread(Thread-44, started 140189292762880)>, <Thread(Thread-45, started 140189284370176)>, <Thread(Thread-46, started 140189275977472)>, <Thread(Thread-47, started 140189267584768)>, <Thread(Thread-48, started 140189259192064)>, <Thread(Thread-49, started 140189250799360)>, <Thread(Thread-50, started 140189242406656)>, <Thread(Thread-51, started 140189234013952)>, <Thread(Thread-52, started 140189225621248)>, <Thread(Thread-53, started 140189217228544)>, <Thread(Thread-54, started 140189208835840)>, <Thread(Thread-55, started 140189200443136)>, <Thread(Thread-56, started 140189192050432)>, <Thread(Thread-57, started 140189183657728)>,
+```
+Page 1/244
+Cy#2501: <:thrinking:597590667669274651>
+Cy#2501: K.sudo py threading!.enumerate()[-2].join()
+Cy#2501: Well rip
+Zomatree#7757: apt jsk
+Cy#2501: K.jsk
+Champions#1090: Jishaku v1.17.1, discord.py `1.3.0a2200+g7af8b31`, `Python 3.7.3 (default, May 13 2019, 16:03:14) [GCC 6.3.0 20170516]` on `linux`
+Module was loaded 9 days ago, cog was loaded 9 days ago.
+
+Using 405.0 MB physical memory and 85.0 GB virtual memory, 452.5 MB of which unique to this process.
+Running on PID 20436 (`python3.7`) with 10007 thread(s).
+
+This bot is not sharded and can see 11 guild(s) and 74880 user(s).
+Average websocket latency: 105.1ms
+Cy#2501: K.jsk
+Cy#2501: <:monkaS:596577132063490060>
+Zomatree#7757: 10k threads <:002lol:466722525469212672>
+Zomatree#7757: 85G virtual ram
+Life#2673: No tracks added for 5 minutes, Leaving the voice channel.
+Silpheed#8747: What's the gold standard for OCR?
+Satoru#6725: 
+Sebastiano#5005: e?reload events
+Sebastiano#5005: e?help male
+Satoru#6725: 
+Sebastiano#5005: e?male dd dd
+Satoru#6725: 
+Sebastiano#5005: e?help
+Satoru#6725: 
+Sebastiano#5005: e?kick dsds
+Sebastiano#5005: e?clear lel
+Sebastiano#5005: <@446650423416193034> no rip
+chickenmatty#4766: O
+chickenmatty#4766: what's happening
+Sebastiano#5005: non va il log
+Sebastiano#5005: ho messo self
+Sebastiano#5005: aspe
+gogurt enjoyer#8035: 
+Satoru#6725: 
+Sebastiano#5005: e?reload events
+Sebastiano#5005: e?clear hey un errore
+Cy#2501: K.jsk source jsk
+Kanade#5520: ```py
+@commands.group(name="jishaku", aliases=["jsk"], hidden=JISHAKU_HIDE,
+                invoke_without_command=True, ignore_extra=False)
+async def jsk(self, ctx: commands.Context):
+    """
+    The Jishaku debug and diagnostic commands.
+
+    This command on its own gives a status brief.
+    All other functionality is within its subcommands.
+    """
+
+    summary = [
+        f"Jishaku v{__version__}, discord.py `{package_version('discord.py')}`, "
+        f"`Python {sys.version}` on `{sys.platform}`".replace("\n", ""),
+        f"Module was loaded {humanize.naturaltime(self.load_time)}, "
+        f"cog was loaded {humanize.naturaltime(self.start_time)}.",
+        ""
+    ]
+
+    if psutil:
+        proc = psutil.Process()
+
+        with proc.oneshot():
+            mem = proc.memory_full_info()
+            summary.append(f"Using {humanize.naturalsize(mem.rss)} physical memory and "
+                           f"{humanize.naturalsize(mem.vms)} virtual memory, "
+                           f"{humanize.naturalsize(mem.uss)} of which unique to this process.")
+
+            name = proc.name()
+            pid = proc.pid
+            thread_count = proc.num_threads()
+
+            summary.append(f"Running on PID {pid} (`{name}`) with {thread_count} thread(s).")
+
+            summary.append("")  # blank line
+
+    cache_summary = f"{len(self.bot.guilds)} guild(s) and {len(self.bot.users)} user(s)"
+
+    if isinstance(self.bot, discord.AutoShardedClient):
+        summary.append(f"This bot is automatically sharded and can see {cache_summary}.")
+    elif self.bot.shard_count:
+        summary.append(f"This bot is manually sharded and can see {cache_summary}.")
+    else:
+        summary.append(f"This bot is not sharded and can see {cache_summary}.")
+
+    summary.append(f"Average websocket latency: {round(self.bot.latency * 1000, 2)}ms")
+
+    await ctx.send("\n".join(summary))
+
+```
+Page 1/1
+Sebastiano#5005: dovrebbe inviarlo in <#676549407105351691>
