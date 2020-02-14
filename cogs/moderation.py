@@ -29,12 +29,6 @@ class Moderation(commands.Cog):
 
     await ctx.send(embed = emb)
 
-  @ban.error
-  async def ban_error(self, ctx, error):
-
-    emb = discord.Embed(description = f"❌ | {error}", colour = discord.Colour.red())
-
-    await ctx.send(embed = emb)
 
   @commands.command()
   @commands.has_permissions(kick_members = True)
@@ -45,13 +39,6 @@ class Moderation(commands.Cog):
     await member.kick(reason = reason)
 
     emb = discord.Embed(description = f"✅ | {member.mention} was kicked by {ctx.author.mention}", colour = discord.Colour.red())
-
-    await ctx.send(embed = emb)
-
-  @kick.error
-  async def kick_error(self, ctx, error):
-
-    emb = discord.Embed(description = f"❌ | {error}", colour = discord.Colour.red())
 
     await ctx.send(embed = emb)
 
@@ -83,13 +70,6 @@ class Moderation(commands.Cog):
 
       return
 
-  @mute.error
-  async def mute_error(self, ctx, error):
-
-    emb = discord.Embed(description = f"❌ | {error}", colour = discord.Colour.red())
-
-    await ctx.send(embed = emb)
-
 
   @commands.command()
   @commands.has_permissions(kick_members = True)
@@ -104,20 +84,6 @@ class Moderation(commands.Cog):
     emb = discord.Embed(description = f"✅ | {member.mention} was unmuted by {ctx.author.mention}", colour = discord.Colour.green())
 
     await ctx.send(embed = emb)
-
-  @unmute.error
-  async def unmute_error(self, ctx, error):
-
-    emb = discord.Embed(description = f"❌ | {error}", colour = discord.Colour.red())
-
-    await ctx.send(embed = emb)
-
-  
-  
-
-  
-
-
 
 def setup(bot):
   bot.add_cog(Moderation(bot))

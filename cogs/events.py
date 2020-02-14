@@ -54,24 +54,6 @@ class Events(commands.Cog):
       
       webhook = Webhook.from_url(l["webhooks"]["join"], adapter=AsyncWebhookAdapter(session))
       await webhook.send(embed = emb)
-
-    @commands.Cog.listener()
-    async def on_command_error(self, ctx, error):
-
-      emb = discord.Embed(description = f"""📛 | **ERROR**
-<a:typing:597589448607399949> | {ctx.command}
-👤 | {ctx.author}
-⁉️ | ```css\n{error}\n```""", timestamp = ctx.message.created_at, colour = discord.Colour.red())
-
-      async with aiohttp.ClientSession() as session:
-        
-        with open("data/private.json", "r") as f:
-          
-          l = json.load(f)
-          
-        webhook = Webhook.from_url(l["webhooks"]["errors"], adapter=AsyncWebhookAdapter(session))
-        
-        await webhook.send(embed = emb)
-
+      
 def setup(bot):
   bot.add_cog(Events(bot))

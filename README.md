@@ -8,107 +8,107 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`e?satoru `
-
-> See a random image of Satoru Fujinuma 
-
-`e?kick [member] [reason]`
-
-> Kick a member 
-
-`e?uptime `
-
-> See bot uptime 
-
-`e?punch [member]`
-
-> Punch a user 
-
-`e?mute [member] [reason]`
-
-> Mute a member 
-
-`e?ping `
-
-> See bot latency 
-
-`e?looneytunes `
-
-> Which Looney Tunes are you? 
-
-`e?feedback <feedback>`
-
-> Send a feedback to the bot or suggest a new command 
-
-`e?kayo `
-
-> See a random image of Kayo Hinazuki 
-
-`e?unmute [member]`
-
-> Unmute a member 
-
-`e?addemoji [name] [emoji_link]`
-
-> Add an emoji 
-
-`e?translate <text> [source] [destination]`
-
-> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
-
-`e?guildinfo `
-
-> See the actual guild info 
-
 `e?invite `
 
 > Invite the bot to your server 
-
-`e?say <message>`
-
-> Say something with Satoru 
 
 `e?avatar [member]`
 
 > See a member avatar 
 
-`e?userinfo [member]`
+`e?kayo `
 
-> See a member's info 
+> See a random image of Kayo Hinazuki 
+
+`e?uptime `
+
+> See bot uptime 
+
+`e?feedback <feedback>`
+
+> Send a feedback to the bot or suggest a new command 
 
 `e?about `
 
 > Info about the bot 
 
-`e?hug [member]`
+`e?kick [member] [reason]`
 
-> Hug a user 
+> Kick a member 
 
-`e?roleinfo <role>`
+`e?addemoji [name] [emoji_link]`
 
-> See a role info 
-
-`e?clear [amount=100]`
-
-> Delete Messages 
-
-`e?gun `
-
-> Make a gun battle 
+> Add an emoji 
 
 `e?male <thing> [member]`
 
 > Use this when someone says that a thing is a female but is a male 
 
-`e?list `
+`e?mute [member] [reason]`
 
-> See your list 
+> Mute a member 
+
+`e?hug [member]`
+
+> Hug a user 
+
+`e?say <message>`
+
+> Say something with Satoru 
 
 `e?female <thing> [member]`
 
 > Use this when someone says that a thing is a male but is a female 
 
+`e?punch [member]`
+
+> Punch a user 
+
+`e?satoru `
+
+> See a random image of Satoru Fujinuma 
+
+`e?unmute [member]`
+
+> Unmute a member 
+
+`e?userinfo [member]`
+
+> See a member's info 
+
+`e?ping `
+
+> See bot latency 
+
+`e?roleinfo <role>`
+
+> See a role info 
+
+`e?list `
+
+> See your list 
+
+`e?clear [amount=100]`
+
+> Delete Messages 
+
 `e?ban [member] [reason]`
 
 > Ban a member 
+
+`e?translate <text> [source] [destination]`
+
+> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
+
+`e?gun `
+
+> Make a gun battle 
+
+`e?looneytunes `
+
+> Which Looney Tunes are you? 
+
+`e?guildinfo `
+
+> See the actual guild info 
 
