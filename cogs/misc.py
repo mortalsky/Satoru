@@ -591,7 +591,7 @@ class Misc(commands.Cog):
 
        "Invite the bot to your server"
        
-       await ctx.send(embed = discord.Embed(description = "[Invite Me](https://discordapp.com/api/oauth2/authorize?client_id=635044836830871562&permissions=321606&scope=bot)", colour = colour))
+       await ctx.send(embed = discord.Embed(description = "[Invite Me](https://satoru.seba.gq/invite)", colour = colour))
 
     @commands.command()
     async def avatar(self, ctx, *, member: discord.Member = None):
@@ -611,7 +611,7 @@ class Misc(commands.Cog):
       emb.set_footer(text = member.guild.name, icon_url = member.guild.icon_url)
       await ctx.send(embed = emb)
 
-    @commands.command()
+    @commands.command(aliases = ["stats"])
     async def about(self, ctx):
 
       "Info about the bot"
@@ -622,7 +622,7 @@ Python: `{platform.python_version()}`
 Memory: `{psutil.virtual_memory()[2]}%`
 CPU: `{psutil.cpu_percent()}%`
 Running on: `{platform.system()}`
-Invite Link: [Click Me](https://discordapp.com/api/oauth2/authorize?client_id=635044836830871562&permissions=321606&scope=bot)
+Invite Link: [Click Me](https://satoru.seba.gq/invite)
 Website: [Click Me](https://satoru.seba.gq/)
 Support Server: [Click Me](https://discord.gg/w8cbssP)
 GitHub: [Click Me](https://github.com/ssebastianoo/Satoru)**""", colour = colour)

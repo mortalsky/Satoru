@@ -8,13 +8,45 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`e?mute [member] [reason]`
+`e?gun `
 
-> Mute a member 
+> Make a gun battle 
+
+`e?guildinfo `
+
+> See the actual guild info 
+
+`e?invite `
+
+> Invite the bot to your server 
+
+`e?kayo `
+
+> See a random image of Kayo Hinazuki 
+
+`e?avatar [member]`
+
+> See a member avatar 
+
+`e?kick [member] [reason]`
+
+> Kick a member 
+
+`e?feedback <feedback>`
+
+> Send a feedback to the bot or suggest a new command 
+
+`e?about `
+
+> Info about the bot 
 
 `e?satoru `
 
 > See a random image of Satoru Fujinuma 
+
+`e?mute [member] [reason]`
+
+> Mute a member 
 
 `e?addemoji [name] [emoji_link]`
 
@@ -39,6 +71,10 @@ Satoru is a Discord Bot made with discord.py
 `e?female <thing> [member]`
 
 > Use this when someone says that a thing is a male but is a female 
+
+`e?looneytunes `
+
+> Which Looney Tunes are you? 
 
 `e?userinfo [member]`
 
@@ -68,47 +104,11 @@ Satoru is a Discord Bot made with discord.py
 
 > Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
 
-`e?clear [amount=100]`
-
-> Delete Messages 
-
-`e?looneytunes `
-
-> Which Looney Tunes are you? 
-
-`e?gun `
-
-> Make a gun battle 
-
-`e?guildinfo `
-
-> See the actual guild info 
-
-`e?kayo `
-
-> See a random image of Kayo Hinazuki 
-
-`e?invite `
-
-> Invite the bot to your server 
-
 `e?uptime `
 
 > See bot uptime 
 
-`e?avatar [member]`
+`e?clear [amount=100]`
 
-> See a member avatar 
-
-`e?kick [member] [reason]`
-
-> Kick a member 
-
-`e?about `
-
-> Info about the bot 
-
-`e?feedback <feedback>`
-
-> Send a feedback to the bot or suggest a new command 
+> Delete Messages 
 

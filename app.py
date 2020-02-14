@@ -1,5 +1,5 @@
 from threading import Thread
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect
 import json
 
 app = Flask('')
@@ -81,7 +81,7 @@ def commands():
         border-left-color: gray;
         border-left-style: solid;
     }
-    
+
     .commands {
       margin-left: 30%;
       margin-right: 10%;
@@ -95,16 +95,32 @@ def commands():
   <div class = "commands">
   \n<ul>{res}</ul>
   </div>
-</body>
 '''
+
+  html2 = '''<script>
+    if (window.location.protocol === "http:") {
+      location.href = "https://satoru.seba.gq/"
+    }
+  </script>
+</body>'''
 
   with open("templates/commands.html", "w") as f:
 
     f.write(" ")
     f.write(html0)
     f.write(html1)
+    f.write(html2)
     
   return render_template("commands.html")
+
+@app.route("/invite")
+def invite():
+
+  return redirect("https://discordapp.com/api/oauth2/authorize?client_id=635044836830871562&permissions=321606&scope=bot")
+
+@app.errorhandler(404)
+def not_found(error):
+  return redirect("/")
 
 def run():
   app.run(host='0.0.0.0',port=8080)

@@ -35031,3 +35031,18 @@ Satori#0668: ```json
   "tts": false,
   "type": 0
 }```
+GitHub#0000: 
+Satoru#6725: 
+Sebastiano#5005: e?about
+Sebastiano#5005: **}} Website {{**
+Sebastiano#5005: **}} Website {{**
+>>> <@635044836830871562> has now a website!
+https://satoru.seba.gq/
+randomSphere#4274: ?tag python
+R. Danny#6348: https://www.python.org/
+Satoru#6725: 
+Sebastiano#5005: e?about
+Zomatree#7757: hd!histodev lambda
+histodev#0010: 
+Zomatree#7757: hd!histodev <@!285130711348805632>
+Zomatree#7757: hd!histodev Zomatree
