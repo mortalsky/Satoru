@@ -80,13 +80,11 @@ def commands():
     .commandhelp {
         border-left-color: gray;
         border-left-style: solid;
-        margin-left: 30%;
-        margin-right: 10%;
     }
-
-    .commandname {
-        margin-left: 30%;
-        margin-right: 10%;
+    
+    .commands {
+      margin-left: 30%;
+      margin-right: 10%;
     }
   </style> 
 </head>
@@ -94,7 +92,9 @@ def commands():
   <h1>Satoru Commands</h1>'''
 
   html1 = f'''
+  <div class = "commands">
   \n<ul>{res}</ul>
+  </div>
 </body>
 '''
 

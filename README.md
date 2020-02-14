@@ -8,33 +8,13 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`e?invite `
+`e?mute [member] [reason]`
 
-> Invite the bot to your server 
+> Mute a member 
 
-`e?avatar [member]`
+`e?satoru `
 
-> See a member avatar 
-
-`e?kayo `
-
-> See a random image of Kayo Hinazuki 
-
-`e?uptime `
-
-> See bot uptime 
-
-`e?feedback <feedback>`
-
-> Send a feedback to the bot or suggest a new command 
-
-`e?about `
-
-> Info about the bot 
-
-`e?kick [member] [reason]`
-
-> Kick a member 
+> See a random image of Satoru Fujinuma 
 
 `e?addemoji [name] [emoji_link]`
 
@@ -44,13 +24,13 @@ Satoru is a Discord Bot made with discord.py
 
 > Use this when someone says that a thing is a female but is a male 
 
-`e?mute [member] [reason]`
+`e?unmute [member]`
 
-> Mute a member 
+> Unmute a member 
 
-`e?hug [member]`
+`e?ban [member] [reason]`
 
-> Hug a user 
+> Ban a member 
 
 `e?say <message>`
 
@@ -60,21 +40,17 @@ Satoru is a Discord Bot made with discord.py
 
 > Use this when someone says that a thing is a male but is a female 
 
-`e?punch [member]`
-
-> Punch a user 
-
-`e?satoru `
-
-> See a random image of Satoru Fujinuma 
-
-`e?unmute [member]`
-
-> Unmute a member 
-
 `e?userinfo [member]`
 
 > See a member's info 
+
+`e?hug [member]`
+
+> Hug a user 
+
+`e?punch [member]`
+
+> Punch a user 
 
 `e?ping `
 
@@ -88,27 +64,51 @@ Satoru is a Discord Bot made with discord.py
 
 > See your list 
 
-`e?clear [amount=100]`
-
-> Delete Messages 
-
-`e?ban [member] [reason]`
-
-> Ban a member 
-
 `e?translate <text> [source] [destination]`
 
 > Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
 
-`e?gun `
+`e?clear [amount=100]`
 
-> Make a gun battle 
+> Delete Messages 
 
 `e?looneytunes `
 
 > Which Looney Tunes are you? 
 
+`e?gun `
+
+> Make a gun battle 
+
 `e?guildinfo `
 
 > See the actual guild info 
+
+`e?kayo `
+
+> See a random image of Kayo Hinazuki 
+
+`e?invite `
+
+> Invite the bot to your server 
+
+`e?uptime `
+
+> See bot uptime 
+
+`e?avatar [member]`
+
+> See a member avatar 
+
+`e?kick [member] [reason]`
+
+> Kick a member 
+
+`e?about `
+
+> Info about the bot 
+
+`e?feedback <feedback>`
+
+> Send a feedback to the bot or suggest a new command 
 

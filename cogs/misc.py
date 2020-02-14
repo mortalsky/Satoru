@@ -623,6 +623,7 @@ Memory: `{psutil.virtual_memory()[2]}%`
 CPU: `{psutil.cpu_percent()}%`
 Running on: `{platform.system()}`
 Invite Link: [Click Me](https://discordapp.com/api/oauth2/authorize?client_id=635044836830871562&permissions=321606&scope=bot)
+Website: [Click Me](https://satoru.seba.gq/)
 Support Server: [Click Me](https://discord.gg/w8cbssP)
 GitHub: [Click Me](https://github.com/ssebastianoo/Satoru)**""", colour = colour)
 

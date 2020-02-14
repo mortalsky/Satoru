@@ -34972,3 +34972,62 @@ R. Danny#6348: By requesting to add your bot, you must agree to the guidelines p
 
 If you agree, reply to this message with **I agree** within 1 minute. If you do not, reply with **Abort**.
 Equity#3464: ​
+GitHub#0000: 
+lambda#0987: what's the y axis
+lambda#0987: how is this different from histostatus
+lambda#0987: hd!help histodev
+histodev#0010: ```
+hd!histodev [member]
+
+```
+lambda#0987: thank u
+lambda#0987: plsbeta msgjson 677903018951442472
+Satori#0668: ```json
+{
+  "attachments": [],
+  "author": {
+    "avatar": "168608a20ce15683f27b78149c08060d",
+    "discriminator": "3464",
+    "id": "373256462211874836",
+    "username": "Equity"
+  },
+  "channel_id": "381963689470984203",
+  "content": "\u200b",
+  "edited_timestamp": null,
+  "embeds": [],
+  "flags": 0,
+  "id": "677903018951442472",
+  "mention_everyone": false,
+  "mention_roles": [],
+  "mentions": [],
+  "pinned": false,
+  "timestamp": "2020-02-14T15:44:34.547000+00:00",
+  "tts": false,
+  "type": 0
+}```
+lambda#0987: ic
+lambda#0987: wait
+lambda#0987: plsbeta msgraw 677903018951442472
+Satori#0668: ```json
+{
+  "attachments": [],
+  "author": {
+    "avatar": "168608a20ce15683f27b78149c08060d",
+    "discriminator": "3464",
+    "id": "373256462211874836",
+    "username": "Equity"
+  },
+  "channel_id": "381963689470984203",
+  "content": "\u200b",
+  "edited_timestamp": null,
+  "embeds": [],
+  "flags": 0,
+  "id": "677903018951442472",
+  "mention_everyone": false,
+  "mention_roles": [],
+  "mentions": [],
+  "pinned": false,
+  "timestamp": "2020-02-14T15:44:34.547000+00:00",
+  "tts": false,
+  "type": 0
+}```

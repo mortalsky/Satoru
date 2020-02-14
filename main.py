@@ -58,15 +58,14 @@ async def on_ready():
 
     if not a.hidden:
 
-      l[f"{a.name} {a.signature}"] = a.help
-
-      with open("data/commands.json", "w") as f:
-
-        json.dump(l, f, indent = 4)
+      if a.name != "jishaku":
+        
+        l[f"{a.name} {a.signature}"] = a.help
+        
+        with open("data/commands.json", "w") as f:
+          
+          json.dump(l, f, indent = 4)
     
-    
-    
-
 @bot.event 
 async def on_message(message):
 

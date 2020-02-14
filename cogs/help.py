@@ -97,6 +97,7 @@ Satoru is a Discord Bot made with discord.py
           res = f"""Prefixes: `e?`, `@{self.bot.user}`
 
 [Support Server](https://discord.gg/w8cbssP)
+[Command List](https://satoru.seba.gq/commands)
 
 **MODERATION**
 `{prf}ban` `{prf}kick` `{prf}mute` `{prf}unmute` `{prf}clear`
