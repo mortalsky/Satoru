@@ -64,24 +64,38 @@ Satoru is a Discord Bot made with discord.py
           return
 
         if not cmd.hidden:
-          
-          emb.add_field(name = f'{prefix}{cmd.name} {cmd.signature}', value = cmd.help, inline = False)
+
+          if cmd.parent:
+
+            emb.add_field(value = f'{prefix}{cmd.parent} {cmd.name} {cmd.signature}', name = cmd.help, inline = False)
+
+          else:
+            
+            emb.add_field(value = f'{prefix}{cmd.name} {cmd.signature}', name = cmd.help, inline = False)
           
           if cmd.aliases:
 
-            aliases = " ".join(cmd.aliases)
+            aliases = ""
+
+            for a in cmd.aliases:
+
+              aliases += f"\n`{a}`"
             
             emb.add_field(name = 'Aliases', value = aliases, inline = False)
 
-          # if cmd.commands:
-          
-          #commands = ""
+          try:
+            
+            commands = ""
+            
+            for a in cmd.commands:
+              
+              commands += f"`{prefix}{cmd.name} {a.name} {a.signature}`\n"
+              
+            emb.add_field(name = "Subcommands", value = commands, inline = False)
 
-          #  for a in cmd.commands:
+          except:
 
-           #   commands += f"`{prefix}{a.name} {a.signature}` "
-
-         #   emb.add_field(name = "Commands", value = commands, inline = False)
+            pass
         
         else:
 

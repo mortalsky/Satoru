@@ -453,7 +453,7 @@ class Misc(commands.Cog):
 
         json.dump(l, f, indent = 4)
 
-      await ctx.send("Done")
+      await ctx.send("Done!")
 
     @commands.command(aliases = ["lt"])
     async def looneytunes(self, ctx):

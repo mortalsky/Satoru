@@ -48975,3 +48975,577 @@ Cy#2501: K.sudo py return inspect!.getsource(kanade!.Menu._trigger)
 Kanade#5520: 
 Soheab_#5757: Ew don't embed everything
 Cy#2501: Ew
+Soheab_#5757: Ikr
+Cy#2501: Ew
+GitHub#0000: 
+Soheab_#5757: 👀
+Cy#2501: K.snipe
+hamza1311#1371: >stats activity top
+BitchBot#7930: ```
+1. Cy - 4812 points
+2. An Actual Otter - 4242 points
+3. [Cy] is my nii-chan <3 - 2950 points
+4. Cinnamon - 2790 points
+5. super().__init__(infected=False) - 2608 points
+6. lambda - 2566 points
+7. twitch - 2238 points
+8. Tom - 2202 points
+9. Equity - 1822 points
+10. Seba - 1776 points
+
+
+-------------------------------------------------
+You have 302 points
+```
+*Page 1 of 1*
+Kanade#5520: 
+ExoBot#4178: 
+Satoru#6725: 
+Sebastiano#5005: e?uptime
+Soheab_#5757: S!ms
+Sparklybot ✨#2325: 
+Cy#2501: K.raw embed 678551302934102017
+Kanade#5520: 
+Soheab_#5757: Pog
+LittleEndu#0001: ?rtfm delete messages
+R. Danny#6348: Could not find anything. Sorry.
+๖ۣۜᏃσякαᎥ ⛱#9999: <a:Milosdance01:527874085204787201><a:Milosdance02:527874094226604052><a:Milosdance03:527874098215256066><a:Milosdance04:527874099478003732><a:Milosdance05:527874097984569344><a:Milosdance06:527874086240780288><a:Milosdance07:527874085317771264>
+<a:Milosdance08:527874094939504677><a:Milosdance09:527874099096190976><a:Milosdance10:527874103189962752><a:Milosdance11:527874103957520414><a:Milosdance12:527874100488830986><a:Milosdance13:527874099264094218><a:Milosdance14:527874087658192947>
+<a:Milosdance15:527874098865635328><a:Milosdance16:527874098727092237><a:Milosdance17:527874108973776906><a:Milosdance18:527874108491300884><a:Milosdance19:527874107547713546><a:Milosdance20:527874100941553665><a:Milosdance21:527874087176110080>
+<a:Milosdance22:527874099192791040><a:Milosdance23:527874102292250626><a:Milosdance24:527874109179297813><a:Milosdance25:527874108315271188><a:Milosdance26:527874108051030027><a:Milosdance27:527874102757818369><a:Milosdance28:527874099192528916>
+<a:Milosdance29:527874099884720149><a:Milosdance30:527874102925459501><a:Milosdance31:527874107610628136><a:Milosdance32:527874108663398400><a:Milosdance33:527874107577204737><a:Milosdance34:527874102627926016><a:Milosdance35:527874100149092375>
+<a:Milosdance36:527874098362187797><a:Milosdance37:527874100409008130><a:Milosdance38:527874108239904778><a:Milosdance39:527874108265070592><a:Milosdance40:527874108013150218><a:Milosdance41:527874100530774018><a:Milosdance42:527874099368951819>
+<a:Milosdance43:527874098626297857><a:Milosdance44:527874100094435339><a:Milosdance45:527874108038447105><a:Milosdance46:527874108008955932><a:Milosdance47:527874108176859136><a:Milosdance48:527874100484374543><a:Milosdance49:527874090766434314>
+LittleEndu#0001: ?rtfm messages
+R. Danny#6348: 
+Sebastiano#5005: epic
+LittleEndu#0001: hmmmm
+Soheab_#5757: ?rtfm delete_messages
+R. Danny#6348: 
+LittleEndu#0001: ?rtfm deletemessages
+R. Danny#6348: 
+๖ۣۜᏃσякαᎥ ⛱#9999: yes
+Soheab_#5757: Yes
+Cy#2501: ?charinfo 👍
+R. Danny#6348: `\U0001f44d`: THUMBS UP SIGN - 👍 — <http://www.fileformat.info/info/unicode/char/1f44d>
+Soheab_#5757: <a:thumbsupani:604043201841725471>
+Sebastiano#5005: <a:hugerp1:641583445889253416><a:hugerp2:641583443960135680><a:hugerp3:641583444249542656><a:hugerp4:641583444048216076><a:hugerp5:641583443649495041>
+LittleEndu#0001: ?rtfm botemoji
+R. Danny#6348: 
+Cy#2501: ?charinfo 👎
+Cy#2501: Hmm
+R. Danny#6348: `\U0001f44e`: THUMBS DOWN SIGN - 👎 — <http://www.fileformat.info/info/unicode/char/1f44e>
+Cy#2501: ?charinfo 👎
+R. Danny#6348: `\U0001f44e`: THUMBS DOWN SIGN - 👎 — <http://www.fileformat.info/info/unicode/char/1f44e>
+๖ۣۜᏃσякαᎥ ⛱#9999: 
+Cy#2501: K.sudo py
+```py
+class MyMenu(kanade!.Menu):
+    @kanade!.button('\U0001f44d')
+    async def thumbsup(self, payload):
+        await self.ctx.send('thumbsup!')
+
+    @kanade!.button('\U00001f44e')
+    async def thumbsdown(self, payload):
+        await self.ctx.send('thumbsdown')
+
+r = await _ctx.send('target')
+MyMenu(_ctx, r)
+```
+Kanade#5520: target
+Cy#2501: K.sudo py
+```py
+class MyMenu(kanade!.Menu):
+    @kanade!.button('\U0001f44d')
+    async def thumbsup(self, payload):
+        await self.ctx.send('thumbsup!')
+
+    @kanade!.button('\U0001f44e')
+    async def thumbsdown(self, payload):
+        await self.ctx.send('thumbsdown')
+
+r = await _ctx.send('target')
+MyMenu(_ctx, r)
+```
+Kanade#5520: target
+Kanade#5520: thumbsdown
+Kanade#5520: thumbsup!
+Kanade#5520: thumbsdown
+Kanade#5520: thumbsup!
+Kanade#5520: thumbsdown
+Kanade#5520: thumbsdown
+๖ۣۜᏃσякαᎥ ⛱#9999: oh it's a subclass
+Cy#2501: No
+๖ۣۜᏃσякαᎥ ⛱#9999: hmmm
+๖ۣۜᏃσякαᎥ ⛱#9999: Why can I not use it
+๖ۣۜᏃσякαᎥ ⛱#9999: ahhh it's author only
+Cy#2501: Cuz the target is author
+Cy#2501: Tho i can set it differently
+Soheab_#5757: <:BigBrain:645126335873810442>
+๖ۣۜᏃσякαᎥ ⛱#9999: <:smoothbrain:648662592201555969>
+Cy#2501: K.sudo py
+```py
+class MyMenu(kanade!.Menu):
+    async def on_initial(self):
+        await self.ctx.send('initial message')
+
+    async def on_finish(self):
+        await self.ctx.send('finish message')
+
+    @kanade!.button('\U0001f44d')
+    async def thumbsup(self, payload):
+        await self.ctx.send('thumbsup!')
+
+    @kanade!.button('\U0001f44e')
+    async def thumbsdown(self, payload):
+        await self.ctx.send('thumbsdown!')
+
+r = await _ctx.send('target')
+MyMenu(_ctx, r, timeout=30.0)
+```
+Kanade#5520: target
+Cy#2501: Its not initial
+Cy#2501: U dumb cy
+Kanade#5520: finish message
+Cy#2501: K.sudo py
+```py
+class MyMenu(kanade!.Menu):
+    async def on_start(self):
+        await self.ctx.send('start')
+
+    async def on_finish(self):
+        await self.ctx.send('finish')
+
+    @kanade!.button('\U0001f44d')
+    async def thumbsup(self, payload):
+        await self.ctx.send('thumbsup!')
+
+    @kanade!.button('\U0001f44e')
+    async def thumbsdown(self, payload):
+        await self.ctx.send('thumbsdown!')
+
+r = await _ctx.send('target')
+MyMenu(_ctx, r, timeout=30.0)
+```
+Kanade#5520: target
+Kanade#5520: start
+Kanade#5520: thumbsdown!
+Kanade#5520: thumbsup!
+Cy#2501: Finish already
+Kanade#5520: finish
+Cy#2501: Hmm should the `start` message get sent before adding reactions
+Cy#2501: <:thrinking:597590667669274651>
+Soheab_#5757: Yes
+ShadowHanzo#2108: ?tag ratelimit
+R. Danny#6348: ```
+REST:
+        POST Message |  5/5s    | per-channel
+      DELETE Message |  5/1s    | per-channel
+ PUT/DELETE Reaction |  1/0.25s | per-channel
+        PATCH Member |  10/10s  | per-guild
+   PATCH Member Nick |  1/1s    | per-guild
+      PATCH Username |  2/3600s | per-account
+      |All Requests| |  50/1s   | per-account
+WS:
+     Gateway Connect |   1/5s   | per-account
+     Presence Update |   5/60s  | per-session
+ |All Sent Messages| | 120/60s  | per-session```
+ShadowHanzo#2108: ?rtfm delete_mess
+R. Danny#6348: 
+Cy#2501: K.jsk git pull origin develop
+Kanade#5520: ```sh
+$ git pull origin develop
+
+```
+Page 1/1
+Cy#2501: K.sudo py
+class MyMenu(kanade!.Menu):
+    async def on_start(self):
+        await self.ctx.send('start')
+
+    async def on_finish(self):
+        await self.ctx.send('finish')
+
+    @kanade!.button('\U0001f44d')
+    async def thumbsup(self, payload):
+        await self.ctx.send('thumbsup!')
+
+    @kanade!.button('\U0001f44e')
+    async def thumbsdown(self, payload):
+        await self.ctx.send('thumbsdown!')
+
+r = await _ctx.send('target')
+MyMenu(_ctx, r, timeout=10.0)
+Kanade#5520: target
+Kanade#5520: start
+Cy#2501: Uh
+Cy#2501: Shit
+Cy#2501: K.sudo logout
+Kanade#5520: 
+Cy#2501: K.jsk source sudo clear
+Kanade#5520: ```py
+    @sudo_group.command(name='clear')
+    async def sudo_clear_command(self, ctx, amount: int = 1):
+        """Clears bot messages."""
+
+        found = 0
+        messages = []
+
+        async for message in ctx.channel.history(limit=None):
+            if found == amount:
+                break
+            if message.author == ctx.me:
+                found += 1
+                messages.append(message)
+
+        await ctx.channel.delete_messages(messages)
+
+```
+Page 1/1
+Mr_ChAI#1824: !tag powercord
+R. Danny#6348: Tag not found. Did you mean...
+pokecord
+pycord
+Mr_ChAI#1824: !tag pokecord
+R. Danny#6348: Money Shredder/Mee6 v3
+Cy#2501: K.sudo py
+```py
+class MyMenu(kanade!.Menu):
+    async def on_start(self):
+        await self.ctx.send('start')
+
+    async def on_finish(self):
+        await self.ctx.send('finish')
+
+    @kanade!.button('\U0001f44d')
+    async def thumbsup(self, payload):
+        await self.ctx.send('thumbsup!')
+
+    @kanade!.button('\U0001f44e')
+    async def thumbsdown(self, payload):
+        await self.ctx.send('thumbsdown!')
+
+r = await _ctx.send('target')
+MyMenu(_ctx, r, timeout=10.0)
+```
+Kanade#5520: target
+Kanade#5520: start
+Kanade#5520: finish
+snawe#8570: ?charinfo 🇹
+R. Danny#6348: `\U0001f1f9`: REGIONAL INDICATOR SYMBOL LETTER T - 🇹 — <http://www.fileformat.info/info/unicode/char/1f1f9>
+Cy#2501: Not bad
+Cy#2501: I can customise this more than subclassing ext.menus
+ShadowHanzo#2108: ?rtfm purge
+R. Danny#6348: 
+Cy#2501: K.jsk source sudo clear
+Kanade#5520: ```py
+    @sudo_group.command(name='clear')
+    async def sudo_clear_command(self, ctx, amount: int = 1):
+        """Clears bot messages."""
+
+        found = 0
+        messages = []
+
+        async for message in ctx.channel.history(limit=None):
+            if found == amount:
+                break
+            if message.author == ctx.me:
+                found += 1
+                messages.append(message)
+
+        await ctx.channel.delete_messages(messages)
+
+```
+Page 1/1
+Cy#2501: K.sudo py return inspect!.getsource(kanade!.Menu.start)
+Kanade#5520: 
+Satoru#6725: 
+Sebastiano#5005: e?tr complotto
+Cy#2501: K.sudo py return inspect!.getsource(kanade!.Menu._loop)
+Kanade#5520: 
+Cy#2501: e?tr baka
+Satoru#6725: 
+Satoru#6725: 
+Cy#2501: e?tr mustonen
+Cy#2501: <:thrinking:597590667669274651>
+ShadowHanzo#2108: ?tag purge specific
+ShadowHanzo#2108: ?tag specific purge
+R. Danny#6348: Tag not found. Did you mean...
+specific
+specific role
+1 purge
+ShadowHanzo#2108: ?tag  purge
+ShadowHanzo#2108: ?tag purge.
+R. Danny#6348: Tag not found. Did you mean...
+1 purge
+purge-rw
+message purge
+Cy#2501: K.sudo py
+p = pathlib!.Path('./kanade')
+cm = cr = fn = cl = ls = fc = 0
+for f in p.rglob('*.py'):
+    fc += 1
+    with f.open() as of:
+        for l in of.readlines():
+            l = l.strip()
+            if l.startswith('class'):
+                cl += 1
+            if l.startswith('def'):
+                fn += 1
+            if l.startswith('async def'):
+                cr += 1
+            if '#' in l:
+                cm += 1
+            ls += 1
+return f"file: {fc}\nline: {ls}\nclass: {cl}\nfunction: {fn}\ncoroutine: {cr}\ncomment: {cm}"
+Kanade#5520: 
+Satoru#6725: 
+Sebastiano#5005: e?reload help
+Satoru#6725: 
+Sebastiano#5005: e?help info
+Sebastiano#5005: e?help profile
+Satoru#6725: 
+Cy#2501: ?help
+R. Danny#6348: 
+Cy#2501: e?help
+Satoru#6725: 
+Cy#2501: Maybe dont add prefix in the command list
+Cy#2501: Not the `Command List` link
+Sebastiano#5005: in the embed?
+Sebastiano#5005: <@!635044836830871562> help
+Satoru#6725: 
+Satoru#6725: 
+Sebastiano#5005: e?reload help
+Cy#2501: Ye
+Sebastiano#5005: why not?
+Sebastiano#5005: e?help pr
+Satoru#6725: ```css
+That command, "pr", does not exist!
+```
+Cy#2501: <:monkaS:596577132063490060>
+Chiky#5518: 
+Tatsu#8792: `-->` Er_Cespujo_Sol è arrivato su Discord Bots Italia
+Chiky#5518: 
+Tatsu#8792: 
+Chiky#5518: 
+Satoru#6725: 
+Sebastiano#5005: e?reload profiles
+Satoru#6725: 
+Sebastiano#5005: e?help pr
+Sebastiano#5005: e?help info
+Satoru#6725: 
+ShadowHanzo#2108: ?rtfm history
+R. Danny#6348: 
+Cy#2501: K.sudo py return inspect!.getsource(kanade!.Menu.__new__)
+Kanade#5520: 
+Cy#2501: ?remind 5m migrate everything to custom menus
+R. Danny#6348: Alright <@354316246759636992>, in 5 minutes: migrate everything to custom menus
+Er_Cespujo_Sol#4840: Raga, c'è qualcuno che mi può aiutare per quanto riguarda discord
+Satoru#6725: 
+Sebastiano#5005: e?reload help
+Sebastiano#5005: e?help info
+Satoru#6725: 
+Sebastiano#5005: e?help list
+Satoru#6725: 
+Sebastiano#5005: oof
+Satoru#6725: 
+Sebastiano#5005: e?reload help
+Sebastiano#5005: e?help list
+Satoru#6725: 
+chickenmatty#4766: e?list add yes
+Satoru#6725: Done!
+Satoru#6725: 
+chickenmatty#4766: e?list
+chickenmatty#4766: e?list add no
+Satoru#6725: Done!
+chickenmatty#4766: e?list
+Satoru#6725: 
+Sebastiano#5005: vieni su <#611325047860363281>
+chickenmatty#4766: e?list add aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Satoru#6725: Done!
+Satoru#6725: 
+chickenmatty#4766: e?list
+Sebastiano#5005: why
+Sebastiano#5005: e?list
+Satoru#6725: 
+Sebastiano#5005: e?list clear
+Satoru#6725: Done
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Sebastiano#5005: e?list add odosd
+Satoru#6725: Done!
+Sebastiano#5005: e?list clear
+Satoru#6725: Done!
+Sebastiano#5005: e?profile
+Satoru#6725: 
+Sebastiano#5005: e?profile 446650423416193034
+Satoru#6725: 
+R. Danny#6348: <@354316246759636992>, 5 minutes ago: migrate everything to custom menus
+
+<https://discordapp.com/channels/336642139381301249/381963689470984203/678557138867453952>
+Satoru#6725: Create your profile
+Sebastiano#5005: e?jsk py c = _bot.get_command("pr create")
+return c.help
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/cog_base.py", line 489, in jsk_python
+    async for send, result in AsyncSender(executor):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/repl/compilation.py", line 148, in traverse
+    async for send, result in AsyncSender(func(*self.args)):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "<repl>", line 2, in _repl_coroutine
+AttributeError: 'Command' object has no attribute 'subcommand'
+
+```
+Sebastiano#5005: e?jsk py c = _bot.get_command("pr create")
+return c.subcommand
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/cog_base.py", line 489, in jsk_python
+    async for send, result in AsyncSender(executor):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/repl/compilation.py", line 148, in traverse
+    async for send, result in AsyncSender(func(*self.args)):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "<repl>", line 2, in _repl_coroutine
+AttributeError: 'Command' object has no attribute 'command'
+
+```
+Sebastiano#5005: e?jsk py c = _bot.get_command("pr create")
+return c.command
+Sebastiano#5005: e?jsk py c = _bot.get_command("pr create")
+return c.commands
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/cog_base.py", line 489, in jsk_python
+    async for send, result in AsyncSender(executor):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/repl/compilation.py", line 148, in traverse
+    async for send, result in AsyncSender(func(*self.args)):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "<repl>", line 2, in _repl_coroutine
+AttributeError: 'Command' object has no attribute 'commands'
+
+```
+Sebastiano#5005: e?jsk py c = _bot.get_command("pr create")
+return c.is_subcommand()
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/cog_base.py", line 489, in jsk_python
+    async for send, result in AsyncSender(executor):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/repl/compilation.py", line 148, in traverse
+    async for send, result in AsyncSender(func(*self.args)):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "<repl>", line 2, in _repl_coroutine
+AttributeError: 'Command' object has no attribute 'is_subcommand'
+
+```
+Er_Cespujo_Sol#4840: Grazie
+Skelmis#9135: ?rtfm channel
+R. Danny#6348: 
+ShadowHanzo#2108: command.sub
+ShadowHanzo#2108: ?rtfm command.sun
+R. Danny#6348: 
+Skelmis#9135: ?rtfm textchannel
+R. Danny#6348: 
+ShadowHanzo#2108: ?rtfm command.sub
+R. Danny#6348: 
+Skelmis#9135: ?rtfm create_text_channel
+R. Danny#6348: 
+Satoru#6725: <discord.ext.commands.core.Group object at 0x7f2cc0554220>
+Sebastiano#5005: e?jsk py c = _bot.get_command("pr create")
+return c.parent
+Satoru#6725: True
+Sebastiano#5005: e?jsk py c = _bot.get_command("pr create")
+if c.parent:
+      return True
+else:
+        return False
+Satoru#6725: False
+Sebastiano#5005: e?jsk py c = _bot.get_command("ui")
+if c.parent:
+      return True
+else:
+        return False
+Sebastiano#5005: ye
+ShadowHanzo#2108: <@!488398758812319745> what ur trying oof
+Sebastiano#5005: see if a command is a subcommand
+Sebastiano#5005: e?help ui
+Satoru#6725: 
+Sebastiano#5005: e?help pr
+Satoru#6725: 
+Satoru#6725: 
+Sebastiano#5005: e?help pr desc
+Sebastiano#5005: e?help pr create
+Satoru#6725: 
+Satoru#6725: 
+Sebastiano#5005: e?reload help
+Sebastiano#5005: e?help pr create
+Satoru#6725: 
+Sebastiano#5005: I'm doing ```py
+emb.add_field(value = f'{prefix}{cmd.parent} {cmd.name} {cmd.signature}', name = cmd.help, inline = False)
+```
+Sebastiano#5005: e?jsk py c = _bot.get_command("pr create")
+return discord.Embed().add_field(value = f'{prefix}{cmd.parent} {cmd.name} {cmd.signature}', name = cmd.help, inline = False)
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/cog_base.py", line 489, in jsk_python
+    async for send, result in AsyncSender(executor):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/repl/compilation.py", line 148, in traverse
+    async for send, result in AsyncSender(func(*self.args)):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "<repl>", line 2, in _repl_coroutine
+NameError: name 'prefix' is not defined
+
+```
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/cog_base.py", line 489, in jsk_python
+    async for send, result in AsyncSender(executor):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/repl/compilation.py", line 148, in traverse
+    async for send, result in AsyncSender(func(*self.args)):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "<repl>", line 2, in _repl_coroutine
+NameError: name 'ctx' is not defined
+
+```
+Sebastiano#5005: e?jsk py c = _bot.get_command("pr create")
+return discord.Embed().add_field(value = f'{ctx.prefix}{cmd.parent} {cmd.name} {cmd.signature}', name = cmd.help, inline = False)
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "<string>", line 2
+    return discord.Embed().add_field(value = f'{_ctx.prefix}{cmd.parent} {cmd.name} {cmd.signature}', name = cmd.help, inline = False
+                                                                                                                                    ^
+SyntaxError: EOF in multi-line statement
+
+```
+Sebastiano#5005: e?jsk py cmd = _bot.get_command("pr create")
+return discord.Embed().add_field(value = f'{_ctx.prefix}{cmd.parent} {cmd.name} {cmd.signature}', name = cmd.help, inline = False
+Satoru#6725: 
+Sebastiano#5005: e?jsk py cmd = _bot.get_command("pr create")
+return discord.Embed().add_field(value = f'{_ctx.prefix}{cmd.parent} {cmd.name} {cmd.signature}', name = cmd.help, inline = False)
+Sebastiano#5005: WHY HERE IT WORKS
+Satoru#6725: 
+Sebastiano#5005: e?reload help
+Satoru#6725: 
+Sebastiano#5005: e?help pr create
+Sebastiano#5005: but it was working
+Sebastiano#5005: LMAO
+Lgan#0001: p-info
+Server Pets#6679: 
