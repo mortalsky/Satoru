@@ -72,6 +72,16 @@ Satoru is a Discord Bot made with discord.py
             aliases = " ".join(cmd.aliases)
             
             emb.add_field(name = 'Aliases', value = aliases, inline = False)
+
+          # if cmd.commands:
+          
+          #commands = ""
+
+          #  for a in cmd.commands:
+
+           #   commands += f"`{prefix}{a.name} {a.signature}` "
+
+         #   emb.add_field(name = "Commands", value = commands, inline = False)
         
         else:
 
@@ -106,7 +116,7 @@ Satoru is a Discord Bot made with discord.py
 `{prf}userinfo` `{prf}roleinfo` `{prf}guildinfo` `{prf}avatar` 
 
 **MISC**
-`{prf}ping` `{prf}invite` `{prf}addemoji` `{prf}feedback` `{prf}say` `{prf}looneytunes` `{prf}uptime` `{prf}about` `{prf}translate` `{prf}gun` `{prf}male` `{prf}female` `{prf}list` `{prf}list add` `{prf}list clear` 
+`{prf}ping` `{prf}invite` `{prf}addemoji` `{prf}feedback` `{prf}say` `{prf}looneytunes` `{prf}uptime` `{prf}about` `{prf}translate` `{prf}gun` `{prf}male` `{prf}female` `{prf}list` `{prf}list add` `{prf}list clear` `{prf}profile` `{prf}profile create` `{prf}delete` `{prf}profile description` `{prf}profile image`    
 
 **WEEB**
 `{prf}satoru` `{prf}kayo` `{prf}punch` `{prf}hug`"""

@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import asyncio
+import os
 
 colour = 0xbf794b
 
@@ -95,8 +96,35 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
       
       await msg.edit(embed = error)
 
+  @commands.command()
+  @commands.is_owner()
+  async def install(self, ctx, package):
 
+    "Upgrade a package"
 
+    os.system(f"pip install {package}")
+
+    await ctx.send(f"Installed {package}!")
+
+  @commands.command()
+  @commands.is_owner()
+  async def upgrade(self, ctx, package):
+
+    "Upgrade a package"
+
+    os.system(f"pip install --upgrade {package}")
+
+    await ctx.send(f"Upgraded {package}!")
+
+  @commands.command()
+  @commands.is_owner()
+  async def uninstall(self, ctx, package):
+
+    "Upgrade a package"
+
+    os.system(f"pip uninstall {package}")
+
+    await ctx.send(f"Uninstalled {package}!")
 
 def setup(bot):
   bot.add_cog(Owner(bot))

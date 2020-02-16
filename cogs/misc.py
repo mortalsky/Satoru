@@ -5,7 +5,7 @@ import json
 import random
 import asyncio
 from googletrans import Translator
-import aiohttp
+from datetime import datetime
 import psutil
 import platform
 
@@ -16,6 +16,7 @@ colour = 0xbf794b
 class Misc(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+        self.launchtime = datetime.now()
 
     @commands.command()
     async def ping(self, ctx):
@@ -25,6 +26,20 @@ class Misc(commands.Cog):
       pong = round(self.bot.latency * 1000)
 
       await ctx.send(f":ping_pong: | {pong}ms")
+
+    @commands.command(aliases = ["ut"])
+    async def uptime(self, ctx):
+
+      "See bot uptime"
+
+      uptime = datetime.now() - self.launchtime
+      hours, remainder = divmod(int(uptime.total_seconds()), 3600)
+      minutes, seconds = divmod(remainder, 60)
+      days, hours = divmod(hours, 24)
+
+      emb = discord.Embed(description = f':clock: | {days} Days {hours} Hours {minutes} Minutes {seconds} Seconds', colour = colour)
+
+      await ctx.send(embed = emb)
 
     @commands.command(aliases = ["tr"])
     async def translate(self, ctx, text, source = None, destination = None):
@@ -622,6 +637,8 @@ Python: `{platform.python_version()}`
 Memory: `{psutil.virtual_memory()[2]}%`
 CPU: `{psutil.cpu_percent()}%`
 Running on: `{platform.system()}`
+Guilds: `{len(self.bot.guilds)}`
+Users: `{len(self.bot.users)}`
 Invite Link: [Click Me](https://satoru.seba.gq/invite)
 Website: [Click Me](https://satoru.seba.gq/)
 Support Server: [Click Me](https://discord.gg/w8cbssP)
