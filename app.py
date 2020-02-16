@@ -118,6 +118,10 @@ def invite():
 
   return redirect("https://discordapp.com/api/oauth2/authorize?client_id=635044836830871562&permissions=321606&scope=bot")
 
+@app.route("/github")
+def github():
+  return redirect("https://github.com/ssebastianoo/satoru")
+
 @app.errorhandler(404)
 def not_found(error):
   return redirect("/")

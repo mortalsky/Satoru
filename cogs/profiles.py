@@ -9,7 +9,7 @@ class Profiles(commands.Cog):
     self.bot = bot
 
   @commands.group(invoke_without_command = True, aliases = ["pr"])
-  async def profile(self, ctx, member: discord.Member = None):
+  async def profile(self, ctx, *, member: discord.Member = None):
 
     "See a user's profile"
 

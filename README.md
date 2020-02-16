@@ -8,9 +8,13 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`e?guildinfo `
+`e?list `
 
-> See the actual guild info 
+> See your list 
+
+`e?profile [member]`
+
+> See a user's profile 
 
 `e?hug [member]`
 
@@ -20,65 +24,53 @@ Satoru is a Discord Bot made with discord.py
 
 > Punch a user 
 
-`e?uptime `
+`e?looneytunes `
 
-> See bot uptime 
+> Which Looney Tunes are you? 
 
-`e?invite `
+`e?ping `
 
-> Invite the bot to your server 
-
-`e?translate <text> [source] [destination]`
-
-> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
-
-`e?avatar [member]`
-
-> See a member avatar 
+> See bot latency 
 
 `e?clear [amount=100]`
 
 > Delete Messages 
 
-`e?feedback <feedback>`
+`e?guildinfo `
 
-> Send a feedback to the bot or suggest a new command 
-
-`e?about `
-
-> Info about the bot 
+> See the actual guild info 
 
 `e?ban [member] [reason]`
 
 > Ban a member 
 
-`e?addemoji [name] [emoji_link]`
+`e?invite `
 
-> Add an emoji 
+> Invite the bot to your server 
 
-`e?male <thing> [member]`
+`e?uptime `
 
-> Use this when someone says that a thing is a female but is a male 
+> See bot uptime 
 
 `e?kick [member] [reason]`
 
 > Kick a member 
 
-`e?say <message>`
+`e?avatar [member]`
 
-> Say something with Satoru 
+> See a member avatar 
 
-`e?female <thing> [member]`
+`e?translate <text> [source] [destination]`
 
-> Use this when someone says that a thing is a male but is a female 
+> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
 
 `e?mute [member] [reason]`
 
 > Mute a member 
 
-`e?userinfo [member]`
+`e?about `
 
-> See a member's info 
+> Info about the bot 
 
 `e?kayo `
 
@@ -88,31 +80,39 @@ Satoru is a Discord Bot made with discord.py
 
 > Unmute a member 
 
-`e?profile [member]`
+`e?feedback <feedback>`
 
-> See a user's profile 
+> Send a feedback to the bot or suggest a new command 
 
-`e?roleinfo <role>`
+`e?male <thing> [member]`
 
-> See a role info 
+> Use this when someone says that a thing is a female but is a male 
+
+`e?addemoji [name] [emoji_link]`
+
+> Add an emoji 
 
 `e?gun `
 
 > Make a gun battle 
 
-`e?list `
+`e?female <thing> [member]`
 
-> See your list 
+> Use this when someone says that a thing is a male but is a female 
+
+`e?say <message>`
+
+> Say something with Satoru 
 
 `e?satoru `
 
 > See a random image of Satoru Fujinuma 
 
-`e?looneytunes `
+`e?userinfo [member]`
 
-> Which Looney Tunes are you? 
+> See a member's info 
 
-`e?ping `
+`e?roleinfo <role>`
 
-> See bot latency 
+> See a role info 
 

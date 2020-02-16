@@ -49549,3 +49549,3744 @@ Sebastiano#5005: but it was working
 Sebastiano#5005: LMAO
 Lgan#0001: p-info
 Server Pets#6679: 
+GitHub#0000: 
+ShadowHanzo#2108: ?rtfm role.color
+R. Danny#6348: 
+Sebastiano#5005: help*
+Sebastiano#5005: **}} Profiles {{**
+>>> Added `profile` command.
+Use `e?profile create` to create your profile.
+`e?profile description <your description>` to set a description.
+`e?profile image <image_url>` to set an image (*You can also attach an image to the message without writing the url*).
+`e?profile <member>` to see a member's profile.
+Sebastiano#5005: If you want to see bot updates as soon as they are released, check out github repo https://satoru.seba.gq/github (or check <#676476036929683466> )
+Cy#2501: K.jsk git pull origin develop
+Kanade#5520: ```sh
+$ git pull origin develop
+
+```
+Page 1/1
+Cy#2501: K.sudo logout
+Kanade#5520: 
+ShadowHanzo#2108: ?rtfm client.command
+R. Danny#6348: Could not find anything. Sorry.
+LyricLy#5695: hd!histodev <@183526467777462273>
+histodev#0010: 
+Timot6#5585: ?charinfo 1️⃣
+R. Danny#6348: `\U00000031`: DIGIT ONE - 1 — <http://www.fileformat.info/info/unicode/char/31>
+`\U0000fe0f`: VARIATION SELECTOR-16 - ️ — <http://www.fileformat.info/info/unicode/char/fe0f>
+`\U000020e3`: COMBINING ENCLOSING KEYCAP - ⃣ — <http://www.fileformat.info/info/unicode/char/20e3>
+MilaDog#8249: e?profile
+Satoru#6725: 
+MilaDog#8249: <@488398758812319745> is it safe to try ``e?profile create``?
+Satoru#6725: 
+Soheab_#5757: e?profile
+Soheab_#5757: e?profile create
+Satoru#6725: Done! You can now set your description with `e?profile description <your description>` and your image with `e?profile image <image url>`
+Soheab_#5757: e?profile
+Satoru#6725: 
+Soheab_#5757: e?profile description Owner of Sparklybot ✨
+Satoru#6725: Done!
+Soheab_#5757: e?profile
+Satoru#6725: 
+Cy#2501: e?profile create
+Satoru#6725: Done! You can now set your description with `e?profile description <your description>` and your image with `e?profile image <image url>`
+Soheab_#5757: e?profile image
+Cy#2501: K.av
+Kanade#5520: 
+Soheab_#5757: S!avatar
+Sparklybot ✨#2325: 
+Cy#2501: e?profile image https://cdn.discordapp.com/avatars/354316246759636992/898cf280eb7e4cb4250987dcfa31c6ad.png?size=1024
+Satoru#6725: Done!
+Cy#2501: e?profile
+Satoru#6725: 
+Soheab_#5757: e?profile image https://images-ext-1.discordapp.net/external/VUrx38G0cwV7jsdti1R3SIbWRbeBBw9Iyl3dgS12z8A/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/150665783268212746/a_e7335ffb1c0a86f61dad84b8f4500604.gif
+Satoru#6725: Done!
+Soheab_#5757: e?profile
+Satoru#6725: 
+Satoru#6725: Done!
+Cy#2501: e?profile description Random weeb
+Soheab_#5757: And now 👀
+Cy#2501: e?profile
+Satoru#6725: 
+Soheab_#5757: e?profile create
+Satoru#6725: Done! You can now set your description with `e?profile description <your description>` and your image with `e?profile image <image url>`
+Soheab_#5757: Oof
+Soheab_#5757: e?profile
+Satoru#6725: 
+Soheab_#5757: Loool
+Soheab_#5757: e?profile description Owner of Sparklybot ✨
+Satoru#6725: Done!
+Soheab_#5757: e?profile image https://images-ext-2.discordapp.net/external/2g4iPf1WqZsFFu27lxkpcwlBJ5Fo6Ex6bry6lDsqdXM/https/images-ext-1.discordapp.net/external/VUrx38G0cwV7jsdti1R3SIbWRbeBBw9Iyl3dgS12z8A/%253Fsize%253D4096/https/cdn.discordapp.com/avatars/150665783268212746/a_e7335ffb1c0a86f61dad84b8f4500604.gif
+Satoru#6725: Done!
+Satoru#6725: 
+Soheab_#5757: e?profile
+Cy#2501: Def dont want to use create again
+Cy#2501: Lol
+Soheab_#5757: <:Kappa:457182290309677057>
+Praaly#1036: ?varchar 👍
+Praaly#1036: ?charinfo 😉
+R. Danny#6348: `\U0001f609`: WINKING FACE - 😉 — <http://www.fileformat.info/info/unicode/char/1f609>
+Michael#7817: 'proc
+kriX#9879: ```prolog
++-------+------------------+------------------+------------------+------------------+
+| Info  |    KrixBot.py    |     Nedz.py      |     RHEA.py      |    LainBot.py    |
++-------+------------------+------------------+------------------+------------------+
+|  PID  |      16307       |      24210       |      24213       |      24216       |
+|  CPU  |        -         |        -         |        -         |        -         |
+|  MEM  | 13.99 / 292.5 MB |  3.61 / 75.5 MB  |  3.51 / 73.4 MB  |  4.49 / 93.8 MB  |
+| DISK  |       0.0        |       0.0        |       0.0        |       0.0        |
+| START | 3d, 3h, 37m, 8s  | 12d, 6h, 54m, 2s | 12d, 6h, 54m, 2s | 12d, 6h, 54m, 2s |
++-------+------------------+------------------+------------------+------------------+
+```
+Praaly#1036: ?charinfo 🧪
+R. Danny#6348: `\U0001f9ea`: Name not found. - 🧪 — <http://www.fileformat.info/info/unicode/char/1f9ea>
+Michael#7817: 'z free -m
+kriX#9879: ```prolog
+$ free -m
+
+              total        used        free      shared  buff/cache   available
+Mem:           1993         594         112         130        1286        1093
+Swap:           510          40         470
+
+```
+Michael#7817: 'z iostat
+kriX#9879: ```prolog
+$ iostat
+
+Linux 4.15.0-22-generic (PSX) 	02/16/2020 	_x86_64_	(1 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          53.76    0.00    2.02   15.10    0.04   29.09
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+vda              27.32         6.22       182.89   88628869 2605750276
+
+
+```
+LittleEndu#0001: ?rtfm msgsnd
+R. Danny#6348: 
+LittleEndu#0001: ?rtfm gldtxtch
+R. Danny#6348: 
+Cy#2501: K.jsk git pull origin develop
+Kanade#5520: ```sh
+$ git pull origin develop
+
+```
+Page 1/1
+Cy#2501: K.sudo logout
+Kanade#5520: 
+Sebastiano#5005: e?profile 150665783268212746
+Satoru#6725: 
+Sebastiano#5005: e?profile
+Satoru#6725: 
+Satoru#6725: 
+Sebastiano#5005: e?profile Cy
+Cy#2501: K.sudo py
+```py
+r = await _ctx.send('are u sure?')
+kanade!.ConfirmMenu(_ctx, r, on_yes=_ctx.send('yes'), on_no=_ctx.send('no')
+```
+Kanade#5520: 
+Cy#2501: K.sudo py
+```py
+r = await _ctx.send('are u sure?')
+kanade!.ConfirmMenu(_ctx, r, on_yes=_ctx.send('yes'), on_no=_ctx.send('no'))
+```
+Kanade#5520: are u sure?
+Cy#2501: Oof
+Cy#2501: Oh crap
+Cy#2501: K.sudo py
+coro = _ctx.send('test')
+await coro
+Kanade#5520: test
+Dutchy#6127: <:GWpieHyperS:393085077866938368>
+Cy#2501: K.sudo py
+return _ctx.send
+Kanade#5520: 
+Dutchy#6127: //jsk py _ctx.send
+Charles#5244: <bound method Messageable.send of <__main__.MyContext object at 0x7ff73c198610>>
+Dutchy#6127: //jsk pyi _ctx.send
+Charles#5244: ```prolog
+=== <bound method Messageable.send of <__main__.MyContext object at 0x7ff73cf15910>> ===
+
+Type             :: method
+Object ID        :: 0x7ff73b1b9080
+Type MRO         :: builtins.method, builtins.object
+Module Name      :: discord.abc
+File Location    :: /usr/local/lib/python3.8/dist-packages/discord/abc.py
+Line Span        :: 771-862
+Signature        :: (content=None, *, tts=False, embed=None, file=None, files=None, delete_after=None, nonce=None)
+```
+Page 1/1
+Cy#2501: K.jsk git pull origin develop
+Kanade#5520: ```sh
+$ git pull origin develop
+
+```
+Page 1/1
+Cy#2501: K.sudo logout
+Kanade#5520: 
+Sebastiano#5005: e?profile dskdjs
+Satoru#6725: 
+Cy#2501: K.sudo py
+```py
+r = await _ctx.send('are u sure?')
+kanade!.ConfirmMenu(_ctx, r, on_yes=_ctx.send('yes'), on_no=_ctx.send('no'))
+```
+Kanade#5520: are u sure?
+Kanade#5520: yes
+Kanade#5520: no
+Lida#6399: ?tag unicode
+R. Danny#6348: I � unicode
+Lida#6399: ?tag unicode to name
+R. Danny#6348: Tag not found. Did you mean...
+unicode
+name tag
+ode to code
+Lida#6399: ?tag ode to code
+R. Danny#6348: <https://www.poem-generator.org.uk/2bz3ipnd/ode-to-code.html>
+**Praise**:
+"Never have I felt so moved by a simple Code. Thank you Python 3!"
+- The Daily Tale
+"Look, you might think 'prep' is a good rhyme for 'pep', but frankly I couldn't make head nor tale of what you were trying to say."
+- Enid Kibbler
+"The author is so talented that I really feel the love for the object of the poem's pretty PEP, Syntax and pep."
+- Hit the Spoof
+"The iambic pentameter almost works!"
+- Zob Gloop
+"Not even Shakespeare himself would be bold enough to use a simile like 'a nonmember' - wow!"
+- Betty Borison
+Lida#6399: ?tag emoji name
+R. Danny#6348: Tag not found. Did you mean...
+emoji
+emoji lib
+emojis
+Lida#6399: ?tag emoji lib
+R. Danny#6348: `emoji` library converts Unicode emoji and Discord's emoji input method, such as ❤ and `:heart:`.
+You can install it via pip.
+Sebastiano#5005: e?pr image
+Satoru#6725: Done!
+Sebastiano#5005: e?pr
+Satoru#6725: 
+Cy#2501: K.sudo py
+r = await _ctx.send('are u sure?')
+m = kanade!.ConfirmMenu(_ctx, r, on_yes=_ctx.send('yes'), on_no=_ctx.send('no'))
+await m.cancel()
+Kanade#5520: are u sure?
+Kanade#5520: yes
+Kanade#5520: no
+Cy#2501: K.sudo py
+r = await _ctx.send('are u sure?')
+m = kanade!.ConfirmMenu(_ctx, r, on_yes=_ctx.send('yes'), on_no=_ctx.send('no'))
+m._task.cancel()
+Kanade#5520: are u sure?
+Kanade#5520: 
+Sebastiano#5005: e?pr image
+Satoru#6725: Done!
+Sebastiano#5005: e?pr
+Satoru#6725: 
+Sebastiano#5005: better
+Cy#2501: K.sudo py
+r = await _ctx.send('are u sure?')
+kanade!.ConfirmMenu(_ctx, r, on_yes=_ctx.send('yes'), on_no=_ctx.send('no'))
+Kanade#5520: are u sure?
+Kanade#5520: yes
+Kanade#5520: no
+Cy#2501: K sudo py
+r = await _ctx.send('are u sure?')
+kanade!.ConfirmMenu(_ctx, r, on_yes=_ctx.send('yes'), on_no=_ctx.send('no'))
+Kanade#5520: are u sure?
+Kanade#5520: yes
+Kanade#5520: no
+Cy#2501: K.sudo py
+r = await _ctx.send('are u sure?')
+kanade!.ConfirmMenu(_ctx, r, on_yes=_ctx.send('yes'), on_no=_ctx.send('no'))
+Kanade#5520: are u sure?
+Kanade#5520: yes
+Kanade#5520: no
+Cy#2501: K sudo py
+r = await _ctx.send('are u sure?')
+kanade!.ConfirmMenu(_ctx, r, on_yes=_ctx.send('yes'), on_no=_ctx.send('no'))
+Kanade#5520: are u sure?
+Kanade#5520: yes
+Kanade#5520: no
+Cy#2501: Ah ye it waits for second iteration..
+Cy#2501: K sudo logout
+Kanade#5520: 
+Cy#2501: K sudo py
+r = await _ctx.send('are u sure?')
+kanade!.ConfirmMenu(_ctx, r, on_yes=_ctx.send('yes'), on_no=_ctx.send('no'))
+Kanade#5520: are u sure?
+Kanade#5520: yes
+Cy#2501: K sudo logout
+Kanade#5520: 
+Sebastiano#5005: https://github.com/ssebastianoo/Satoru
+Cy#2501: K.jsk git pull origin develop
+Kanade#5520: ```sh
+$ git pull origin develop
+
+```
+Page 1/1
+Cy#2501: K.sudo logout
+Kanade#5520: 
+Cy#2501: Todo list
+Todo#9724: 
+Sebastiano#5005: e?uptime
+Satoru#6725: 
+๖ۣۜᏃσякαᎥ ⛱#9999: i really hate myself, should i use heroku for my bot host ?
+Sebastiano#5005: no
+Gobot1234#2435: yes
+Gobot1234#2435: if you hate yourself
+Sebastiano#5005: it's always down
+๖ۣۜᏃσякαᎥ ⛱#9999: okay
+Sebastiano#5005: like 2 times a week
+Gobot1234#2435: s!help
+Sparklybot ✨#2325: 
+๖ۣۜᏃσякαᎥ ⛱#9999: is heroku better than suicide
+๖ۣۜᏃσякαᎥ ⛱#9999: ?
+Gobot1234#2435: nahh its fine
+Cy#2501: I mean i used it for quite a while till i migrated
+๖ۣۜᏃσякαᎥ ⛱#9999: oh ok
+Cy#2501: And ur bot resets everyday
+Cy#2501: Avoid saving files
+Gobot1234#2435: s!uptime
+Sparklybot ✨#2325: Uptime: **13 hours, 26 minutes, and 20 seconds**
+Sebastiano#5005: I used it only one time and it was always down
+Gobot1234#2435: amazing uptime
+Satoru#6725: 0
+Sebastiano#5005: e?jsk py for a in _bot.shards:
+          await _ctx.send(a)
+Sebastiano#5005: yeet
+Cy#2501: It uses its own system, u cant even do most of Linux commands
+Cy#2501: Not even ping
+Sebastiano#5005: ?rtfm bot.shard
+R. Danny#6348: Could not find anything. Sorry.
+Sebastiano#5005: ?rtfm shard
+R. Danny#6348: 
+Satoru#6725: 
+Cy#2501: e?help
+Sebastiano#5005: e?about
+Satoru#6725: 
+Cy#2501: Why did u shard
+Sebastiano#5005: auto shard
+Sebastiano#5005: e?jsk
+Satoru#6725: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.8.1 (default, Feb  2 2020, 08:37:37) [GCC 8.3.0]` on `linux`
+Module was loaded 18 minutes ago, cog was loaded 18 minutes ago.
+
+Using 76.6 MB physical memory and 775.9 MB virtual memory, 63.1 MB of which unique to this process.
+Running on PID 2509 (`prybar-python3`) with 9 thread(s).
+
+This bot is automatically sharded and can see 5 guild(s) and 15530 user(s).
+Average websocket latency: 57.49ms
+Tatsu#8792: 
+Cy#2501: K.jsk
+Kanade#5520: Jishaku v1.18.0, discord.py `1.3.1`, `Python 3.7.5 (default, Nov  7 2019, 10:50:52) [GCC 8.3.0]` on `linux`
+Module was loaded 5 minutes ago, cog was loaded 5 minutes ago.
+
+Using 72.5 MB physical memory and 319.9 MB virtual memory, 66.7 MB of which unique to this process.
+Running on PID 31773 (`python3.7m`) with 3 thread(s).
+
+This bot is not sharded and can see 4 guild(s) and 15878 user(s).
+Average websocket latency: 237.34ms
+Cy#2501: Same thing
+Cy#2501: Dont rlly need to shard till ur bot in 1000 guilds+
+Sebastiano#5005: #WeShardButWeHave5Guilds
+Sebastiano#5005: ?tag create wsbwg5g #WeShardButWeHave5Guilds
+R. Danny#6348: Tag wsbwg5g successfully created.
+Sebastiano#5005: ?tag remove wsbwg5g
+R. Danny#6348: Tag and corresponding aliases successfully deleted.
+Cy#2501: Well that doesnt make it amazing anyway
+Sebastiano#5005: ?tag create wsbwh5g #WeShardButWeHave5Guilds
+R. Danny#6348: Tag wsbwh5g successfully created.
+Sebastiano#5005: ?help tag aliases
+R. Danny#6348: Command "tag" has no subcommand named aliases
+Sebastiano#5005: ?help tag aliase
+R. Danny#6348: Command "tag" has no subcommand named aliase
+Sebastiano#5005: smh
+Sebastiano#5005: ?help tag
+R. Danny#6348: 
+Sebastiano#5005: ?help tag alias
+R. Danny#6348: 
+Cy#2501: K.jsk git pull origin develop
+Kanade#5520: ```sh
+$ git pull origin develop
+
+```
+Page 1/1
+Sebastiano#5005: ?tag alias "we shard but" wsbwh5g
+R. Danny#6348: Tag alias "we shard but" that points to "wsbwh5g" successfully created.
+Cy#2501: K.jsk git fetch origin develop --tags
+Kanade#5520: ```sh
+$ git fetch origin develop --tags
+
+```
+Page 1/1
+Cy#2501: K.sudo sh cat kanade/__init__.py
+Kanade#5520: 
+OP|FF|Sans#3627: 
+PostIt#4899: 
+Soheab_#5757: S!ping
+Sparklybot ✨#2325: 🏓 Pong
+Sebastiano#5005: Welcome <@669945903561572362>
+Dutchy#6127: ?tag wsbwh5g
+R. Danny#6348: #WeShardButWeHave5Guilds
+lgs#5544: ?rtfm commands.command
+R. Danny#6348: 
+chickenmatty#4766: 
+lgs#5544: ?rtfm bot.command
+R. Danny#6348: 
+Cy#2501: Shards
+chickenmatty#4766: <@488398758812319745> lol
+Sebastiano#5005: Come sei arrivato qui
+chickenmatty#4766: Hack
+chickenmatty#4766: <@652080066045673472>
+Sebastiano#5005: Giusto
+chickenmatty#4766: Questo posto mi spaventa
+Sebastiano#5005: Perché?
+Sebastiano#5005: Lo uso per trollare dei bambini con <@663830444042878996>
+chickenmatty#4766: Lool
+Sebastiano#5005: Perché puoi cambiargli lo status
+Sebastiano#5005: Ed uno mi aveva chiesto una mano
+Dutchy#6127: //jsk py _bot.shards
+Charles#5244: {0: <discord.shard.Shard object at 0x7ff76358f790>}
+Sebastiano#5005: Gli ho fatto il comando
+Sebastiano#5005: Ed il bot è ancora qui
+Sebastiano#5005: <@663830444042878996> help
+Cy#2501: ?help
+R. Danny#6348: 
+chickenmatty#4766: /play gay
+🔥ITALIA LAND BOT OFFICAL🔥#7707: Sto Giocando
+chickenmatty#4766: Lol
+Sebastiano#5005: /play bot hackerato lmao xd omg
+Cy#2501: ?charinfo ◀️▶️
+🔥ITALIA LAND BOT OFFICAL🔥#7707: Sto Giocando
+R. Danny#6348: `\U000025c0`: BLACK LEFT-POINTING TRIANGLE - ◀ — <http://www.fileformat.info/info/unicode/char/25c0>
+`\U0000fe0f`: VARIATION SELECTOR-16 - ️ — <http://www.fileformat.info/info/unicode/char/fe0f>
+`\U000025b6`: BLACK RIGHT-POINTING TRIANGLE - ▶ — <http://www.fileformat.info/info/unicode/char/25b6>
+`\U0000fe0f`: VARIATION SELECTOR-16 - ️ — <http://www.fileformat.info/info/unicode/char/fe0f>
+chickenmatty#4766: oof
+Sebastiano#5005: Ratelimit
+chickenmatty#4766: /play "bot hackerato lmao xd omg"
+🔥ITALIA LAND BOT OFFICAL🔥#7707: Sto Giocando
+Dutchy#6127: //jsk
+Charles#5244: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.8.1 (default, Dec 31 2019, 18:42:42) [GCC 7.4.0]` on `linux`
+Module was loaded 4 days ago, cog was loaded 4 days ago.
+
+Using 496.7 MB physical memory and 1.2 GB virtual memory, 487.2 MB of which unique to this process.
+Running on PID 26167 (`python3.8`) with 6 thread(s).
+
+This bot is automatically sharded and can see 376 guild(s) and 229064 user(s).
+Average websocket latency: 27.36ms
+Sebastiano#5005: Ah giusto
+Sebastiano#5005: Non era ratelimit
+Sebastiano#5005: /play "bot hackerato lmao xd omg se non mandi questa catena a 393 user muori"
+🔥ITALIA LAND BOT OFFICAL🔥#7707: Sto Giocando
+Dutchy#6127: //jsk py [g.name for g in _bot.guilds if g.member_count >= 10000]
+Charles#5244: ['Discord Bots', 'Discord Bot List', '/r/LearnCSGO', 'discord.py']
+chickenmatty#4766: 🐰
+chickenmatty#4766: <:python:665716776637693972>
+Sebastiano#5005: /help
+🔥ITALIA LAND BOT OFFICAL🔥#7707: ```
+​No Category:
+  help Shows this message
+  play 
+
+Type /help command for more info on a command.
+You can also type /help category for more info on a category.
+```
+chickenmatty#4766: /help play
+🔥ITALIA LAND BOT OFFICAL🔥#7707: ```
+/play [status]
+
+```
+chickenmatty#4766: Lol
+LittleEndu#0001: ?rtfm msgemotes
+R. Danny#6348: Could not find anything. Sorry.
+LittleEndu#0001: ?rtfm msgchnl
+R. Danny#6348: 
+Lida#6399: ?tag search heroku
+R. Danny#6348: 
+Lida#6399: ?tag heroku-storedata
+R. Danny#6348: Store data in files and host in heroku! It *defenitely* works!
+Sebastiano#5005: ?tag noheroku
+R. Danny#6348: - Bots are not what the platform is designed for. Heroku is designed to provide web servers (like Django, Flask, etc). This is why they give you a domain name and open a port on their local emulator.
+
+- Heroku's environment is heavily containerized, making it significantly underpowered for a standard use case.
+
+- Heroku's environment is volatile. In order to handle the insane amount of users trying to use it for their own applications, Heroku will dispose your environment every time your application dies unless you pay.
+
+- Heroku has minimal system dependency control. If any of your Python requirements need C bindings (such as PyNaCl binding to libsodium, or lxml binding to libxml), they are unlikely to function properly, if at all, in a native environment. As such, you often need to resort to adding third-party buildpacks to facilitate otherwise normal CPython extension functionality. (This is the reason why voice doesn't work natively on heroku.)
+
+- Heroku only offers a limited amount of time on their free programme for your applications. If you exceed this limit, which you probably will, they'll shut down your application until your free credit resets.
+Sebastiano#5005: ?tag repl
+R. Danny#6348: `repl.it` is just as worse, if not even worse than Heroku for hosting Discord bots.
+
+**Why?**
+To get your bot running 24/7, you need to run a webserver with your bot, which is a trivial task. Sure, you can pull it off, but why not use a cheap VPS instead? (`?tag vps`)
+Repl.it also has some of the major disadvantages of Heroku (`?tag noheroku`)
+Overall, it is a bad platform to host, and you should stay away from it.
+Sebastiano#5005: ?tag info noheroku
+R. Danny#6348: 
+Sebastiano#5005: ?tag vps
+R. Danny#6348: Need to run your bot 24/7? Get a cheap VPS.
+
+<https://www.scaleway.com/>- Incredibly cheap but powerful VPSes, owned by <https://online.net/>, based in Europe.
+<https://www.digitalocean.com/> - US-based cheap VPSes. The gold standard. Locations available world wide.
+<https://www.ovh.co.uk/> - Cheap VPSes, used by many people. France and Canadian locations available.
+<https://www.time4vps.eu/> - Cheap VPSes, seemingly based in Lithuania.
+<https://www.linode.com/> - More cheap VPSes!
+<https://www.vultr.com/> - US-based, DigitalOcean-like.
+<https://galaxygate.net/> - A reliable, affordable, and trusted host, Used by Dank Memer, Rythm, and many other people.
+
+Self-hosting:
+Any modern hardware should work 100% fine.
+
+Free hosting:
+No.  There is no good free VPS hoster, outside of persuading somebody to host for you, which is incredibly unlikely.
+Sebastiano#5005: e?help
+Satoru#6725: 
+Sebastiano#5005: e?uptime
+Satoru#6725: 
+Cy#2501: K urban test
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: Finally paginated
+Cy#2501: K sudo ereload
+Cy#2501: K urban test
+Kanade#5520: 
+Kamran#0001: mel spotify
+Melody#6935: 
+Zomatree#7757: ?rtfm guild.emo
+R. Danny#6348: 
+Kamran#0001: welp
+Cy#2501: Rip broken paginator
+Kamran#0001: too bad the event ended lol
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: K sudo logout
+Kanade#5520: 
+Cy#2501: Do u think ppl need the `go to last` button
+Cy#2501: ⏪ ⏩
+Cy#2501: <:thrinking:597590667669274651>
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: Uh
+Cy#2501: Lag
+Kamran#0001: <@!354316246759636992> sure, go to first / last could be useful
+Cy#2501: When the page is at the boundary, it will jump (if page 10/10 and press next, jump to 0/10)
+Cy#2501: I guess yeah
+Cy#2501: ?charinfo ⏪⏩
+R. Danny#6348: `\U000023ea`: BLACK LEFT-POINTING DOUBLE TRIANGLE - ⏪ — <http://www.fileformat.info/info/unicode/char/23ea>
+`\U000023e9`: BLACK RIGHT-POINTING DOUBLE TRIANGLE - ⏩ — <http://www.fileformat.info/info/unicode/char/23e9>
+Kamran#0001: ?source charinfo
+R. Danny#6348: <https://github.com/Rapptz/RoboDanny/blob/rewrite/cogs/meta.py#L223-L237>
+Kamran#0001: seriously
+Kamran#0001: google still links to the fuckin 2.7 docs?
+Cy#2501: K.jsk source sudo ereload
+Kanade#5520: ```py
+    @sudo_group.command(name='extreload', aliases=('ereload',))
+    async def sudo_extreload_command(self, ctx, *extensions):
+        """Reloads extensions."""
+        await self.do_extension(ctx, 'reload', *extensions)
+
+```
+Page 1/1
+Cy#2501: "hey man wheres the actual code"
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: Wrong order
+Cy#2501: And uh
+Cy#2501: That looks fked up
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: Uh
+Cy#2501: K sudo logout
+Kanade#5520: 
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: <:yert:596577410888105995>
+Cy#2501: Discord always fk up the order
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: K sudo logout
+Kanade#5520: 
+Cy#2501: K urban test
+Kanade#5520: 
+MrSnek#3442: discord.gg/programmer
+Cy#2501: K.raw embed 678591277935362058
+Cy#2501: K.raw message 678591277935362058
+Kanade#5520: 
+Cy#2501: K urban test
+Kanade#5520: 
+DuckMasterAl#0001: ?rtfm last_message.delete
+R. Danny#6348: Could not find anything. Sorry.
+DuckMasterAl#0001: ?rtfm last_message
+R. Danny#6348: 
+Cy#2501: K urban test
+Kanade#5520: 
+Kamran#0001: ?charinfo 🩸
+R. Danny#6348: `\U0001fa78`: Name not found. - 🩸 — <http://www.fileformat.info/info/unicode/char/1fa78>
+Kamran#0001: <:OMEGALUL:667862986408460309>
+Kamran#0001: Name not found LOL
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: K urban test
+Kanade#5520: 
+PikalaxALT#5823: he's compensation for something
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: There u go
+Cy#2501: K sudo logout
+Kanade#5520: 
+Cy#2501: K.jsk git pull origin develop
+Kanade#5520: ```sh
+$ git pull origin develop
+
+```
+Page 1/1
+Cy#2501: K.sudo logout
+Kanade#5520: 
+Cy#2501: K.sudo py return json!.dumps(collections!.Counter(str(m.status) for m in _guild.members), indent=4)
+Kanade#5520: 
+Cy#2501: Is this what the guy in <#381965515721146390> wants lol
+Cy#2501: Oh nvm
+Cy#2501: List of members
+Cy#2501: K.urban test
+Kanade#5520: 
+A Discord User#5290: gg.jsk
+A Discord User#5290: fuck
+Cy#2501: Todo add Cache embeded urban entries
+Todo#9724: Todo task successfully added!
+Cy#2501: K.urban linux
+Kanade#5520: 
+Cy#2501: Thats a long definition
+A Discord User#5290: whatever happened to gnu hurd
+Soheab_#5757: <:RooThink:645118110344544296>
+Nerrix#5439: q!help
+EmojiMaster#8109: 
+Nerrix#5439: q!eval
+print(msg.guild.created_at)
+EmojiMaster#8109: ```py
+2017-07-17 22:55:40.537000
+
+```
+Cy#2501: K.urban test
+Kanade#5520: 
+Cy#2501: Hmm where the hell is the timeout
+Cy#2501: K.sudo py return "wait for timeout"
+Kanade#5520: 
+『Mugiman』#3310: ?rtfm emoji
+R. Danny#6348: 
+Soheab_#5757: S!eval
+return author.status
+Sparklybot ✨#2325: ```py
+online
+```
+Cy#2501: Hmm
+Cy#2501: Todo add Fix timeout for menu
+Todo#9724: Todo task successfully added!
+Cy#2501: K urban test
+Kanade#5520: 
+Cy#2501: ?rtfm clear_reactions
+R. Danny#6348: 
+Lida#6399: ?tag locale
+R. Danny#6348: Tag not found. Did you mean...
+localembed
+localhost
+localcheck
+Lida#6399: ?tag localembed
+R. Danny#6348: ```py
+f = discord.File("some_file_path", filename="image.png")
+e = discord.Embed()
+e.set_image(url="attachment://image.png")
+await messagable.send(file=f, embed=e)```
+Note that the filename in the File constructor and the filename in the URL must match.
+Lida#6399: ?tag localcheck
+R. Danny#6348: ```py
+from discord.ext.commands import Cog
+
+class Owner(Cog):
+    """Commands only for the bot owner"""
+    def __init__(self, bot):
+        self.bot = bot
+
+    async def cog_check(self, ctx):
+        return await self.bot.is_owner(ctx.author)
+```
+Cy#2501: K.jsk git pull origin develop
+Kanade#5520: ```sh
+$ git pull origin develop
+
+```
+Page 1/1
+Cy#2501: K.sudo logout
+Kanade#5520: 
+Cy#2501: K.sudo py return "test"
+Kanade#5520: 
+Soheab_#5757: S!ms
+Sparklybot ✨#2325: 
+DuckMasterAl#0001: ?rtfm BotMissingPermissions
+DuckMasterAl#0001: ?rtfm BotMissingPermissions
+R. Danny#6348: 
+R. Danny#6348: 
+Artemis#6969: ?tag data
+R. Danny#6348: https://dontasktoask.com/
+Gobot1234#2435: plz snipe <#603069307286454290>
+kriX#9879: I don't have that many messages recorded
+lee#3386: ?Rtfm wait_for
+lee#3386: ?rtfm wait_for
+R. Danny#6348: 
+Soheab_#5757: ?tag tutorials
+R. Danny#6348: Tutorials are fundamentally flawed in concept when it comes to teaching you something like a programming language. The simple reason for this is a programming language is how you create whatever you want, a tutorial is something that teaches you how to do *what the tutorial is teaching*. 
+**I recommend reading through all of these points if you want to understand why**
+A couple of points against tutorials...especially video tutorials: 
+
+- Tutorials teach you how to create a project, a specific program, a specific script, etc. This causes many many people to only know how to do *this one specific thing*. 
+
+- A programming language is an entire language itself, this is obvious in of itself but for this point think of this compared to a real language...people have accents, there's multiple ways to say the same thing, there's multiple pronunciations for some words. This same kind of concept applies to programming languages, there are many ways to achieve the same thing, there are code styles which people pick up from learning. Sometimes...these practices *can be bad* and if you're just learning, how would you know if the tutorial is using some bad practice? Trust me...this happens **a lot** 
+
+- Tutorials are made for that specific version of whatever it's using...whether this be python, the discord.py library, some other library it's using...etc. As time goes on that can *very quickly* become outdated
+
+- Sometimes there are "advanced" or hard concepts that are covered in a tutorial, you're not guaranteed to understand all of it right off the bat. It is *extremely* hard to provide the relevant documentation for every single concept covered....there would be so much. 
+
+- Specifically for this library, the people who look for *tutorials* are typically new to the language...this library is *not* meant for beginners, there are some advanced concepts (EG asyncio) that are covered, and jumping straight into that as a beginner is very bad.
+A Discord User#5290: i did that
+๖ۣۜᏃσякαᎥ ⛱#9999: who would read such a long text in <#381965515721146390>
+Soheab_#5757: They should
+Soheab_#5757: Or they should gtfo
+Lida#6399: //dong
+Charles#5244: 
+Lida#6399: //source dong
+Charles#5244: ```py
+    @commandExtra(aliases=["dick", "penis"], category="Funny")
+    @commands.cooldown(1, 5, commands.BucketType.user)
+    async def dong(self, ctx, *, user: discord.Member=None):
+        if user is None:
+            user = ctx.author
+        state = random.getstate()
+        random.seed(user.id)
+        dong = "8{}D".format("=" * random.randint(0, 30))
+        random.setstate(state)
+        em = discord.Embed(title=get_text(ctx.guild, 'fun', "fun.dsize").format(user), description=dong, colour=self.bot.embed_color)
+        await ctx.send(embed=em)
+
+```
+Lida#6399: +eval 
+import random
+return random.seed(ctx.author.id)
+Lida#6399: +jsk py
+import random
+return random.seed(_ctx.author.id)
+Lgan#0001: ?charinfo 👍 👎
+R. Danny#6348: `\U0001f44d`: THUMBS UP SIGN - 👍 — <http://www.fileformat.info/info/unicode/char/1f44d>
+`\U00000020`: SPACE -   — <http://www.fileformat.info/info/unicode/char/20>
+`\U0001f44e`: THUMBS DOWN SIGN - 👎 — <http://www.fileformat.info/info/unicode/char/1f44e>
+Lida#6399: +tag seed
+Lida#6399: ?tag seed
+R. Danny#6348: Tag not found. Did you mean...
+see
+seek
+speed
+Soheab_#5757: ?rtfm py format
+R. Danny#6348: 
+A Discord User#5290: +help
+YMYBot#9749: 
+Welcomer#5491: 
+Koishi#8740: ```
+Did you know? Most people forget about this bot within seconds.
+
+Alias:
+  alias         
+  prefix        use "+prefix add" or "+prefix del" to add or remove prefixes....
+Basic:
+  avatar        
+  ping          
+  say           
+  uptime        
+Beta:
+  avyfuckery    Draws an Apollonian gasket fractal using either a target or t...
+  avyquilt      Moved to beta bot
+  avys          The same as avyfuckery except multiple members can be specified
+  avyserver     Draws an Appollonian gasket fractal using a random handful of...
+  blotchy       Become blotchy for me, will you?
+  circles       
+  colormap      
+  colormap2     
+  colormap3             
+  cresent       
+  depth         Image manipulation for mere mortals
+  depth2        Image manipulation for mere mortals part two
+  dither        
+  dither2       
+  dither3       
+  ditherBW      
+  ditherL       
+  ditherOL      
+  ditherOLB     
+  dom           
+  edgy          
+  embedtest     
+  emojicolors   
+  gasket        
+  gouge         Spams the quantize feature of PIL on an attachment or url, mi...
+  jigsaw                
+  melted        Melted!?
+  melty         Totally not stolen
+  palette       
+  perms         
+  pietest       
+  pixelate      Spare me the details.
+  purgetest     
+  scoop         Spams the quantize feature of PIL on a target's avatar, might...
+  slime_test    
+  sorted        Sorted?
+  sub           
+  zoom          Doing weird stuff. Try to keep the speed between 20 and 100
+Bot_Info:
+  about         
+  eventstats    
+  invite        Posts the invite link for the bot
+Cards:
+  cah           Single player Cards against humanity. Mostly for testing cards.
+Currency:
+  currency      
+Games:
+  blackjack     Simple game of blackjack, specify how much you want to bet
+  minesweeper   
+  molest        
+Koishi:
+  howmuchlonger Make the time you have left meaningful
+  koishi        By popular demand
+RP:
+  fondle        
+  report        
+Rng:
+  choose        
+  rngsort       
+Stats:
+```
+ROBOT#2328: 
+Koishi#8740: ```
+  barstatus     Moved to beta bot
+  histostatus   Moved to beta bot
+  piestatus     Moved to beta bot
+User_Info:
+  info          
+ktane:
+  ktanepassword Just a simple password guesser for keep talking and nobody ex...
+​No Category:
+  help          Shows this message
+
+Type +help command for more info on a command.
+You can also type +help category for more info on a category.
+```
+Lida#6399: //help dong
+Charles#5244: 
+A Discord User#5290: +piestatus
+Koishi#8740: Moved to beta bot. Use `b+` prefix
+A Discord User#5290: sad
+ImRock#0001: no thats normal
+A Discord User#5290: b+piestatus v1.0 Alpha Tester
+A Discord User#5290: hmm
+A Discord User#5290: b+help
+Koishi#8740: ```
+Lies and slander follow
+
+Avatar:
+  avyquilt          
+Basic:
+  ping              
+  uptime            
+Stats:
+  barstatus         Generates a bar graph of each status the bot has seen the...
+  calendarstatus    shows hourly presence data. Each row is a day. WIP
+  calendarstatuspie shows hourly presence data. Spirals inward magically.
+  getstatusdata     
+  histostatus       
+  hourlyupdates     
+  piestatus         Generates a pie chart displaying the ratios between the s...
+  toggle_purge      Toggles whether or not to purge or save presence updates ...
+  useruptime        
+​No Category:
+  help              Shows this message
+
+Type b+help command for more info on a command.
+You can also type b+help category for more info on a category.
+```
+A Discord User#5290: b+getpiestatus v1.0 Alpha atwater
+A Discord User#5290: gg
+A Discord User#5290: b+piestatus
+Koishi#8740: 
+A Discord User#5290: b+barstatus
+Koishi#8740: 
+A Discord User#5290: b+help piestatus
+Koishi#8740: ```
+b+piestatus [target]
+
+Generates a pie chart displaying the ratios between the statuses the bot has seen the user use.
+
+```
+A Discord User#5290: there used to be something for roles
+A Discord User#5290: +barstatus
+Koishi#8740: Moved to beta bot. Use `b+` prefix
+A Discord User#5290: b+barstatus
+Koishi#8740: 
+Soheab_#5757: ?tag dyslexia
+R. Danny#6348: Tag not found.
+๖ۣۜᏃσякαᎥ ⛱#9999: <:waitwhat:596577409768226816>
+Soheab_#5757: ?tag add dyslexia hmmmmmmmm
+R. Danny#6348: Tag dyslexia successfully created.
+LittleEndu#0001: ?rtfm gldgmbmr
+R. Danny#6348: Could not find anything. Sorry.
+LittleEndu#0001: oh
+LittleEndu#0001: ?rtfm gldgmbr
+R. Danny#6348: 
+Marvin#9972: ?tag filter
+R. Danny#6348: Tag not found. Did you mean...
+fil
+file
+Marvin#9972: ?rtfm filter
+R. Danny#6348: 
+Marvin#9972: ?rtfm ContentFilter
+R. Danny#6348: 
+Marvin#9972: ?rtfm UserContentFilter.all_messages
+R. Danny#6348: 
+Marvin#9972: ?tag ContentFilter
+R. Danny#6348: Tag not found. Did you mean...
+content
+clean content converter
+clean_content converter
+Marvin#9972: ?tag comperator
+R. Danny#6348: Tag not found.
+дельфин#0616: B+status
+RaGhAv#0730: ?rftm time_out
+RaGhAv#0730: ?rftm timeout
+A Discord User#5290: ?tag retard
+R. Danny#6348: This is offensive, don't say it.
+A Discord User#5290: ?tag info retard
+R. Danny#6348: 
+lee#3386: ?rtfm embed.
+R. Danny#6348: 
+randomSphere#4274: b+piestatus
+Koishi#8740: 
+randomSphere#4274: thats p neat
+randomSphere#4274: also touhou
+lee#3386: ?rtfm get_message
+R. Danny#6348: 
+randomSphere#4274: .
+randomSphere#4274: that chart looks
+randomSphere#4274: yeah i think thats fittin
+lee#3386: ?tag discord.Member
+R. Danny#6348: Tag not found. Did you mean...
+Discord™
+discord
+discord.h
+lee#3386: ?tag member
+R. Danny#6348: https://discordpy.readthedocs.io/en/rewrite/api.html#discord.Member
+A Discord User#5290: ?tag discord.h
+R. Danny#6348: cpp
+A Discord User#5290: andre was making a bash lib at some point
+A Discord User#5290: not sure what happened to it
+lee#3386: ?rtfm discord.Member
+R. Danny#6348: 
+A Discord User#5290: <@272092190681989120> are you still working on a discord for bash library
+Gobot1234#2435: ?tag cpp
+R. Danny#6348: .
+lee#3386: ?tag type hint
+R. Danny#6348: An example of what a type hint is:
+
+```py
+async def command(ctx, member: discord.Member):
+```
+
+In discord.py, this will attempt to convert your variable to the type that you are specifcying. In this example, it will attempt to convert the string from the message to a `Member`. For example:
+
+```
+!command @R. Danny#6348 
+# or
+!command 80528701850124288
+# or
+!command "R. Danny"
+# This will end up making the member variable declared in the command a `Member` object
+```
+
+In normal python, this does not do anything except for documentation purposes. It allows interpretation of the methods, in order to know what type a variable in the parameters is meant to be. IE an IDE is able to tell you you're passing the wrong variable type, based on this.
+lee#3386: ?rtfm type hint
+R. Danny#6348: Could not find anything. Sorry.
+Madunicorn14#4354: b+piestatus
+Koishi#8740: 
+MilaDog#8249: b+piestatus
+Koishi#8740: 
+๖ۣۜᏃσякαᎥ ⛱#9999: b+piestatus
+Koishi#8740: 
+๖ۣۜᏃσякαᎥ ⛱#9999: is this matplot ?
+Away#1337: ?tag list
+R. Danny#6348: 
+Away#1337: ?tag *args
+R. Danny#6348: e
+Away#1337: ?tag 1337
+R. Danny#6348: leet
+Away#1337: ?tag 69 but funny
+R. Danny#6348: ```cpp
+#include <iostream>
+
+int main() {
+    int dong = 69;
+    int* mad0 = &dong;
+    int** mad1 = &mad0;
+    int*** mad2 = &mad1;
+    int**** mad3 = &mad2;
+    int***** mad4 = &mad3;
+    int****** mad5 = &mad4;
+    int******* mad6 = &mad5;
+    int******** mad7 = &mad6;
+    int********* mad8 = &mad7;
+    int********** mad9 = &mad8;
+
+    std::cout << *(*(*(*(*(*(*(*(*(*(int**********)mad9)))))))));
+}```
+Away#1337: ?tag Asians
+R. Danny#6348: https://cdn.discordapp.com/attachments/381963689470984203/530144546277818398/ylhg4g10.png
+Away#1337: ?tag I am fucking hot
+R. Danny#6348: https://gyazo.com/9fad8777edac7fc5ea50386f0f07e3ec
+Away#1337: ?tag eraser
+R. Danny#6348: penis buns who ever finds this tag gets 2 dollars on PayPal
+Away#1337: ??
+Away#1337: ?tag learn asynchronous
+R. Danny#6348: https://docs.python.org/3/library/asyncio-task.html#coroutine
+Away#1337: when
+lee#3386: ?rtfm channel
+R. Danny#6348: 
+lee#3386: ?rtfm new_channel
+R. Danny#6348: 
+lee#3386: ?rtfm create_channel
+R. Danny#6348: 
+lee#3386: ok
+lee#3386: ?rtfm categorychannel
+R. Danny#6348: 
+AXVin#2130: ?tag debian noroot
+R. Danny#6348: Tag not found. Did you mean...
+debian
+debian warrior
+Gobot1234#2435: ?invite
+R. Danny#6348: <https://discordapp.com/oauth2/authorize?client_id=169293305274826754&scope=bot&permissions=268823638>
+Away#1337: ?cpp assert
+R. Danny#6348: 
+lee#3386: ?rtfm dms_only
+R. Danny#6348: Could not find anything. Sorry.
+lee#3386: ?rtfm commands.dm
+R. Danny#6348: 
+lee#3386: ?rtfm commands.
+R. Danny#6348: Could not find anything. Sorry.
+Lgan#0001: p-info
+Server Pets#6679: 
+Lgan#0001: p-dbl
+Server Pets#6679: 
+Programmer#5648: ?tag owner
+R. Danny#6348: name is a required argument that is missing.
+Programmer#5648: ?tag owner tias
+R. Danny#6348: 
+Programmer#5648: 🤔
+Away#1337: Corm fleks
+Away#1337: I love that video <@198233322080567296>
+Away#1337: <@!310418322384748544> do you know any ue places for salad
+Егор#0001: ?tag white colour
+R. Danny#6348: Tag not found. Did you mean...
+white
+text colour
+white bar
+Егор#0001: ?tag white bar
+R. Danny#6348: ⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠ ⃠ ⃠ ⃠⃠ ⃠ ⃠ ⃠
+Егор#0001: ?tag white
+R. Danny#6348: https://cdn.discordapp.com/attachments/81883016288276480/567179899622785024/Game_2019-01-22_01-42-25.png
+MrRandom#9258: <@!290488851351339008> leave
+MrRandom#9258: <@!290488851351339008> help
+MrRandom#9258: o ffs
+MrRandom#9258: <@!290488851351339008> disconnect
+Legoshi#6421: 
+MrRandom#9258: l-play find the blue
+Life#2673: Added the track **CHAOS;HEAD FIND THE BLUE** to the queue.
+Life#2673: 
+MrRandom#9258: l-play dna
+Life#2673: Added the track **BTS (방탄소년단) 'DNA' Official MV** to the queue.
+Tyv#0001: b+piestatus
+Koishi#8740: 
+Away#1337: <@!373256462211874836> I watch porn with the bros as well
+๖ۣۜᏃσякαᎥ ⛱#9999: <:HAHA:542484521761767434>
+๖ۣۜᏃσякαᎥ ⛱#9999: what do you do with hypesquad events
+๖ۣۜᏃσякαᎥ ⛱#9999: do they send shirts etc
+๖ۣۜᏃσякαᎥ ⛱#9999: lol
+Life#2673: 
+Equity#3464: nice
+๖ۣۜᏃσякαᎥ ⛱#9999: do you have to check like all 5m if a rss feed got updated?
+Away#1337: <@!464910933660008451> yea
+Away#1337: I mean I didnt do it for the shirt
+Away#1337: I did it cause I go to events
+Away#1337: specifically this year
+Away#1337: guardian con
+Away#1337: or gaming community expo
+cursethrower#3089: ?hosting
+๖ۣۜᏃσякαᎥ ⛱#9999: oh nice
+๖ۣۜᏃσякαᎥ ⛱#9999: Does it benefit you on something? <@320383406330347520>
+Life#2673: No tracks added for 5 minutes, Leaving the voice channel.
+Away#1337: No
+Away#1337: Not really
+Away#1337: I mean I get a cool badge
+Away#1337: But I mainly did it at the time cause I loved discord
+๖ۣۜᏃσякαᎥ ⛱#9999: I go sometimes to events, should I ask for one
+๖ۣۜᏃσякαᎥ ⛱#9999: is it only making a 2 minutes video?
+Merlintor#6111: ?intents
+Tarsteel#1644: lmao
+๖ۣۜᏃσякαᎥ ⛱#9999: <@320383406330347520> can you invite to hypesquad discord ? lol
+Lida#6399: b+piestatus
+Koishi#8740: 
+Lida#6399: b+info
+Lida#6399: b+help
+Koishi#8740: ```
+Lies and slander follow
+
+Avatar:
+  avyquilt          
+Basic:
+  ping              
+  uptime            
+Stats:
+  barstatus         Generates a bar graph of each status the bot has seen the...
+  calendarstatus    shows hourly presence data. Each row is a day. WIP
+  calendarstatuspie shows hourly presence data. Spirals inward magically.
+  getstatusdata     
+  histostatus       
+  hourlyupdates     
+  piestatus         Generates a pie chart displaying the ratios between the s...
+  toggle_purge      Toggles whether or not to purge or save presence updates ...
+  useruptime        
+​No Category:
+  help              Shows this message
+
+Type b+help command for more info on a command.
+You can also type b+help category for more info on a category.
+```
+Lida#6399: b+uptime
+Koishi#8740: for 26d 16h 48m so far
+Revan#0640: ?tag noheroku
+R. Danny#6348: - Bots are not what the platform is designed for. Heroku is designed to provide web servers (like Django, Flask, etc). This is why they give you a domain name and open a port on their local emulator.
+
+- Heroku's environment is heavily containerized, making it significantly underpowered for a standard use case.
+
+- Heroku's environment is volatile. In order to handle the insane amount of users trying to use it for their own applications, Heroku will dispose your environment every time your application dies unless you pay.
+
+- Heroku has minimal system dependency control. If any of your Python requirements need C bindings (such as PyNaCl binding to libsodium, or lxml binding to libxml), they are unlikely to function properly, if at all, in a native environment. As such, you often need to resort to adding third-party buildpacks to facilitate otherwise normal CPython extension functionality. (This is the reason why voice doesn't work natively on heroku.)
+
+- Heroku only offers a limited amount of time on their free programme for your applications. If you exceed this limit, which you probably will, they'll shut down your application until your free credit resets.
+Revan#0640: ?tag vps
+R. Danny#6348: Need to run your bot 24/7? Get a cheap VPS.
+
+<https://www.scaleway.com/>- Incredibly cheap but powerful VPSes, owned by <https://online.net/>, based in Europe.
+<https://www.digitalocean.com/> - US-based cheap VPSes. The gold standard. Locations available world wide.
+<https://www.ovh.co.uk/> - Cheap VPSes, used by many people. France and Canadian locations available.
+<https://www.time4vps.eu/> - Cheap VPSes, seemingly based in Lithuania.
+<https://www.linode.com/> - More cheap VPSes!
+<https://www.vultr.com/> - US-based, DigitalOcean-like.
+<https://galaxygate.net/> - A reliable, affordable, and trusted host, Used by Dank Memer, Rythm, and many other people.
+
+Self-hosting:
+Any modern hardware should work 100% fine.
+
+Free hosting:
+No.  There is no good free VPS hoster, outside of persuading somebody to host for you, which is incredibly unlikely.
+Soheab_#5757: todo add look at todo in pycharm
+Todo#9724: Todo task successfully added!
+Equity#3464: protip in starbound: don't mine sand when its also above you
+Piorunツ#8418: Kb!realbooru gif cum
+KinkBot#2286: 
+Piorunツ#8418: Kb!realbooru gif suck
+KinkBot#2286: 
+Piorunツ#8418: Kb!realbooru gif suck
+KinkBot#2286: 
+Piorunツ#8418: Kb!realbooru gif suck
+KinkBot#2286: 
+Tatsu#8792: 
+Piorunツ#8418: Kb!realbooru gif boobs
+KinkBot#2286: 
+Piorunツ#8418: Kb!realbooru gif boobs
+KinkBot#2286: 
+Piorunツ#8418: Kb!realbooru gif boobs
+KinkBot#2286: 
+Piorunツ#8418: Kb!realbooru gif cum
+KinkBot#2286: 
+Piorunツ#8418: Kb!realbooru gif cum
+KinkBot#2286: 
+Impaex#3197: //rate me
+Charles#5244: I'd rate me a **33.5 / 100**
+Impaex#3197: //rate @everyone
+Charles#5244: I'd rate @everyone a **75.8 / 100**
+Impaex#3197: <:GWchadLENNYTHINK:366999800689721344>
+StarrFox#6312: ;bigbrain;
+Emote Collector#3350: <:bigbrain:573326997451833344>
+StarrFox#6312: g!badbot  <@505532526257766411>
+MostDefinitelyGrant2#9892: Bad bot! This will go down in Charles' record. Charles now has 20 points.
+Impaex#3197: whai
+Impaex#3197: g!goodbot <@!505532526257766411>
+MostDefinitelyGrant2#9892: Good bot! This will go down in Charles' record. Charles now has 21 points.
+StarrFox#6312: dc/snipe --list --guild --contains g!goodbot
+Discord Chan#0795: 
+StarrFox#6312: <@292212176494657536> add g!goodbot
+Highlight#7215: ✅ Your highlight words have been updated.
+StarrFox#6312: https://discordapp.com/channels/336642139381301249/381963689470984203/677580748009504777
+StarrFox#6312: smh
+StarrFox#6312: g!badbot <@440176226338865167>
+MostDefinitelyGrant2#9892: Bad bot! This will go down in Sparklybot ✨'s record. Sparklybot ✨ now has 6 points.
+StarrFox#6312: g!badbot <@502205162694246412>
+MostDefinitelyGrant2#9892: Bad bot! This will go down in Server Pets' record. Server Pets now has 1 points.
+Soheab_#5757: why
+Soheab_#5757: g!badbot <@!529631910985596930>
+MostDefinitelyGrant2#9892: Discord Chan is now totally neutral!
+StarrFox#6312: go to link
+StarrFox#6312: selfvoter
+StarrFox#6312: smh
+Soheab_#5757: oh
+StarrFox#6312: g!badbot <@628284183579721747>
+MostDefinitelyGrant2#9892: Bad bot! This will go down in Life's record. Life now has 2 strikes.
+Soheab_#5757: you late <a:HR_KappaSip:590614599443808299>
+Soheab_#5757: g!goodbot charles
+MostDefinitelyGrant2#9892: That isn't a bot!
+Soheab_#5757: g!goodbot <@!505532526257766411>
+MostDefinitelyGrant2#9892: Good bot! This will go down in Charles' record. Charles now has 22 points.
+StarrFox#6312: dutchy selfvotes like every day
+StarrFox#6312: from:Dutchy#6127 g!goodbot
+StarrFox#6312: this practice of yours is terrible smh
+Connor#8645: ?tag task error
+R. Danny#6348: ```py
+async def my_coro():
+    do_some_stuff()
+    raise Exception('Oh shit its fucked')
+
+def exception_catching_callback(task):
+    if task.exception():
+        task.print_stack()
+
+my_task = loop.create_task(my_coro)
+my_task.add_done_callback(exception_catching_callback)```
+
+
+You can also call loop.set_debug(True) when debugging. This is generally just a development option, and not for deployment.  Also see https://docs.python.org/3/library/asyncio-dev.html#debug-mode
+Connor#8645: ?tag search task error
+R. Danny#6348: 
+Connor#8645: ?tag ext.tasks error
+R. Danny#6348: **Task is not working, but no errors**
+This is because tasks don't raise errors normally. You need to actually pick up the error when the task has completed.
+
+With `discord.ext.tasks`, you can easily use the following:
+```python
+@your_task.after_loop
+async def post_loop(self):
+  if self.your_task.failed():
+    import traceback
+    error = self.your_task.exception()
+    traceback.print_exception(type(error), error, error.__traceback__)
+```
+StarrFox#6312: task error is better
+A Discord User#5290: ?rtfm channel.purge
+R. Danny#6348: 
+Tatsu#8792: 
+Equity#3464: ?tag info ext.tasks error
+R. Danny#6348: 
+Equity#3464: smh xua
+StarrFox#6312: tasks error is best though
+StarrFox#6312: ?tag info task error
+R. Danny#6348: 
+StarrFox#6312: ?tag info tasks error
+R. Danny#6348: 
+StarrFox#6312: ?tag info ext.tasks exception
+R. Danny#6348: 
+Tatsu#8792: 
+lee#3386: ?rtfm message.delete
+R. Danny#6348: 
+LittleEndu#0001: ?tag i
+R. Danny#6348: ```python -m pip install -U discord.py[voice]```
+DerJonas#8109: //dick
+Charles#5244: 
+J_J#2112: todo list
+Todo#9724: 
+J_J#2112: todo add guild blacklisting
+Todo#9724: Todo task successfully added!
+J_J#2112: todo switch 4 3
+Todo#9724: Tasks have been updated!
+J_J#2112: todo list
+Todo#9724: 
+Soheab_#5757: Todo list
+Todo#9724: 
+Soheab_#5757: todo edit
+Soheab_#5757: Todo help
+Todo#9724: 
+Andre#9004: <@668531491931684968> yes, but i basically rewrote it
+I am testing everything before commit all changes
+Soheab_#5757: Todo edit 10 [command]: poll | delete bot messages separate and then try to delete user message, if no perm, return and also maybe put max concurrency on the command and something with proxy url for the image thing
+Todo#9724: Updated todo task!
+A Discord User#5290: ah i see
+Soheab_#5757: Todo remove 9
+Todo#9724: Removed Tasks: 
+    • try something with max concurrency and attachment proxy url on poll command
+Soheab_#5757: todo list
+Todo#9724: 
+OP|FF|Sans#3627: Speaking italian??
+A Discord User#5290: are you planning on adding it to the list in discord api
+Soheab_#5757: ?tags 668531491931684968
+R. Danny#6348: 
+Soheab_#5757: ?tag custom status expiration
+R. Danny#6348: .
+Soheab_#5757: ?tag find email
+R. Danny#6348: You can find almost anyone's email address by finding the email they used in git.
+
+For GitHub, find a commit and add .patch at the end of the commit hash. It should show their name and email address.
+
+If you would not like this to show up, turn on the `Keep Email Address Private` feature located under GitHub Settings > Emails. You should also enable `Block command line pushes that expose my email` just in case you accidentally commit with the wrong email address. Then, go to your repo and run `git config user.email "email provided by github"` in the terminal. You must do this step so you commit with the one GitHub provides you.
+
+If you would like to globally set your email address, add the `--global` flag after `git config`.
+Soheab_#5757: Oo
+A Discord User#5290: ?tag claim find email
+R. Danny#6348: A tag with the name of "find email" does not exist.
+A Discord User#5290: ?tag info find email
+R. Danny#6348: 
+A Discord User#5290: ?tag claim find email address
+R. Danny#6348: Tag owner is still in server.
+A Discord User#5290: ?tag info find email address
+R. Danny#6348: 
+A Discord User#5290: oh
+A Discord User#5290: lol
+Soheab_#5757: Claiming your own tag <:RooThink:645118110344544296>
+A Discord User#5290: i remember making that tag myself
+A Discord User#5290: didn't claim it
+A Discord User#5290: so i care about that tag
+Soheab_#5757: Ah
+Soheab_#5757: https://github.com/Soheab/SparklybotGit/commit/61f6621ece5d995dfc70a7a8214fd6bdb61c9f68.patch
+DerJonas#8109: todo add ya
+Todo#9724: Todo task successfully added!
+DerJonas#8109: todo list
+Todo#9724: 
+Soheab_#5757: Ah pirvate
+Soheab_#5757: Why
+J_J#2112: ?help
+R. Danny#6348: 
+J_J#2112: ?tag search J_J
+R. Danny#6348: 
+J_J#2112: ?tag j
+R. Danny#6348: You're using the old, 0.16.x (async branch) version of discord.py, or appear to be trying to use methods from the async branch.
+The rewrite branch (1.x.x) of discord.py was pushed to PyPi and made the master branch of discord.py on april 8th. 
+**It is a massive breaking change**
+Methods such as `client.send_message` now have an entirely different syntax and style.
+If you want support here, it is required that you **migrate to the new version of discord.py**. 
+See the migrating guide for instructions on how to do so.
+<https://discordpy.readthedocs.io/en/latest/migrating.html>
+
+The async branch, 0.16.x, is no longer supported here.
+J_J#2112: ?help tag
+R. Danny#6348: 
+J_J#2112: ?tag alias async j
+R. Danny#6348: A tag with this name already exists.
+J_J#2112: ?tag alias asyncgone j
+R. Danny#6348: Tag alias "asyncgone" that points to "j" successfully created.
+J_J#2112: ?tag async
+R. Danny#6348: use rewrite
+J_J#2112: very
+Soheab_#5757: ?tag j
+R. Danny#6348: You're using the old, 0.16.x (async branch) version of discord.py, or appear to be trying to use methods from the async branch.
+The rewrite branch (1.x.x) of discord.py was pushed to PyPi and made the master branch of discord.py on april 8th. 
+**It is a massive breaking change**
+Methods such as `client.send_message` now have an entirely different syntax and style.
+If you want support here, it is required that you **migrate to the new version of discord.py**. 
+See the migrating guide for instructions on how to do so.
+<https://discordpy.readthedocs.io/en/latest/migrating.html>
+
+The async branch, 0.16.x, is no longer supported here.
+Benji#6666: ?tag rate limit
+R. Danny#6348: ```
+REST:
+        POST Message |  5/5s    | per-channel
+      DELETE Message |  5/1s    | per-channel
+ PUT/DELETE Reaction |  1/0.25s | per-channel
+        PATCH Member |  10/10s  | per-guild
+   PATCH Member Nick |  1/1s    | per-guild
+      PATCH Username |  2/3600s | per-account
+      |All Requests| |  50/1s   | per-account
+WS:
+     Gateway Connect |   1/5s   | per-account
+     Presence Update |   5/60s  | per-session
+ |All Sent Messages| | 120/60s  | per-session```
+Soheab_#5757: ?tag info hoa
+R. Danny#6348: Tag not found.
+Soheab_#5757: ?tag info yoa
+R. Danny#6348: 
+Soheab_#5757: ?tag add hoa S!hoa
+R. Danny#6348: Tag hoa successfully created.
+nx#1674: st messages
+J_J#2112: ?tag create infection
+
+"Total dead users: 114
+
+Total infected users: 385
+
+Total cured users: 93
+
+There will be more events like this in the future due to community feedback as it was very..satisfying.
+
+**the source code will be put out so don't bother**"
+R. Danny#6348: Tag infection successfully created.
+J_J#2112: ?tag event
+R. Danny#6348: This is an error: 
+``Exception: Example exception, yours probably is actually relevant``
+This is a traceback: ```py
+Traceback (most recent call last):
+  File "A:/test.py", line 7, in <module>
+    bar + 'string'
+  File "A:/test.py", line 3, in __add__
+    raise Exception('Example exception, yours probably is actually relevant')
+Exception: Example exception, yours probably is actually relevant```
+J_J#2112: ?tag alias eventinfection infection
+R. Danny#6348: Tag alias "eventinfection" that points to "infection" successfully created.
+J_J#2112: ?tag alias einfection infection
+R. Danny#6348: Tag alias "einfection" that points to "infection" successfully created.
+J_J#2112: ?tag alias infevent infection
+R. Danny#6348: Tag alias "infevent" that points to "infection" successfully created.
+J_J#2112: cm/show event
+Soheab_#5757: Bruh
+Cautious Memory#9597: cm/show event info
+J_J#2112: cm/show event info
+Cautious Memory#9597: The event has now ***ended***!!!
+Sending messages causes sickness.
+See the source code here: ~~soon~~
+
+For info on **items**: __cm/page event items__
+For info on **badges**: ‌__cm/page event badges__
+For info on **commands**: __cm/page event commands__
+
+For a list of the dead: ‌__cm/page dead__
+nx#1674: st mesages
+Soheab_#5757: ?tag event
+R. Danny#6348: This is an error: 
+``Exception: Example exception, yours probably is actually relevant``
+This is a traceback: ```py
+Traceback (most recent call last):
+  File "A:/test.py", line 7, in <module>
+    bar + 'string'
+  File "A:/test.py", line 3, in __add__
+    raise Exception('Example exception, yours probably is actually relevant')
+Exception: Example exception, yours probably is actually relevant```
+nx#1674: st messages
+Statz#3786: 
+nx#1674: st voice
+Statz#3786: 
+Soheab_#5757: ?tags
+R. Danny#6348: 
+J_J#2112: ?tag infected
+R. Danny#6348: Tag not found. Did you mean...
+infected roles
+infection
+why_infect
+J_J#2112: ?tag infection
+R. Danny#6348: "Total dead users: 114
+
+Total infected users: 385
+
+Total cured users: 93
+
+There will be more events like this in the future due to community feedback as it was very..satisfying.
+
+**the source code will be put out so don't bother**"
+Soheab_#5757: ?tag add infected .
+R. Danny#6348: Tag infected successfully created.
+Soheab_#5757: ?tag why_infect
+R. Danny#6348: https://canary.discordapp.com/channels/336642139381301249/674833398744743936/674865202038046740
+Soheab_#5757: ?tag inflected roles
+R. Danny#6348: Tag not found. Did you mean...
+infected roles
+infected
+J_J#2112: ?tag edit infection
+
+Total dead kids: 114
+
+Total infected people: 385
+
+Cured lucky kids: 93
+
+more future events possibly
+
+**source code published soon**
+R. Danny#6348: Successfully edited tag.
+J_J#2112: cm/help add
+Cautious Memory#9597: cm/create <title> <content>
+**Aliases:** add
+
+Adds a new page to the wiki.
+If the title has spaces, you must surround it in quotes.
+Soheab_#5757: ?tag infected roles
+R. Danny#6348: please read this message : https://discordapp.com/channels/336642139381301249/674833398744743936/674865202038046740 in <#674833398744743936>
+J_J#2112: cm/add infection Total dead kids: 114
+
+Total infected people: 385
+
+Cured lucky kids: 93
+
+more future events possibly
+
+source code published soon
+J_J#2112: cm/add eventstats Total dead kids: 114
+
+Total infected people: 385
+
+Cured lucky kids: 93
+
+more future events possibly
+
+source code published soon
+Soheab_#5757: ?tag info infected roles
+R. Danny#6348: 
+J_J#2112: cm/show eventstats
+Cautious Memory#9597: Total dead kids: 114
+
+Total infected people: 385
+
+Cured lucky kids: 93
+
+more future events possibly
+
+source code published soon
+Soheab_#5757: ?tag delete infected roles
+R. Danny#6348: Tag and corresponding aliases successfully deleted.
+J_J#2112: cm/info eventstats
+Cautious Memory#9597: “eventstats” is not an alias. Use the cm/history command for more information on it.
+J_J#2112: gg
+Soheab_#5757: ?tag delete infected
+R. Danny#6348: Tag and corresponding aliases successfully deleted.
+Soheab_#5757: ?tags
+R. Danny#6348: 
+Soheab_#5757: ?tag I copied this code but it isn't working help
+R. Danny#6348: Tag not found. Did you mean...
+I copied this code but it isn’t working pls help
+J_J#2112: todo list
+Todo#9724: 
+Soheab_#5757: ?tag I copied this code but it isn't working pls help
+R. Danny#6348: Tag not found. Did you mean...
+I copied this code but it isn’t working pls help
+Soheab_#5757: ?tag I copied this code but it isn't working pls help
+R. Danny#6348: Tag not found. Did you mean...
+I copied this code but it isn’t working pls help
+J_J#2112: todo add (low chance) tempmute
+Todo#9724: Todo task successfully added!
+Soheab_#5757: ?tag I copied this code but it isn’t working pls help
+R. Danny#6348: lol don’t expect code you copy to work without modifying anything, so please don’t complain about copied code in the help channels.
+Soheab_#5757: Modifying
+Soheab_#5757: ?tags
+R. Danny#6348: 
+Soheab_#5757: ?tag logo
+R. Danny#6348: https://discordapp.com/channels/336642139381301249/336642776609456130/581468466469404683
+Equity#3464: ?tag event bot
+R. Danny#6348: Tag not found. Did you mean...
+event
+eviee bot
+events
+Equity#3464: ?tag event
+R. Danny#6348: This is an error: 
+``Exception: Example exception, yours probably is actually relevant``
+This is a traceback: ```py
+Traceback (most recent call last):
+  File "A:/test.py", line 7, in <module>
+    bar + 'string'
+  File "A:/test.py", line 3, in __add__
+    raise Exception('Example exception, yours probably is actually relevant')
+Exception: Example exception, yours probably is actually relevant```
+Soheab_#5757: ?tag steal code
+R. Danny#6348: **BAAAAAAAAAAAAAN!**
+Skorpa#5632: ÷help
+Equity#3464: ?tag search event bot
+R. Danny#6348: 
+Skorpa#5632: /help
+Gralyn#4760: ```
+Core:
+  admin         Add, list, or remove admins from the bot
+  info          Info about gralyn core
+  servers       List servers bot is a member of or leave a server
+  set           
+General:
+  8ball         Ask the magic 8 ball anything and the truth will be revealed
+  choose        Choose from a list of things
+  flip          Coin flip
+  game          Set what game the bot is playing, none to clear
+  invite        Genorate an invite link
+  ping          pong!
+  roll          Chooeses a random number 1-6 or 1 thru a specified number
+  rps           A classic rock paper scissors game
+  secho         Send a message as this bot
+  serverinfo    Gets info about the current server
+  typer         See who can type the fastest!
+  userinfo      Get info about yourself or another user
+geekbench:
+  cpu           Look up a CPU in geekbench
+  gpu           Look up a GPU in geekbench
+gradyn:
+  E             E meme best meme
+  earth         
+mcstat:
+  mcstat        
+reddit:
+  reddit        Lookup a user on reddit
+shipping:
+  ups           
+translate:
+  teletranslate Translates a phrase 20 times, then back to english
+  translate     Auto translate to english
+  translateto   Translate to another language
+urban:
+  urban         Lookup a word in the urban dictionary
+wikipedia:
+  wikipedia     search wikipedia
+xkcd:
+  xkcd          
+​No Category:
+  help          Shows this message
+
+Type /help command for more info on a command.
+You can also type /help category for more info on a category.
+```
+Equity#3464: ?tag event source
+R. Danny#6348: **The source for @Evangelist will be avaliable soon™️**
+
+According to https://gist.github.com/Rapptz/623debe0433d064ec263f6da00666de4, the source, once released, will probably be here: https://github.com/Rapptz/discord-event-bot
+Soheab_#5757: ?tag alias "event bot" event source
+R. Danny#6348: Tag alias "event bot" that points to "event source" successfully created.
+Skorpa#5632: /info
+Gralyn#4760: Gralyn Core Copyright Gradyn Wursten 2018
+See https://gitlab.com/GNUGradyn/gralyn-core for more info
+LittleEndu#0001: ?selfmute 5s
+R. Danny#6348: Duration is too short. Must be at least 5 minutes.
+Skorpa#5632: /8ball mm
+Gralyn#4760: Certianly not
+LittleEndu#0001: oof
+Soheab_#5757: S!8ball should I fuck off?
+Sparklybot ✨#2325: 
+Soheab_#5757: Oh
+Skorpa#5632: /8ball should I get obese
+Gralyn#4760: My reply is no
+randomSphere#4274: aw thats cute
+randomSphere#4274: 8ball actually working
+Skorpa#5632: S!8ball should I get obese
+Sparklybot ✨#2325: 
+J_J#2112: s-help
+Spirit#8359: 
+J_J#2112: s-post
+J_J#2112: s-ping
+Spirit#8359: 
+Spirit#8359: Successfully manually posted server count (56) to 4 lists.
+Failed to post server count to 0 lists.
+J_J#2112: s-unload cogs.Mo
+J_J#2112: f
+J_J#2112: s-jsk unload cogs.Fun
+Spirit#8359: 📤 `cogs.Fun`
+J_J#2112: s-r cogs.Fun
+Spirit#8359: <:spirityes:655453073174691841> - Reloaded `cogs.Fun`
+J_J#2112: s-r all
+Spirit#8359: <:spirityes:655453073174691841> - Reloaded `cogs.Owner`
+<:spirityes:655453073174691841> - Reloaded `cogs.Fun`
+<:spirityes:655453073174691841> - Reloaded `cogs.Main`
+<:spirityes:655453073174691841> - Reloaded `cogs.Info`
+<:spirityes:655453073174691841> - Reloaded `cogs.Mod`
+<:spirityes:655453073174691841> - Reloaded `cogs.ErrorHandler`
+<:spirityes:655453073174691841> - Reloaded `cogs.Music`
+<:spirityes:655453073174691841> - Reloaded `cogs.Bump`
+<:spirityes:655453073174691841> - Reloaded `cogs.Premium`
+<:spirityes:655453073174691841> - Reloaded `cogs.Report`
+<:spirityes:655453073174691841> - Reloaded `cogs.DiscordListsPost`
+J_J#2112: s-help
+Spirit#8359: 
+Skorpa#5632: Todolist
+Rygazok_iOS#9801: kb!realbooru
+KinkBot#2286: Realbooru :wink: #86/100 https://realbooru.com/images/680/34cfeec859b7a184efdafd0ec4047fdc.webm
+*Your tags were: None*
+Skorpa#5632: Todohelp
+LittleEndu#0001: ?tag optional
+R. Danny#6348: `async def bottles(ctx, amount: typing.Optional[int] = 99, *, liquid="beer")`
+<https://discordpy.readthedocs.io/en/latest/ext/commands/commands.html#typing-optional>
+Skorpa#5632: Todo help
+Todo#9724: 
+Skorpa#5632: Todo list
+Todo#9724: 
+LittleEndu#0001: ?tag greedy
+R. Danny#6348: A special converter that greedily consumes arguments until it can’t. As a consequence of this behaviour, most input errors are silently discarded, since it is used as an indicator of when to stop parsing.
+When a parser error is met the greedy converter stops converting, undoes the internal string parsing routine, and continues parsing regularly.
+For example, in the following code:
+```py
+@commands.command()
+async def test(ctx, numbers: Greedy[int], reason: str):
+    await ctx.send("numbers: {}, reason: {}".format(numbers, reason))
+```
+An invocation of `[p]test 1 2 3 4 5 6 hello` would pass numbers with `[1, 2, 3, 4, 5, 6]` and reason with `hello`.
+applebee#3071: :eval bot.remove_command('dmspam')
+applebee's bot#9975: 
+Sebastiano#5005: Yes, <#583282244945313803>
+LittleEndu#0001: ?rtfm msgrctrmv
+R. Danny#6348: 
+LittleEndu#0001: ?rtfm msgrmvrct
+R. Danny#6348: 
+LittleEndu#0001: ?rtfm httprmvrct
+R. Danny#6348: Could not find anything. Sorry.
+LittleEndu#0001: ?rtfm http
+R. Danny#6348: 
+nx#1674: ?tag union
+R. Danny#6348: `typing.Union[discord.TextChannel, discord.VoiceChannel, etc]`
+nx#1674: st reload all
+Statz#3786: 
+nx#1674: st messages <#381963689470984203>
+nx#1674: st messages <@!122137595214954498>
+nx#1674: st messages nx
+Sebastiano#5005: )jsk sh pip install --update discord.py
+Teo#8099: ```sh
+$ pip install --update discord.py
+
+```
+Page 1/1
+Chiky#5518: 
+Chiky#5518: 
+Chiky#5518: 
+applebee#3071: f
+Tatsu#8792: 
+chickenmatty#4766: !yt ciao
+Carl-bot#1536: Sorry, could not find any channel with the name ciao. Try copy pasting the link to their profile, some people have display names different from their actual youtube names.
+chickenmatty#4766: zitto tu
+chickenmatty#4766: <yt ciao
+Sebastiano#5005: cosa
+Tatsu#8792: 
+Shiney#0001: lol
+chickenmatty#4766: LOL
+Shiney#0001: subway :')
+chickenmatty#4766: io sto provando quell'esempio
+chickenmatty#4766: lol
+chickenmatty#4766: su repl
+Away#1337: /8ball kill myself?
+Gralyn#4760: Yes
+chickenmatty#4766: <yt ciao
+Away#1337: aight
+chickenmatty#4766: pynacl
+chickenmatty#4766: fuck
+Away#1337: <a:default_dance:577879910249660417>
+applebee#3071: :serverinfo
+applebee's bot#9975: 
+chickenmatty#4766: <yt ciao
+applebee#3071: :userinfo Danny
+applebee's bot#9975: 
+chickenmatty#4766: <jsk py pip show pynacl
+DBI#1367: ```py
+Traceback (most recent call last):
+  File "<string>", line 1
+    pip show pynacl
+        ^
+SyntaxError: invalid syntax
+
+```
+chickenmatty#4766: <jsk sh pip show pynacl
+DBI#1367: ```sh
+$ pip show pynacl
+
+```
+Page 1/1
+Sh4doX#3824: <@!446650423416193034> comunque il bot per sicurezza lo hostato
+Chiky#5518: 
+chickenmatty#4766: <jsk sh pip list
+DBI#1367: ```sh
+$ pip list
+
+```
+Page 1/1
+Chiky#5518: 
+Sh4doX#3824: in qualche modo non so come ma ci sono riuscito al primo colpo
+chickenmatty#4766: oke
+chickenmatty#4766: <jsk py pip install pynacl
+applebee#3071: :urban asd
+DBI#1367: ```py
+Traceback (most recent call last):
+  File "<string>", line 1
+    pip install pynacl
+        ^
+SyntaxError: invalid syntax
+
+```
+applebee's bot#9975: 
+applebee#3071: :urban porn
+applebee's bot#9975: 
+chickenmatty#4766: -jsk sh pip install pynacl
+chickenmatty#4766: <jsk sh pip install pynacl
+DBI#1367: ```sh
+$ pip install pynacl
+
+```
+Page 1/1
+Chiky#5518: 
+Chiky#5518: 
+Chiky#5518: 
+Chiky#5518: 
+Away#1337: <@!310418322384748544> too late >:(
+Away#1337: I made a "yogurt salad"
+Shiney#0001: i was napping
+Away#1337: is oke
+chickenmatty#4766: <yt ciao
+Away#1337: yogurt with apple and pear
+chickenmatty#4766: oo
+Away#1337: <a:CampBlobYum:499547649272315906>
+chickenmatty#4766: <jsk
+DBI#1367: Jishaku v1.18.0, discord.py `1.3.1`, `Python 3.8.1 (default, Feb  2 2020, 08:37:37) [GCC 8.3.0]` on `linux`
+Module was loaded 15 seconds ago, cog was loaded 15 seconds ago.
+
+This bot is not sharded and can see 1 guild(s) and 140 user(s).
+Average websocket latency: 58.0ms
+chickenmatty#4766: <jsk dbg yt ciao
+Away#1337: wow
+chickenmatty#4766: attenzione
+Away#1337: thats not a good blob
+DBI#1367: Command `yt` finished in 8.373s.
+Tatsu#8792: 
+Tatsu#8792: 
+Lida#6399: ?tag hidden
+R. Danny#6348: Tag not found. Did you mean...
+hidden cog
+hide
+miyuki hidden commands
+Lida#6399: ?tag hide
+R. Danny#6348: ||lmao you gay||
+Lida#6399: ?tag miyuki hidden commands
+R. Danny#6348: cm/show miyuki hidden commands
+Cautious Memory#9597: banned_legacy
+coffee
+depth
+depth2
+fizz
+hotornot
+perp_seg
+whyc
+Hinigatsu#9967: ?rtfm pagination
+R. Danny#6348: 
+Sebastiano#5005: <yt https://www.youtube.com/watch?v=tuK6n2Lkza0
+Hinigatsu#9967: ?source help
+R. Danny#6348: <https://github.com/Rapptz/RoboDanny/blob/rewrite/cogs/meta.py#L114-L200>
+nx#1674: st reload all
+Statz#3786: 
+fuck off#7188: ?tag dispatch
+R. Danny#6348: ```py
+bot.dispatch("my_event", a, b, c)
+``` is heard by ```py
+a, b, c = await bot.wait_for("my_event")  # rewrite only
+``` and
+```py
+@bot.event  # you can also use bot.listen() or Cog.listener()
+async def on_my_event(a, b, c):
+    ...
+```
+nx#1674: st messages <#381963689470984203>
+Statz#3786: 
+nx#1674: st messages nx
+nx#1674: st messages <@!122137595214954498>
+chr1s#0870: people really be out here using uber eats
+DBL Vote#2244: 
+nx#1674: st reload all
+Statz#3786: 
+nx#1674: st messages <@!122137595214954498>
+nx#1674: st reload all
+Statz#3786: 
+nx#1674: st messages <@!122137595214954498>
+nx#1674: st messages <@!122137595214954498>
+nx#1674: st reload all
+Statz#3786: 
+nx#1674: st messages <@!122137595214954498>
+Sebastiano#5005: j?jsk sh pip install pynacl
+Prostituta Jishaku#1614: ```sh
+$ pip install pynacl
+
+```
+Page 1/1
+Chiky#5518: 
+Chiky#5518: 
+Chiky#5518: 
+Chiky#5518: 
+Tatsu#8792: 
+Tatsu#8792: 
+Sebastiano#5005: j?yt https://www.youtube.com/watch?v=tuK6n2Lkza0
+Romain#5117: ?tag ratelimit
+R. Danny#6348: ```
+REST:
+        POST Message |  5/5s    | per-channel
+      DELETE Message |  5/1s    | per-channel
+ PUT/DELETE Reaction |  1/0.25s | per-channel
+        PATCH Member |  10/10s  | per-guild
+   PATCH Member Nick |  1/1s    | per-guild
+      PATCH Username |  2/3600s | per-account
+      |All Requests| |  50/1s   | per-account
+WS:
+     Gateway Connect |   1/5s   | per-account
+     Presence Update |   5/60s  | per-session
+ |All Sent Messages| | 120/60s  | per-session```
+Sebastiano#5005: j?jsk import platform
+return platform.python_version()
+Sebastiano#5005: j?jsk py import platform
+return platform.python_version()
+Prostituta Jishaku#1614: 3.8.1
+Sebastiano#5005: j?yt https://www.youtube.com/watch?v=tuK6n2Lkza0
+Sebastiano#5005: j?yt https://www.youtube.com/watch?v=tuK6n2Lkza0
+Sebastiano#5005: j?poll lel
+Prostituta Jishaku#1614: lel
+Sebastiano#5005: j?poll lel lele le el
+Prostituta Jishaku#1614: lel
+lele
+le
+el
+Sebastiano#5005: j?yt https://www.youtube.com/watch?v=tuK6n2Lkza0
+Tatsu#8792: 
+nx#1674: st reload all
+Statz#3786: 
+nx#1674: st messages <@!122137595214954498>
+Statz#3786: 
+Sebastiano#5005: j?yt https://www.youtube.com/watch?v=tuK6n2Lkza0
+nx#1674: st messages
+nx#1674: st reload all
+Statz#3786: 
+nx#1674: st messages
+Statz#3786: 
+nx#1674: st messages nx
+Statz#3786: 
+nx#1674: st messages testing
+Statz#3786: 
+nx#1674: st messages
+Statz#3786: 
+Tatsu#8792: 
+Sebastiano#5005: <@!446650423416193034> entra, sta zitto, ma non da errori
+Tatsu#8792: 
+Tatsu#8792: 
+Tatsu#8792: 
+Away#1337: s!help
+Sparklybot ✨#2325: 
+Away#1337: s!egggreeting
+Sparklybot ✨#2325: 
+nx#1674: s!oikk
+nx#1674: s!help poll
+Sparklybot ✨#2325: 
+Away#1337: s!bad
+Sparklybot ✨#2325: 
+Away#1337: s!bad Away
+Sparklybot ✨#2325: 
+nx#1674: s!poll test
+Sparklybot ✨#2325: 
+Away#1337: s!bad Danny
+Sparklybot ✨#2325: 
+Away#1337: <:thrinking:597590667669274651>
+nx#1674: //no
+Sparklybot ✨#2325: 
+nx#1674: test2
+Sparklybot ✨#2325: 
+nx#1674: //no
+Sparklybot ✨#2325: 
+Away#1337: s!activity devon
+Sparklybot ✨#2325: 
+nx#1674: //done
+Sparklybot ✨#2325: 
+Tatsu#8792: `-->` Music Noob è arrivato su Discord Bots Italia
+Chiky#5518: 
+Chiky#5518: 
+Tatsu#8792: 
+Chiky#5518: 
+Chiky#5518: 
+Zorkai#9999: ?addbot 678672239243034684 testing
+R. Danny#6348: By requesting to add your bot, you must agree to the guidelines presented in the <#381974649019432981>.. Moderators reserve the right to kick or reject your bot for any reason.
+
+If you agree, reply to this message with **I agree** within 1 minute. If you do not, reply with **Abort**.
+Zorkai#9999: I agree
+Sebastiano#5005: m?jsk
+Music Noob#5851: Jishaku v1.17.0, discord.py `1.2.5`, `Python 3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 22:39:24) [MSC v.1916 32 bit (Intel)]` on `win32`
+Module was loaded 14 seconds ago, cog was loaded 14 seconds ago.
+
+This bot is not sharded and can see 3 guild(s) and 687 user(s).
+Average websocket latency: 123.38ms
+R. Danny#6348: Your bot has been requested to the moderators. I will DM you the status of your request.
+Zorkai#9999: s!bad Zorkai
+Sparklybot ✨#2325: 
+Sebastiano#5005: m?js
+Sebastiano#5005: m?jsk
+Music Noob#5851: Jishaku v1.17.0, discord.py `1.3.1`, `Python 3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 22:39:24) [MSC v.1916 32 bit (Intel)]` on `win32`
+Module was loaded 10 seconds ago, cog was loaded 10 seconds ago.
+
+This bot is not sharded and can see 3 guild(s) and 687 user(s).
+Average websocket latency: 165.3ms
+Zorkai#9999: s!bad <:HAHA:542484521761767434>
+Sparklybot ✨#2325: 
+Zorkai#9999: <a:WeirdButOkay:585559548300099585>
+Sanil#2634: ?rtfd delete_role
+R. Danny#6348: Could not find anything. Sorry.
+Sanil#2634: ?rtfd delete
+R. Danny#6348: 
+Sebastiano#5005: m?yt https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Music Noob#5851: You are not connected to a voice channel.
+Sanil#2634: ?rtfd create
+R. Danny#6348: 
+Tatsu#8792: 
+Sebastiano#5005: m?yt https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Tatsu#8792: 
+Sebastiano#5005: m?leave
+Sebastiano#5005: m?help
+Music Noob#5851: ```
+Relatively simple music bot example
+
+Jishaku:
+  jishaku The Jishaku debug and diagnostic commands.
+Music:
+  join    Joins a voice channel
+  play    Plays a file from the local filesystem
+  stop    Stops and disconnects the bot from voice
+  stream  Streams from a url (same as yt, but doesn't predownload)
+  volume  Changes the player's volume
+  yt      Plays from a url (almost anything youtube_dl supports)
+​No Category:
+  help    Shows this message
+
+Type m?help command for more info on a command.
+You can also type m?help category for more info on a category.
+```
+Sebastiano#5005: m?stop
+Tatsu#8792: 
+Tatsu#8792: 
+shivaco#0001: a
+Bunti#2229: ?emoji
+LittleEndu#0001: \<a:aThinkingIntensifies:423337877531918337>
+Zorkai#9999: ?rtfm message.att
+R. Danny#6348: 
+Xua#1137: <@!466769036122783744> dont make tags of other people, especially if its going to be used to undermine them
+LittleEndu#0001: \🥖
+StarrFox#6312: 🍵
+nx#1674: st voice
+Statz#3786: 
+nx#1674: st voice
+Statz#3786: 
+nx#1674: st reload all
+Statz#3786: 
+nx#1674: st voice
+Statz#3786: 
+Equity#3464: ??info
+hmmm#3441: 
+Espresso#1476: 
+AmDanny#2061: 
+Equity#3464: plz g starbound map
+kriX#9879: 
+Tatsu#8792: 
+Tsubasa#8884: You watch porn with your friend?
+Sebastiano#5005: m?yt https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Tatsu#8792: 
+Tsubasa#8884: <:thrinking:597590667669274651>
+Tatsu#8792: 
+Sebastiano#5005: m?stop
+Shiba#2939: **So <@488398758812319745> just leveled up to Level 5. good job!** :clap:
+Tatsu#8792: 
+nx#1674: plz g test
+kriX#9879: 
+nx#1674: plz g pornhub
+kriX#9879: 
+nx#1674: lmao
+Lida#6399: +dong
+YMYBot#9749: 
+nx#1674: +dong
+YMYBot#9749: 
+nx#1674: L
+Lida#6399: wowo
+nx#1674: +dong
+YMYBot#9749: 
+nx#1674: wow it saves to
+nx#1674: lmao
+nx#1674: +info
+nx#1674: +help
+YMYBot#9749: 
+Welcomer#5491: 
+YMYBot#9749: 
+ROBOT#2328: 
+Koishi#8740: ```
+Did you know? Most people forget about this bot within seconds.
+
+Alias:
+  alias         
+  prefix        use "+prefix add" or "+prefix del" to add or remove prefixes....
+Basic:
+  avatar        
+  ping          
+  say           
+  uptime        
+Beta:
+  avyfuckery    Draws an Apollonian gasket fractal using either a target or t...
+  avyquilt      Moved to beta bot
+  avys          The same as avyfuckery except multiple members can be specified
+  avyserver     Draws an Appollonian gasket fractal using a random handful of...
+  blotchy       Become blotchy for me, will you?
+  circles       
+  colormap      
+  colormap2     
+  colormap3             
+  cresent       
+  depth         Image manipulation for mere mortals
+  depth2        Image manipulation for mere mortals part two
+  dither        
+  dither2       
+  dither3       
+  ditherBW      
+  ditherL       
+  ditherOL      
+  ditherOLB     
+  dom           
+  edgy          
+  embedtest     
+  emojicolors   
+  gasket        
+  gouge         Spams the quantize feature of PIL on an attachment or url, mi...
+  jigsaw                
+  melted        Melted!?
+  melty         Totally not stolen
+  palette       
+  perms         
+  pietest       
+  pixelate      Spare me the details.
+  purgetest     
+  scoop         Spams the quantize feature of PIL on a target's avatar, might...
+  slime_test    
+  sorted        Sorted?
+  sub           
+  zoom          Doing weird stuff. Try to keep the speed between 20 and 100
+Bot_Info:
+  about         
+  eventstats    
+  invite        Posts the invite link for the bot
+Cards:
+  cah           Single player Cards against humanity. Mostly for testing cards.
+Currency:
+  currency      
+Games:
+  blackjack     Simple game of blackjack, specify how much you want to bet
+  minesweeper   
+  molest        
+Koishi:
+  howmuchlonger Make the time you have left meaningful
+  koishi        By popular demand
+RP:
+  fondle        
+  report        
+Rng:
+  choose        
+  rngsort       
+Stats:
+```
+Koishi#8740: ```
+  barstatus     Moved to beta bot
+  histostatus   Moved to beta bot
+  piestatus     Moved to beta bot
+User_Info:
+  info          
+ktane:
+  ktanepassword Just a simple password guesser for keep talking and nobody ex...
+​No Category:
+  help          Shows this message
+
+Type +help command for more info on a command.
+You can also type +help category for more info on a category.
+```
+Lida#6399: no save
+Lida#6399: ymy+source dong
+YMYBot#9749: Komut bulunamadı.
+YMYBot#9749: <https://github.com/ymy-discord/ymybot/blob/master/src/cogs/fun.py#L16-L40>
+Lida#6399: +dong
+YMYBot#9749: 
+Lida#6399: ymy+dong
+YMYBot#9749: 
+nx#1674: ymy+info
+nx#1674: ymy+help
+YMYBot#9749: 
+YMYBot#9749: 
+Lida#6399: no save
+random.seed(ctx.authot.id)
+nx#1674: ohhhh
+nx#1674: that makes more sense
+Lida#6399: 😄
+Equity#3464: just a fuckin second
+nx#1674: ?
+Equity#3464: is the person who made starbound also made stardew valley
+Koishi#8740: 
+nx#1674: nope
+nx#1674: same publisher though
+nx#1674: people who made starbound came from terraria i thnk
+LittleEndu#0001: ?rtfm onmbrj
+R. Danny#6348: 
+Equity#3464: basically what i was asking but thanks
+Sebastiano#5005: m?yt https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Music Noob#5851: You are not connected to a voice channel.
+Tatsu#8792: 
+Sebastiano#5005: m?yt https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Tatsu#8792: 
+Music Noob#5851: Now playing: Rick Astley - Never Gonna Give You Up (Video)
+Sebastiano#5005: SI
+Sebastiano#5005: <@!446650423416193034> OHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhh
+『Mugiman』#3310: ?rtfm client.events
+R. Danny#6348: Could not find anything. Sorry.
+『Mugiman』#3310: ?rtfm events
+R. Danny#6348: 
+Sebastiano#5005: m?paise
+Sebastiano#5005: m?pause
+Sebastiano#5005: m?volume 50
+Music Noob#5851: Changed volume to 50%
+Sebastiano#5005: m?volume 100
+Music Noob#5851: Changed volume to 100%
+Sebastiano#5005: m?volume 200
+Music Noob#5851: Changed volume to 200%
+Sebastiano#5005: m?volume 1
+Music Noob#5851: Changed volume to 1%
+Lida#6399: ymy+dong
+YMYBot#9749: 
+Sebastiano#5005: m?volume 10
+Music Noob#5851: Changed volume to 10%
+Lida#6399: ymy+source dong
+YMYBot#9749: <https://github.com/ymy-discord/ymybot/blob/master/src/cogs/fun.py#L16-L40>
+Sebastiano#5005: m?help
+Music Noob#5851: ```
+Relatively simple music bot example
+
+Jishaku:
+  jishaku The Jishaku debug and diagnostic commands.
+Music:
+  join    Joins a voice channel
+  play    Plays a file from the local filesystem
+  stop    Stops and disconnects the bot from voice
+  stream  Streams from a url (same as yt, but doesn't predownload)
+  volume  Changes the player's volume
+  yt      Plays from a url (almost anything youtube_dl supports)
+​No Category:
+  help    Shows this message
+
+Type m?help command for more info on a command.
+You can also type m?help category for more info on a category.
+```
+Sebastiano#5005: m?stop
+Tatsu#8792: 
+Sebastiano#5005: m?stream are you gonna be my girl
+Tatsu#8792: 
+Music Noob#5851: Now playing: Jet - Are You Gonna Be My Girl
+Sebastiano#5005: e?play fight for your right
+Satoru#6725: 
+Sebastiano#5005: m?play fight for your right
+Music Noob#5851: Now playing: fight for your right
+Sebastiano#5005: m?yt fight for your right
+Music Noob#5851: Now playing: Beastie Boys - (You Gotta) Fight For Your Right (To Party) [Official Music Video]
+Sebastiano#5005: ma la queue
+LittleEndu#0001: ?rtfm utilget
+R. Danny#6348: 
+nx#1674: is it me or is the search function in the docs fucked up
+nx#1674: like i get more results in japanese
+A Discord User#5290: ymy+dong
+YMYBot#9749: 
+nx#1674: +dong
+YMYBot#9749: 
+nx#1674: L
+A Discord User#5290: lucky
+A Discord User#5290: ymy+dong <@!293800689266851850>
+YMYBot#9749: 
+nx#1674: LOL
+Lida#6399: hahhah
+A Discord User#5290: lmfao
+A Discord User#5290: rip
+nx#1674: what bot has uinfo command
+LittleEndu#0001: ?rtfm onuserup
+R. Danny#6348: 
+Lida#6399: ymy+source dong
+YMYBot#9749: <https://github.com/ymy-discord/ymybot/blob/master/src/cogs/fun.py#L16-L40>
+nx#1674: !uinfo
+nx#1674: !uinfo nx
+nx#1674: ?uinfo nx
+A Trash Coder#0981: ymy+dong <@!668531491931684968>
+YMYBot#9749: 
+A Trash Coder#0981: wth
+Tatsu#8792: 
+nx#1674: +dong
+YMYBot#9749: 
+Sebastiano#5005: m?stop
+Tatsu#8792: 
+A Trash Coder#0981: +dong
+YMYBot#9749: 
+A Trash Coder#0981: +dong
+YMYBot#9749: Bu komut bekleme modunda... 1.3s sonra tekrar dene!
+A Trash Coder#0981: ok
+Madunicorn14#4354: +dong
+YMYBot#9749: 
+nx#1674: i wonder how the user ids are generated
+A Discord User#5290: +dong 80088516616269824
+YMYBot#9749: 
+A Discord User#5290: i'm longer than danny
+Away#1337: +dong
+YMYBot#9749: 
+Tatsu#8792: 
+Madunicorn14#4354: 👀
+Away#1337: this is so dumb
+Lida#6399: WOWO
+Madunicorn14#4354: ikr
+Sebastiano#5005: m?play crab rave
+Tatsu#8792: 
+Music Noob#5851: Now playing: crab rave
+A Trash Coder#0981: +dong <@373256462211874836>
+YMYBot#9749: 
+Sebastiano#5005: m?stop
+Tatsu#8792: 
+A Trash Coder#0981: damn it
+Sebastiano#5005: m?yt crab rave
+Tatsu#8792: 
+Music Noob#5851: Now playing: Noisestorm - Crab Rave [Monstercat Release] (https://r5---sn-uxaxpu5ap5-8jxe.googlevideo.com/videoplayback?expire=1581902302&ei=fpVJXrOxHZLI1wLPkb3YAg&ip=87.4.243.250&id=o-AAm2Q7t9pJdRmLyx_tfuQRi5PZo6FORlJQGvVgq-OKsj&itag=251&source=youtube&requiressl=yes&mm=31%2C29&mn=sn-uxaxpu5ap5-8jxe%2Csn-nx5cvox-hpae7&ms=au%2Crdu&mv=m&mvi=4&pl=24&nh=%2CEAE&initcwndbps=935000&vprv=1&mime=audio%2Fwebm&gir=yes&clen=3248473&dur=192.241&lmt=1580487525320949&mt=1581880600&fvip=6&keepalive=yes&fexp=23842630%2C23878762&c=WEB&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cnh%2Cinitcwndbps&lsig=AHylml4wRQIhAI6ODCBDTtJGDMkr-D_pz7tAXXGsqCH3-77arlPhQUrrAiBG_JXeI2F4yNA7llRf88BwXvOYzEIhnnoMChbTWKJbOg%3D%3D&sig=ALgxI2wwRgIhAIFvT1amnEGTzp8-4EKsvJzt98PUbL2I8WxLZ7qDseK9AiEAlZ28eLKOkYRr6zUqcTcUfLBLlTujr9sC80ZdFz0JZOk=&ratebypass=yes)
+Madunicorn14#4354: +dong
+YMYBot#9749: 
+Madunicorn14#4354: nooo
+Lida#6399: wtf .d
+Sebastiano#5005: m?volume 2
+Music Noob#5851: Changed volume to 2%
+A Discord User#5290: +dong 455289384187592704
+YMYBot#9749: 
+Sebastiano#5005: m?volume 10
+Music Noob#5851: Changed volume to 10%
+nx#1674: who has the lowest user id here
+nx#1674: is it based off account age?
+A Discord User#5290: danny
+A Discord User#5290: ?tag snowflake
+R. Danny#6348: http://i.imgur.com/UxWvdYD.png
+A Discord User#5290: ^
+nx#1674: 122137595214954498
+Lida#6399: +dong 90437808245723136
+YMYBot#9749: 
+Tsubasa#8884: Is this penis size?
+A Discord User#5290: yes
+Sebastiano#5005: m?jsk py player = await YTDLSource.from_url("crab rave", loop=self.bot.loop)
+return player.url
+nx#1674: yes
+Lida#6399: yea
+Tsubasa#8884: <:yert:596577410888105995>
+nx#1674: +dong danny
+YMYBot#9749: 
+nx#1674: +dong danny#0007
+YMYBot#9749: 
+Sebastiano#5005: m?jsk py impoty youtube_dl
+player = await YTDLSource.from_url("crab rave", loop=self.bot.loop)
+return player.url
+Music Noob#5851: ```py
+Traceback (most recent call last):
+  File "<string>", line 1
+    impoty youtube_dl
+           ^
+SyntaxError: invalid syntax
+
+```
+Tsubasa#8884: We need it in inch
+nx#1674: +dong 80088516616269824
+YMYBot#9749: 
+nx#1674: +dong
+YMYBot#9749: Bu komut bekleme modunda... 2.2s sonra tekrar dene!
+Sebastiano#5005: m?jsk py import youtube_dl
+player = await YTDLSource.from_url("crab rave", loop=self.bot.loop)
+return player.url
+Tsubasa#8884: Not like that
+nx#1674: +dong
+YMYBot#9749: 
+Lida#6399: luck
+Lida#6399: y
+nx#1674: i still have no idea how seeds work
+Equity#3464: <@!293800689266851850> can you not thanks
+A Trash Coder#0981: i could
+Tsubasa#8884: Not what?
+yikes#2775: ?rtfm cooldown
+R. Danny#6348: 
+A Trash Coder#0981: +help
+Koishi#8740: ```
+Did you know? Most people forget about this bot within seconds.
+
+Alias:
+  alias         
+  prefix        use "+prefix add" or "+prefix del" to add or remove prefixes....
+Basic:
+  avatar        
+  ping          
+  say           
+  uptime        
+Beta:
+  avyfuckery    Draws an Apollonian gasket fractal using either a target or t...
+  avyquilt      Moved to beta bot
+  avys          The same as avyfuckery except multiple members can be specified
+  avyserver     Draws an Appollonian gasket fractal using a random handful of...
+  blotchy       Become blotchy for me, will you?
+  circles       
+  colormap      
+  colormap2     
+  colormap3             
+  cresent       
+  depth         Image manipulation for mere mortals
+  depth2        Image manipulation for mere mortals part two
+  dither        
+  dither2       
+  dither3       
+  ditherBW      
+  ditherL       
+  ditherOL      
+  ditherOLB     
+  dom           
+  edgy          
+  embedtest     
+  emojicolors   
+  gasket        
+  gouge         Spams the quantize feature of PIL on an attachment or url, mi...
+  jigsaw                
+  melted        Melted!?
+  melty         Totally not stolen
+  palette       
+  perms         
+  pietest       
+  pixelate      Spare me the details.
+  purgetest     
+  scoop         Spams the quantize feature of PIL on a target's avatar, might...
+  slime_test    
+  sorted        Sorted?
+  sub           
+  zoom          Doing weird stuff. Try to keep the speed between 20 and 100
+Bot_Info:
+  about         
+  eventstats    
+  invite        Posts the invite link for the bot
+Cards:
+  cah           Single player Cards against humanity. Mostly for testing cards.
+Currency:
+  currency      
+Games:
+  blackjack     Simple game of blackjack, specify how much you want to bet
+  minesweeper   
+  molest        
+Koishi:
+  howmuchlonger Make the time you have left meaningful
+  koishi        By popular demand
+RP:
+  fondle        
+  report        
+Rng:
+  choose        
+  rngsort       
+Stats:
+```
+YMYBot#9749: 
+Welcomer#5491: 
+Koishi#8740: ```
+  barstatus     Moved to beta bot
+  histostatus   Moved to beta bot
+  piestatus     Moved to beta bot
+User_Info:
+  info          
+ktane:
+  ktanepassword Just a simple password guesser for keep talking and nobody ex...
+​No Category:
+  help          Shows this message
+
+Type +help command for more info on a command.
+You can also type +help category for more info on a category.
+```
+ROBOT#2328: 
+A Trash Coder#0981: damnin
+Tsubasa#8884: +dong  <@428273380844765185>
+YMYBot#9749: 
+nx#1674: love it when 5 bots have the same prefix
+A Discord User#5290: ?rtfm py random.seed
+R. Danny#6348: 
+Sebastiano#5005: m?yt test
+Music Noob#5851: Now playing: Sei più “femminile” o più “maschile”? Test di personalità (<__main__.YTDLSource object at 0x05408088>)
+Sebastiano#5005: ma
+nx#1674: !help
+R. Danny#6348: 
+Sebastiano#5005: m?volume 100
+Music Noob#5851: Changed volume to 100%
+nx#1674: ?help
+R. Danny#6348: 
+Sebastiano#5005: m?stop
+nx#1674: xhelp
+Tatsu#8792: 
+A Trash Coder#0981: -help
+Gami#7891: 
+nx#1674: whats the most common prefix here
+nx#1674: zhlep
+LittleEndu#0001: ?rtfm onmbrup
+R. Danny#6348: 
+A Discord User#5290: .help
+Arevior#3489: **Use .help <category> for more information about a specific category**
+
+Crafting
+Lootbox
+Raffle
+Marketglobal
+Misc
+Char
+Bank
+Market
+Auction
+Pet
+Chargen
+Guildplugin
+Help
+Trade
+Auctionglobal
+Aegis#7208: 
+Tuxbot#8729: 
+Tuxbot#8729: 
+Mr.Robot#3880: ```css
+A Discord User,
+	Help has been sent to your DM, if your DM is not enabled, then it is here.
+	My prefix is: "."
+	If you ever need my prefix again, just mention me!
+		-[.help <command>] to find out more about the command!
+		-[.help commands]  to get all commands in this channel.
+		-[.help commands <category>] to get all commands for the specific category in this channel. Categories: [Music, Utilities, Games]```
+Tuxbot#8729: 
+Tuxbot#8729: 
+IdleRPG Beta#2780: 
+nx#1674: LOL
+Tsubasa#8884: Wtf
+A Discord User#5290: yep
+A Discord User#5290: it's `.`
+nx#1674: `+` needs to compete
+Tsubasa#8884: Change your f**g prefix
+nx#1674: brb changing my bot prefix to .
+A Discord User#5290: gg.jsk su sprefix .
+A Discord User#5290: gg.jsk sudo sprefix .
+Gordon Ramsay Test#7192: 
+A Discord User#5290: awesome
+nx#1674: .help
+Tuxbot#8729: 
+Tsubasa#8884: .help
+Statz#3786: 
+Gordon Ramsay Test#7192: 
+Aegis#7208: 
+Mr.Robot#3880: ```css
+nx,
+	Help has been sent to your DM, if your DM is not enabled, then it is here.
+	My prefix is: "."
+	If you ever need my prefix again, just mention me!
+		-[.help <command>] to find out more about the command!
+		-[.help commands]  to get all commands in this channel.
+		-[.help commands <category>] to get all commands for the specific category in this channel. Categories: [Music, Utilities, Games]```
+Tuxbot#8729: 
+Statz#3786: 
+Gordon Ramsay Test#7192: 
+Tuxbot#8729: 
+Aegis#7208: 
+Mr.Robot#3880: ```css
+Tsubasa,
+	Help has been sent to your DM, if your DM is not enabled, then it is here.
+	My prefix is: "."
+	If you ever need my prefix again, just mention me!
+		-[.help <command>] to find out more about the command!
+		-[.help commands]  to get all commands in this channel.
+		-[.help commands <category>] to get all commands for the specific category in this channel. Categories: [Music, Utilities, Games]```
+Tuxbot#8729: 
+Tuxbot#8729: 
+IdleRPG Beta#2780: 
+IdleRPG Beta#2780: 
+Arevior#3489: **Use .help <category> for more information about a specific category**
+
+Crafting
+Lootbox
+Raffle
+Marketglobal
+Misc
+Char
+Bank
+Market
+Auction
+Pet
+Chargen
+Guildplugin
+Help
+Trade
+Auctionglobal
+Arevior#3489: **Use .help <category> for more information about a specific category**
+
+Crafting
+Lootbox
+Raffle
+Marketglobal
+Misc
+Char
+Bank
+Market
+Auction
+Pet
+Chargen
+Guildplugin
+Help
+Trade
+Auctionglobal
+Tuxbot#8729: 
+Tuxbot#8729: 
+Tuxbot#8729: 
+nx#1674: lmao
+Tsubasa#8884: You are 🚮
+A Discord User#5290: why are there so many turkish bots
+Lida#6399: <@!429276634072350720>
+nx#1674: st help
+Statz#3786: 
+A Discord User#5290: .sprefix gg.
+Sebastiano#5005: m?play lofi
+Tatsu#8792: 
+A Discord User#5290: .jsk sudo sprefix gg.
+FatihAlper#6145: +dong
+YMYBot#9749: 
+Gordon Ramsay Test#7192: 
+FatihAlper#6145: Take that
+nx#1674: +dong
+YMYBot#9749: 
+nx#1674: take that
+FatihAlper#6145: Omg
+FatihAlper#6145: Bigget than mine
+Tsubasa#8884: Your dong is small
+FatihAlper#6145: +dong <@!302467968095223820>
+YMYBot#9749: 
+FatihAlper#6145: Lol
+nx#1674: lol
+FatihAlper#6145: Really
+Tsubasa#8884: It's not true
+nx#1674: ymy+help
+YMYBot#9749: 
+nx#1674: +ping
+YMYBot#9749: Pinging...
+Koishi#8740: pong!
+Welcomer#5491: 
+ROBOT#2328: 
+Lida#6399: ıt's true <@!302467968095223820>
+nx#1674: lol
+nx#1674: .ping
+Mr.Robot#3880: .
+Aegis#7208: pong!
+IdleRPG Beta#2780: 
+Tuxbot#8729: 
+A Discord User#5290: gg.jsk py x = random.seed(_author.id); x.randint(1, 30)
+Gordon Ramsay Test#7192: ```py
+Traceback (most recent call last):
+  File "/home/joshua/Documents/bots/Gordon Ramsay/env/lib/python3.7/site-packages/jishaku/cog_base.py", line 489, in jsk_python
+    async for send, result in AsyncSender(executor):
+  File "/home/joshua/Documents/bots/Gordon Ramsay/env/lib/python3.7/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "/home/joshua/Documents/bots/Gordon Ramsay/env/lib/python3.7/site-packages/jishaku/repl/compilation.py", line 137, in traverse
+    async for send, result in AsyncSender(func(*self.args)):
+  File "/home/joshua/Documents/bots/Gordon Ramsay/env/lib/python3.7/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "<repl>", line 1, in _repl_coroutine
+NameError: name 'random' is not defined
+
+```
+Sebastiano#5005: m?play crab rave
+Tsubasa#8884: +dong <@143090142360371200>
+YMYBot#9749: 
+Tsubasa#8884: Omg
+A Discord User#5290: gg.jsk py x = random!.seed(_author.id); x.randint(1, 30)
+Gordon Ramsay Test#7192: ```py
+Traceback (most recent call last):
+  File "/home/joshua/Documents/bots/Gordon Ramsay/env/lib/python3.7/site-packages/jishaku/cog_base.py", line 489, in jsk_python
+    async for send, result in AsyncSender(executor):
+  File "/home/joshua/Documents/bots/Gordon Ramsay/env/lib/python3.7/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "/home/joshua/Documents/bots/Gordon Ramsay/env/lib/python3.7/site-packages/jishaku/repl/compilation.py", line 137, in traverse
+    async for send, result in AsyncSender(func(*self.args)):
+  File "/home/joshua/Documents/bots/Gordon Ramsay/env/lib/python3.7/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "<repl>", line 1, in _repl_coroutine
+AttributeError: 'NoneType' object has no attribute 'randint'
+
+```
+A Discord User#5290: how the fuck do you use seeds
+nx#1674: ikr
+nx#1674: +source dong
+YMYBot#9749: <https://github.com/ymy-discord/ymybot/blob/master/src/cogs/fun.py#L16-L40>
+Lida#6399: ^^
+FatihAlper#6145: +dong <@590063079988133889>
+YMYBot#9749: 
+FatihAlper#6145: Lol really
+Lida#6399: 😦
+FatihAlper#6145: It must be bigget
+FatihAlper#6145: R
+Tsubasa#8884: <@590063079988133889> about
+A Trash Coder#0981: +about
+ROBOT#2328: 
+Tsubasa#8884: <@590063079988133889> info
+Koishi#8740: 
+Lida#6399: ymy+help
+YMYBot#9749: 
+Tatsu#8792: 
+Tatsu#8792: 
+Tsubasa#8884: <@590063079988133889> ping
+YMYBot#9749: Pinging...
+nx#1674: <@!122137595214954498> info
+FatihAlper#6145: +dong <@261741896550842378>
+YMYBot#9749: 
+FatihAlper#6145: Lol
+Tsubasa#8884: Who made this YMY bo
+nx#1674: lida
+nx#1674: i think
+FatihAlper#6145: <@428273380844765185>
+nx#1674: st messages lida
+nx#1674: st messages <@!428273380844765185>
+Statz#3786: 
+nx#1674: st messages
+Statz#3786: 
+Tsubasa#8884: It can't properly guess dong size
+Tsubasa#8884: 😂
+FatihAlper#6145: It can
+FatihAlper#6145: And your dong is small
+StarrFox#6312: <@668531491931684968> dont use random.seed
+MrRandom#9258: st messages
+Statz#3786: 
+MrRandom#9258: st messages <@238356301439041536>
+Statz#3786: 
+FatihAlper#6145: I wanna se it again
+FatihAlper#6145: +dong <@!302467968095223820>
+YMYBot#9749: 
+FatihAlper#6145: Lolll
+FatihAlper#6145: +dong
+YMYBot#9749: 
+StarrFox#6312: those type of commands are really stupid
+nx#1674: st messages nx
+Statz#3786: 
+nx#1674: they're not dumb
+nx#1674: they are verycool
+Lida#6399: ymy+dong 95473026350452736
+YMYBot#9749: 
+ImRock#0001: ?
+FatihAlper#6145: +dong <@!285148358815776768>
+YMYBot#9749: 
+Equity#3464: they really are
+FatihAlper#6145: Lol
+FatihAlper#6145: Yours is small
+ImRock#0001: +dong <@!302467968095223820>
+YMYBot#9749: 
+ImRock#0001: get fucking nae naed
+ImRock#0001: smol peepee
+nx#1674: i have the best userid seed
+Tsubasa#8884: It's not true
+nx#1674: yes it is
+Lida#6399: > i have the best userid seed
+<@!122137595214954498> hmm 🤔
+Tsubasa#8884: +dong  <@122137595214954498>
+YMYBot#9749: 
+A Discord User#5290: how do seeds even work
+Tsubasa#8884: o.o
+FatihAlper#6145: Its bigger than mine
+FatihAlper#6145: Gosh
+nx#1674: +dong equity
+YMYBot#9749: 
+nx#1674: +dong equity#3644
+YMYBot#9749: 
+nx#1674: i can;t read turkish
+FatihAlper#6145: +penis
+YMYBot#9749: 
+nx#1674: or whatever that is
+FatihAlper#6145: Its turkish tho
+nx#1674: i still have no clue why there are so many turkish bots
+Tsubasa#8884: +dong <@428273380844765185>
+YMYBot#9749: 
+Lida#6399: it's real turkish dong
+A Discord User#5290: is discord popular in turkey or something
+Tsubasa#8884: <:waitwhat:596577409768226816>
+StarrFox#6312: turkiah people really like making bots
+FatihAlper#6145: Bc there are too many discord developers in here
+StarrFox#6312: they have thousands of them
+Tsubasa#8884: +dong  <@285148358815776768>
+YMYBot#9749: 
+StarrFox#6312: and 99% are shit
+Tsubasa#8884: XD
+twitch 🔋#7443: stealing oil in cyprus
+Lida#6399: Lol
+Tsubasa#8884: +dong  <@440113725970710528>
+YMYBot#9749: 
+Tsubasa#8884: XD
+A Discord User#5290: +song
+nx#1674: st messages <#381963705686032394>
+Statz#3786: 
+A Discord User#5290: +dong
+YMYBot#9749: 
+A Discord User#5290: i wish that applied in real life
+nx#1674: lol
+ImRock#0001: yeh
+ImRock#0001: irl its only like 1 pixel
+nx#1674: what if ur dick sized was based off like the seed of the base64 of your name
+twitch 🔋#7443: this bot is more retarded than welcomer
+twitch 🔋#7443: +info
+twitch 🔋#7443: +help
+YMYBot#9749: 
+Welcomer#5491: 
+Koishi#8740: ```
+Did you know? Most people forget about this bot within seconds.
+
+Alias:
+  alias         
+  prefix        use "+prefix add" or "+prefix del" to add or remove prefixes....
+Basic:
+  avatar        
+  ping          
+  say           
+  uptime        
+Beta:
+  avyfuckery    Draws an Apollonian gasket fractal using either a target or t...
+  avyquilt      Moved to beta bot
+  avys          The same as avyfuckery except multiple members can be specified
+  avyserver     Draws an Appollonian gasket fractal using a random handful of...
+  blotchy       Become blotchy for me, will you?
+  circles       
+  colormap      
+  colormap2     
+  colormap3             
+  cresent       
+  depth         Image manipulation for mere mortals
+  depth2        Image manipulation for mere mortals part two
+  dither        
+  dither2       
+  dither3       
+  ditherBW      
+  ditherL       
+  ditherOL      
+  ditherOLB     
+  dom           
+  edgy          
+  embedtest     
+  emojicolors   
+  gasket        
+  gouge         Spams the quantize feature of PIL on an attachment or url, mi...
+  jigsaw                
+  melted        Melted!?
+  melty         Totally not stolen
+  palette       
+  perms         
+  pietest       
+  pixelate      Spare me the details.
+  purgetest     
+  scoop         Spams the quantize feature of PIL on a target's avatar, might...
+  slime_test    
+  sorted        Sorted?
+  sub           
+  zoom          Doing weird stuff. Try to keep the speed between 20 and 100
+Bot_Info:
+  about         
+  eventstats    
+  invite        Posts the invite link for the bot
+Cards:
+  cah           Single player Cards against humanity. Mostly for testing cards.
+Currency:
+  currency      
+Games:
+  blackjack     Simple game of blackjack, specify how much you want to bet
+  minesweeper   
+  molest        
+Koishi:
+  howmuchlonger Make the time you have left meaningful
+  koishi        By popular demand
+RP:
+  fondle        
+  report        
+Rng:
+  choose        
+  rngsort       
+Stats:
+```
+ROBOT#2328: 
+Koishi#8740: ```
+  barstatus     Moved to beta bot
+  histostatus   Moved to beta bot
+  piestatus     Moved to beta bot
+User_Info:
+  info          
+ktane:
+  ktanepassword Just a simple password guesser for keep talking and nobody ex...
+​No Category:
+  help          Shows this message
+
+Type +help command for more info on a command.
+You can also type +help category for more info on a category.
+```
+nx#1674: all it does is dong
+twitch 🔋#7443: +source
+YMYBot#9749: https://github.com/ymy-discord/ymybot
+FatihAlper#6145: Nope
+FatihAlper#6145: It has reaction role feature
+FatihAlper#6145: And still in development
+Xua#1137: twitch
+Xua#1137: nothing is worse than welcomer
+Xua#1137: <:picardy:628002512800186379>
+nx#1674: what is welcomer
+twitch 🔋#7443: i don't know a dong command is pretty stupid
+Koishi#8740: 
+A Discord User#5290: <@!330416853971107840> help
+Xua#1137: yea but charles has it too
+OP|FF|Sans#3627: Ok
+StarrFox#6312: exactly
+twitch 🔋#7443: //help
+Charles#5244: 
+FatihAlper#6145: Bc your dong is small <@!440113725970710528>
+Equity#3464: shut the fuck up
+Tsubasa#8884: Lmao
+OP|FF|Sans#3627: Grazie
+A Discord User#5290: what is welcomed
+FatihAlper#6145: +dong <@!440113725970710528>
+YMYBot#9749: 
+Tsubasa#8884: A bot
+twitch 🔋#7443: yes that is totally what i am angry about
+FatihAlper#6145: Lol
+StarrFox#6312: imrock's bot
+OP|FF|Sans#3627: Quasi tutti i server che ho sono inglesi
+A Discord User#5290: prefix?
+Xua#1137: `userinfo 429276634072350720
+spoo.py(◡‿◡✿)#6138: ```prolog
+​      User: FatihAlper#6145
+        ID: 429276634072350720
+     Names: FatihAlper
+   Servers: 1 shared
+   Created: 1 year, 10 months ago (2018-03-30 13:52:05.137000 UTC)
+    Joined: 12 minutes ago (2020-02-16 19:23:55.371300 UTC)
+ Last Seen: 13 seconds ago (2020-02-16 19:35:51.080000 UTC)
+Last Spoke: 13 seconds ago (2020-02-16 19:35:51.080000 UTC)
+Spoke Here: 13 seconds ago (2020-02-16 19:35:51.080000 UTC)
+     Roles: @​everyone```
+StarrFox#6312: +
+Tsubasa#8884: Twitch is that even true?
+Equity#3464: im curious
+twitch 🔋#7443: what
+Xua#1137: thats about what i thought
+nx#1674: st voice
+Statz#3786: 
+nx#1674: fuck that's not working at all
+Equity#3464: ?newusers
+R. Danny#6348: 
+LittleEndu#0001: ?rtfm mbract
+R. Danny#6348: 
+Lida#6399: ?source newusers
+R. Danny#6348: <https://github.com/Rapptz/RoboDanny/blob/rewrite/cogs/mod.py#L470-L493>
+Tsubasa#8884: Dong
+Xua#1137: $dev eval str(ctx.guild.get_member(396290259907903491).activity)
+Abyss#6729: <Activity type=<ActivityType.playing: 0> name='The Binding of Isaac: Rebirth' url=None details=None application_id=358420454764969994 session_id=None emoji=None>
+Equity#3464: avayert
+Xua#1137: ?rtfm activity
+R. Danny#6348: 
+Lida#6399: ymy+dong 581484501704769547
+YMYBot#9749: 
+Lida#6399: what
+nx#1674: st voice
+Statz#3786: 
+ImRock#0001: ikr
+Xua#1137: $dev eval [str(u) for u in ctx.guild.members if member.activity and member.activity.name is None]
+Abyss#6729: ```
+Traceback (most recent call last):
+  File "/home/xua/abyss/cogs/dev.py", line 243, in eval
+    ret = eval(expr, self._env)
+  File "<string>", line 1, in <module>
+  File "<string>", line 1, in <listcomp>
+NameError: name 'member' is not defined
+```
+Abyss#6729: ['Judge#2020', 'Sad#4152', 'Griff#9021', 'machineth0t#0001', 'bhivam#0817', 'Alan#1337', 'Akuma#7346', 'jd#0001', 'mellowmarshe#0001', 'Mellow#0025', 'brady#1000', 'Carl#0001', 'sxhxbx#0001', 'MOONLIGHT#7062', 'Judge1st#2827', 'The Internet Was a Mistake#0001', 'PhosphorTV#0995', 'kennnyshiwa#1337', 'Skyzar#0001', 'EndenDragon#1337', 'EJH2#0330', 'cylcylcylcylcyl#5678', 'Zokasu#8216', 'Pjǿrn#4467', 'iRioh#0814', 'ImRock#0001', 'cyan#1024', '%20#7217', 'Wertfuzzy77#7777', 'Eanae#0001', 'edizzy#3666', 'Waspyeh#0615', 'v i i l k a s#3719', 'Lemon-Neko#3272', 'Ava#9534', 'Harmon758#0004', 'Raoul1808#7641', '<3#3333', 'akaEnable#7773', 'Meow#0005', 'House#3161', 'Nitrous#1337', 'Stef~#0021', 'A.#7700', 'fops#1969', 'cake#0001', 'Krokofant#0909', 'Craig#0002', 'Zeexel#2951', 'apt-moo#2156', 'Asal#1502', 'Jackohhh#5225', 'ouglor#5555', 'shay#0038', 'Cheesybytes#7875', 'Ferxe#1026', 'Krepyn🦊#0008', 'Badger#7530', 'cleary#6546', 'Bossu♪#2411', 'IAmTomahawkx#1000', 'Lolisen#2158', 'curi0s#0001', 'Danial K.#3030', 'lache#1518', 'JonSnowWhite#6467', 'Frosch#8726', 'RegaL#6259', 'Joon#0001', '🌸Divina💢#0218', 'CoverMe#0001', 'Janne#6969', 'Helehelehele#0001', 'EEKIM10_YT#4015', 'TrustyJAID#0001', 'fox#1000', 'Borcio#2121', 'Crun#0012', 'soar lee#0042', 'Xua#1137', 'Relaxified#0001', 'Chillstice#2521', 'Snaptraks#2606', 'Iamawalrus#1010', 'VoidCrafted#0001', 'StrangeKoala89#0787', 'jamie#3714', 'Eibe#6434', 'Grande#0001', 'LavishNick#8129', '-２5 ₅#9999', 'Suwako Moriya#1628', 'Orangestar#1432', 'Zippy#0018', 'MrRandom#9258', 'TangoIsATurd#8144', 'Peter2469#5460', 'lucasallegri#6750', 'Demohstens#1904', 'Emzi0767#1837', 'daxil34#9011', '\U000e01f0\U000e01f0#4567', 'peanut#0173', 'Veikkeli#5030', 'Munster08#0807', 'Maxee#0001', 'Distort#0001', 'Para#0001', 'RowenStipe#4242', 'Alsauce#0126', 'Spoon#0001', 'Josh#1373', 'AvantelWings#1137', 'dennougorilla#0604', 'CallMePickle#9672', 'MrSnek#3442', 'nameless user#5051', 'dsf190#5214', 'vpba!#4818', 'Antonio32A#9006', 'No
+
+Page 1/4
+Abyss#6729: <Member id=77542916213444608 name='Judge' discriminator='2020' bot=False nick=None guild=<Guild id=336642139381301249 name='discord.py' shard_id=0 chunked=True member_count=15382>>
+Xua#1137: $dev eval _.activity
+Abyss#6729: <CustomActivity name=None emoji=<PartialEmoji animated=False name='owo' id=588288809158967297>>
+Xua#1137: $dev eval discord.utils.find(lambda m: m.activity and m.activity.type is not discord.ActivityType.custom and m.activity.name is None, ctx.guild.members)
+StarrFox#6312: ?tag search random
+R. Danny#6348: 
+ImRock#0001: +ping
+YMYBot#9749: Pinging...
+Welcomer#5491: 
+ROBOT#2328: 
+Koishi#8740: pong!
+LittleEndu#0001: ?tag task error
+R. Danny#6348: ```py
+async def my_coro():
+    do_some_stuff()
+    raise Exception('Oh shit its fucked')
+
+def exception_catching_callback(task):
+    if task.exception():
+        task.print_stack()
+
+my_task = loop.create_task(my_coro)
+my_task.add_done_callback(exception_catching_callback)```
+
+
+You can also call loop.set_debug(True) when debugging. This is generally just a development option, and not for deployment.  Also see https://docs.python.org/3/library/asyncio-dev.html#debug-mode
+ImRock#0001: uh oh
+ImRock#0001: stinky
+LittleEndu#0001: ?tag ext.task error
+R. Danny#6348: Tag not found. Did you mean...
+ext.tasks error
+task error
+tasks error
+LittleEndu#0001: ?tag ext.tasks error
+R. Danny#6348: **Task is not working, but no errors**
+This is because tasks don't raise errors normally. You need to actually pick up the error when the task has completed.
+
+With `discord.ext.tasks`, you can easily use the following:
+```python
+@your_task.after_loop
+async def post_loop(self):
+  if self.your_task.failed():
+    import traceback
+    error = self.your_task.exception()
+    traceback.print_exception(type(error), error, error.__traceback__)
+```
+ImRock#0001: ?tag task exception
+R. Danny#6348: ```py
+async def my_coro():
+    do_some_stuff()
+    raise Exception('Oh shit its fucked')
+
+def exception_catching_callback(task):
+    if task.exception():
+        task.print_stack()
+
+my_task = loop.create_task(my_coro)
+my_task.add_done_callback(exception_catching_callback)```
+
+
+You can also call loop.set_debug(True) when debugging. This is generally just a development option, and not for deployment.  Also see https://docs.python.org/3/library/asyncio-dev.html#debug-mode
+ImRock#0001: <:cat_cry:591770484442660864>
+ImRock#0001: oh
+nx#1674: st voice
+Statz#3786: 
+nx#1674: st help
+Statz#3786: 
+Mellow#0025: ?tag task.error
+R. Danny#6348: Tag not found. Did you mean...
+task error
+tasks error
+ext.tasks error
+ImRock#0001: looks like a bad bot
+ImRock#0001: <:Pog:673876923138441263>
+Mellow#0025: ?tag ext.tasks error
+R. Danny#6348: **Task is not working, but no errors**
+This is because tasks don't raise errors normally. You need to actually pick up the error when the task has completed.
+
+With `discord.ext.tasks`, you can easily use the following:
+```python
+@your_task.after_loop
+async def post_loop(self):
+  if self.your_task.failed():
+    import traceback
+    error = self.your_task.exception()
+    traceback.print_exception(type(error), error, error.__traceback__)
+```
+Skorpa#5632: ?tag lp
+R. Danny#6348: <https://automatetheboringstuff.com/> (for complete beginners to programming)
+<https://learnxinyminutes.com/docs/python3/> (for people who know programming already)
+<https://docs.python.org/3/tutorial/> (official tutorial)
+<http://python.swaroopch.com/> (useful book)
+<http://greenteapress.com/wp/think-python-2e/> (another decent book)
+see also: <http://www.codeabbey.com/> (exercises for beginners)
+Equity#3464: yes welcomer is a bad bot
+Lorenzo#6154: b
+lambda#0987: https://rarehistoricalphotos.com/rare-color-pictures-russian-empire-1905-1915/
+A Discord User#5290: b
+Mxrcus#6799: ?tag activity
+R. Danny#6348: ```py
+# Setting `Playing ` status
+await bot.change_presence(activity=discord.Game(name="a game"))
+
+# Setting `Streaming ` status
+await bot.change_presence(activity=discord.Streaming(name="My Stream", url=my_twitch_url))
+
+# Setting `Listening ` status
+await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="a song"))
+
+# Setting `Watching ` status
+await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="a movie"))
+```
+
+ActivityType enum: <https://github.com/Rapptz/discord.py/blob/master/discord/enums.py#L377-L382>
+Activity class: <https://github.com/Rapptz/discord.py/blob/master/discord/activity.py#L88-L136>
+Mxrcus#6799: ?tag customactivity
+R. Danny#6348: Tag not found. Did you mean...
+activity
+custom
+customec
+Mxrcus#6799: ?tag custom
+R. Danny#6348: https://www.youtube.com/watch?v=Z4TwWx_QXqo
+Equity#3464: ?tag info custom
+R. Danny#6348: 
+Equity#3464: ?tag claim custom
+R. Danny#6348: Successfully transferred tag ownership to you.
+Equity#3464: ?tag delete custom
+R. Danny#6348: Tag and corresponding aliases successfully deleted.
+Equity#3464: shit tag
+A Discord User#5290: almost all of my tags were shit
+nx#1674: ?tag
+R. Danny#6348: 
+nx#1674: ?tag all
+R. Danny#6348: 
+nx#1674: ?tag test
+R. Danny#6348: R. Danny can show emojis from servers he is on: <:swift:238059598857240576> <:squirtheh:239186154153312277> <:rust:232722868583006209> <:ruby:232899886419410945> <:rubocop:246708457460334592> <:python3:232720527448342530> <:python2:232720514114781185> <:php:232912360237432832> <:mademe:244929610792304640> <:lua:236895809654751233> <:JUSTLOL:450225070569291776> <:js:233782775726080012> <:java:232723447321460737> <:helYea:236243426662678528> <:helNa:239120424938504192> <:helMeh:306135909579882497> <:haskell:291710032637067264> <:gopher:243902586946715658> <:foxbot:244929610146381824> <:elixir:291709559477895169> <:ecksdee:237856118502719488> <:dotnet:232902710280716288> <:dothis:244929610607886337> <:dlang:232912321532526592> <:discordok:293495010719170560> <:dartlang:236895119972892672> <:crystal:232905855618514944> <:awsok:286225926755450881>
+nx#1674: ?tag some good tag
+R. Danny#6348: Tag not found. Did you mean...
+
+some good tag
+
+
+9. some good tag
+
+bad tag
+5. some good tag
+nx#1674: ?tag 9.
+R. Danny#6348: Tag not found. Did you mean...
+3.9
+nx#1674: bruh
+nx#1674: st voice
+Statz#3786: 
+Equity#3464: <@!285148358815776768> is wallpaper engine worth the 4$
+Dutchy#6127: //jsk
+Charles#5244: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.8.1 (default, Dec 31 2019, 18:42:42) [GCC 7.4.0]` on `linux`
+Module was loaded 5 days ago, cog was loaded 5 days ago.
+
+Using 497.8 MB physical memory and 1.2 GB virtual memory, 488.0 MB of which unique to this process.
+Running on PID 26167 (`python3.8`) with 6 thread(s).
+
+This bot is automatically sharded and can see 376 guild(s) and 229116 user(s).
+Average websocket latency: 23.15ms
+Dutchy#6127: rw jsk
+Charles#5244: Jishaku v1.18.0, discord.py `1.3.1`, `Python 3.8.1 (default, Dec 31 2019, 18:42:42) [GCC 7.4.0]` on `linux`
+Module was loaded 10 hours ago, cog was loaded 10 hours ago.
+
+Using 448.2 MB physical memory and 1.0 GB virtual memory, 438.6 MB of which unique to this process.
+Running on PID 4286 (`python3.8`) with 6 thread(s).
+
+This bot is automatically sharded and can see 376 guild(s) and 216025 user(s).
+Average websocket latency: 51.16ms
+nx#1674: st voice
+Statz#3786: 
+nx#1674: st voice
+Statz#3786: 
+nx#1674: st help
+Statz#3786: 
+nx#1674: st reload all
+Statz#3786: 
+nx#1674: st help
+Statz#3786: 
+Away#1337: <@!310418322384748544> my ue driver is hot
+Away#1337: what do I do
+Equity#3464: ?remind 2 days install games
+R. Danny#6348: Alright <@373256462211874836>, in 2 days: install games
+Ryan#5872: https://cdn.discordapp.com/attachments/467900166385696771/678670498397159434/f05a4ef.jpg
+Equity#3464: ?newusers
+R. Danny#6348: 
+spoopy🍡#0567: `userinfo <@!507693986081931274>
+spoo.py(◡‿◡✿)#6138: ```prolog
+​      User: ItsBrezzy™#5411
+        ID: 507693986081931274
+     Names: ItsBrezzy™, ItsBrezzy, Brezzy
+   Servers: 1 shared
+   Created: 1 year, 3 months ago (2018-11-01 23:14:38.780000 UTC)
+    Joined: 9 days ago (2020-02-07 03:37:38.032428 UTC)
+ Last Seen: a minute ago (2020-02-16 20:19:18.055000 UTC)
+Last Spoke: a minute ago (2020-02-16 20:19:18.055000 UTC)
+Spoke Here: a minute ago (2020-02-16 20:19:18.055000 UTC)
+     Roles: @​everyone```
+spoopy🍡#0567: ?kick <@!507693986081931274> ads
+R. Danny#6348: 👌
+kriX#9879: 
+Satoru#6725: ```css
+That command, "himym", does not exist!
+```
+Sebastiano#5005: e?help himym
+Equity#3464: ??sql select * from guild_settings where guild_id =668326970043662336  limit 1;
+hmmm#3441: ```
+============================================================================
+|               guild_id |                 prefix |        nsfw_restricted |
+|    ------------------- |    ------------------- |    ------------------- |
+|     668326970043662336 |                   None |                   True |
+============================================================================
+```
+Satoru#6725: Title: Purple Giraffe
+Season: 1
+Episode: 2
+Release Date: 2005-09-26
+Sebastiano#5005: e?himym 1 2
+Equity#3464: i thought i had another column but ok
+Satoru#6725: Title: Lobster Crawl
+Season: 8
+Episode: 9
+Release Date: 2012-12-03
+Sebastiano#5005: e?himym 8 9
+Sebastiano#5005: e?avatar AntiKappa
+Satoru#6725: 
+LittleEndu#0001: ?rtfm assets
+R. Danny#6348: 
+Sebastiano#5005: e?avatar Soheab_#5757
+Satoru#6725: 
+Sebastiano#5005: e?profile Soheab_#5757
+Satoru#6725: 
+MilaDog#8249: s!avatar
+Sparklybot ✨#2325: 
+MilaDog#8249: e?profile image https://cdn.discordapp.com/avatars/212643981593411584/82c960e4a4bcd73668094c3cd6d7832d.png?size=4096
+Satoru#6725: You didn't create your profile! Use `e?profile create`.
+MilaDog#8249: e?profile create
+Satoru#6725: Done! You can now set your description with `e?profile description <your description>` and your image with `e?profile image <image url>`
+MilaDog#8249: e?profile image https://cdn.discordapp.com/avatars/212643981593411584/82c960e4a4bcd73668094c3cd6d7832d.png?size=4096
+Satoru#6725: Done!
+MilaDog#8249: e?profile description Owner of Zarilda 🎉
+Satoru#6725: Done!
+Equity#3464: >jsk
+Shell#4843: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 23:11:46) [MSC v.1916 64 bit (AMD64)]` on `win32`
+Module was loaded 13 seconds ago, cog was loaded 13 seconds ago.
+
+Using 62.7 MB physical memory and 51.1 MB virtual memory, 49.9 MB of which unique to this process.
+Running on PID 10844 (`python.exe`) with 13 thread(s).
+
+This bot is automatically sharded and can see 3 guild(s) and 15382 user(s).
+Average websocket latency: 59.44ms
+Satoru#6725: 
+MilaDog#8249: e?profile
+MilaDog#8249: e?help
+Satoru#6725: 
+Equity#3464: >sql truncate table guild_settings;
+MilaDog#8249: e?userinfo
+Satoru#6725: 
+MilaDog#8249: e?guilding
+Satoru#6725: 
+MilaDog#8249: e?guildinfo
+Satoru#6725: 
+Xua#1137: $dev eval ctx.guild.get_member(367456841241722890).activities
+Abyss#6729: (<Activity type=<ActivityType.playing: 0> name='Grand Theft Auto V' url=None details=None application_id=356876176465199104 session_id=None emoji=None>,)
+Xua#1137: $dev eval _[0].large_image_url
+Abyss#6729: {}
+MilaDog#8249: e?loonytoons
+Satoru#6725: 
+Equity#3464: >jsk py sys!.modules.pop("utils.sqltable")
+Shell#4843: <module 'utils.sqltable' from 'C:\\Users\\Logan\\Projects\\hmmm\\utils\\sqltable.py'>
+Equity#3464: >jsk reload ~
+Shell#4843: 🔁 `cogs.dev`
+
+🔁 `cogs.handler`
+
+🔁 `cogs.lists`
+
+🔁 `cogs.meta`
+
+🔁 `cogs.reddit`
+
+🔁 `jishaku`
+MilaDog#8249: e?loonrytoons
+Satoru#6725: 
+MilaDog#8249: e?looneytoons
+Satoru#6725: 
+Equity#3464: >sql select 1
+Shell#4843: I don't know what happened, but it worked
+LittleEndu#0001: ?rtfm get_app
+R. Danny#6348: 
+Equity#3464: smh
+LittleEndu#0001: ?rtfm application
+R. Danny#6348: 
+Satoru#6725: 
+MilaDog#8249: e?looneytunes
+ImRock#0001: ?tag custom
+R. Danny#6348: Tag not found. Did you mean...
+custom rp
+custom ctx
+custom css
+ImRock#0001: <:POG:563745335986618378>
+ImRock#0001: ?tag create custom https://www.youtube.com/watch?v=Z4TwWx_QXqo
+R. Danny#6348: Tag custom successfully created.
+ImRock#0001: <@!373256462211874836> had to do it to em
+ImRock#0001: <:mmlulbutbadlydrawn:670528266179969044>
+Equity#3464: fuck off
+ImRock#0001: ?tag delete custom
+R. Danny#6348: Tag and corresponding aliases successfully deleted.
+ImRock#0001: im joking
+Sebastiano#5005: e?ihavetoremovethisdumberror
+Satoru#6725: 
+Equity#3464: ok 😔
+MilaDog#8249: e?yesPleaseDoSo
+Satoru#6725: 
+ImRock#0001: e?daddy
+Satoru#6725: 
+Xua#1137: $dev eval ctx.guild.get_member(367456841241722890).activity.application_id
+Abyss#6729: 356876176465199104
+ImRock#0001: e?\`\`\`a
+Satoru#6725: 
+ImRock#0001: <:SadCat:663787038612389903>
+ImRock#0001: e?```a```
+Satoru#6725: 
+Xua#1137: rock why do you suck
+ImRock#0001: gottem
+Sebastiano#5005: what's the insistance for not found?
+Dutchy#6127: ?rtdm notfound
+Sebastiano#5005: isinstance*
+Dutchy#6127: ?rtfm notfound
+R. Danny#6348: 
+Equity#3464: commands.CommandNotFound iirc
+Equity#3464: yes
+Sebastiano#5005: thanks
+lambda#0987: <@198233322080567296> you can't trap ppl in ACNL by digging pits, because in ACNL you can fill them without a tool by pressing Y.
+Xua#1137: $dev eval ctx.guild.get_member(367456841241722890).activity[0].name
+Abyss#6729: ```
+Traceback (most recent call last):
+  File "/home/xua/abyss/cogs/dev.py", line 243, in eval
+    ret = eval(expr, self._env)
+  File "<string>", line 1, in <module>
+TypeError: 'Activity' object is not subscriptable
+```
+Abyss#6729: Grand Theft Auto V
+LittleEndu#0001: ?tag ext.tasks
+R. Danny#6348: Tag not found. Did you mean...
+ext.tasks error
+tasks
+ext.tasks exception
+ImRock#0001: <:NO:616120497301880857>
+LittleEndu#0001: ?rtfm tasks
+R. Danny#6348: 
+MilaDog#8249: --r events
+Zarilda#5094: **❯ Success!**
+Reloaded: ``cogs.events``
+twitch 🔋#7443: An Actual Otter
+StarrFox#6312: <@373256462211874836> yea, I really enjoy it
+chickenmatty#4766: c?avatar Sebastiano
+Sebastiano#5005: e?iejijij
+Sebastiano#5005: e?profile sijs
+MilaDog#8249: --r events
+Zarilda#5094: **❯ Success!**
+Reloaded: ``cogs.events``
+StarrFox#6312: not as many updates these days
+StarrFox#6312: ?tag alias ext.tasks tasks
+R. Danny#6348: Tag alias "ext.tasks" that points to "tasks" successfully created.
+Equity#3464: at least its cheap
+Sebastiano#5005: e?isjd
+Satoru#6725: ```css
+That command, "jsfk", does not exist!
+```
+Sebastiano#5005: e?help jsfk
+Sebastiano#5005: e?profile ksj
+Satoru#6725: 
+StarrFox#6312: it's the best one you'll find
+Sebastiano#5005: yeet
+StarrFox#6312: for animated wallpapers
+Sebastiano#5005: e?profile "body: {
+               margin-left: 40%;
+}"
+Satoru#6725: 
+StarrFox#6312: works well with `fenses` which I use for my icons
+Sebastiano#5005: nice css blovk
+Equity#3464: icons such as desktop icons?
+StarrFox#6312: yea
+Equity#3464: how to do this
+Equity#3464: did not know that win10 has icons
+Satoru#6725: 
+Sebastiano#5005: e?reload profiles
+StarrFox#6312: it's another paid program
+Equity#3464: how much
+Sebastiano#5005: e?profile
+Satoru#6725: 
+StarrFox#6312: prob like 5
+Equity#3464: oh thats fine
+StarrFox#6312: from stardock
+LoneDawg#1957: e?rex bash cat /etc/machine-id
+StarrFox#6312: it's quite nice
+Equity#3464: whats it called again?
+StarrFox#6312: fenses
+Equity#3464: ahh
+StarrFox#6312: plz g how to spell fense
+kriX#9879: 
+StarrFox#6312: is it fense or fence
+Sebastiano#5005: e?pr desc Hello, I'm a random Discord user and I like to make bots with `discord.py`. I program in Python and HTML and here is my [GitHub Account](https://github.com/ssebastianoo). At the moment I am learning Flask and Socket.
+Owner of <@!635044836830871562> (this bot lel)
+Satoru#6725: Done!
+Sebastiano#5005: e?pr
+Satoru#6725: 
+Equity#3464: fence
+MilaDog#8249: fence
+LoneDawg#1957: Fence
+StarrFox#6312: yea
+Satoru#6725: Done!
+Sebastiano#5005: e?pr desc Hello, I'm a random Discord user and I like to make bots with `discord.py`. I program in Python and HTML and here is my [GitHub Account](https://github.com/ssebastianoo). At the moment I am learning Flask and Socket.
+Owner of <@!635044836830871562> (this bot lel).
+StarrFox#6312: fences then
+Sebastiano#5005: e?pr
+Satoru#6725: 
+Dutchy#6127: rw help
+Charles#5244: 
+Charles#5244: 
+Equity#3464: its actually 10$
+Dutchy#6127: Hm
+Sebastiano#5005: rw dadjoke
+Charles#5244: Can I watch the TV? Dad: Yes, but don’t turn it on.
+Dutchy#6127: rw jsk dbg help
+Charles#5244: 
+StarrFox#6312: I prob got it on sale
+Sebastiano#5005: rw dadjoke
+Charles#5244: Did you hear about the submarine industry? It really took a dive...
+Charles#5244: 
+Charles#5244: Command `help` finished in 12.118s.
+MilaDog#8249: rw dadjoke
+Charles#5244: Can February march? No, but April may.
+Equity#3464: possibly
+MilaDog#8249: wowow
+MilaDog#8249: rw dadjoke
+Charles#5244: How many bones are in the human hand? A handful of them.
+StarrFox#6312: I also use their groupy program
+StarrFox#6312: for program tabs
+MilaDog#8249: rw dadjoke
+Charles#5244: What's the difference between a guitar and a fish? You can tune a guitar but you can't "tuna" fish!
+MilaDog#8249: rw dadjoke
+Charles#5244: What do you get if you put a duck in a cement mixer? Quacks in the pavement.
+StarrFox#6312: groupy isnt as good as fences thou
+Sebastiano#5005: rw dj
+MilaDog#8249: rw dadjoke
+Charles#5244: What do you call a nervous javelin thrower? Shakespeare.
+Sebastiano#5005: rw help dadjoke
+Charles#5244: 
+MilaDog#8249: rw help dadjoke
+Charles#5244: 
+Sebastiano#5005: rw dadjoke
+Charles#5244: What do you do on a remote island? Try and find the TV island it belongs to.
+Sebastiano#5005: rw wtp
+Sebastiano#5005: rw witp
+Charles#5244: Attempts: 0/3
+Sebastiano#5005: clearify
+Charles#5244: 
+Sebastiano#5005: OOF
+Sebastiano#5005: rw witp
+MilaDog#8249: rw witp
+Sebastiano#5005: rw ping
+Charles#5244: Pong
+Sebastiano#5005: rw witp
+MilaDog#8249: slow
+Sebastiano#5005: rw whoisthatpokemon
+Sebastiano#5005: rw help
+Charles#5244: 
+MilaDog#8249: ok, not my internet
+Sebastiano#5005: rw help witp
+Charles#5244: No command called "witp" found.
+Sebastiano#5005: he removed it
+Sebastiano#5005: ?
+Cy#2501: K.jsk
+Kanade#5520: Jishaku v1.18.0, discord.py `1.3.1`, `Python 3.7.5 (default, Nov  7 2019, 10:50:52) [GCC 8.3.0]` on `linux`
+Module was loaded 6 hours ago, cog was loaded 6 hours ago.
+
+Using 74.5 MB physical memory and 322.1 MB virtual memory, 68.8 MB of which unique to this process.
+Running on PID 639 (`python3.7m`) with 3 thread(s).
+
+This bot is not sharded and can see 4 guild(s) and 15888 user(s).
+Average websocket latency: 234.83ms
+Cy#2501: K.urban linux
+Kanade#5520: 
+Sebastiano#5005: rw help whoisthatpokemon
+Charles#5244: No command called "whoisthatpokemon" found.
+MilaDog#8249: K.urban goon
+Kanade#5520: 
+Sebastiano#5005: rw about
+Charles#5244: 
+Charles#5244: 
+Sebastiano#5005: rw witp
+Sebastiano#5005: e?uptime
+Satoru#6725: 
+Sebastiano#5005: <@!171539705043615744> did you removed `witp` right now?
+Sebastiano#5005: rw help
+Charles#5244: 
+Sebastiano#5005: rw help fun
+Charles#5244: 
+Sebastiano#5005: rw wtp
+Charles#5244: Attempts: 0/3
+Zorkai#9999: still waiting for my bot to be added lol
+Charles#5244: 
+MilaDog#8249: rw wtp
+Charles#5244: Attempts: 0/3
+Charles#5244: 
+Sebastiano#5005: e?tr spermatozoo
+Satoru#6725: 
+MilaDog#8249: cancel
+Charles#5244: 
+Sebastiano#5005: e?tr spermatozoon en it
+Satoru#6725: 
+MilaDog#8249: rw wtp
+Charles#5244: Attempts: 0/3
+MilaDog#8249: cancel
+Charles#5244: 
+Sebastiano#5005: rw wtp
+Charles#5244: Attempts: 0/3
+ImRock#0001: yes
+Sebastiano#5005: crab rave
+ImRock#0001: i love nean
+Sebastiano#5005: corpish
+Sebastiano#5005: corphish
+Fyssion#5985: > still waiting for my bot to be added lol
+<@!464910933660008451> I requested my bot to be added like 4 weeks ago and it hasn't been approved or rejected yet so idk
+Charles#5244: 
+Sebastiano#5005: YEEEH
+Sebastiano#5005: rw 10s
+Charles#5244: 
+Sebastiano#5005: rw 10s
+Charles#5244: 
+Fyssion#5985: rw 10s
+Charles#5244: 
+MilaDog#8249: rw 10s
+Charles#5244: 
+Zorkai#9999: <@224513210471022592> call a mod
+Fyssion#5985: wdym
+Cy#2501: Well thats normal
+Cy#2501: It usually takes a while
+MilaDog#8249: ^
+Fyssion#5985: yeah that's what I thought
+Fyssion#5985: im not complaining
+Zorkai#9999: 4 weeks are a lot, they added it in 2hours for me months ago
+Dutchy#6127: rw wtp lb
+Charles#5244: 
+Cy#2501: They usually add all requested bot at once
+Sebastiano#5005: c?
+Satoru#6725: 
+Sebastiano#5005: e?avatar
+Equity#3464: ?tag debian warrior
+R. Danny#6348: https://cdn.discordapp.com/attachments/381963689470984203/577123120570171423/2019-05-12_10-17.png
+Zorkai#9999: the time when dm needed a mod
+Zorkai#9999: to add a bot
+Dutchy#6127: rw 10s lb
+Charles#5244: 
+Dutchy#6127: O
+Sebastiano#5005: ?tags
+R. Danny#6348: 
+MilaDog#8249: ooh snap
+Cy#2501: Todo list
+Todo#9724: 
+MilaDog#8249: gg wp
+Dutchy#6127: rw 10s
+Charles#5244: 
+Zorkai#9999: ?tag pydroid
+R. Danny#6348: https://www.sebasbot.tk/img/10.jpg
+Sebastiano#5005: ?tag coolavatar
+R. Danny#6348: Tag not found. Did you mean...
+cool avatar
+Cy#2501: Todo remove 23
+Todo#9724: Removed Tasks: 
+    • Fix timeout for menu
+Sebastiano#5005: ?tag cool avatar
+R. Danny#6348: f'{str(.avatar_url)[:-14]}png?size=1024'
+Equity#3464: <@!543583152350691332> hi
+MilaDog#8249: rw 10s
+Charles#5244: 
+Dutchy#6127: rw 10s
+Charles#5244: 
+MilaDog#8249: rw 10s
+Charles#5244: 
+Dutchy#6127: rw 10s
+Charles#5244: 
+MilaDog#8249: 9.6
+MilaDog#8249: rw 10s
+Charles#5244: 
+Dutchy#6127: rw 10s
+Charles#5244: 
+Dutchy#6127: Oof
+MilaDog#8249: rw 10s lb
+Charles#5244: 
+Dutchy#6127: Both .12 lmai
+Dutchy#6127: Hah
+Zomatree#7757: apt jsk
+Champions#1090: Jishaku v1.17.1, discord.py `1.3.0a2200+g7af8b31`, `Python 3.7.3 (default, May 13 2019, 16:03:14) [GCC 6.3.0 20170516]` on `linux`
+Module was loaded 14 days ago, cog was loaded 14 days ago.
+
+Using 328.4 MB physical memory and 1.1 GB virtual memory, 323.3 MB of which unique to this process.
+Running on PID 20436 (`python3.7`) with 7 thread(s).
+
+This bot is not sharded and can see 11 guild(s) and 76204 user(s).
+Average websocket latency: 112.95ms
+MilaDog#8249: hah, wait
+Dutchy#6127: r!chatchart
+Legoshi#6421: 
+Sebastiano#5005: ?rtfm png
+R. Danny#6348: 
+Legoshi#6421: 
+MilaDog#8249: how does that work
+Dutchy#6127: How does what work
+MilaDog#8249: why can the negative be the highest
+Sebastiano#5005: owo that's my name
+MilaDog#8249: sneaky sneaky
+peanut#0173: ?tag heroku
+R. Danny#6348: It has been [0] days without a heroku-caused issue
+For reasons, see `?tag noheroku` or `?tag dannycalmlyexplainswhyherokuisbad` or `?tag dannyexplainswhyherokuisbadbutitsnotdannyitsdevonssignificantlyandobjectivelybettertag`
+MilaDog#8249: i understand closest to 10
+peanut#0173: lol
+Dutchy#6127: <@212643981593411584> it's sorted by closest to 10.00000
+peanut#0173: ?tag dannycalmlyexplainswhyherokuisbad
+R. Danny#6348: https://cdn.discordapp.com/attachments/381963689470984203/425781172463861771/unknown.png
+Dutchy#6127: ?tag dannyexplainswhyherokuisbadbutitsnotdannyitsdevonssignificantlyandobjectivelybettertag
+R. Danny#6348: - Bots are not what the platform is designed for. Heroku is designed to provide web servers (like Django, Flask, etc). This is why they give you a domain name and open a port on their local emulator.
+
+- Heroku's environment is heavily containerized, making it significantly underpowered for a standard use case.
+
+- Heroku's environment is volatile. In order to handle the insane amount of users trying to use it for their own applications, Heroku will dispose your environment every time your application dies unless you pay.
+
+- Heroku has minimal system dependency control. If any of your Python requirements need C bindings (such as PyNaCl binding to libsodium, or lxml binding to libxml), they are unlikely to function properly, if at all, in a native environment. As such, you often need to resort to adding third-party buildpacks to facilitate otherwise normal CPython extension functionality. (This is the reason why voice doesn't work natively on heroku.)
+
+- Heroku only offers a limited amount of time on their free programme for your applications. If you exceed this limit, which you probably will, they'll shut down your application until your free credit resets.
+peanut#0173: bruh
+MilaDog#8249: will rw 10s listen to a bot?
+Dutchy#6127: No
+MilaDog#8249: ah, kk
+Sebastiano#5005: e?jsk py _author.avatar_url.png
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/cog_base.py", line 489, in jsk_python
+    async for send, result in AsyncSender(executor):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/repl/compilation.py", line 148, in traverse
+    async for send, result in AsyncSender(func(*self.args)):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "<repl>", line 1, in _repl_coroutine
+AttributeError: 'Asset' object has no attribute 'png'
+
+```
+Sebastiano#5005: e?jsk py _author.avatar_url_png
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/cog_base.py", line 489, in jsk_python
+    async for send, result in AsyncSender(executor):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/repl/compilation.py", line 148, in traverse
+    async for send, result in AsyncSender(func(*self.args)):
+  File "/home/runner/.local/share/virtualenvs/python3/lib/python3.8/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "<repl>", line 1, in _repl_coroutine
+AttributeError: 'Member' object has no attribute 'avatar_url_png'
+
+```
+peanut#0173: as_png ?
+Dutchy#6127: No
+peanut#0173: ?rtfm avatar_url_as
+R. Danny#6348: 
+Dutchy#6127: //jsk py _author.avatar_url_as(static_format="png")
+Charles#5244: <Asset url='/avatars/171539705043615744/638153e1c4b1805a824286be67228560.png?size=1024'>
+Sebastiano#5005: thanks
+Dutchy#6127: You need to str() it tho
+peanut#0173: .-.
+Dutchy#6127: //jsk py str(_)
+Charles#5244: https://cdn.discordapp.com/avatars/171539705043615744/638153e1c4b1805a824286be67228560.png?size=1024
+peanut#0173: wat
+peanut#0173: h o w
+StarrFox#6312: ?tag asset
+R. Danny#6348: ```
+str(x):
+    Returns the URL of the CDN asset.
+```
+Full docs: <https://discordpy.readthedocs.io/en/latest/api.html#discord.Asset>
+Satoru#6725: <Asset url='/avatars/488398758812319745/a_2552e7f2430640f3b4e7e02857ffa09b.png?size=1024'>
+Sebastiano#5005: e?jsk py _author.avatar_url_as(format="png")
+peanut#0173: 
+Satoru#6725: https://cdn.discordapp.com/avatars/488398758812319745/a_2552e7f2430640f3b4e7e02857ffa09b.png?size=1024
+Sebastiano#5005: e?jsk py str(_author.avatar_url_as(format="png"))
+Sebastiano#5005: nice
+Dutchy#6127: Or you do str(author.avatar_url).replace("webp", "png")
+Dutchy#6127: <:GWtloLaugh:399972379926724610>
+StarrFox#6312: that is shit dutchy
+peanut#0173: <:um:609502781698736129>
+Dutchy#6127: <@574870314928832533> thats jishaku, it stored the last output in _
+Dutchy#6127: //jsk py _
+Charles#5244: https://cdn.discordapp.com/avatars/171539705043615744/638153e1c4b1805a824286be67228560.png?size=1024
+Sebastiano#5005: I used this:
+peanut#0173: oh ye
+Sebastiano#5005: ?tag cool avatar
+R. Danny#6348: f'{str(.avatar_url)[:-14]}png?size=1024'
+Dutchy#6127: //jsk py x = 5
+Dutchy#6127: //jsk py _
+Charles#5244: https://cdn.discordapp.com/avatars/171539705043615744/638153e1c4b1805a824286be67228560.png?size=1024
+peanut#0173: uh
+peanut#0173: lol what
+Dutchy#6127: Oh well
+StarrFox#6312: ;bigbrqin;
+peanut#0173: mmmkay
+StarrFox#6312: ;bigbrain;
+Emote Collector#3350: <:bigbrain:573326997451833344>
+peanut#0173: yes
+Dutchy#6127: //jsk py 5*5
+Satoru#6725: ```py
+Traceback (most recent call last):
+  File "<string>", line 1
+    str(._author.avatar_url)[:-14]}png?size=1024
+                                               ^
+SyntaxError: EOF in multi-line statement
+
+```
+Sebastiano#5005: e?jsk py str(._author.avatar_url)[:-14]}png?size=1024
+Charles#5244: 25
+Dutchy#6127: //jsk py _
+Charles#5244: 25
+peanut#0173: oh
+peanut#0173: ok
+peanut#0173: e?help
+Satoru#6725: 
+peanut#0173: e?userinfo
+Satoru#6725: 
+peanut#0173: nice
+twitch 🔋#7443: yikes
+peanut#0173: ~~lol~~
+StarrFox#6312: t.help
+StarrFox#6312: trench when
+Satoru#6725: 
+Sebastiano#5005: e?reload misc
+Satoru#6725: 
+Sebastiano#5005: e?avatar
+Sebastiano#5005: https://cdn.discordapp.com/avatars/488398758812319745/a_2552e7f2430640f3b4e7e02857ffa09b.png?size=1024 yeet
+peanut#0173: nice
+twitch 🔋#7443: <@!285148358815776768> no trench
+peanut#0173: a gif would be cool
+peanut#0173: ?user <@!488398758812319745>
+peanut#0173: ok
+peanut#0173: ?info Seba
+R. Danny#6348: 
+Cy#2501: K urban test
+Dutchy#6127: //jsk sh systemctl daemon-reload
+Charles#5244: ```sh
+$ systemctl daemon-reload
+
+```
+Page 1/1
+Dutchy#6127: //jsk sh systemctl restart pingp
+Charles#5244: ```sh
+$ systemctl restart pingp
+
+```
+Page 1/1
+peanut#0173: ?info
+R. Danny#6348: 
+twitch 🔋#7443: discord can't handle 300k users
+peanut#0173: <:intense_sweat:663992416688144395>
+Dutchy#6127: Pfft
+Cy#2501: K sudo ereload apis.urban
+Dutchy#6127: p!info
+Kanade#5520: 
+Dutchy#6127: p!ping
+peanut#0173: how
+Dutchy#6127: Hm
+Ping Punisher#5644: 
+Ping Punisher#5644: Pong
+Dutchy#6127: Ah
+peanut#0173: lol
+twitch 🔋#7443: rainbow six server just died when there was an ateveryone
+peanut#0173: nice
+DerJonas#8109: ?rtfm as
+R. Danny#6348: 
+twitch 🔋#7443: like didn't even go unavailable
+twitch 🔋#7443: it just died
+peanut#0173: Hhelp
+DerJonas#8109: ?rtmf avatar.as
+peanut#0173: ok
+DerJonas#8109: ?rtfm avatar.as
+R. Danny#6348: Could not find anything. Sorry.
+peanut#0173: oh hi!!
+Dutchy#6127: //rate twitch
+Charles#5244: This command has been globally disabled by the bot owner for: **Can be used to ping @ everyone, will be fixed asap**.
+peanut#0173: Derjonas
+peanut#0173: hello
+DerJonas#8109: ?rtfm avatar.
+R. Danny#6348: Could not find anything. Sorry.

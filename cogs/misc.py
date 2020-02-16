@@ -622,7 +622,7 @@ class Misc(commands.Cog):
         member = member
 
       emb = discord.Embed(colour = member.colour, timestamp = ctx.message.created_at)
-      emb.set_image(url = member.avatar_url)
+      emb.set_image(url =  str(member.avatar_url_as(format="png")))
       emb.set_footer(text = member.guild.name, icon_url = member.guild.icon_url)
       await ctx.send(embed = emb)
 

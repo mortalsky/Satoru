@@ -77,6 +77,18 @@ async def on_message(message):
   if message.author == bot.user:
       return
 
+@bot.event
+async def on_command_error(ctx, error):
+
+  if isinstance(error, commands.CommandNotFound):
+
+    return
+
+  emb = discord.Embed(title = "Error", description = f"```css\n{error}\n```", colour = discord.Colour.red(), timestamp = ctx.message.created_at)
+  emb.set_footer(text = ctx.author, icon_url = ctx.author.avatar_url)
+
+  await ctx.send(embed = emb)
+
 for filename in os.listdir('./cogs'):
   if filename.endswith('.py'):
     bot.load_extension(f'cogs.{filename[:-3]}')
