@@ -102,7 +102,14 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
 
     "Upgrade a package"
 
-    os.system(f"pip install {package}")
+    await ctx.message.add_reaction("<a:typing:597589448607399949>")
+
+    async with ctx.typing():
+
+      os.system(f"pip install {package}")
+
+    await ctx.message.remove_reaction("<a:typing:597589448607399949>", self.bot.user)
+    await ctx.message.add_reaction("<:greenTick:596576670815879169>")
 
     await ctx.send(f"Installed {package}!")
 
@@ -112,8 +119,15 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
 
     "Upgrade a package"
 
-    os.system(f"pip install --upgrade {package}")
+    await ctx.message.add_reaction("<a:typing:597589448607399949>")
 
+    async with ctx.typing():
+      
+      os.system(f"pip install --upgrade {package}")
+
+    await ctx.message.remove_reaction("<a:typing:597589448607399949>", self.bot.user)
+    await ctx.message.add_reaction("<:greenTick:596576670815879169>")
+    
     await ctx.send(f"Upgraded {package}!")
 
   @commands.command()
@@ -122,7 +136,14 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
 
     "Upgrade a package"
 
-    os.system(f"pip uninstall {package}")
+    await ctx.message.add_reaction("<a:typing:597589448607399949>")
+
+    async with ctx.typing():
+
+      os.system(f"pip uninstall {package}")
+
+    await ctx.message.remove_reaction("<a:typing:597589448607399949>", self.bot.user)
+    await ctx.message.add_reaction("<:greenTick:596576670815879169>")
 
     await ctx.send(f"Uninstalled {package}!")
 

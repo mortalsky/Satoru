@@ -84,7 +84,7 @@ async def on_command_error(ctx, error):
 
     return
 
-  emb = discord.Embed(title = "Error", description = f"```css\n{error}\n```", colour = discord.Colour.red(), timestamp = ctx.message.created_at)
+  emb = discord.Embed(title = "Error", description = f"```css\n{error}\n```\nJoin the [support server](https://discord.gg/w8cbssP) for help.", colour = discord.Colour.red(), timestamp = ctx.message.created_at)
   emb.set_footer(text = ctx.author, icon_url = ctx.author.avatar_url)
 
   await ctx.send(embed = emb)

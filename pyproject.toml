@@ -9,7 +9,6 @@ python = "^3.7"
 flask = "^1.1"
 "discord.py" = "^1.2"
 jishaku = "^1.17"
-arrow = "^0.15.5"
 googletrans = "^2.4"
 psutil = "^5.6"
 
