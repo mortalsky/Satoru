@@ -38,19 +38,19 @@ Satoru is a Discord Bot made with discord.py
     @commands.command(hidden = True)
     async def help(self, ctx, *, command: str = None):
 
-      error = f'```css\nThat command, "{command}", does not exist!\n```'
-
-      if ctx.prefix == f"<@!635044836830871562> ":
-
-        prefix = f'@{self.bot.user} '
-      
+      if ctx.prefix == f"<@!{self.bot.user.id}> ":
+        
+        prf = f"@{self.bot.user} "
+          
       else:
+            
+        prf = ctx.prefix
 
-        prefix = ctx.prefix
+      error = f'```css\nThat command, "{command}", does not exist!\n```'
 
       res = ""      
       emb = discord.Embed(title = "Help", colour = 0xbf794b)
-      emb.set_footer(text = f"Need help about a command? try {prefix}help command")
+      emb.set_footer(text = f"Need help about a command? try {prf}help command")
       
 
       if command:
@@ -67,11 +67,11 @@ Satoru is a Discord Bot made with discord.py
 
           if cmd.parent:
 
-            emb.add_field(value = f'{prefix}{cmd.parent} {cmd.name} {cmd.signature}', name = cmd.help, inline = False)
+            emb.add_field(value = f'{prf}{cmd.parent} {cmd.name} {cmd.signature}', name = cmd.help, inline = False)
 
           else:
             
-            emb.add_field(value = f'{prefix}{cmd.name} {cmd.signature}', name = cmd.help, inline = False)
+            emb.add_field(value = f'{prf}{cmd.name} {cmd.signature}', name = cmd.help, inline = False)
           
           if cmd.aliases:
 
@@ -89,7 +89,7 @@ Satoru is a Discord Bot made with discord.py
             
             for a in cmd.commands:
               
-              commands += f"`{prefix}{cmd.name} {a.name} {a.signature}`\n"
+              commands += f"`{prf}{cmd.name} {a.name} {a.signature}`\n"
               
             emb.add_field(name = "Subcommands", value = commands, inline = False)
 
@@ -117,6 +117,34 @@ Satoru is a Discord Bot made with discord.py
           else:
             
             prf = ctx.prefix
+
+          mod = ""
+
+          for a in self.bot.commands:
+            if a.cog_name == "Moderation":
+              if not a.hidden:
+                mod += f"`{a.name}` "
+
+          info = ""
+
+          for a in self.bot.commands:
+            if a.cog_name == "Info":
+              if not a.hidden:
+                info += f"`{a.name}` "
+
+          misc = ""
+
+          for a in self.bot.commands:
+            if a.cog_name == "Misc":
+              if not a.hidden:
+                misc += f"`{a.name}` "
+
+          weeb = ""
+
+          for a in self.bot.commands:
+            if a.cog_name == "Weeb":
+              if not a.hidden:
+                weeb += f"`{a.name}` "
           
           res = f"""Prefixes: `e?`, `@{self.bot.user}`
 
@@ -124,16 +152,16 @@ Satoru is a Discord Bot made with discord.py
 [Command List](https://satoru.seba.gq/commands)
 
 **MODERATION**
-`{prf}ban` `{prf}kick` `{prf}mute` `{prf}unmute` `{prf}clear`
+{mod}
 
 **INFO**
-`{prf}userinfo` `{prf}roleinfo` `{prf}guildinfo` `{prf}avatar` 
+{info}
 
 **MISC**
-`{prf}ping` `{prf}invite` `{prf}addemoji` `{prf}feedback` `{prf}say` `{prf}looneytunes` `{prf}uptime` `{prf}about` `{prf}translate` `{prf}gun` `{prf}male` `{prf}female` `{prf}list` `{prf}list add` `{prf}list clear` `{prf}profile` `{prf}profile create` `{prf}delete` `{prf}profile description` `{prf}profile image`    
+{misc}
 
 **WEEB**
-`{prf}satoru` `{prf}kayo` `{prf}punch` `{prf}hug`"""
+{weeb}"""
 
       emb.description = res
 
