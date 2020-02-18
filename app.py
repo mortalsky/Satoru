@@ -1,5 +1,5 @@
 from threading import Thread
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template, redirect, jsonify
 import json
 
 app = Flask('')
@@ -16,6 +16,15 @@ def stats():
     l = json.load(f)
     
   return render_template("stats.html", library = l["library"], python = l["python"], memory = l["memory"], cpu = l["cpu"], running = l["running"], guilds = l["guilds"], users = l["users"])
+
+@app.route("/api/stats")
+def api_stats():
+
+  with open("data/stats.json", "r") as f:
+
+    l = json.load(f)
+
+  return jsonify(l)
 
 @app.route('/commands')
 def commands():
