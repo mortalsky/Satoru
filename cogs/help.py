@@ -132,6 +132,33 @@ Satoru is a Discord Bot made with discord.py
               if not a.hidden:
                 info += f"`{a.name}` "
 
+                try:
+                  
+                  for b in a.commands:
+
+                    info += f"`{a.name} {b.name}` "
+
+                except:
+
+                  pass
+
+          profiles = ""
+
+          for a in self.bot.commands:
+            if a.cog_name == "Profiles":
+              if not a.hidden:
+                profiles += f"`{a.name}` "
+
+                try:
+                  
+                  for b in a.commands:
+
+                    profiles += f"`{a.name} {b.name}` "
+
+                except:
+
+                  pass
+
           misc = ""
 
           for a in self.bot.commands:
@@ -139,12 +166,49 @@ Satoru is a Discord Bot made with discord.py
               if not a.hidden:
                 misc += f"`{a.name}` "
 
+                try:
+                  
+                  for b in a.commands:
+
+                    misc += f"`{a.name} {b.name}` "
+
+                except:
+
+                  pass
+
           weeb = ""
 
           for a in self.bot.commands:
             if a.cog_name == "Weeb":
               if not a.hidden:
                 weeb += f"`{a.name}` "
+
+                try:
+                  
+                  for b in a.commands:
+
+                    weeb += f"`{a.name} {b.name}` "
+
+                except:
+
+                  pass
+
+          triggers = ""
+
+          for a in self.bot.commands:
+            if a.cog_name == "AutoTriggers":
+              if not a.hidden:
+                triggers += f"`{a.name}` "
+
+                try:
+                  
+                  for b in a.commands:
+
+                    triggers += f"`{a.name} {b.name}` "
+
+                except:
+
+                  pass
           
           res = f"""Prefixes: `e?`, `@{self.bot.user}`
 
@@ -157,11 +221,17 @@ Satoru is a Discord Bot made with discord.py
 **INFO**
 {info}
 
+**PROFILE**
+{profiles}
+
 **MISC**
 {misc}
 
 **WEEB**
-{weeb}"""
+{weeb}
+
+**AUTO TRIGGERS**
+{triggers}"""
 
       emb.description = res
 

@@ -10,6 +10,8 @@ class Battle(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
+    
+
     @commands.command()
     async def gun(self, ctx):
 
@@ -80,7 +82,7 @@ class Battle(commands.Cog):
             msg = await ctx.send(f"{user.mention} only who started the game can stop it!")
             await asyncio.sleep(4)
             await msg.delete()
-
+            
     @commands.command(hidden = True)
     @commands.is_owner()
     async def battle(self, ctx, member: discord.Member = None):

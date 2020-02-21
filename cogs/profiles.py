@@ -9,7 +9,7 @@ class Profiles(commands.Cog):
     self.bot = bot
 
   @commands.group(invoke_without_command = True, aliases = ["pr"])
-  async def profile(self, ctx, *, member: discord.Member = None):
+  async def profile(self, ctx, *, member: discord.User = None):
 
     "See a user's profile"
 
@@ -23,13 +23,11 @@ class Profiles(commands.Cog):
 
     emb = discord.Embed(timestamp = ctx.message.created_at, colour = discord.Colour.blue())
 
-    if member.nick:
+    
 
-      emb.set_author(name = member.nick, icon_url = member.avatar_url)
+    emb.set_author(name = member.name, icon_url = member.avatar_url)
 
-    else:
-
-      emb.set_author(name = member.name, icon_url = member.avatar_url)
+    
 
     try:
 

@@ -288,7 +288,7 @@ class Misc(commands.Cog):
         nick = member.name
 
       emb = discord.Embed(colour = member.colour, timestamp = ctx.message.created_at)
-      emb.set_image(url =  str(member.avatar_url_as(static_format = png)))
+      emb.set_image(url =  str(member.avatar_url_as(static_format = "png")))
       emb.set_footer(text = nick, icon_url = member.guild.icon_url)
       await ctx.send(embed = emb)
 
@@ -379,5 +379,36 @@ Release Date: {r[season][episode]["release_date"]}
 
       await ctx.send(embed = emb)
 
+    @commands.command(hidden = True)
+    async def remind(self, ctx, time, type, *, what = None):
+
+      "Set an alarm"
+
+      emb = discord.Embed(title = f":clock: | Reminder", description = f"At {ctx.message.created_at.strftime('%d %B %Y [%I:%M %p] UTC')}:\n\n{what}\n\n[Jump]({ctx.message.jump_url})", colour = discord.Colour.dark_teal())
+
+      await ctx.send("Ok!")
+
+      if type == "seconds" or "second" or "sec" or "secs" or "s":
+        
+        await asyncio.sleep(int(time))
+
+        return await ctx.send(content = ctx.author.mention, embed = emb)
+
+      elif type == "minutes":
+
+        for a in range(int(time)):
+
+          await asyncio.sleep(60)
+
+        return await ctx.send(content = ctx.author.mention, embed = emb)
+
+      elif type == "hours" or "hour" or "h":
+
+        for a in range(int(time)):
+
+          await asyncio.sleep(3600)
+
+        return await ctx.send(content = ctx.author.mention, embed = emb)
+        
 def setup(bot):
     bot.add_cog(Misc(bot))

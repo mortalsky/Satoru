@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands, tasks
 from discord import Webhook, AsyncWebhookAdapter
 import os
-from app import keep_alive
+from app import keep_alive, run
 import time
 import aiohttp
 import json
@@ -76,6 +76,31 @@ async def on_message(message):
 
   if message.author == bot.user:
       return
+
+
+@bot.check
+async def bot_check(ctx):
+
+  if ctx.command.name == "gun":
+    
+    with open("data/blocked_commands.json", "r") as f:
+    
+      l = json.load(f)
+
+    try:
+
+      if l[str(ctx.author.id)]:
+    
+        return True
+
+    except KeyError:
+      
+      return False
+
+  else:
+
+    return True
+
 
 @bot.event
 async def on_command_error(ctx, error):

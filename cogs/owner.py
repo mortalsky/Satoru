@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import asyncio
 import os
+import json
 
 colour = 0xbf794b
 
@@ -29,6 +30,57 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
 
       await ctx.send(f'`<:{emoji.name}:{emoji.id}>` - {emoji} - {emoji.id} - {emoji.url}')
 
+  @commands.group(hidden = True, invoke_without_command = True)
+  @commands.is_owner()
+  async def beta(self, ctx):
+
+    with open("data/blocked_commands.json", "r") as f:
+
+      l = json.load(f)
+
+    users = ""
+
+    for a in l:
+
+      u = self.bot.get_user(int(a))
+
+      users += f"\n**`{u}`**"
+
+    emb = discord.Embed(title = "Beta Users", description = users, colour = colour)
+
+    await ctx.send(embed = emb)
+
+  @beta.command(hidden = True)
+  @commands.is_owner()
+  async def add(self, ctx, *, user: discord.User):
+
+    with open("data/blocked_commands.json", "r") as f:
+
+      l = json.load(f)
+
+    l[str(user.id)] = "True"
+
+    with open("data/blocked_commands.json", "w") as f:
+
+      json.dump(l, f, indent = 4)
+
+    await ctx.send(f"Added {user.name} to the beta list.")
+
+  @beta.command(hidden = True)
+  @commands.is_owner()
+  async def remove(self, ctx, *, user: discord.User):
+
+    with open("data/blocked_commands.json", "r") as f:
+
+      l = json.load(f)
+
+    l.pop(str(user.id))
+
+    with open("data/blocked_commands.json", "w") as f:
+
+      json.dump(l, f, indent = 4)
+
+    await ctx.send(f"Removed {user.name} to the beta list.")
 
   @commands.command()
   @commands.is_owner()
