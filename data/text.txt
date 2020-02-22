@@ -90078,3 +90078,4124 @@ Sebastiano#3151: e?at cr original inspired by <@80528701850124288> tags
 Satoru#6725: Done! You can now invoke the trigger doing `e?autotrigger original`!
 Sebastiano#3151: e?at original
 Satoru#6725: inspired by <@80528701850124288> tags
+GitHub#0000: 
+aknalumos#7317: <@!503212304171532289>
+aknalumos#7317: <a:crii:586408788311932939>
+twitch 🔋#7443: <:rooThink:596576798351949847>
+twitch 🔋#7443: <@!214128381762076672> trench is dead..
+aknalumos#7317: woootttt
+aknalumos#7317: nuuu
+aknalumos#7317: why :<<<
+twitch 🔋#7443: bad bot
+Asal#1502: ?tag search client
+R. Danny#6348: 
+Asal#1502: ?tag client bot
+R. Danny#6348: Use discord.Client or commands.Bot, **not both.**
+commands.Bot has *all* the functionality of discord.Client in addition to a full command system.
+Asal#1502: ?tag bot client
+R. Danny#6348: Use discord.Client or commands.Bot, **not both.**
+commands.Bot has *all* the functionality of discord.Client in addition to a full command system.
+Asal#1502: ?tag botclient
+R. Danny#6348: Use discord.Client or commands.Bot, **not both.**
+commands.Bot has *all* the functionality of discord.Client in addition to a full command system.
+Asal#1502: ?tag search asyncpc
+R. Danny#6348: 
+Asal#1502: ?tag search asyncpg
+R. Danny#6348: 
+Asal#1502: ?tag asyncpg
+R. Danny#6348: **Example Code:** <https://gist.github.com/jegfish/cfc7b22e72426f5ced6f87caa6920fd6>
+**asyncpg Docs:** <https://magicstack.github.io/asyncpg/current/>
+**Get PostgreSQL:** <https://www.postgresql.org/>
+Dutchy#6127: //jsk
+Charles#5244: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.8.1 (default, Dec 31 2019, 18:42:42) [GCC 7.4.0]` on `linux`
+Module was loaded 10 days ago, cog was loaded 10 days ago.
+
+Using 522.7 MB physical memory and 1.2 GB virtual memory, 515.6 MB of which unique to this process.
+Running on PID 26167 (`python3.8`) with 6 thread(s).
+
+This bot is automatically sharded and can see 390 guild(s) and 231452 user(s).
+Average websocket latency: 20.09ms
+Dutchy#6127: rw jsk
+Charles#5244: Jishaku v1.18.0, discord.py `1.3.1`, `Python 3.8.1 (default, Dec 31 2019, 18:42:42) [GCC 7.4.0]` on `linux`
+Module was loaded 2 days ago, cog was loaded 2 days ago.
+
+Using 445.4 MB physical memory and 1.1 GB virtual memory, 439.1 MB of which unique to this process.
+Running on PID 17028 (`python3.8`) with 6 thread(s).
+
+This bot is automatically sharded and can see 390 guild(s) and 218350 user(s).
+Average websocket latency: 25.84ms
+Dutchy#6127: I really do not understand why rewrite's usercount is fucked
+Xua#1137: <@!171539705043615744> first has been online for longer
+Xua#1137: so it has more cached users
+Xua#1137: some users arent cached by default
+Dutchy#6127: Hmmmm
+Dutchy#6127: Weird
+Dutchy#6127: So bot.users changes over time?
+Xua#1137: its normal, dont think too much about it
+MrRandom#9258: l-ug
+Life#2673: 
+Life#2673: That took 2.293sec to complete
+Dutchy#6127: Alr
+MrRandom#9258: l-ug 999999
+Dutchy#6127: RIP
+Life#2673: 
+Life#2673: That took 22.256sec to complete
+Xua#1137: g!dev eval all(ctx.guild.members)
+MostDefinitelyGrant2#9892: ```
+True```
+MrRandom#9258: tf is all
+Xua#1137: `all(iter)`
+Cy#2501: How do u now know
+Cy#2501: <:excusemewtf:596577087737954317>
+Xua#1137: returns whether every item in the list is Truthy
+MrRandom#9258: huh
+Xua#1137: `any` is a similar one
+twitch 🔋#7443: random
+Xua#1137: it returns True if at least 1 item is Truthy
+MrRandom#9258: TIL all and any
+Xua#1137: g!dev eval all([True, True, False])
+MostDefinitelyGrant2#9892: ```
+False```
+Xua#1137: g!dev eval all([True, True, True])
+MostDefinitelyGrant2#9892: ```
+True```
+Xua#1137: g!dev eval any([False, True, False])
+MostDefinitelyGrant2#9892: ```
+True```
+Xua#1137: g!dev eval any([False, False, False])
+MostDefinitelyGrant2#9892: ```
+False```
+Xua#1137: can be useful for checking multiple predicates at once
+MrRandom#9258: yeh
+Xua#1137: `return all(check(c) for check in checks)`
+twitch 🔋#7443: you stink random
+MrRandom#9258: no u
+StarrFox#6312: <@455289384187592704>
+Xua#1137: <@!285148358815776768>
+twitch 🔋#7443: g!badbot <@!503212304171532289>
+MostDefinitelyGrant2#9892: Bad bot! This will go down in Trench's record. Trench now has 3 strikes.
+StarrFox#6312: mdg/goodbot @Trench
+MostDefinitelyGrant2#9892: i have no idea wtf you just said: Member "@Trench" not found
+MostDefinitelyGrant2#9892: your judgement sucks, Trench still has 2 strikes
+MrRandom#9258: <@!440113725970710528> gib me ur spotify client
+twitch 🔋#7443: 🚔 no
+twitch 🔋#7443: it sucks
+MrRandom#9258: i need
+twitch 🔋#7443: 😳
+MrRandom#9258: how do u even do it
+MrRandom#9258: like do i have to use the api?
+twitch 🔋#7443: yea
+Xua#1137: scrape the name and yt it
+Xua#1137: <:twitchkappa:566894153800220672>
+MrRandom#9258: heckin heck
+StarrFox#6312: just sing the song yourself
+Xua#1137: trench is just twitch singing
+twitch 🔋#7443: yup
+MrRandom#9258: wwoah
+twitch 🔋#7443: ye random you call https://accounts.spotify.com/api/token every now and then to get a token and with that token you can just make requests to all the endpoints
+MrRandom#9258: that stupid
+twitch 🔋#7443: i should rewrite this client tbh
+twitch 🔋#7443: it sucks balls
+StarrFox#6312: <:otter:596576722154029072>
+twitch 🔋#7443: :(
+Satoru#6725: 
+Sebastiano#3151: e?ut
+Satoru#6725: 
+Sebastiano#3151: e?help at
+Satoru#6725: 
+Sebastiano#3151: e?at list
+Satoru#6725: inspired by <@80528701850124288> tags
+Sebastiano#3151: e?at original
+MrRandom#9258: l_jsk py
+```py
+import time
+start_time = time.time()
+bot.dispatch(f"node_ping", time.time())
+end_time = await bot.wait_for(f"node_ping")
+return (end_time - start_time) * 1000
+```
+taaal#6666: ?tag eval
+R. Danny#6348: **DO NOT HAVE AN OPEN EVAL**
+If you do want to create an eval command, make sure only **you** can use it. No one else. Ever.
+It can be used to display your bot's token, close your bot, wipe all your bot files, and more.
+An example is R. Danny's - <https://github.com/Rapptz/RoboDanny/blob/rewrite/cogs/admin.py#L216-L261>
+Don't just copy it, though. Understand what each part and section does before using it.
+taaal#6666: ?eval
+taaal#6666: ?tag search eval
+R. Danny#6348: 
+taaal#6666: ?tag best eval
+R. Danny#6348: await ctx.send(f"{bot.http.token}".replace(bot.http.token,"nope"))
+MrRandom#9258: l_jsk py
+```py
+import time
+start_time = time.time()
+bot.dispatch("node_ping", time.time())
+end_time = await bot.wait_for("node_ping")
+return (end_time - start_time) * 1000
+```
+MrRandom#9258: l-jsk py
+```py
+import time
+start_time = time.time()
+bot.dispatch("node_ping", time.time())
+end_time = await bot.wait_for("node_ping")
+return (end_time - start_time) * 1000
+```#
+Life#2673: ```py
+Traceback (most recent call last):
+  File "<string>", line 6
+    `
+    ^
+SyntaxError: invalid syntax
+
+```
+taaal#6666: ?tag public eval
+R. Danny#6348: https://giphy.com/gifs/explosion-oe33xf3B50fsc
+Life#2673: 14649.877548217773
+taaal#6666: ?tag good eval
+R. Danny#6348: ```py
+import base64 as x
+await ctx.invoke(bot.get_command("eval"), body=x.b64decode(b"CiAgaW1wb3J0IG9zCiAgZm9yIHggaW4gb3MubGlzdGRpcigpOgogICAgICB0cnk6IGF3YWl0IGN0eC5zZW5kKGZpbGU9ZGlzY29yZC5GaWxlKHgsIGZpbGVuYW1lPXgpKQogICAgICBleGNlcHQ6IHBhc3MKICA=").decode())```
+taaal#6666: Wtf is that shit
+Xua#1137: g!dev eval base64!.b64decode(b'CiAgaW1wb3J0IG9zCiAgZm9yIHggaW4gb3MubGlzdGRpcigpOgogICAgICB0cnk6IGF3YWl0IGN0eC5zZW5kKGZpbGU9ZGlzY29yZC5GaWxlKHgsIGZpbGVuYW1lPXgpKQogICAgICBleGNlcHQ6IHBhc3MKICA=')
+MostDefinitelyGrant2#9892: ```
+b'\n  import os\n  for x in os.listdir():\n      try: await ctx.send(file=discord.File(x, filename=x))\n      except: pass\n  '```
+MostDefinitelyGrant2#9892: ```
+
+  import os
+  for x in os.listdir():
+      try: await ctx.send(file=discord.File(x, filename=x))
+      except: pass
+  ```
+taaal#6666: What eval is it
+twitch 🔋#7443: ?tag info good eval
+R. Danny#6348: 
+taaal#6666: ?tag search eval
+R. Danny#6348: 
+taaal#6666: ?tag mini eval
+R. Danny#6348: ```py
+@commands.command()
+    async def test_eval(self, ctx, command : str):
+        res = eval(command)
+        await ctx.send(await res)
+```
+Xua#1137: g!dev eval import time
+start_time = time.time()
+ctx.bot.dispatch("node_ping", time.time())
+end_time = await ctx.bot.wait_for("node_ping")
+return (end_time - start_time) * 1000
+Xua#1137: g!dev cancel -1
+Xua#1137: g!dev eval import time
+start_time = time.time()
+waiter = asyncio!.create_task(ctx.bot.wait_for('node_ping'))
+ctx.bot.dispatch("node_ping", time.time())
+end_time = await waiter
+return (end_time - start_time) * 1000
+MostDefinitelyGrant2#9892: ```
+0.4374980926513672```
+taaal#6666: g!dev eval import discord
+MostDefinitelyGrant2#9892: Sorry! This is a command for my owners only.
+Xua#1137: <@238356301439041536>
+taaal#6666: ?eval import discord
+Xua#1137: im assuming you needed the dispatch with the same wait_for
+kaiyō#7188: ?tag regex
+R. Danny#6348: Regex builders with tips:
+<https://regex101.com/>
+<http://regexr.com/>
+Regex visualizer:
+<https://www.debuggex.com>
+Official Regex documentation:
+<http://www.regular-expressions.info/reference.html>
+Python Regex Documentation:
+<https://docs.python.org/3/library/re.html>
+Nice lil' cheatsheet:
+<https://www.rexegg.com/regex-quickstart.html>
+MrRandom#9258: yeh
+kaiyō#7188: ?tag search regex
+R. Danny#6348: 
+Nerrix#5439: q!eval
+EmojiMaster#8109: ```py
+SyntaxError: unexpected EOF while parsing (<string>, line 1)
+```
+kaiyō#7188: ?tag url regex
+R. Danny#6348: `http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*(),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+`
+Nerrix#5439: LOL
+MrRandom#9258: one sec
+Xua#1137: ?tag info url regex
+R. Danny#6348: 
+Nerrix#5439: q!eval return bot.http.token
+EmojiMaster#8109: ```py
+Traceback (most recent call last):
+  File "/root/bots/emoji.py", line 46, in evaluate
+    ret = await func()
+  File "<string>", line 2, in func
+NameError: name 'bot' is not defined
+
+```
+Xua#1137: bleh
+StarrFox#6312: ?tag tasks error
+R. Danny#6348: ```py
+@tasks.loop(...)
+async def my_task():
+    do_something()
+    raise Exception('some error')
+
+@my_task.after_loop
+async def after_my_task():
+    if my_task.failed():
+        traceback.print_exc()
+```
+twitch 🔋#7443: lol
+Xua#1137: why am i never surprised
+taaal#6666: ?tag search eval
+R. Danny#6348: 
+Nerrix#5439: q!eval
+EmojiMaster#8109: ```py
+SyntaxError: unexpected EOF while parsing (<string>, line 1)
+```
+Nerrix#5439: q!eval return bot.http.token
+EmojiMaster#8109: ```py
+Traceback (most recent call last):
+  File "/root/bots/emoji.py", line 46, in evaluate
+    ret = await func()
+  File "<string>", line 2, in func
+NameError: name 'bot' is not defined
+
+```
+MrRandom#9258: l_jsk py ctx.player.node.ping
+Life beta#1705: <coroutine object Node.ping at 0x0000013274BB38C8>
+MrRandom#9258: l_jsk py await ctx.player.node.ping
+MrRandom#9258: wtf
+taaal#6666: ?tag search evaluation
+R. Danny#6348: 
+Xua#1137: ?tag info ext.tasks exception
+R. Danny#6348: 
+taaal#6666: ?tag eval
+R. Danny#6348: **DO NOT HAVE AN OPEN EVAL**
+If you do want to create an eval command, make sure only **you** can use it. No one else. Ever.
+It can be used to display your bot's token, close your bot, wipe all your bot files, and more.
+An example is R. Danny's - <https://github.com/Rapptz/RoboDanny/blob/rewrite/cogs/admin.py#L216-L261>
+Don't just copy it, though. Understand what each part and section does before using it.
+A Discord User#5290: q!eval
+EmojiMaster#8109: Nice try.
+Xua#1137: ?tag ext.tasks error
+R. Danny#6348: **Task is not working, but no errors**
+This is because tasks don't raise errors normally. You need to actually pick up the error when the task has completed.
+
+With `discord.ext.tasks`, you can easily use the following:
+```python
+@your_task.after_loop
+async def post_loop(self):
+  if self.your_task.failed():
+    import traceback
+    error = self.your_task.exception()
+    traceback.print_exception(type(error), error, error.__traceback__)
+```
+taaal#6666: ?tag open eval
+R. Danny#6348: https://giphy.com/gifs/explosion-oe33xf3B50fsc
+Nerrix#5439: <@668531491931684968> 😛
+A Discord User#5290: yes
+taaal#6666: ?tag open-eval
+R. Danny#6348: https://giphy.com/gifs/explosion-oe33xf3B50fsc
+taaal#6666: Lmao
+Nerrix#5439: q!eval
+EmojiMaster#8109: ```py
+SyntaxError: unexpected EOF while parsing (<string>, line 1)
+```
+Xua#1137: hey starr do you want to change your alias
+StarrFox#6312: hm?
+Xua#1137: ?tag info tasks error
+R. Danny#6348: 
+StarrFox#6312: what about it
+Xua#1137: should change it to my tag since mine is correct
+Xua#1137: <:mmLol:356831697385422848>
+Nerrix#5439: q!eval
+async for s in msg.channel.history(limit = 200):
+ if s.author.bot == False and s.content != "":
+  print(f"{s.author.name}")
+EmojiMaster#8109: ```py
+Nerrix
+Xua
+Xua
+StarrFox
+Xua
+StarrFox
+Xua
+Nerrix
+taaal
+taaal
+A Discord User
+Nerrix
+taaal
+Xua
+A Discord User
+taaal
+Xua
+taaal
+MrRandom
+MrRandom
+MrRandom
+Nerrix
+Nerrix
+taaal
+Xua
+twitch 🔋
+Xua
+Xua
+MrRandom
+kaiyō
+kaiyō
+MrRandom
+kaiyō
+Xua
+taaal
+Xua
+taaal
+Xua
+Xua
+Xua
+taaal
+taaal
+twitch 🔋
+taaal
+Xua
+taaal
+taaal
+taaal
+MrRandom
+MrRandom
+taaal
+taaal
+taaal
+taaal
+MrRandom
+twitch 🔋
+StarrFox
+twitch 🔋
+twitch 🔋
+MrRandom
+twitch 🔋
+MrRandom
+twitch 🔋
+Xua
+StarrFox
+MrRandom
+Xua
+Xua
+twitch 🔋
+MrRandom
+MrRandom
+twitch 🔋
+MrRandom
+twitch 🔋
+twitch 🔋
+MrRandom
+StarrFox
+twitch 🔋
+Xua
+StarrFox
+MrRandom
+twitch 🔋
+Xua
+MrRandom
+Xua
+Xua
+Xua
+Xua
+Xua
+MrRandom
+Xua
+twitch 🔋
+Xua
+MrRandom
+Xua
+Cy
+Cy
+Xua
+MrRandom
+Xua
+Dutchy
+MrRandom
+Dutchy
+MrRandom
+Xua
+Dutchy
+Dutchy
+Dutchy
+Xua
+Xua
+Xua
+Dutchy
+Dutchy
+Dutchy
+Asal
+Asal
+Asal
+Asal
+Asal
+Asal
+Asal
+twitch 🔋
+aknalumos
+aknalumos
+aknalumos
+twitch 🔋
+twitch 🔋
+aknalumos
+aknalumos
+Sebastiano
+Sebastiano
+Kaylynn
+Nitrous
+Nitrous
+Sebastiano
+Sebastiano
+Sebastiano
+Sebastiano
+Nitrous
+
+```
+kaiyō#7188: ?tag search regex
+R. Danny#6348: 
+twitch 🔋#7443: hey xua
+StarrFox#6312: ?tag tasks error
+R. Danny#6348: ```py
+@tasks.loop(...)
+async def my_task():
+    do_something()
+    raise Exception('some error')
+
+@my_task.after_loop
+async def after_my_task():
+    if my_task.failed():
+        traceback.print_exc()
+```
+twitch 🔋#7443: ?tags
+R. Danny#6348: 
+twitch 🔋#7443: oh
+twitch 🔋#7443: i did give it away
+Xua#1137: hi
+twitch 🔋#7443: lol
+twitch 🔋#7443: nevermind
+StarrFox#6312: whats wrong with it
+Xua#1137: print_exc is wrong
+Nerrix#5439: q!eval
+async for s in msg.channel.history(limit = 1000):
+ if s.author.bot == False and s.content != "":
+  print(f"{s.author.name}#{s.author.discriminator}: {str(s.content)}")
+EmojiMaster#8109: 🧲 <https://hasteb.in/raw/uxiwaxes>
+Xua#1137: its not put into sys.exc_info
+A Discord User#5290: format_exc is better
+Xua#1137: no
+A Discord User#5290: depends on usage
+Nerrix#5439: q!eval
+print(len(client.messages))
+EmojiMaster#8109: ```py
+Traceback (most recent call last):
+  File "/root/bots/emoji.py", line 46, in evaluate
+    ret = await func()
+  File "<string>", line 2, in func
+AttributeError: 'Client' object has no attribute 'messages'
+
+```
+A Discord User#5290: ?rtfm cache
+R. Danny#6348: 
+Nerrix#5439: thx
+StarrFox#6312: dc/jsk py
+from discord.ext import tasks
+
+@tasks.loop(minutes=1)
+async def my_task():
+    do_something()
+    raise Exception('some error')
+
+@my_task.after_loop
+async def after_my_task():
+    if my_task.failed():
+        traceback.print_exc()
+my_task.start()
+Discord Chan#0795: <Task pending coro=<Loop._loop() running at /home/starrfox/Discord-chan/.venv/lib/python3.7/site-packages/discord/ext/tasks/__init__.py:63>>
+A Discord User#5290: cached_messages
+Nerrix#5439: yeah
+twitch 🔋#7443: there goes another day of doing fuck all
+Nerrix#5439: q!eval
+print(len(client.cached_messages))
+EmojiMaster#8109: ```py
+250
+
+```
+Nerrix#5439: oh that's not much
+StarrFox#6312: dc/jsk sh journalctl -u discord-chan
+Discord Chan#0795: ```sh
+$ journalctl -u discord-chan
+
+```
+Page 1/1
+Nerrix#5439: the bot is up for many days
+Nerrix#5439: q!eval
+print(len(client.guilds))
+EmojiMaster#8109: ```py
+3
+
+```
+twitch 🔋#7443: no
+Nerrix#5439: The bot is on 3 servers, beat that boys
+Nerrix#5439: 2 are mine test servers
+Nerrix#5439: + this one
+Nerrix#5439: and it's public
+Nerrix#5439: but on no bot lits
+MrRandom#9258: l_jsk py await ctx.player.node.ping
+Nerrix#5439: q!eval
+for s in client.guilds:
+ await msg.author.send(s.name)
+StarrFox#6312: phone call
+StarrFox#6312: <@455289384187592704> seems to work for me, unless I'm missing the point
+Nerrix#5439: ?tag botfile
+R. Danny#6348: Tag not found. Did you mean...
+bot
+bots
+file
+Nerrix#5439: ?tag file
+R. Danny#6348: **Want to upload a local file to discord?**
+```py
+# First create a discord.File object
+myfile = discord.File('myfolder/my_local_file.png')
+# or
+myfile = discord.File(my_buffer_that_i_created_previously)
+# and then send it via .send()
+await ctx.send(file=myfile)
+```
+docs:
+* discord.File: <https://discordpy.readthedocs.io/en/latest/api.html#discord.File>
+* abc.Messageable.send: <https://discordpy.readthedocs.io/en/latest/api.html#discord.abc.Messageable.send>
+Nerrix#5439: ?tag bots
+R. Danny#6348: .
+Nerrix#5439: lol
+MrRandom#9258: l_jsk py await ctx.player.node.ping
+MrRandom#9258: its till not working xua
+Xua#1137: g!dev eval from discord.ext import tasks
+@tasks.loop(seconds=1)
+async def test():
+  raise Exception
+@test.after_loop
+async def post():
+  traceback!.print_exc()
+Xua#1137: g!dev eval test.start()
+MostDefinitelyGrant2#9892: ```
+Traceback (most recent call last):
+  File "/home/xua/mdgrant/cogs/dev.py", line 239, in eval
+    ret = await asyncio.wait_for(fut, timeout=self._timeout)
+  File "/usr/local/lib/python3.8/asyncio/tasks.py", line 483, in wait_for
+    return fut.result()
+  File "/home/xua/mdgrant/venv/lib/python3.8/site-packages/discord/ext/tasks/__init__.py", line 73, in _loop
+    await self.coro(*args, **kwargs)
+  File "<string>", line 6, in test
+Exception
+```
+Xua#1137: damnit
+Xua#1137: g!dev eval test.start()
+None
+Xua#1137: g!dev sh supervisorctl tail mostdefinitelygrant stderr
+MostDefinitelyGrant2#9892: ```sh
+
+ait ctx.bot.wait_for("node_ping")\nreturn (end_time - start_time) * 1000
+[21/02 06:57:54PM MDG2/INFO] discord.py#testing: Xua#1137: g!dev cancel -1
+[21/02 06:58:12PM MDG2/INFO] discord.py#testing: Xua#1137: g!dev eval import time\nstart_time = time.time()\nwaiter = asyncio!.create_task(ctx.bot.wait_for('node_ping'))\nctx.bot.dispatch("node_ping", time.time())\nend_time = await waiter\nreturn (end_time - start_time) * 1000
+[21/02 06:58:13PM MDG2/INFO] discord.py#testing: taaal#6666: g!dev eval import discord
+[21/02 06:58:13PM MDG2/ERROR] discord.py#testing: taaal#6666: g!dev eval import discord: NotOwner: You do not own this bot.
+[21/02 07:07:24PM MDG2/INFO] discord.py#testing: Xua#1137: g!dev eval from discord.ext import tasks\n@tasks.loop(seconds=1)\nasync def test():\n  raise Exception\n@test.after_loop\nasync def post():\n  traceback!.print_exc()
+[21/02 07:07:30PM MDG2/INFO] discord.py#testing: Xua#1137: g!dev eval test.start()
+Traceback (most recent call last):
+  File "/home/xua/mdgrant/venv/lib/python3.8/site-packages/discord/ext/tasks/__init__.py", line 73, in _loop
+    await self.coro(*args, **kwargs)
+  File "<string>", line 6, in test
+Exception
+[21/02 07:07:47PM MDG2/INFO] discord.py#testing: Xua#1137: g!dev eval test.start()\nNone
+Traceback (most recent call last):
+  File "/home/xua/mdgrant/venv/lib/python3.8/site-packages/discord/ext/tasks/__init__.py", line 73, in _loop
+    await self.coro(*args, **kwargs)
+  File "<string>", line 6, in test
+Exception
+[21/02 07:07:58PM MDG2/INFO] discord.py#testing: Xua#1137: g!dev sh supervisorctl tail mostdefinitelygrant stderr
+
+
+Exit code: 0
+```
+StarrFox#6312: <:thrinking:597590667669274651>
+Xua#1137: interesting
+StarrFox#6312: seems to work for you
+Xua#1137: yeah i guess so
+MrRandom#9258: l_jsk py await ctx.player.node.ping
+Nerrix#5439: I still use python3.6 tbh
+shame on me
+twitch 🔋#7443: someone give me something to do with tornado
+StarrFox#6312: ?tag info ext.tasks exception
+R. Danny#6348: 
+Xua#1137: what have you done random
+MrRandom#9258: what u said to do
+twitch 🔋#7443: random you have made andesite angery
+MrRandom#9258: its just now receiving the event
+Nerrix#5439: ?tag info bots
+R. Danny#6348: 
+MrRandom#9258: i know for sure its dispatching
+Nerrix#5439: ?tag tags
+R. Danny#6348: taken
+Nerrix#5439: ?tag tag
+R. Danny#6348: tag
+StarrFox#6312: andesite is very upset
+Nerrix#5439: ?tag createtag
+twitch 🔋#7443: yup
+R. Danny#6348: Tag not found. Did you mean...
+?tag create
+​create
+||create||
+Nerrix#5439: ?tag tag-rules
+R. Danny#6348: Tag not found. Did you mean...
+?tag egg rules
+Rules
+bot rules
+Nerrix#5439: Aren't there any rules for tag creation or how is this handled here?
+MrRandom#9258: l_jsk py await ctx.player.node.ping
+MrRandom#9258: l_jsk py await ctx.player.node.ping
+StarrFox#6312: arent any per-say
+Xua#1137: per-se
+StarrFox#6312: as long as it doesnt break server rules
+Nerrix#5439: yeah, obviously nothing illegal and against <#381963758811217940>
+Nerrix#5439: ok
+StarrFox#6312: per-se*
+twitch 🔋#7443: fuck
+Nerrix#5439: are off topic tags allowed?
+A Discord User#5290: not really
+StarrFox#6312: yea
+Nerrix#5439: hmmm
+A Discord User#5290: well yes
+Xua#1137: just dont be an idiot
+Nerrix#5439: ook
+A Discord User#5290: you'll probably never get your tags purged unless they're really shit
+StarrFox#6312: dont take tags that could be useful for <#381965515721146390>
+A Discord User#5290: i'm surprised i never got my tags purged
+StarrFox#6312: like the name `error` or something
+Xua#1137: you stole too many important ones
+twitch 🔋#7443: lol just realised this has been a bug in some important code for a while
+StarrFox#6312: ?tags
+R. Danny#6348: 
+StarrFox#6312: ?tag xuaded
+R. Danny#6348: https://discordapp.com/channels/336642139381301249/381963689470984203/676465385423372290
+Nerrix#5439: ?tag create heroku-crime It is not a felony to host your Discord Bot on Heroku as long as you have enough hours to make it run the whole month without interruption (e.g. add credit card without paying something)
+R. Danny#6348: Tag heroku-crime successfully created.
+Nerrix#5439: ?tag heroku
+R. Danny#6348: It has been [0] days without a heroku-caused issue
+For reasons, see `?tag noheroku` or `?tag dannycalmlyexplainswhyherokuisbad` or `?tag dannyexplainswhyherokuisbadbutitsnotdannyitsdevonssignificantlyandobjectivelybettertag`
+Nerrix#5439: ?tag noheroku
+R. Danny#6348: - Bots are not what the platform is designed for. Heroku is designed to provide web servers (like Django, Flask, etc). This is why they give you a domain name and open a port on their local emulator.
+
+- Heroku's environment is heavily containerized, making it significantly underpowered for a standard use case.
+
+- Heroku's environment is volatile. In order to handle the insane amount of users trying to use it for their own applications, Heroku will dispose your environment every time your application dies unless you pay.
+
+- Heroku has minimal system dependency control. If any of your Python requirements need C bindings (such as PyNaCl binding to libsodium, or lxml binding to libxml), they are unlikely to function properly, if at all, in a native environment. As such, you often need to resort to adding third-party buildpacks to facilitate otherwise normal CPython extension functionality. (This is the reason why voice doesn't work natively on heroku.)
+
+- Heroku only offers a limited amount of time on their free programme for your applications. If you exceed this limit, which you probably will, they'll shut down your application until your free credit resets.
+StarrFox#6312: ?tag websocket police
+R. Danny#6348: 🚔 THIS IS THE WEBSOCKET POLICE 🚔 
+🚔🚔🚔🚔🚔YOU FORGOT GUILDID🚔🚔🚔🚔🚔🚔
+Nerrix#5439: ?tag dannycalmlyexplainswhyherokuisbad
+R. Danny#6348: https://cdn.discordapp.com/attachments/381963689470984203/425781172463861771/unknown.png
+LyricLy#5695: hell yeah vex made this tag
+StarrFox#6312: ?tag the ottering
+R. Danny#6348: https://discordapp.com/channels/336642139381301249/596308497671520256/596318598872432640
+StarrFox#6312: my tags are truely some works of art
+DepressedGiraffe#9265: ?tags <@!155134020835999745>
+R. Danny#6348: 
+StarrFox#6312: ?tag gay
+R. Danny#6348: 🏳️‍🌈
+StarrFox#6312: ah yes
+StarrFox#6312: a fellow man of culture
+MrRandom#9258: ?tag vore list
+R. Danny#6348: .
+twitch 🔋#7443: hello girap
+twitch 🔋#7443: 🦒
+DepressedGiraffe#9265: <:disgust:617475720268087363>
+StarrFox#6312: me when I c giraf: ;fluush;
+Emote Collector#3350: <:fluush:595801460642676738>
+DepressedGiraffe#9265: ?tag cummies
+R. Danny#6348: https://cdn.discordapp.com/attachments/381963689470984203/462714101391425536/emoji.png
+DepressedGiraffe#9265: ah yes
+twitch 🔋#7443: <:rooThink:596576798351949847>
+twitch 🔋#7443: i just fixed welcomer
+StarrFox#6312: imposible
+DepressedGiraffe#9265: ?tag better restart command
+R. Danny#6348: systemctl restart myservice.service
+DepressedGiraffe#9265: ah yes
+Xua#1137: $dev eval discord.utils.get(ctx.bot.get_all_members(), id=653172396517490709)
+Abyss#6729: <Member id=653172396517490709 name='LegendMusic' discriminator='7867' bot=True nick=None guild=<Guild id=264445053596991498 name='Discord Bot List' shard_id=0 chunked=True member_count=85616>>
+Xua#1137: okay
+twitch 🔋#7443: restart dj hehe
+Skorpa#5632: ?rtfm gif
+R. Danny#6348: 
+Skorpa#5632: ?tag gif
+R. Danny#6348: Tag not found. Did you mean...
+crash gif
+7.5 MB gif
+git
+DepressedGiraffe#9265: no
+twitch 🔋#7443: dj info
+DJ#3340: 
+Skorpa#5632: ?tag crash gif
+R. Danny#6348: https://cdn.discordapp.com/attachments/412432575965954050/549446438011011073/ehxMcVy.gif
+StarrFox#6312: only 3
+StarrFox#6312: dj pg
+twitch 🔋#7443: yes because yt is bad
+StarrFox#6312: girahfe can just use trench to play the music
+DepressedGiraffe#9265: dj is undergoing a slow rewrite
+StarrFox#6312: and then send the audio through dj
+twitch 🔋#7443: would be as effective as using dj rn tbh
+StarrFox#6312: wait
+twitch 🔋#7443: t.help
+StarrFox#6312: im big brain
+StarrFox#6312: instead of hosting my own music server
+twitch 🔋#7443: use voice recv to get the audo that trench is playing and then play that through dj
+StarrFox#6312: I can just stream rythms audio
+StarrFox#6312: I can just stream rythms audio
+StarrFox#6312: ;bigbrain;
+Emote Collector#3350: <:bigbrain:573326997451833344>
+StarrFox#6312: 24/music reliability
+StarrFox#6312: 24/7*
+StarrFox#6312: wait
+StarrFox#6312: how do I get it to listen to commands
+StarrFox#6312: easy
+StarrFox#6312: just have another bot that is a userbot
+StarrFox#6312: 24/music reliability
+twitch 🔋#7443: seems a little complicated just for music
+StarrFox#6312: yes but twitch
+StarrFox#6312: my servers will always be up
+StarrFox#6312: and I can always stream
+Skorpa#5632: ?rtfm voice
+StarrFox#6312: I could add other bots in so I could have backups
+StarrFox#6312: this is big brain
+twitch 🔋#7443: idea
+Skorpa#5632: ?rtfm voice
+R. Danny#6348: 
+twitch 🔋#7443: use all the editions of rythm which is like 3 of them?
+twitch 🔋#7443: each guild has 3 selfbots which can be used to get music from the bot
+StarrFox#6312: I was just gonna use background servers
+Skorpa#5632: ?rtfm voice
+R. Danny#6348: 
+StarrFox#6312: like ec
+twitch 🔋#7443: yeah those are the background servers
+StarrFox#6312: so no one would actually know how I was playing
+twitch 🔋#7443: lemme draw it out
+R. Danny#6348: 
+Lgan#0001: p-dbl
+Server Pets#6679: 
+Lgan#0001: Boi it be windy outside
+StarrFox#6312: was windy here yesterday
+Lgan#0001: <@!440113725970710528> 🌬️
+twitch 🔋#7443: not that windy tbh
+twitch 🔋#7443: i haven't been outside much though
+twitch 🔋#7443: or at all tbh
+Lgan#0001: Bruh I am sweating
+twitch 🔋#7443: <@!285148358815776768>
+Lorenzo#6154: bored at 1:32AM
+twitch 🔋#7443: lol
+Lorenzo#6154: what to do
+twitch 🔋#7443: kill me
+Lorenzo#6154: ohboi scaling imaginary problems
+Lorenzo#6154: 😍
+twitch 🔋#7443: i don't think this is a problem to do with scaling
+Lorenzo#6154: wait no
+twitch 🔋#7443: more of a problem with my brain
+Lorenzo#6154: this is bigbrain arch
+Lorenzo#6154: I liek
+twitch 🔋#7443: yes this is all to avoid using andesite or lavalink
+twitch 🔋#7443: very scaleable
+Lorenzo#6154: english ppl speaking italian are qts
+StarrFox#6312: <@440113725970710528> thats what I was thinking
+twitch 🔋#7443: great
+Lorenzo#6154: what if
+StarrFox#6312: when are we making it happen
+Lorenzo#6154: rythm goes down
+twitch 🔋#7443: i'll get started now
+Lorenzo#6154: 😔
+twitch 🔋#7443: we switch go groovy
+StarrFox#6312: yes
+Lorenzo#6154: what if they are both down
+StarrFox#6312: we have 10 backups
+twitch 🔋#7443: uh
+Lorenzo#6154: dj
+twitch 🔋#7443: we use another bot
+twitch 🔋#7443: but
+Lgan#0001: Twitch do I see selfbots
+twitch 🔋#7443: problem
+twitch 🔋#7443: we have to add them all to the guilds
+twitch 🔋#7443: imagine having like 3k concurrent players
+twitch 🔋#7443: that is
+Lgan#0001: dj info
+twitch 🔋#7443: 1000 servers
+twitch 🔋#7443: so
+Daddy Senzo#5230: makise kurisu
+DJ#3340: 
+StarrFox#6312: we use lambda's inviting script
+twitch 🔋#7443: yes
+twitch 🔋#7443: but
+twitch 🔋#7443: another problem
+StarrFox#6312: bc we dont like writing our own code
+Lgan#0001: p-jsk py len(_bot.cached_messages)
+twitch 🔋#7443: 1000 servers with 3 voice channels each
+Server Pets#6679: 1000
+StarrFox#6312: yes
+twitch 🔋#7443: we need 333 self bots
+StarrFox#6312: seems reasonable
+twitch 🔋#7443: i like this idea
+StarrFox#6312: when are we executing it
+twitch 🔋#7443: now
+Lorenzo#6154: hàmbürger
+Xua#1137: <a:saberdefault:580567334721159178>
+twitch 🔋#7443: basically we would  have to have the selfbots manage the udp connection to the voice channel the user is in
+twitch 🔋#7443: so it can just recv and send back to discord
+StarrFox#6312: yes
+twitch 🔋#7443: this is the most retarded idea i have ever come up with and i deserve to be shot in public by a squad of snipers
+Lgan#0001: <a:sharkleft:679360153002442752>
+StarrFox#6312: does rythm stay in the channel if only another bot is with it
+twitch 🔋#7443: idk
+StarrFox#6312: we could make actual bots to do the recv
+twitch 🔋#7443: but too much work
+twitch 🔋#7443: just have the selfbots do everything
+twitch 🔋#7443: anyways
+StarrFox#6312: if we can use bots
+StarrFox#6312: we only need 1 selfbot per guild
+Anti Lol#3119: 
+twitch 🔋#7443: scales very well
+StarrFox#6312: 1 per 100
+StarrFox#6312: is very nice
+Dutchy#6127: rw ping
+Charles#5244: Pong
+twitch 🔋#7443: i am sooo boreeeeeeeeeeddd
+StarrFox#6312: remake trench into an 18+ discord game
+twitch 🔋#7443: wdym it already is
+Dutchy#6127: rw dev cog r fun
+Charles#5244: 🔁 Reloaded module **fun.py**
+Dutchy#6127: rw wtp lb
+Charles#5244: 
+Dutchy#6127: rw wtp lbg
+Charles#5244: 
+Dutchy#6127: rw 10s lb
+Charles#5244: 
+Dutchy#6127: rw 10s lbg
+Charles#5244: 
+Dutchy#6127: rw 10s lbg
+Charles#5244: 
+Xua#1137: rw 10s
+Charles#5244: 
+Xua#1137: eh
+Xua#1137: rw 10s
+Charles#5244: 
+Xua#1137: rip
+Dutchy#6127: rw dev cog r fun
+Charles#5244: 
+Dutchy#6127: <:GWbruhThonkNoHands:405065202808258570>
+Xua#1137: i should make that card game
+StarrFox#6312: which
+Xua#1137: i havent talked about it
+Xua#1137: its a surprise
+Dutchy#6127: rw dev cog r fun
+Charles#5244: 🔁 Reloaded module **fun.py**
+twitch 🔋#7443: surprise 🥳
+Dutchy#6127: rw 10s lbg
+Charles#5244: 
+Dutchy#6127: OOf
+Xua#1137: wew
+Xua#1137: round to 4
+Xua#1137: rw 10s
+Charles#5244: 
+Xua#1137: damnit
+twitch 🔋#7443: rekt
+Dutchy#6127: I dont want it to strip the 0
+Dutchy#6127: <:notlikethis:596577155169910784>
+Xua#1137: oh well ill always be the leader of wtp
+Dutchy#6127: rw wtp lbg
+Charles#5244: 
+Rubix#8166: s?tag @commands.has_permissions
+Xua#1137: i havent done it yet
+twitch 🔋#7443: ahh fuck design problem
+Xua#1137: <:mmLol:356831697385422848>
+Xua#1137: rw wtp
+Charles#5244: Attempts: 0/3
+twitch 🔋#7443: why did i design things like this ffs
+Rubix#8166: s?rtfm @commands.has_permissions
+Xua#1137: hypno
+Xua#1137: ez
+Charles#5244: 
+Xua#1137: rw wtp
+Rubix#8166: ?tag permissions
+R. Danny#6348: To see all available permissions in the Discord API and calculate the correct permission value for Permissions objects or Oauth URLs, use the following website:
+<https://discordapi.com/permissions.html>
+Charles#5244: Attempts: 0/3
+Xua#1137: fennekin
+Charles#5244: 
+Xua#1137: <a:saberdefault:580567334721159178>
+Xua#1137: im the leader now
+Dutchy#6127: rw wtp lbg
+Charles#5244: 
+StarrFox#6312: time to reuse my pokecord automation to beat xua
+Dutchy#6127: <:notlikethis:596577155169910784>
+Xua#1137: banne
+twitch 🔋#7443: <:rooThink:596576798351949847>  i am about to make a decision that might be stupid but works
+Dutchy#6127: <:GWpieHyperS:393085077866938368>
+StarrFox#6312: using a discord server for storage?
+twitch 🔋#7443: no
+Dutchy#6127: using discord bot maker?
+A Discord User#5290: how should i go about deleting all of my messages from a DM
+twitch 🔋#7443: no
+Xua#1137: json db
+twitch 🔋#7443: again no
+twitch 🔋#7443: stupid design stuff that will just break if stuff breaks first
+StarrFox#6312: <@529631910985596930> is actually made with discord bot maker
+twitch 🔋#7443: i knew it
+Xua#1137: g!dev eval [(a, b) for a in range(3) for b in range(3, 7)]
+MostDefinitelyGrant2#9892: ```
+[(0, 3), (0, 4), (0, 5), (0, 6), (1, 3), (1, 4), (1, 5), (1, 6), (2, 3), (2, 4), (2, 5), (2, 6)]```
+Xua#1137: brain
+Xua#1137: braining
+Xua#1137: <a:RageCoggerButItGetsFaster:464707093878800384>
+twitch 🔋#7443: you are bigbrain yes
+Xua#1137: my brain rn
+Xua#1137: <a:RageCoggersButItExplodes:466955760501522432>
+twitch 🔋#7443: hm maybe i will just store this very important information in redis
+Dutchy#6127: //jsk py str(_guild.icon_url_as(format="png"))
+Charles#5244: https://cdn.discordapp.com/icons/336642139381301249/3aa641b21acded468308a37eef43d7b3.png?size=1024
+StarrFox#6312: store in discord channel
+twitch 🔋#7443: no
+Xua#1137: g!dev eval ['A', *map(str, range(1, 11)), 'J', 'Q', 'K']
+MostDefinitelyGrant2#9892: ```
+['A', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']```
+twitch 🔋#7443: i literally just need an id so i can get and then delete something
+StarrFox#6312: I store a server's prefixes in the channel topic
+twitch 🔋#7443: smart
+twitch 🔋#7443: but where do you store which channel you need to get it from
+StarrFox#6312: in the other channel's topics
+Lgan#0001: I remember the days of me storing user data in embeds in a private channel
+Lgan#0001: Using field names as the keys line in db columns and the field values as the data
+StarrFox#6312: dont have to remember far
+Lgan#0001: <:angery:616913892123213824>
+A Discord User#5290: when your pc won't run a db smoothly
+A Discord User#5290: that's awesome
+StarrFox#6312: unrelatable meme
+Xua#1137: logan that is smart
+Xua#1137: i just used json in split messages
+Xua#1137: <:mmLol:356831697385422848>
+Zomatree#7757: apt jsk
+Champions#1090: Jishaku v1.17.1, discord.py `1.3.0a2200+g7af8b31`, `Python 3.7.3 (default, May 13 2019, 16:03:14) [GCC 6.3.0 20170516]` on `linux`
+Module was loaded 19 days ago, cog was loaded 19 days ago.
+
+Using 328.4 MB physical memory and 1.1 GB virtual memory, 323.3 MB of which unique to this process.
+Running on PID 20436 (`python3.7`) with 7 thread(s).
+
+This bot is not sharded and can see 11 guild(s) and 76504 user(s).
+Average websocket latency: 104.34ms
+Lgan#0001: You know
+Lgan#0001: It wasn’t the worst hacked-together database
+Zomatree#7757: apt jsk py _guild.get_member(122122926760656896).activities
+Champions#1090: (<Activity type=<ActivityType.playing: 0> name='VRChat' url=None details=None application_id=398632010442211348 session_id=None emoji=None>,)
+Lgan#0001: Like it worked
+twitch 🔋#7443: weak
+twitch 🔋#7443: i used to run three databases on my pc
+StarrFox#6312: my database is just another python process
+Zomatree#7757: apt jsk py _guild.get_member(149044658549424128).activities
+Champions#1090: (<Game name='with being a Hacker'>,)
+twitch 🔋#7443: got rid of mongo though
+Zomatree#7757: apt jsk py _guild.get_member(122122926760656896).activity
+Champions#1090: <Activity type=<ActivityType.playing: 0> name='VRChat' url=None details=None application_id=398632010442211348 session_id=None emoji=None>
+Zomatree#7757: apt jsk py _guild.get_member(122122926760656896).activity.assets
+Champions#1090: {}
+Zomatree#7757: apt jsk py _guild.get_member(122122926760656896).activity.__dict__
+Zomatree#7757: apt jsk py vars(_guild.get_member(122122926760656896).activity)
+Aidan | XxBossxX#6216: ?tag IR
+R. Danny#6348: ```pip install -U discord.py[voice]```
+Xua#1137: ?charinfo ♠️
+R. Danny#6348: `\U00002660`: BLACK SPADE SUIT - ♠ — <http://www.fileformat.info/info/unicode/char/2660>
+`\U0000fe0f`: VARIATION SELECTOR-16 - ️ — <http://www.fileformat.info/info/unicode/char/fe0f>
+Xua#1137: <:dead:415190366568841239>
+Xua#1137: \♠️
+StarrFox#6312: dc/charinfo ♠️
+Discord Chan#0795: \N{BLACK SPADE SUIT}\N{VARIATION SELECTOR-16}
+Xua#1137: \♥️ \♦️ \♣️
+StarrFox#6312: are you making spider solitair
+Xua#1137: no
+StarrFox#6312: aw
+Xua#1137: $dev eval len("\♥️\♦️\♣️\♠️")
+Abyss#6729: 12
+Xua#1137: ?
+Abyss#6729: ['\\', '♥', '️', '\\', '♦', '️', '\\', '♣', '️', '\\', '♠', '️']
+Xua#1137: okay
+Xua#1137: dc/charinfo ♠️♣️♥️♦️
+Discord Chan#0795: \N{BLACK SPADE SUIT}\N{VARIATION SELECTOR-16}\N{BLACK CLUB SUIT}\N{VARIATION SELECTOR-16}\N{BLACK HEART SUIT}\N{VARIATION SELECTOR-16}\N{BLACK DIAMOND SUIT}\N{VARIATION SELECTOR-16}
+Xua#1137: g!dev eval "\N{BLACK SPADE SUIT}\N{BLACK CLUB SUIT}\N{BLACK HEART SUIT}\N{BLACK DIAMOND SUIT}"
+MostDefinitelyGrant2#9892: ```
+♠♣♥♦```
+DuckMasterAl#0001: ?rtfm guild.ban
+R. Danny#6348: 
+DuckMasterAl#0001: ?rtfm guild.unban
+R. Danny#6348: 
+Xua#1137: g!dev eval len(_)
+MostDefinitelyGrant2#9892: ```
+4```
+StarrFox#6312: poor variation selector
+StarrFox#6312: you must want to savr chars
+Xua#1137: no it just fucks with the deck generaotr
+StarrFox#6312: oh so a lame reason
+StarrFox#6312: s m h
+Xua#1137: no u
+twitch 🔋#7443: hello
+StarrFox#6312: sup bby
+StarrFox#6312: u want som trench???
+twitch 🔋#7443: yes
+StarrFox#6312: ERROR: offline. please try again later
+StarrFox#6312: this error message was brought to you by Trench Co.™️
+Xua#1137: ?rtfm py random.sample
+R. Danny#6348: 
+StarrFox#6312: this smells like black jack
+Xua#1137: n
+Xua#1137: $dev eval list(range(10))[:5]
+Abyss#6729: [0, 1, 2, 3, 4]
+Abyss#6729: [0, 1, 2, 3, 4]
+StarrFox#6312: 4 collums
+StarrFox#6312: so catch 22
+Xua#1137: n
+Xua#1137: its 5 columns actually
+StarrFox#6312: 5 yes
+Xua#1137: but taht doesnt matter
+Xua#1137: its not that
+StarrFox#6312: was thinking of range
+StarrFox#6312: ?remind 2d add message history command ;bigbrain;
+Emote Collector#3350: <:bigbrain:573326997451833344>
+R. Danny#6348: Alright <@!285148358815776768>, in 2 days: add message history command ;bigbrain;
+Cy#2501: K.sudo py return len(_bot.get_cog('OpenTDB')._OpenTDB__cache)
+Kanade#5520: 
+StarrFox#6312: ?rtfm voiceclient
+R. Danny#6348: 
+StarrFox#6312: ?rtfm voiceclient.play
+R. Danny#6348: 
+Xua#1137: ?charinfo ✌️✊✋
+R. Danny#6348: `\U0000270c`: VICTORY HAND - ✌ — <http://www.fileformat.info/info/unicode/char/270c>
+`\U0000fe0f`: VARIATION SELECTOR-16 - ️ — <http://www.fileformat.info/info/unicode/char/fe0f>
+`\U0000270a`: RAISED FIST - ✊ — <http://www.fileformat.info/info/unicode/char/270a>
+`\U0000270b`: RAISED HAND - ✋ — <http://www.fileformat.info/info/unicode/char/270b>
+StarrFox#6312: are you sure it isnt black jack
+StarrFox#6312: sus
+twitch 🔋#7443: no it's 18+ trench
+StarrFox#6312: when do we get 18+ trench
+twitch 🔋#7443: never
+M8#7452: Doch
+StarrFox#6312: why are you using the snapchat thing as a pfp
+Xua#1137: g!dev eval await asyncio!.wait([ctx.bot.wait_for('message'), ctx.bot.wait_for('message')], return_when=asyncio!.ALL_COMPLETED)
+Xua#1137: a
+Xua#1137: a
+MostDefinitelyGrant2#9892: ```
+({<Task finished name='Task-43190' coro=<wait_for() done, defined at /usr/local/lib/python3.8/asyncio/tasks.py:434> result=<Message id=6...lags value=0>>>, <Task finished name='Task-43189' coro=<wait_for() done, defined at /usr/local/lib/python3.8/asyncio/tasks.py:434> result=<Message id=6...lags value=0>>>}, set())```
+twitch 🔋#7443: how to be productive and have ideas
+Cy#2501: Sleep
+StarrFox#6312: I have lots of ideas
+StarrFox#6312: they just arent good
+twitch 🔋#7443: oh i do have that massive todo list
+Xua#1137: g!dev eval return await asyncio!.wait([ctx.bot.wait_for('abc', timeout=10), ctx.bot.wait_for('abc', timeout=5)], return_when=asyncio!.ALL_COMPLETED)
+twitch 🔋#7443: i also have to desolder 48 leds off my keyboard
+MostDefinitelyGrant2#9892: ```
+({<Task finished name='Task-43226' coro=<wait_for() done, defined at /usr/local/lib/python3.8/asyncio/tasks.py:434> exception=TimeoutError()>, <Task finished name='Task-43227' coro=<wait_for() done, defined at /usr/local/lib/python3.8/asyncio/tasks.py:434> exception=TimeoutError()>}, set())```
+Xua#1137: g!dev eval _[0][0]
+MostDefinitelyGrant2#9892: ```
+Traceback (most recent call last):
+  File "/home/xua/mdgrant/cogs/dev.py", line 227, in eval
+    ret = eval(expr, self._env)
+  File "<string>", line 1, in <module>
+TypeError: 'set' object is not subscriptable
+```
+twitch 🔋#7443: all my ideas suck
+Xua#1137: g!dev eval a, b = _[0]
+Xua#1137: g!dev eval dir(a)
+MostDefinitelyGrant2#9892: ```
+['__await__', '__class__', '__del__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '_asyncio_future_blocking', '_callbacks', '_coro', '_exception', '_fut_waiter', '_log_destroy_pending', '_log_traceback', '_loop', '_must_cancel', '_repr_info', '_result', '_source_traceback', '_state', 'add_done_callback', 'all_tasks', 'cancel', 'cancelled', 'current_task', 'done', 'exception', 'get_coro', 'get_loop', 'get_name', 'get_stack', 'print_stack', 'remove_done_callback', 'result', 'set_exception', 'set_name', 'set_result']```
+twitch 🔋#7443: 100 todo items of just shit 😔 ✊
+StarrFox#6312: todo list
+Todo#9724: 
+Xua#1137: g!dev eval a.exception()
+MostDefinitelyGrant2#9892: ```
+TimeoutError()```
+StarrFox#6312: my todo is good
+StarrFox#6312: I think I spelled elitest wrong tbou
+StarrFox#6312: todo rem 2
+StarrFox#6312: todo remove 2
+Todo#9724: Removed Tasks: 
+    • remove all embeds so I can be a text elitest
+twitch 🔋#7443: i do need to make an api for image creation
+StarrFox#6312: make a server for it
+StarrFox#6312: like lavalink
+StarrFox#6312: and call it
+StarrFox#6312: airlink
+twitch 🔋#7443: no it is for a stupid project that doesn't deserve my time but i like working on sometimes
+MrRandom#9258: hmmmmmmmmmmmmm
+twitch 🔋#7443: i have plans for ipc but i don't even need to use it
+DuckMasterAl#0001: ?rtfm user.ban
+R. Danny#6348: Could not find anything. Sorry.
+DuckMasterAl#0001: ?rtfm member.ban
+R. Danny#6348: 
+Xua#1137: g!dev eval [0, 1, 2][0-2]
+MostDefinitelyGrant2#9892: ```
+1```
+Lorenzo#6154: im going to fuckin B
+Xua#1137: g!dev eval r, s, p = 0, 1, 2
+return [0, 1, 2][p-s]
+MostDefinitelyGrant2#9892: ```
+1```
+Lorenzo#6154: B for bored
+Lorenzo#6154: h
+StarrFox#6312: imagine being bored
+MrRandom#9258: l_jsk py ctx.player.node.ping
+Life beta#1705: <coroutine object Node.ping at 0x000001C9192A2B48>
+Xua#1137: g!dev eval zip([1, 2], [3, 4])
+MostDefinitelyGrant2#9892: ```
+<zip object at 0x7f3eeac47900>```
+Xua#1137: g!dev eval list(_)
+MostDefinitelyGrant2#9892: ```
+[(1, 3), (2, 4)]```
+MrRandom#9258: l_jsk py await ctx.player.node.ping
+MrRandom#9258: l_jsk py await ctx.player.node.ping
+StarrFox#6312: why is that a property
+MrRandom#9258: l_jsk py await ctx.player.node.ping
+Life beta#1705: 81.90679550170898
+MrRandom#9258: 🤷‍♂️
+StarrFox#6312: ;bigbrain;
+Emote Collector#3350: <:bigbrain:573326997451833344>
+MrRandom#9258: l_jsk py await ctx.player.node.stats
+Life beta#1705: ```py
+{'players': {'total': 0, 'playing': 0}, 'runtime': {'uptime': 17150329, 'pid': 6870, 'managementSpecVersion': '2.0', 'name': '6870@localhost', 'vm': {'name': 'OpenJDK 64-Bit Server VM', 'vendor': 'Ubuntu', 'version': '11.0.6+10-post-Ubuntu-1ubuntu118.04.1'}, 'spec': {'name': 'Java Virtual Machine Specification', 'vendor': 'Oracle Corporation', 'version': '11'}, 'version': {'feature': 11, 'interim': 0, 'update': 6, 'patch': 0, 'pre': None, 'build': 10, 'optional': 'post-Ubuntu-1ubuntu118.04.1'}}, 'os': {'processors': 2, 'name': 'Linux', 'arch': 'amd64', 'version': '4.15.0-76-generic'}, 'cpu': {'andesite': 2.4868924610739894e-05, 'system': 0.07788886287519288}, 'classLoading': {'loaded': 7080, 'totalLoaded': 7145, 'unloaded': 65}, 'thread': {'running': 28, 'daemon': 12, 'peak': 31, 'totalStarted': 35}, 'compilation': {'name': 'HotSpot 64-Bit Tiered Compilers', 'totalTime': 15598}, 'memory': {'pendingFinalization': 0, 'heap': {'init': 65011712, 'used': 27187080, 'committed': 91226112, 'max': 1035993088}, 'nonHeap': {'init': 7667712, 'used': 53624728, 'committed': 57794560, 'max': -1}}, 'gc': [{'name': 'G1 Young Generation', 'collectionCount': 12, 'collectionTime': 205, 'pools': ['G1 Eden Space', 'G1 Survivor Space', 'G1 Old Gen']}, {'name': 'G1 Old Generation', 'collectionCount': 0, 'collectionTime': 0, 'pools': ['G1 Eden Space', 'G1 Survivor Space', 'G1 Old Gen']}], 'memoryPools': [{'name': "CodeHeap 'non-nmethods'", 'type': 'NON_HEAP', 'collectionUsage': None, 'collectionUsageThreshold': None, 'collectionUsageThresholdCount': None, 'peakUsage': {'init': 2555904, 'used': 1319680, 'committed': 2555904, 'max': 5828608}, 'usage': {'init': 2555904, 'used': 1269760, 'committed': 2555904, 'max': 5828608}, 'usageThreshold': 0, 'usageThresholdCount': 0, 'managers': ['CodeCacheManager']}, {'name': 'Metaspace', 'type': 'NON_HEAP', 'collectionUsage': None, 'collectionUsageThreshold': None, 'collectionUsageThresholdCount': None, 'peakUsage': {'init': 0,
+```
+Page 1/3
+Kaigo#0833: ?join
+R. Danny#6348: <https://discordapp.com/oauth2/authorize?client_id=169293305274826754&scope=bot&permissions=268823638>
+MrRandom#9258: l_jsk py await bot.granitepy.nodes["ALPHA"].ping
+Life beta#1705: 90.76166152954102
+MrRandom#9258: l_jsk py await bot.granitepy.nodes["BETA"].ping
+Life beta#1705: 89.76101875305176
+Xua#1137: 🎴
+Xua#1137: ?charinfo 🎴
+R. Danny#6348: `\U0001f3b4`: FLOWER PLAYING CARDS - 🎴 — <http://www.fileformat.info/info/unicode/char/1f3b4>
+StarrFox#6312: why no use dc
+StarrFox#6312: what heck
+MrRandom#9258: l-jsk py await ctx.player.node.ping
+Life#2673: 5.2242279052734375
+Fyssion#5985: ?tag restart
+R. Danny#6348: The only good way to restart your bot is to shut it down and have your process manager handle it. You can shutdown your bot by running `Bot.close()`.
+
+Do use:
+* run your bot in a process manager such as:
+  - systemd
+  - openrc (gentoo, devuan)
+  - runit (void linux)
+  - supervisord
+  - upstart (old ubuntu)
+  - docker
+* manually reboot it 
+
+Do not use:
+  - a bash loop (it can eat your C-c by rapidly spawning python and if your bot fails it won't stop it from constantly failing)
+  - subprocess.call (you will eat your memory up by not letting your old processes die)
+  - os.exec*
+MrRandom#9258: ok good
+MrRandom#9258: l-play self frontier
+Life#2673: Added the track **Sword Art Online: Alicization Rising Steel Opening Full『ASCA - Selfrontier』** to the queue.
+Life#2673: 
+MrRandom#9258: l-vol 50
+Life#2673: Changed the players volume to `50%`.
+MrRandom#9258: l_jsk py await ctx.player.node.ping
+Life beta#1705: 89.99395370483398
+StarrFox#6312: why doesnt the embed update
+MrRandom#9258: l-jsk py await ctx.player.node.ping
+Life#2673: 3.5026073455810547
+MrRandom#9258: bc i dont have an auto updating embed
+MrRandom#9258: those are dumb imo
+MrRandom#9258: l-info
+Life#2673: 
+MrRandom#9258: l-np
+Life#2673: 
+StarrFox#6312: why have the embed at all then
+MrRandom#9258: cuz it provides an overview
+MrRandom#9258: i acc need to change the picture back to a thumbnail
+StarrFox#6312: why is it so large
+twitch 🔋#7443: trench doesn't require embeds 😎
+StarrFox#6312: bc trench is good
+MrRandom#9258: shutup stupid head
+MrRandom#9258: l-play self frontier
+Life#2673: Added the track **Sword Art Online: Alicization Rising Steel Opening Full『ASCA - Selfrontier』** to the queue.
+twitch 🔋#7443: :/
+MrRandom#9258: wait no
+MrRandom#9258: twitch i feel bad now
+MrRandom#9258: l-leave
+Life#2673: Left the voice channel `Testing`.
+MrRandom#9258: l_play no title
+Life beta#1705: Added the track **[MV] REOL - No title** to the queue.
+Life beta#1705: 
+StarrFox#6312: why not using emojis for the info
+MrRandom#9258: wait what
+MrRandom#9258: ?tag embed
+R. Danny#6348: **Visualizer:** https://leovoel.github.io/embed-visualizer/
+https://cdn.discordapp.com/attachments/84319995256905728/252292324967710721/embed.png
+twitch 🔋#7443: t.play https://open.spotify.com/playlist/5Nta4PBzaJvqu1i1H3FghL
+StarrFox#6312: why is the time inconsistent
+MrRandom#9258: l_play no title
+Life beta#1705: There are no nodes available.
+StarrFox#6312: 0s/formatted time
+MrRandom#9258: cuz im bad
+twitch 🔋#7443: t.join
+MrRandom#9258: l_play no title
+Life beta#1705: Added the track **[MV] REOL - No title** to the queue.
+StarrFox#6312: it should be formatted time/formatted time
+Life beta#1705: 
+MrRandom#9258: das better
+twitch 🔋#7443: t.play elephant tame impala
+Trench#3160: Queued Tame Impala - Elephant (Official Video)
+Trench#3160: Now playing: Tame Impala - Elephant (Official Video)
+StarrFox#6312: trench is so much better
+twitch 🔋#7443: t.queue
+twitch 🔋#7443: well
+StarrFox#6312: no lame embeds
+twitch 🔋#7443: not handling that isn't better but ok
+StarrFox#6312: just the music
+twitch 🔋#7443: t.play brianstorm arctic monkeys
+Trench#3160: Queued Arctic Monkeys - Brianstorm (Official Video)
+twitch 🔋#7443: t.queue
+Trench#3160: Arctic Monkeys - Brianstorm (Official Video)
+StarrFox#6312: what more could you want
+StarrFox#6312: simple
+twitch 🔋#7443: a bot that has good uptime maybe
+StarrFox#6312: inovative
+twitch 🔋#7443: b+piestatus <@!503212304171532289>
+Koishi#8740: 
+twitch 🔋#7443: oh boy
+StarrFox#6312: this was basically ongaku
+twitch 🔋#7443: b+piestatus <@!440113725970710528>
+Koishi#8740: 
+twitch 🔋#7443: i have better uptime than my bit
+StarrFox#6312: but I scrapped it because my interface lib was deleted
+StarrFox#6312: aka granite.py smh
+twitch 🔋#7443: 😳
+twitch 🔋#7443: look it is still on pypi
+twitch 🔋#7443: it is a bag of shit though
+twitch 🔋#7443: and random somehow is still using it
+StarrFox#6312: except it was called grantepy
+StarrFox#6312: and you import it as andesite
+StarrFox#6312: ;bigbrain;
+Emote Collector#3350: <:bigbrain:573326997451833344>
+StarrFox#6312: I will redo ongaku one day
+Trench#3160: Now playing: Arctic Monkeys - Brianstorm (Official Video)
+StarrFox#6312: no embeds
+MrRandom#9258: l-jsk
+Life#2673: Jishaku v1.18.0, discord.py `1.3.1`, `Python 3.7.6 (default, Dec 19 2019, 23:50:13) [GCC 7.4.0]` on `linux`
+Module was loaded 8 minutes ago, cog was loaded 8 minutes ago.
+
+Using 112.5 MB physical memory and 1.1 GB virtual memory, 100.3 MB of which unique to this process.
+Running on PID 15967 (`python`) with 12 thread(s).
+
+This bot is not sharded and can see 7 guild(s) and 18608 user(s).
+Average websocket latency: 35.78ms
+twitch 🔋#7443: maybe i will make another granitepy
+twitch 🔋#7443: that doesn't suck
+StarrFox#6312: doubt
+twitch 🔋#7443: my private bot is going to have a one file granitepy
+twitch 🔋#7443: 
+Xua#1137: cat
+StarrFox#6312: wrong
+twitch 🔋#7443: i have cats everywhere
+twitch 🔋#7443: reddit
+twitch 🔋#7443: twitter
+twitch 🔋#7443: instagram
+Xua#1137: snake-pit
+twitch 🔋#7443: makes my day much better now
+Xua#1137: i uploaded my sleepy kitty
+twitch 🔋#7443: despite the fact my brain is dead
+StarrFox#6312: do you have cat girls though
+twitch 🔋#7443: yes i saw it is cute
+Xua#1137: both of my cats are girls yes starr
+twitch 🔋#7443: i will quit programming if i get a cat
+StarrFox#6312: I have a cat
+StarrFox#6312: kind of
+twitch 🔋#7443: t.play i bet that you look good on the dance floor arctic monkeys
+Trench#3160: Queued Arctic Monkeys - I Bet You Look Good On The Dancefloor (Official Video)
+Trench#3160: Now playing: Arctic Monkeys - I Bet You Look Good On The Dancefloor (Official Video)
+twitch 🔋#7443: https://www.reddit.com/r/mainecoons/
+twitch 🔋#7443: best subreddit
+cameron#9361: b+piestatus <@!428288700732932097>
+Koishi#8740: 
+twitch 🔋#7443: t.play sweetie little jean cage the elephant
+Trench#3160: Queued Cage The Elephant - Sweetie Little Jean (Audio)
+Trench#3160: Now playing: Cage The Elephant - Sweetie Little Jean (Audio)
+MrRandom#9258: l_play seven deadly sins op 4
+Life beta#1705: You are not connected to any voice channels.
+MrRandom#9258: l_play seven deadly sins op 4
+Life beta#1705: Added the track **Nanatsu no Taizai Imashime no Fukkatsu OP 2 『Sky Peace - Ame ga Furu kara Niji ga Deru』 Version 2** to the queue.
+Life beta#1705: 
+IAmTomahawkx#1000: Who ping
+MrRandom#9258: l-leave
+Life#2673: I am not connected to any voice channels.
+MrRandom#9258: l_leave
+Life beta#1705: Left the voice channel `Testing`.
+MrRandom#9258: l_play seven dead sins op latest
+Life beta#1705: Added the track **Nanatsu no Taizai: Wrath of the Gods Opening 2 — Season 3 | delete** to the queue.
+Life beta#1705: 
+MrRandom#9258: l_play seven dead sins op latest
+Life beta#1705: Added the track **Nanatsu no Taizai: Wrath of the Gods Opening 2 — Season 3 | delete** to the queue.
+Life beta#1705: 
+MrRandom#9258: das better
+MrRandom#9258: starr u happy now
+MrRandom#9258: am formatting properly
+twitch 🔋#7443: t.disconnect
+twitch 🔋#7443: t.stop
+twitch 🔋#7443: sad
+twitch 🔋#7443: t.jsk py await ctx.player.destroy()
+MrRandom#9258: l-jsk git pull
+Life#2673: ```sh
+$ git pull
+
+```
+Page 1/1
+MrRandom#9258: l-help
+Life#2673: 
+MrRandom#9258: l_leave
+Life beta#1705: Left the voice channel `Testing`.
+Xua#1137: <:pepePoint:670521339869790209> <@!547861735391100931>
+MrRandom#9258: hmmmmmmmmm
+MrRandom#9258: l-play no title
+Life#2673: Added the track **[MV] REOL - No title** to the queue.
+Life#2673: 
+MrRandom#9258: l-play button relife
+Life#2673: Added the track **PENGUIN RESEARCH - Button** to the queue.
+Seek#6969: ?tag wait_for
+R. Danny#6348: ```py
+@client.event
+async def on_message(message):
+    if message.content.startswith('$thumb'):
+        channel = message.channel
+        await channel.send('Send me that 👍 reaction, mate')
+
+        def check(reaction, user):
+            return user == message.author and str(reaction.emoji) == '👍'
+
+        try:
+            reaction, user = await client.wait_for('reaction_add', timeout=60.0, check=check)
+        except asyncio.TimeoutError:
+            await channel.send('👎')
+        else:
+            await channel.send('👍')
+```
+Life#2673: 
+Seek#6969: ?rtfm wait_for
+R. Danny#6348: 
+MrRandom#9258: l-info
+Life#2673: 
+Connor#8645: Me when I see code from the async branch
+gogurt enjoyer#8035: me when i wanna have fun ☝️
+Life#2673: No tracks added for 5 minutes, Leaving the voice channel.
+StarrFox#6312: <@238356301439041536> yes
+StarrFox#6312: can I start a song at 2:00 though
+MrRandom#9258: l-play liar lyrics
+Life#2673: Added the track **Camila Cabello - Liar (Lyrics)** to the queue.
+Life#2673: 
+MrRandom#9258: l-play little lies remasterd
+Life#2673: Added the track **Little Lies (2018 Remaster)** to the queue.
+MrRandom#9258: l-play dreams remastered
+Life#2673: Added the track **Dreams (2002 Remaster)** to the queue.
+Darjusz#3775: ?tag nitro
+R. Danny#6348: cheap and support discord
+---- ADS OFF ----
+Doesn't have many features
+Darjusz#3775: ?tag pseudonitro
+R. Danny#6348: Tag not found.
+MrRandom#9258: need
+MrRandom#9258: to f
+MrRandom#9258: focus
+MrRandom#9258: on
+MrRandom#9258: code
+MrRandom#9258: l_playlists
+Life beta#1705: 
+Darjusz#3775: ?tag bot nitro
+R. Danny#6348: Bot's have pseudo-nitro. This means they can use emoji from any server. They also are able to use animated emoji. 
+
+To use emoji, `?tag emoji`. For animated emoji, you need to get them via their id.
+```py
+#this gets the emoji from it's id, and sends it. bot is an instance of commands.Bot
+await ctx.send(bot.get_emoji(emoji_id))```
+To list the emoji name & ids:
+```py
+[(e.id, e.name) for e in bot.emojis]
+# returns:
+[(emoji_id, name), (emoji_id2, name2), ...]```
+Life#2673: 
+MrRandom#9258: l_playlists
+Life beta#1705: 
+twitch 🔋#7443: code
+StarrFox#6312: I coded a bf
+twitch 🔋#7443: boyfriend?
+StarrFox#6312: his name was trench
+Life#2673: 
+StarrFox#6312: when I talk to him he only plays music though
+MrRandom#9258: i cannot beleive the convo going on in general atm
+twitch 🔋#7443: <@!238356301439041536> it's 3am you better be heading off to bed now
+MrRandom#9258: nah heck u
+MrRandom#9258: WHENS ITS RAINING
+MrRandom#9258: song is so good
+MrRandom#9258: l_playlists 19
+Life beta#1705: You have no playlists with the name or id: `19`.
+MrRandom#9258: l_playlists 16
+Life beta#1705: 
+MrRandom#9258: l_jsk reload cogs.voice.playlists
+Life beta#1705: 📥⚠ `cogs.voice.playlists`
+```py
+Traceback (most recent call last):
+  File "C:\Users\mynam\PycharmProjects\Life\venv\lib\site-packages\jishaku\cog_base.py", line 199, in jsk_load
+    method(extension)
+discord.ext.commands.errors.ExtensionNotFound: Extension 'cogs.voice.playlists' could not be loaded.
+
+```
+MrRandom#9258: o
+Life beta#1705: 🔁 `cogs.voice.playlist`
+MrRandom#9258: l_playlists 16
+Life beta#1705: 
+MrRandom#9258: l_playlists 16
+Life beta#1705: 
+Life#2673: No tracks added for 5 minutes, Leaving the voice channel.
+nx#4482: st messages
+Statz#3786: 
+nx#4482: st voice
+Statz#3786: 
+StarrFox#6312: st messages <@285148358815776768>
+Statz#3786: 
+StarrFox#6312: lame
+nx#4482: st messages <@!122137595214954498>
+Statz#3786: 
+twitch 🔋#7443: punk rockers
+StarrFox#6312: rock
+Xua#1137: `userinfo 561207779805757471
+spoo.py(◡‿◡✿)#6138: ```prolog
+​      User: RelaxX#0384
+        ID: 561207779805757471
+     Names: RelaxX
+   Servers: 1 shared
+   Created: 10 months ago (2019-03-29 15:19:21.442000 UTC)
+    Joined: 2 months ago (2019-12-02 20:17:48.952000 UTC)
+ Last Seen: 14 seconds ago (2020-02-22 03:11:44.730000 UTC)
+Last Spoke: 14 seconds ago (2020-02-22 03:11:44.730000 UTC)
+Spoke Here: 14 seconds ago (2020-02-22 03:11:44.730000 UTC)
+     Roles: @​everyone
+   Playing: Custom Status```
+StarrFox#6312: `userinfo  <@455289384187592704>
+spoo.py(◡‿◡✿)#6138: ```prolog
+​      User: Xua#1137
+  Nickname: Cinnamon
+        ID: 455289384187592704
+     Names: Xua, iAuxiliaryDev™, iAuxiliaryDev
+     Nicks: Cinnamon, legitimate potatos, Patient 2
+   Servers: 11 shared
+   Created: 1 year, 8 months ago (2018-06-10 08:37:28.058000 UTC)
+    Joined: a month ago (2020-01-01 05:46:22.974000 UTC)
+ Last Seen: 36 seconds ago (2020-02-22 03:11:59.344000 UTC)
+Last Spoke: 36 seconds ago (2020-02-22 03:11:59.344000 UTC)
+Spoke Here: 36 seconds ago (2020-02-22 03:11:59.344000 UTC)
+     Roles: Helper, Tester, v1.0 Alpha Tester, Nitro Booster, Virus Event Player, @​everyone
+   Playing: Custom Status```
+nx#4482: `userinfo nxn
+spoo.py(◡‿◡✿)#6138: ```prolog
+​      User: nx#4482
+  Nickname: nxn
+        ID: 122137595214954498
+     Names: nx, phil, zeca
+     Nicks: nxn, otter
+   Servers: 4 shared
+   Created: 4 years ago (2015-12-04 00:51:11.906000 UTC)
+    Joined: 2 months ago (2019-11-23 01:21:03.613000 UTC)
+ Last Seen: now (2020-02-22 03:12:48.896000 UTC)
+Last Spoke: now (2020-02-22 03:12:48.896000 UTC)
+Spoke Here: now (2020-02-22 03:12:48.896000 UTC)
+     Roles: Tester, Virus Event Player, @​everyone```
+nx#4482: 2015
+StarrFox#6312: `userinfo
+spoo.py(◡‿◡✿)#6138: ```prolog
+​      User: StarrFox#6312
+  Nickname: An Actual Otter
+        ID: 285148358815776768
+     Names: StarrFox, Honorable Failure, I hate myself
+     Nicks: An Actual Otter, Potusd, Starr Chan
+   Servers: 3 shared
+   Created: 2 years ago (2017-02-25 20:37:46.542000 UTC)
+    Joined: 1 year, 5 months ago (2018-08-25 22:44:07.046000 UTC)
+ Last Seen: now (2020-02-22 03:13:04.911000 UTC)
+Last Spoke: now (2020-02-22 03:13:04.911000 UTC)
+Spoke Here: now (2020-02-22 03:13:04.911000 UTC)
+     Roles: Tester, v1.0 Alpha Tester, 日本語, Virus Event Player, @​everyone```
+StarrFox#6312: eeeeee
+Equity#3464: good days
+StarrFox#6312: dc/ping
+Discord Chan#0795: 🏓 51ms
+StarrFox#6312: dc/help
+Discord Chan#0795: Use `dc/help <command/cog>` for more info on a command/cog.
+
+**anime** - `anime`
+**general** - `avatar`, `charinfo`, `clean`, `guildinfo`, `memberinfo`, `prefixfinder`, `raw`, `say`
+**images** - `difference`, `shuffle`
+**meta** - `about`, `invite`, `ping`, `socketstats`, `source`, `support`, `vote`
+**mod** - `prefix`
+**owner** - `channel_link`, `disable`, `dm`, `enable`, `shutdown`
+**snipe** - `snipe`
+**​No Category** - `help`
+StarrFox#6312: ah yes how helpful
+Equity#3464: 😎
+Equity#3464: naps are nice
+Cy#2501: K.trivia hard
+Kanade#5520: 
+Equity#3464: 4
+nx#4482: K.trivia hard
+Kanade#5520: 
+Kanade#5520: <@!122137595214954498> Correct answer!
+Kanade#5520: <@354316246759636992> Timeout! The answer is "**Paradise, Nevada**"
+nx#4482: K.trivia hard
+Kanade#5520: 
+Kanade#5520: <@!122137595214954498> Wrong answer! The correct answer is "**Vitrainium**"
+StarrFox#6312: repeat
+Equity#3464: idk any of that shit
+Xua#1137: k.trivia easy
+Kanade#5520: 
+StarrFox#6312: my chem class had a song
+Xua#1137: lol fuck if i know this crap
+Kanade#5520: <@!455289384187592704> Correct answer!
+Equity#3464: lol same
+nx#4482: K.trivia hard
+Kanade#5520: 
+Xua#1137: k.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!455289384187592704> Correct answer!
+Kanade#5520: <@!122137595214954498> Wrong answer! The correct answer is "**Hispania **"
+nx#4482: bruh
+Equity#3464: k.trivia easy
+Kanade#5520: 
+Kanade#5520: <@373256462211874836> Correct answer!
+Xua#1137: yes
+Xua#1137: good man
+Equity#3464: i dip it
+Xua#1137: i knew that answer from civ 5
+nx#4482: K.trivia hard
+Kanade#5520: 
+Equity#3464: K.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!122137595214954498> Wrong answer! The correct answer is "**Billy Loomis and Stu Macher**"
+Kanade#5520: <@373256462211874836> Correct answer!
+Equity#3464: gta 4
+StarrFox#6312: k.trivia
+Kanade#5520: 
+Equity#3464: ah what a great story
+Kanade#5520: <@!285148358815776768> Correct answer!
+Equity#3464: k.trivia easy
+Kanade#5520: 
+Xua#1137: for some reason i find it weird to hear "protagonist" outside of my anime games even though its totally legit
+Kanade#5520: <@373256462211874836> Correct answer!
+StarrFox#6312: k.trivia
+Kanade#5520: 
+Kanade#5520: <@!285148358815776768> Wrong answer! The correct answer is "**100 Megatons**"
+Equity#3464: 100?
+Xua#1137: i guessed 75
+Equity#3464: k.trivia easy
+Kanade#5520: 
+Equity#3464: uhhh
+StarrFox#6312: 3
+Equity#3464: I don't watch this shit
+Kanade#5520: <@373256462211874836> Correct answer!
+StarrFox#6312: eleven
+Equity#3464: k.trivia easy
+Kanade#5520: 
+StarrFox#6312: 4
+Equity#3464: ree
+Kanade#5520: <@373256462211874836> Correct answer!
+Xua#1137: dont tell him the answer >:[
+Xua#1137: k.trivia easy
+Equity#3464: k.trivia easy
+Kanade#5520: 
+Kanade#5520: 
+Kanade#5520: <@!455289384187592704> Wrong answer! The correct answer is "**244**"
+StarrFox#6312: top is 2
+StarrFox#6312: aw
+devon#4089: ?tag create moshimoshi もしもし
+R. Danny#6348: Tag moshimoshi successfully created.
+Kanade#5520: <@373256462211874836> Correct answer!
+StarrFox#6312: devon
+Equity#3464: Hi devon <:GWmythsBlobWaveCool:391322023739129856>
+StarrFox#6312: do trivia uwu
+devon#4089: ?tag delete moshimoshi
+R. Danny#6348: Tag and corresponding aliases successfully deleted.
+Equity#3464: k.trivia easy
+Kanade#5520: 
+Xua#1137: 📞 <:rooVV:511919341118160912> moshimoshi
+Equity#3464: def land
+Kanade#5520: <@373256462211874836> Correct answer!
+Equity#3464: K.trivia easy
+Kanade#5520: 
+Xua#1137: yeah deserts obv
+Kanade#5520: <@373256462211874836> Wrong answer! The correct answer is "**Homework**"
+Equity#3464: :(
+StarrFox#6312: oceans are just water deserts
+Equity#3464: daft punk is good shit
+Xua#1137: k.trivia easy
+Kanade#5520: 
+Equity#3464: xua should know this
+Xua#1137: oh i dont watch new stuff
+Cy#2501: K.sudo py return len(_bot.get_cog('OpenTDB')._OpenTDB__cache)
+Xua#1137: i prefer the older stuf
+Kanade#5520: 
+Equity#3464: 👁️
+StarrFox#6312: porb 3
+Xua#1137: and generally the games
+Kanade#5520: <@!455289384187592704> Wrong answer! The correct answer is "**Ame & Yuki**"
+StarrFox#6312: aw
+Equity#3464: >play get lucky
+ExoBot#4178: Please choose your song with a reaction
+devon#4089: k.trivia easy
+Kanade#5520: 
+ExoBot#4178: ```ini
+Added Daft Punk - Get Lucky (Official Audio) ft. Pharrell Williams, Nile Rodgers to the Queue
+```
+ExoBot#4178: 
+Kanade#5520: <@!122122926760656896> Wrong answer! The correct answer is "**Stitch!**"
+StarrFox#6312: lol
+devon#4089: excellent
+Xua#1137: probably the only anime my brothers used to like
+Xua#1137: <:KaedeThinking:647225036469698571>
+devon#4089: cory in the house?
+Xua#1137: no stitch lol
+ExoBot#4178: 
+ExoBot#4178: <@373256462211874836> has stopped the player as an admin or DJ.
+devon#4089: k.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!122122926760656896> Wrong answer! The correct answer is "**Vatican City**"
+devon#4089: k.trivia medium
+Kanade#5520: 
+Kanade#5520: <@!122122926760656896> Wrong answer! The correct answer is "**The Back Alley**"
+devon#4089: k.trivia medium
+Kanade#5520: 
+Kanade#5520: <@!122122926760656896> Wrong answer! The correct answer is "**False**"
+devon#4089: k.trivia medium
+Kanade#5520: 
+Kanade#5520: <@!122122926760656896> Wrong answer! The correct answer is "**October 1, 1949**"
+devon#4089: k.trivia medium
+Kanade#5520: 
+Kanade#5520: <@!122122926760656896> Wrong answer! The correct answer is "**Purple**"
+devon#4089: k.trivia medium
+Kanade#5520: 
+Kanade#5520: <@!122122926760656896> Wrong answer! The correct answer is "**Laura Roslin**"
+devon#4089: k.trivia medium
+Kanade#5520: 
+Kanade#5520: <@!122122926760656896> Correct answer!
+devon#4089: k.trivia medium
+Kanade#5520: 
+Kanade#5520: <@!122122926760656896> Correct answer!
+devon#4089: k.trivia medium
+devon#4089: hell yeah
+devon#4089: we've exhausted the supply guys
+devon#4089: fossil fuels get FUCKED
+Equity#3464: <:rooEZSip:596577108675788800>
+devon#4089: k.trivia easy
+Kanade#5520: 
+devon#4089: oh no you dont
+devon#4089: you fuckin coy bastard
+Kanade#5520: <@!122122926760656896> Wrong answer! The correct answer is "**1982**"
+devon#4089: k.trivia easy
+Kanade#5520: 
+devon#4089: >mfw
+Kanade#5520: <@!122122926760656896> Correct answer!
+devon#4089: k.trivia easy
+Kanade#5520: 
+devon#4089: why is this easy
+devon#4089: this is extremely dependent on you having watched this show and also caring
+Kanade#5520: <@!122122926760656896> Correct answer!
+devon#4089: k.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!122122926760656896> Wrong answer! The correct answer is "**1999**"
+devon#4089: k.trivia easy
+Kanade#5520: 
+MrHouck#2775: +dong
+YMYBot#9749: 
+MrHouck#2775: +dong
+YMYBot#9749: Bu komut bekleme modunda... 3.1s sonra tekrar dene!
+Kanade#5520: <@!122122926760656896> Wrong answer! The correct answer is "**Victory**"
+MrHouck#2775: fuck
+devon#4089: k.trivia easy
+MrHouck#2775: +dong
+Kanade#5520: 
+YMYBot#9749: 
+devon#4089: Uhm.. The Deatrh Star???
+Kanade#5520: <@!122122926760656896> Correct answer!
+devon#4089: k.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!122122926760656896> Wrong answer! The correct answer is "**1997**"
+A Discord User#5290: ?tag get dm id
+R. Danny#6348: Tag not found. Did you mean...
+get
+get_x
+get git
+A Discord User#5290: ?tag search pm
+devon#4089: this man has a very loose definition of easy trivia
+R. Danny#6348: The query length must be at least three characters.
+devon#4089: k.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!122122926760656896> Wrong answer! The correct answer is "**Bambi**"
+devon#4089: k.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!122122926760656896> Correct answer!
+devon#4089: gigahetz lol
+StarrFox#6312: k.trivia easy
+Kanade#5520: 
+devon#4089: 2 million cishets is 2 gigahetz
+Kanade#5520: <@!285148358815776768> Wrong answer! The correct answer is "**Subscriber**"
+Equity#3464: k.trivia easy
+Kanade#5520: 
+Equity#3464: fuck if i know
+Kanade#5520: <@373256462211874836> Wrong answer! The correct answer is "**Isaac Clarke**"
+Equity#3464: k.trivia easy
+Kanade#5520: 
+Kanade#5520: <@373256462211874836> Wrong answer! The correct answer is "**Don Cherry**"
+Equity#3464: k.trivia easy
+Kanade#5520: 
+Equity#3464: plz g burj khalifa height
+kriX#9879: 
+Kanade#5520: <@373256462211874836> Wrong answer! The correct answer is "**2,722 ft**"
+Equity#3464: K.trivia easy
+Kanade#5520: 
+Kanade#5520: <@373256462211874836> Correct answer!
+Equity#3464: k.trivia easy
+Kanade#5520: 
+Kanade#5520: <@373256462211874836> Wrong answer! The correct answer is "**Cylinder**"
+Equity#3464: k.trivia
+Kanade#5520: 
+Kanade#5520: <@373256462211874836> Correct answer!
+Equity#3464: k.trivia easy
+Equity#3464: <:GWseremePeepoGGERS:402867853906280450>
+StarrFox#6312: k.trivia easy
+Xua#1137: k.trivia ded
+Kanade#5520: 
+Equity#3464: plz g does jeopardy have an api
+kriX#9879: 
+StarrFox#6312: k.trivia easy
+StarrFox#6312: k.trivia easy
+Cy#2501: K.trivia easy
+Kanade#5520: 
+Cy#2501: K.sudo disable trivia
+Equity#3464: 1
+StarrFox#6312: give trivia
+Kanade#5520: <@354316246759636992> Timeout! The answer is "**1914**"
+StarrFox#6312: k.trivia
+Equity#3464: oic
+StarrFox#6312: K.trivia
+StarrFox#6312: ~!trivia
+Cy#2501: K.sudo enable trivia
+StarrFox#6312: <@354316246759636992> trivia easy
+Equity#3464: k.trivia easy
+Cy#2501: K.sudo py return await _bot.get_cog('OpenTDB').get_questions(amount=1, difficulty="easy")
+Kanade#5520: 
+StarrFox#6312: why no mention prefix
+Cy#2501: K.trivia easy
+Kanade#5520: 
+Cy#2501: K.sudo py return await _bot.get_cog('OpenTDB').get_questions(amount=1, difficulty="easy")
+Kanade#5520: 
+Kanade#5520: <@354316246759636992> Timeout! The answer is "**John Macdonald**"
+StarrFox#6312: k.trivia hard
+Kanade#5520: 
+Kanade#5520: <@!285148358815776768> Correct answer!
+StarrFox#6312: k.trivia hard
+Kanade#5520: 
+Kanade#5520: <@!285148358815776768> Wrong answer! The correct answer is "**Live and Learn**"
+StarrFox#6312: k.trivia hard
+Kanade#5520: 
+Kanade#5520: <@!285148358815776768> Wrong answer! The correct answer is "**False**"
+Cy#2501: If it errors just ignore, cant fix that dumb error yet
+StarrFox#6312: k.trivia easy
+StarrFox#6312: ironic
+Equity#3464: is kanade open source
+StarrFox#6312: yes
+Equity#3464: then i shall make a pr
+Cy#2501: Basically i forgot that the method im using is a list
+StarrFox#6312: k.source
+Kanade#5520: https://github.com/CyCanCode/Kanade
+StarrFox#6312: do it
+Equity#3464: ?remind 30 minutes
+R. Danny#6348: Alright <@373256462211874836>, in 30 minutes: …
+Equity#3464: lemme hop on pc
+Cy#2501: I will close the pr immediately
+StarrFox#6312: why
+Equity#3464: ok creatable
+Equity#3464: k.trivia easy
+Equity#3464: <:dabJuicy:596576797588717588>
+Equity#3464: >trivia a
+Equity#3464: ×trivia
+Equity#3464: =trivia
+Equity#3464: ]trivia
+StarrFox#6312: .trivia
+StarrFox#6312: //trivia
+StarrFox#6312: e.trivia
+StarrFox#6312: rpg trivia
+StarrFox#6312: I wish there was a not flag in discord search
+Equity#3464: i wish discord search just used sql
+Equity#3464: 😎
+A Discord User#5290: discord search regex when
+StarrFox#6312: hb!help
+Harmonbot#4049: 
+StarrFox#6312: hb!trivia
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `hb!trivia`
+Equity#3464: hb!trivia
+Cy#2501: Edit per second
+Harmonbot#4049: 
+StarrFox#6312: space
+Harmonbot#4049: 
+Equity#3464: multiple choice is bettee
+StarrFox#6312: hb!trivia
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `hb!trivia`
+StarrFox#6312: true
+Equity#3464: plz g mark stutzman
+kriX#9879: 
+Harmonbot#4049: 
+StarrFox#6312: oh this
+StarrFox#6312: hb!trivia
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `hb!trivia`
+StarrFox#6312: uhhhh
+Harmonbot#4049: 
+StarrFox#6312: hb!trivia easy
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `hb!trivia easy`
+Harmonbot#4049: 
+StarrFox#6312: hb!help trivia
+Harmonbot#4049: 
+Cy#2501: U crap wifi push alrdy
+Equity#3464: i wanna see the hard questions
+Cy#2501: K.jsk git pull origin develop
+Kanade#5520: ```sh
+$ git pull origin develop
+
+```
+Page 1/1
+Cy#2501: K.sudo ereload apis.opentdb commands.game
+Cy#2501: U better not error u prick <@669413776352608266>
+StarrFox#6312: hb!help trivia jeopardy
+Harmonbot#4049: 
+StarrFox#6312: hb!trivia jeopardy
+Equity#3464: ?tag jsk
+R. Danny#6348: jishaku is a debugging and experimenting cog for Discord bots using discord.py@rewrite.
+Note that this only works with Python 3.6+ and discord.py rewrite.
+You can install it by running the following:
+```
+pip install -U jishaku
+```or
+```
+pip install -U git+https://github.com/Gorialis/jishaku
+```
+To get the cog running, simply do
+```
+bot.load_extension('jishaku')
+```
+You can see the source code yourself here: <https://github.com/Gorialis/jishaku>
+Harmonbot#4049: 
+IAmTomahawkx#1000: ]ping
+BOB#0346: Pong
+Equity#3464: ?tag jskdoc
+R. Danny#6348: Tag not found. Did you mean...
+jsk
+jskv
+jsk -v
+BOB#0346: 
+IAmTomahawkx#1000: Eh
+Equity#3464: ?tag create "jishaku docs" https://jishaku.readthedocs.io
+R. Danny#6348: Tag jishaku docs successfully created.
+StarrFox#6312: 3 2
+Harmonbot#4049: 
+Equity#3464: ?tag alias jskdoc jishaku docs
+R. Danny#6348: Tag alias "jskdoc" that points to "jishaku docs" successfully created.
+StarrFox#6312: 2 3
+Harmonbot#4049: 
+StarrFox#6312: cancel
+StarrFox#6312: exit
+StarrFox#6312: 2 3
+Harmonbot#4049: 
+StarrFox#6312: oh no
+Cy#2501: K.jsk git pull origin develop
+Kanade#5520: ```sh
+$ git pull origin develop
+
+```
+Page 1/1
+Cy#2501: K.sudo ereload commands.game
+Cy#2501: K.trivia hard
+Kanade#5520: 
+Cy#2501: K.trivia hard
+Kanade#5520: 
+Cy#2501: Kys
+Cy#2501: K.trivia hard
+Kanade#5520: 
+Kanade#5520: <@354316246759636992> Wrong answer! The correct answer was "**Hammer**"
+Cy#2501: K.trivia
+Kanade#5520: 
+Cy#2501: K.trivia hard
+Kanade#5520: 
+Kanade#5520: <@354316246759636992> Timeout! The answer was "**Crete**"
+StarrFox#6312: 1 toys and games
+StarrFox#6312: 1 "toys and games"
+Cy#2501: K.trivia hard
+Kanade#5520: 
+StarrFox#6312: 1 1
+Harmonbot#4049: 
+Cy#2501: Idc the answer
+StarrFox#6312: 1 200
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `1 200`
+Kanade#5520: <@354316246759636992> Timeout! The answer was "**Ossan**"
+Cy#2501: Im testing if it fk up or no
+Cy#2501: K.trivia hard
+Kanade#5520: 
+Harmonbot#4049: 
+Kanade#5520: <@354316246759636992> Timeout! The answer was "**Oswald**"
+Cy#2501: K.trivia hard
+Kanade#5520: 
+Cy#2501: K.trivia hard
+Kanade#5520: <@354316246759636992> Timeout! The answer was "**The Lead Programmer's birthday**"
+StarrFox#6312: hb!trivia jeopardy stop
+Harmonbot#4049: 
+Cy#2501: K thats cuz of max concurrency
+Kanade#5520: <@354316246759636992> Timeout! The answer was "**1848**"
+IAmTomahawkx#1000: \<:pepePoint:670521339869790209>
+Cute#0313: +blotchy 285148358815776768
+Koishi#8740: 357.44ms
+Cy#2501: ?rtfm MaxCon
+R. Danny#6348: 
+Cute#0313: +pixelate 285148358815776768
+Koishi#8740: 286.52ms
+Cute#0313: cute
+IAmTomahawkx#1000: ]say <:pepePoin:670521339869790209>
+BOB#0346: <:pepePoin:670521339869790209>
+IAmTomahawkx#1000: Oh shit
+IAmTomahawkx#1000: <:wdym:652698295709204531>
+Cute#0313: +blotchy 214128381762076672
+Koishi#8740: 532.00ms
+Cute#0313: +pixelate 214128381762076672
+IAmTomahawkx#1000: Never knew that
+Koishi#8740: 433.62ms
+Cute#0313: hm
+spoopy🍡#0567: are you drunk
+Cute#0313: and
+IAmTomahawkx#1000: `needsmorejpeg
+spoo.py(◡‿◡✿)#6138: 
+Cute#0313: +blotchy 95473026350452736
+Koishi#8740: 347.72ms
+Cute#0313: +pixelate 95473026350452736
+Koishi#8740: 270.41ms
+Cute#0313: hm
+Cute#0313: not much diff
+Cute#0313: weird
+Equity#3464: ?tag jsk
+R. Danny#6348: jishaku is a debugging and experimenting cog for Discord bots using discord.py@rewrite.
+Note that this only works with Python 3.6+ and discord.py rewrite.
+You can install it by running the following:
+```
+pip install -U jishaku
+```or
+```
+pip install -U git+https://github.com/Gorialis/jishaku
+```
+To get the cog running, simply do
+```
+bot.load_extension('jishaku')
+```
+You can see the source code yourself here: <https://github.com/Gorialis/jishaku>
+Cy#2501: K.sudo py return str(discord.ext.commands!.BucketType.channel)
+Kanade#5520: 
+Cute#0313: +blotchy 331183179388157953
+Koishi#8740: 361.90ms
+Cute#0313: +pixelate 331183179388157953
+Koishi#8740: 692.18ms
+Cute#0313: bleh
+Cute#0313: it eats the face
+IAmTomahawkx#1000: ?tag dpycogs
+R. Danny#6348: Tag not found. Did you mean...
+dpycon2019
+dpycord-fs
+dpy
+IAmTomahawkx#1000: ?tag create dpycogs soon™️
+R. Danny#6348: Tag dpycogs successfully created.
+StarrFox#6312: +blotchy 115691005197549570
+Koishi#8740: 309.84ms
+StarrFox#6312: ah yes
+Cute#0313: +help pixelate
+YMYBot#9749: "pixelate" komutu bulunamadı.
+Koishi#8740: ```
++pixelate [target]
+
+Spare me the details.
+
+```
+Welcomer#5491: 
+ROBOT#2328: No command called "pixelate" found.
+Cute#0313: hm
+Cute#0313: +pixelate 115691005197549570
+Koishi#8740: 800.41ms
+Cute#0313: +blotchy 194966708769914880
+Koishi#8740: 360.52ms
+Cute#0313: +pixelate 194966708769914880
+Koishi#8740: 303.32ms
+Cute#0313: hm
+IAmTomahawkx#1000: <:roothink:585714916552605697>
+Cy#2501: ?rtfm max_con
+R. Danny#6348: 
+Cute#0313: +avatar 309579216322691073
+Koishi#8740: 
+Cute#0313: +blotchy 309579216322691073
+Koishi#8740: 326.79ms
+Cute#0313: +pixelate 309579216322691073
+Koishi#8740: 257.55ms
+Cute#0313: only anime eyes can be spared the blotch
+Cute#0313: +blotchy 453340973125074964
+Koishi#8740: 309.16ms
+Cute#0313: +pixelate 453340973125074964
+Koishi#8740: 257.75ms
+lgs#5544: ?invite
+R. Danny#6348: <https://discordapp.com/oauth2/authorize?client_id=169293305274826754&scope=bot&permissions=268823638>
+Cute#0313: +blotchy
+Koishi#8740: 425.22ms
+Equity#3464: @Starr\
+Cute#0313: +avatar
+Koishi#8740: 
+Cute#0313: +pixelate
+Koishi#8740: 1078.28ms
+Cute#0313: hm
+Cute#0313: +blotchy 124316478978785283
+Koishi#8740: 336.56ms
+Cute#0313: +pixelate 124316478978785283
+Koishi#8740: 287.17ms
+Equity#3464: \<@!285148358815776768>
+Cy#2501: K.sudo sh git pull origin develop
+Kanade#5520: 
+Cy#2501: K.sudo sh git fetch origin develop --tags
+Kanade#5520: 
+Cy#2501: K.sudo ereload
+Cy#2501: K.trivia
+Kanade#5520: 
+Cy#2501: K.trivia
+Kanade#5520: 
+Cy#2501: K.trivia
+Kanade#5520: 
+Cy#2501: K.trivia
+Kanade#5520: 
+Cy#2501: K.trivia
+Kanade#5520: 
+Cy#2501: K.trivia
+Kanade#5520: 
+Cy#2501: Todo list
+Todo#9724: 
+Kanade#5520: <@354316246759636992> Timeout! The answer was "**Hayao Miyazaki**"
+Kanade#5520: <@354316246759636992> Timeout! The answer was "**Michael Emerson**"
+Equity#3464: you should allow trivia questions w/ specified categories
+Xua#1137: hm
+Cy#2501: Yeah but im gonna refractor some shit first
+Xua#1137: theres no good way to display playing cards
+Cy#2501: Code looks like a mess
+Equity#3464: rip
+Cy#2501: Todo clear
+Todo#9724: Successfully cleared your todo list.
+Equity#3464: <@!668313637785567242>'s table code looks like a mess
+Equity#3464: sh/sql select 1,2,4
+Cy#2501: I also want to change API but dunno other trivia API
+Shell#4843: ```
+==================================
+| ?column? | ?column? | ?column? |
+| -------- | -------- | -------- |
+|    1     |    2     |    4     |
+==================================
+```
+Equity#3464: sh/jsk src sql
+Shell#4843: ```py
+    @commands.command()
+    async def sql(self, ctx, *, query: str):
+
+        func = self.bot.db.fetch
+        if query.count(";") > 1:
+            func = self.bot.db.execute
+        try:
+            resp = await func(query)
+        except Exception as error:
+            await ctx.send(f"```fix\n{error}\n```")
+            return
+        table = Table()
+        if isinstance(resp, list) and len(resp) > 0:
+            keys = list(resp[0].keys())
+            table.rows.append(keys)
+            table.rows.extend([list(x.values()) for x in resp])
+            tab = table.build()
+            if len(tab) > 1994:
+                stream = io.StringIO(tab)
+                await ctx.send("Query result is too big", file=discord.File(stream, "result.txt"))
+            else:
+                await ctx.send(f"```\n{tab}\n```")
+        elif isinstance(resp, str):
+            await ctx.send(f"```\n{resp}\n```")
+        else:
+            await ctx.send(f"{func.__name__.title()} returned an empty value")
+
+```
+Page 1/1
+Xua#1137: hey enter
+Xua#1137: theres a uh
+Equity#3464: maybe i should upload to mystbin instead hm
+Xua#1137: lib
+Xua#1137: that does this
+Equity#3464: i know
+Equity#3464: tabulate?
+Xua#1137: yeah
+Equity#3464: i wanted the pleasure of doing it myself although
+Xua#1137: fair enough
+Equity#3464: but tbh i'll probably use it if my impl gives me any trouble
+Xua#1137: ``a
+b
+c``
+Xua#1137: alrigt
+Equity#3464: sh/sql select * from settings limit 3;
+Shell#4843: ```
+================================================================
+|      guild_id      |       prefix       |        nsfw        |
+| ------------------ | ------------------ | ------------------ |
+| 668326970043662336 |        sh/         |        True        |
+| 336642139381301249 |        sh/         |       False        |
+================================================================
+```
+Equity#3464: tfw too much spacing
+Xua#1137: \♠️
+Xua#1137: $dev eval '1\\♠️'
+Abyss#6729: 1\♠️
+MrHouck#2775: ?tag lp
+R. Danny#6348: <https://automatetheboringstuff.com/> (for complete beginners to programming)
+<https://learnxinyminutes.com/docs/python3/> (for people who know programming already)
+<https://docs.python.org/3/tutorial/> (official tutorial)
+<http://python.swaroopch.com/> (useful book)
+<http://greenteapress.com/wp/think-python-2e/> (another decent book)
+see also: <http://www.codeabbey.com/> (exercises for beginners)
+Equity#3464: i like how discord.net requires you to put the raw codepoint when sending messages
+Xua#1137: U+81F0A or whatever right
+Equity#3464: i think its \U0008F10A
+Equity#3464: but yeah
+Equity#3464: oh dear <https://github.com/TheEquity/hmmm/blob/develop/utils/sqltable.py>
+Equity#3464: maybe i should use tabulate
+StarrFox#6312: use terminaltables
+Equity#3464: plz g python tabulate
+Xua#1137: ?rtfm embed.field
+kriX#9879: 
+R. Danny#6348: 
+StarrFox#6312: dc/ping
+Discord Chan#0795: 🏓 49ms
+Equity#3464: dc/sql
+Equity#3464: dc/jsk
+Discord Chan#0795: You must own this bot to use Jishaku.
+R. Danny#6348: <@373256462211874836>, 30 minutes ago: …
+
+<https://discordapp.com/channels/336642139381301249/381963689470984203/680620147958087710>
+Cyrus#8315: ?tag eh
+R. Danny#6348: Docs: https://discordpy.readthedocs.io/en/latest/ext/commands/commands.html#error-handling
+Example: <https://gist.github.com/EvieePy/7822af90858ef65012ea500bcecf1612>
+StarrFox#6312: I have a db command in the aiomonitor but not in the bot
+Cyrus#8315: ?tag error handler
+R. Danny#6348: Docs: https://discordpy.readthedocs.io/en/latest/ext/commands/commands.html#error-handling
+Example: <https://gist.github.com/EvieePy/7822af90858ef65012ea500bcecf1612>
+StarrFox#6312: bakugan
+Harmonbot#4049: 
+StarrFox#6312: 5 400
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `5 400`
+StarrFox#6312: no idea
+Harmonbot#4049: 
+StarrFox#6312: 4 400
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `4 400`
+Fletcha#9630: ?tag voice
+R. Danny#6348: <https://github.com/Rapptz/discord.py/blob/master/examples/basic_voice.py>
+Myst's playlist ex:
+<https://gist.github.com/EvieePy/ab667b74e9758433b3eb806c53a19f34>
+Harmonbot#4049: 
+StarrFox#6312: 4 600
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `4 600`
+StarrFox#6312: <:FeelsBeatsMan:597591202614738947>
+Harmonbot#4049: 
+StarrFox#6312: 4 800
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `4 800`
+StarrFox#6312: the dragons
+Harmonbot#4049: 
+StarrFox#6312: idk how to spell that
+StarrFox#6312: 3 400
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `3 400`
+StarrFox#6312: bellhop
+Harmonbot#4049: 
+StarrFox#6312: 3 600
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `3 600`
+StarrFox#6312: grass hopper
+Harmonbot#4049: 
+StarrFox#6312: ok
+StarrFox#6312: lame
+StarrFox#6312: 3 800
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `3 800`
+StarrFox#6312: chops
+StarrFox#6312: sidechops
+Harmonbot#4049: 
+StarrFox#6312: 2 400
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `2 400`
+Leon#2018: $source
+Abyss#6729: https://github.com/XuaTheGrate/Abyss
+Harmonbot#4049: 
+StarrFox#6312: 2 600
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `2 600`
+Harmonbot#4049: 
+StarrFox#6312: gillotin
+StarrFox#6312: oh
+StarrFox#6312: 2 800
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `2 800`
+Harmonbot#4049: 
+StarrFox#6312: 1 400
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `1 400`
+Harmonbot#4049: 
+StarrFox#6312: 5 600
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `5 600`
+Harmonbot#4049: 
+StarrFox#6312: 5 800
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `5 800`
+Harmonbot#4049: 
+StarrFox#6312: 1 600
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `1 600`
+Harmonbot#4049: 
+StarrFox#6312: 1 800
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `1 800`
+StarrFox#6312: jumbalia
+Harmonbot#4049: 
+StarrFox#6312: o
+StarrFox#6312: 1 1
+Harmonbot#4049: 
+StarrFox#6312: oh I didnt know there was a 1000
+StarrFox#6312: wraps on mobile
+StarrFox#6312: 1 1000
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `1 1000`
+StarrFox#6312: mushroom
+Harmonbot#4049: 
+StarrFox#6312: 2 1000
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `2 1000`
+Harmonbot#4049: 
+StarrFox#6312: 3 1000
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `3 1000`
+Harmonbot#4049: 
+StarrFox#6312: 4 1000
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `4 1000`
+StarrFox#6312: v
+Harmonbot#4049: 
+StarrFox#6312: 5 1000
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `5 1000`
+Harmonbot#4049: 
+StarrFox#6312: 6 1000
+Harmonbot#4049: In response to StarrFox#6312 (285148358815776768): `6 1000`
+Harmonbot#4049: 
+Harmonbot#4049: 
+StarrFox#6312: 1 1
+Fletcha#9630: ?tfm volumetr
+Fletcha#9630: ?rtfm volumetrans
+R. Danny#6348: 
+Equity#3464: plz g use the core fragments to activate the gate
+kriX#9879: 
+Equity#3464: oic
+StarrFox#6312: wow cheating
+Programmer#5648: Can i get a link to <@80528701850124288> help command?
+Kaylynn#4444: ?source help
+R. Danny#6348: <https://github.com/Rapptz/RoboDanny/blob/rewrite/cogs/meta.py#L114-L200>
+Kaylynn#4444: there you go <@!619861196807340042>
+Programmer#5648: Thank you :starn
+Tsubasa#8884: ?tag info commands
+R. Danny#6348: 
+Tsubasa#8884: ?tag info commands ext
+R. Danny#6348: 
+Tsubasa#8884: <@!174764205927432192>
+Tsubasa#8884: ?tag cmd
+R. Danny#6348: 0) Your console is **not** in your IDE. Never use it that way.
+1) Bash is a kind of Shell.
+2) Open your shell by using Ctrl+Alt+T on Linux or typing "cmd" on windows.
+3) Under windows, the shell isn't really useful
+4) Under Linux, the shell is a Swiss army knife.
+Commands to take a look at:
+```
+whoami
+pwd
+cd
+ls
+grep
+cat
+touch
+su
+ssh (You will need it often with a VPS)
+mkdir
+rmdir
+rm
+nvim (huh a good editor :O)
+man (ultimate help, Google is useless compared to this)
+apt-get (dnf install, whatever your os is)
+ps
+systemctl
+chmod
+```
+And these are only the basic ones...
+Fletcha#9630: ?tags
+R. Danny#6348: 
+Fletcha#9630: my god
+Fletcha#9630: ?tag computer
+R. Danny#6348: Tag not found. Did you mean...
+xua's computer
+Learn computer
+compact
+Fletcha#9630: ?tag bot hacked
+R. Danny#6348: ,
+Fletcha#9630: ?tag delete bot hacked
+R. Danny#6348: Tag and corresponding aliases successfully deleted.
+Fletcha#9630: ?tag branch detect
+R. Danny#6348: ```python
+print("Async Branch" if ("0" and "16") in (__import__("discord").__version__.split(".")) else "Rewrite Branch")
+```
+Fletcha#9630: ?tag discordapi
+R. Danny#6348: https://goo.gl/images/uTA3GN
+Fletcha#9630: ?tag delete discordapi
+R. Danny#6348: Tag and corresponding aliases successfully deleted.
+StarrFox#6312: why is branch detect not a delete
+Fletcha#9630: idk
+StarrFox#6312: ;bigbrain;
+Emote Collector#3350: <:bigbrain:573326997451833344>
+ShadowHanzo#2108: how much food did the dog ate to vomit so much
+IAmTomahawkx#1000: ?source remind
+R. Danny#6348: <https://github.com/Rapptz/RoboDanny/blob/rewrite/cogs/reminder.py#L194-L216>
+StarrFox#6312: ?rtfm Loop.next
+R. Danny#6348: 
+IAmTomahawkx#1000: <@208105877838888960>
+IAmTomahawkx#1000: Also
+IAmTomahawkx#1000: ?source tempmute
+R. Danny#6348: <https://github.com/Rapptz/RoboDanny/blob/rewrite/cogs/mod.py#L1470-L1499>
+hamza1311#1371: ?tags
+R. Danny#6348: 
+hamza1311#1371: ?tag xua's computer
+R. Danny#6348: Tag not found. Did you mean...
+death
+how to commit neck rope
+porn folder
+hamza1311#1371: ?tag porn folder
+R. Danny#6348: Tag not found. Did you mean...
+porn
+cool folder
+hamza1311#1371: ?tag info xua's computer
+R. Danny#6348: 
+hamza1311#1371: ?tag info porn folder
+R. Danny#6348: Tag not found.
+hamza1311#1371: ?tag porn folder
+R. Danny#6348: Tag not found. Did you mean...
+porn
+cool folder
+hamza1311#1371: ?tag cool
+R. Danny#6348: Tag not found. Did you mean...
+cool nick
+akna cool
+col
+hamza1311#1371: ?tag cool folder
+R. Danny#6348: https://drive.google.com/drive/folders/1xaxA7_6CBTQSNvAyjP84XqD2VrSjfenI
+hamza1311#1371: 404
+hamza1311#1371: Great
+hamza1311#1371: ?tag porn
+R. Danny#6348: `censored`
+Maiakel#0325: ez pz
+Maiakel#0325: s!userinfo Cairo
+Sparklybot ✨#2325: 
+StarrFox#6312: ?tag alias ext.commands commands ext
+R. Danny#6348: Tag alias "ext.commands" that points to "commands ext" successfully created.
+Maiakel#0325: hm
+Equity#3464: ?tag commands ext
+R. Danny#6348: If you need commands, use the commands extension.
+**Docs:** <http://discordpy.readthedocs.io/en/latest/ext/commands/api.html>
+
+**Why should I use the commands extension?**
+ - Prevents spaghetti code
+ - Better performance
+ - Easy handling and processing of command arguments
+ - Argument type converters
+ - Easy sub commands
+ - Command cooldowns
+ - Built-in help function
+ - Easy prefix management
+ - Command checks, for controlling when they're to be invoked
+ - Ability to add command modules via extensions/cogs
+ - Still able to do everything you can do with `Client`
+Equity#3464: surprised it wasnt aliased earlier
+Maiakel#0325: i use commands ext but my codes still 🍝
+StarrFox#6312: just clean it up
+StarrFox#6312: dc/jsk py await bot.fetch_user(0)
+Discord Chan#0795: ```py
+Traceback (most recent call last):
+  File "/home/starrfox/Discord-chan/.venv/lib/python3.7/site-packages/jishaku/cog_base.py", line 489, in jsk_python
+    async for send, result in AsyncSender(executor):
+  File "/home/starrfox/Discord-chan/.venv/lib/python3.7/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "/home/starrfox/Discord-chan/.venv/lib/python3.7/site-packages/jishaku/repl/compilation.py", line 137, in traverse
+    async for send, result in AsyncSender(func(*self.args)):
+  File "/home/starrfox/Discord-chan/.venv/lib/python3.7/site-packages/jishaku/functools.py", line 109, in _internal
+    value = await base.asend(self.send_value)
+  File "<repl>", line 1, in _repl_coroutine
+  File "/home/starrfox/Discord-chan/.venv/lib/python3.7/site-packages/discord/client.py", line 1232, in fetch_user
+    data = await self.http.get_user(user_id)
+  File "/home/starrfox/Discord-chan/.venv/lib/python3.7/site-packages/discord/http.py", line 218, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 NOT FOUND (error code: 10013): Unknown User
+
+```
+Maiakel#0325: hah
+StarrFox#6312: ?
+Maiakel#0325: nothing
+StarrFox#6312: dc/jsk py discord.NotFound
+Discord Chan#0795: <class 'discord.errors.NotFound'>
+Equity#3464: ?tag info porn
+R. Danny#6348: 
+Maiakel#0325: i need host
+StarrFox#6312: ?tag vps
+R. Danny#6348: Need to run your bot 24/7? Get a cheap VPS.
+
+<https://www.scaleway.com/>- Incredibly cheap but powerful VPSes, owned by <https://online.net/>, based in Europe.
+<https://www.digitalocean.com/> - US-based cheap VPSes. The gold standard. Locations available world wide.
+<https://www.ovh.co.uk/> - Cheap VPSes, used by many people. France and Canadian locations available.
+<https://www.time4vps.eu/> - Cheap VPSes, seemingly based in Lithuania.
+<https://www.linode.com/> - More cheap VPSes!
+<https://www.vultr.com/> - US-based, DigitalOcean-like.
+<https://galaxygate.net/> - A reliable, affordable, and trusted host, Used by Dank Memer, Rythm, and many other people.
+
+Self-hosting:
+Any modern hardware should work 100% fine.
+
+Free hosting:
+No.  There is no good free VPS hoster, outside of persuading somebody to host for you, which is incredibly unlikely.
+Maiakel#0325: nah
+StarrFox#6312: ?
+Maiakel#0325: h
+Maiakel#0325: e
+StarrFox#6312: dc/help
+Discord Chan#0795: Use `dc/help <command/cog>` for more info on a command/cog.
+
+**anime** - `anime`
+**general** - `avatar`, `charinfo`, `clean`, `guildinfo`, `memberinfo`, `prefixfinder`, `raw`, `say`
+**images** - `difference`, `shuffle`
+**meta** - `about`, `invite`, `ping`, `socketstats`, `source`, `support`, `vote`
+**mod** - `prefix`
+**owner** - `channel_link`, `disable`, `dm`, `enable`, `shutdown`
+**snipe** - `snipe`
+**​No Category** - `help`
+Maiakel#0325: dc/snipe
+Discord Chan#0795: 
+StarrFox#6312: ?rtfm client.wait_for
+R. Danny#6348: 
+Polar#6969: ?tag paginate
+R. Danny#6348: Tag not found. Did you mean...
+paginator
+lazy paginator
+simple paginator
+Polar#6969: ?tag paginator
+R. Danny#6348: ```py
+paginator = commands.Paginator()
+paginator.add_line('some line')
+paginator.add_line('some other line')
+
+for page in paginator.pages:
+    await ctx.send(page)
+```
+Polar#6969: ?tag lazy paginator
+R. Danny#6348: <https://gist.github.com/OneEyedKnight/0f188251247c58345a1a97e94d05dd15>
+**Usage:**
+```py
+# import the paginator from a different file if you put it in a different file
+
+p = Paginator(ctx, entries=['a', 'list', 'object'], embed=True) # can be false if you're going to paginate text
+await p.paginate()
+
+
+# if you don't want to import it in every cog you want to use it in,  you can just import it into your main file, and do this.
+
+bot = commands.Bot(command_prefix="?")
+bot.paginate = paginate
+
+async def paginate(ctx, entries: list, embed=True):
+    p = Paginator(ctx, entries=entries, embed=embed)
+    return await p.paginate()
+```
+Polar#6969: ?tag simple paginator
+R. Danny#6348: Buttons is an easy to use Interactive session and Paginator for discord.py.
+
+**For more info and simple example, visit**:
+https://github.com/EvieePy/buttons
+Polar#6969: ?tag help
+R. Danny#6348: **A simple guide to getting help**
+
+In order for us to help, we need relevant information.
+
+Have an error/issues? **Provide the full traceback output. Show code around the error, and any relevant code.**
+Something happening different than expected? **Explain what's expected, then compare to what is actually happening.**
+
+Keep in mind that we are not you, we cannot read your mind, and saying something like "My code doesn't work!" or "I have an error." or "This code is broken, why?" or "Can somebody help me?" gives absolutely nothing, and is just annoying. You must provide information that we need in order to look into whatever your question is.
+
+As a courtesy to others, please refrain from pasting large codeblocks into chat. If it's big enough, you will annoy other users in the channel. Please use services such as <https://hastebin.com>, <https://gist.github.com> or <https://ghostbin.com>.
+
+If you don't know Python, hop into <#381963689470984203> and run `?tag lp`. Without a solid knowledge in Python, we cannot properly assist you. Yes, it will take months. Coding isn't just gluing text together. It takes time and patience — months or years.
+Polar#6969: ?tags help
+R. Danny#6348: Member "help" not found
+Hillow#6756: ?tag before_loop
+R. Danny#6348: Tag not found. Did you mean...
+before
+bg loop
+loop
+Hillow#6756: ?tag looop
+R. Danny#6348: Tag not found. Did you mean...
+loop
+bg loop
+loops
+Hillow#6756: ?rtfm before_loop
+R. Danny#6348: 
+Hillow#6756: ?tag cog
+R. Danny#6348: <https://gist.github.com/EvieePy/d78c061a4798ae81be9825468fe146be>
+Hillow#6756: ?rtfm Cogs
+R. Danny#6348: 
+Hillow#6756: ?tag Cogs
+R. Danny#6348: <https://gist.github.com/EvieePy/d78c061a4798ae81be9825468fe146be>
+StarrFox#6312: ?tag menus
+R. Danny#6348: ```py
+from discord.ext import menus
+
+class CounterMenu(menus.Menu):
+    counter = 0
+
+    async def send_initial_message(self, ctx, channel):
+        return await channel.send(str(self.counter))
+
+    @menus.button('\N{HEAVY PLUS SIGN}')
+    async def add_button(self, payload):
+        self.counter += 1
+        await self.message.edit(content=str(self.counter))
+
+# In a command
+menu = CounterMenu()
+await menu.start(ctx)
+```
+install 
+```sh
+pip install -U git+https://github.com/Rapptz/discord-ext-menus
+```
+For pagination see: `?tag menupages`
+
+Check readme for more info & examples: <https://github.com/Rapptz/discord-ext-menus>
+Zorkai#9999: E!msw
+Zorkai#9999: C!msw
+Zorkai#9999: G!msw
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: A0
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: C0
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: E0
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: G0
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: J8
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: A2
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: A3
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: neat
+Zorkai#9999: A9
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: do h3
+Zorkai#9999: suicide?
+StarrFox#6312: it isnt a bomb
+Zorkai#9999: H3
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: oh
+MostDefinitelyGrant2#9892: Unknown coordinates! To use `flags`, try `FXX` eg `FS0`
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: h5
+Zorkai#9999: H5
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: h7
+Zorkai#9999: H7
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: a6
+Zorkai#9999: A6
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: a5
+Zorkai#9999: A5
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: a4
+Zorkai#9999: A4
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: b3
+Zorkai#9999: B3
+MostDefinitelyGrant2#9892: 
+Equity#3464: its sleep time
+StarrFox#6312: b2
+Zorkai#9999: i'm in eu
+Zorkai#9999: B2
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: c1
+Zorkai#9999: C1
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: d0
+Zorkai#9999: D0
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: a1
+StarrFox#6312: gg
+Zorkai#9999: A1
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: FB0
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: FB1
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: FD1
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: FB4
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: FA7
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: FC9
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: FJ0
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: FH2
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: FH4
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: FH6
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: FH8
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: FH9
+MostDefinitelyGrant2#9892: 
+Zorkai#9999: <:EeveeShrug:579413654701735937>
+StarrFox#6312: why hadnt it ended
+Xua#1137: win detection is broke again
+Xua#1137: ™️
+Maiakel#0325: spam
+Xua#1137: its a pain in the ass to refactor so i dont bother
+Xua#1137: mdg/source
+MostDefinitelyGrant2#9892: https://github.com/iDevision/MostDefinitelyGrant2
+Xua#1137: if you want to try and fix it go ahead
+StarrFox#6312: I love minesweeper
+Xua#1137: mdg/msw 15
+MostDefinitelyGrant2#9892: Only one game of Minesweeper may be run in a single channel.
+Xua#1137: m
+StarrFox#6312: mdg/help msw
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: how big can you go
+Xua#1137: i forget
+MostDefinitelyGrant2#9892: Timed out! You lost!
+Zorkai#9999: what is idevesion?
+Xua#1137: mdg/dev cat cogs/utils/minesweeper.py
+MostDefinitelyGrant2#9892: ```sh
+
+
+# -*- coding: utf-8 -*-
+
+import asyncio
+import math
+import random
+
+import discord
+
+from cogs.utils import i18n
+
+UNT = '■'
+BMB = '☢'
+L = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+_L = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+Y = "0123456789"
+_Y = "0123456789"
+F = '⚑'
+IS_DPY = False
+BLANK = " "
+BANG = '💥'
+
+
+def rd():
+    return f"{random.choice(_L)}{random.choice(_Y)}"
+
+
+class Game:
+    def __init__(self, x, *, config=None):
+        if x < 10 or x > 26:  # max 26 for letters
+            raise ValueError("x must be between 10-26")
+
+        self.x = x
+        self.y = 10  # max
+
+        self._config = config or {"letters": L, "untouched": UNT, "bomb": BMB, "numbers": Y, "flag": F, "isdpy": False,
+                                  "blank": " ",
+                                  "bang": BANG}
+
+        bombs = math.ceil(((x * self.y) // 10) * 1.5)
+
+        self.bombs = list(zip(random.choices(range(x), k=bombs), random.choices(range(10), k=bombs)))
+        self.board = [[self._config['untouched'] for _ in range(self.x)] for _ in range(self.y)]
+
+    def total_nearby(self, x, y):
+        """Returns the total bombs near that coord."""
+        xx = 0
+        for a in range(-1, 2):
+            for b in range(-1, 2):
+                if (x + a, y + b) in self.bombs:
+                    xx += 1
+        return xx
+
+    def clear_coord(self, x, y, touch=False):
+        """Recursively opens up blank coords."""
+        if x < 0 or x > self.x:
+            return
+        if y < 0 or y > self.y:
+            return
+        try:
+            p = self.board[y][x]
+        except IndexError:
+            return
+
+        if p == self._config['untouched']:
+            if (x, y) in self.bombs:
+                self.board[y][x] = self._config['bang' if touch else 'bomb']
+                return
+            get = self.total_nearby(x, y)
+            if get == 0:
+                self.board[y][x] = self._config['blank']
+                for a in range(-1, 2):
+                    for b in range(-1, 2):
+
+```
+Page 1/5
+Xua#1137: its the uh
+Xua#1137: org im apart of
+Zorkai#9999: <:LuffyThink:639642312116273161>
+Xua#1137: i think max render-wise is like
+Xua#1137: 16
+Xua#1137: mdg/msw 16
+MostDefinitelyGrant2#9892: Woops! Something went wrong. My owners are on their way to fix this soon.
+StarrFox#6312: wack
+StarrFox#6312: mdg/msw 15
+MostDefinitelyGrant2#9892: i hate to admit it, but i fucked something up
+Xua#1137: well if it wasnt broken
+Xua#1137: no its the parser
+Xua#1137: dw about it
+Xua#1137: md/msw
+Xua#1137: mdg/msw
+MostDefinitelyGrant2#9892: 
+Xua#1137: a0
+MostDefinitelyGrant2#9892: 
+Xua#1137: j0
+MostDefinitelyGrant2#9892: 
+Xua#1137: j9
+MostDefinitelyGrant2#9892: 
+Xua#1137: a9
+MostDefinitelyGrant2#9892: 
+Xua#1137: great
+Xua#1137: e4
+MostDefinitelyGrant2#9892: 
+Xua#1137: fg2
+MostDefinitelyGrant2#9892: 
+Xua#1137: fh8
+MostDefinitelyGrant2#9892: 
+Xua#1137: fd6
+MostDefinitelyGrant2#9892: 
+Xua#1137: h2
+MostDefinitelyGrant2#9892: 
+Xua#1137: h9
+StarrFox#6312: is flagging required
+MostDefinitelyGrant2#9892: 
+Xua#1137: no
+MostDefinitelyGrant2#9892: Unknown coordinates! To use `flags`, try `FXX` eg `FU3`
+MostDefinitelyGrant2#9892: 
+Xua#1137: fi5
+MostDefinitelyGrant2#9892: 
+Xua#1137: j
+Xua#1137: j5
+MostDefinitelyGrant2#9892: 
+Xua#1137: j4
+MostDefinitelyGrant2#9892: 
+Xua#1137: i4
+MostDefinitelyGrant2#9892: 
+Xua#1137: fi3
+MostDefinitelyGrant2#9892: 
+Xua#1137: j3
+MostDefinitelyGrant2#9892: 
+Xua#1137: j2
+MostDefinitelyGrant2#9892: 
+Xua#1137: i2
+MostDefinitelyGrant2#9892: 
+Xua#1137: h1
+MostDefinitelyGrant2#9892: 
+Xua#1137: i1
+MostDefinitelyGrant2#9892: 
+Xua#1137: g1
+MostDefinitelyGrant2#9892: 
+Xua#1137: fj1
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: could be cool to enter multiple cords
+Xua#1137: fi0
+MostDefinitelyGrant2#9892: 
+Xua#1137: eh its too hard
+lambda#0987: the best part is, they had the dog in front of a mat
+Xua#1137: h0
+MostDefinitelyGrant2#9892: 
+Xua#1137: g0
+MostDefinitelyGrant2#9892: 
+Xua#1137: fe1
+MostDefinitelyGrant2#9892: 
+lambda#0987: and it completely exceeded their expectations haha
+Xua#1137: e0
+MostDefinitelyGrant2#9892: 
+Xua#1137: d0
+MostDefinitelyGrant2#9892: 
+Xua#1137: d1
+MostDefinitelyGrant2#9892: 
+Xua#1137: c1
+MostDefinitelyGrant2#9892: 
+Xua#1137: fa1
+MostDefinitelyGrant2#9892: 
+Xua#1137: a2
+MostDefinitelyGrant2#9892: 
+Xua#1137: a3
+MostDefinitelyGrant2#9892: 
+Xua#1137: fc4
+MostDefinitelyGrant2#9892: 
+Xua#1137: d7
+MostDefinitelyGrant2#9892: 
+Xua#1137: fg9
+MostDefinitelyGrant2#9892: 
+Xua#1137: ff9
+MostDefinitelyGrant2#9892: 
+Xua#1137: e9
+MostDefinitelyGrant2#9892: 
+Xua#1137: d9
+MostDefinitelyGrant2#9892: 
+Xua#1137: fb8
+MostDefinitelyGrant2#9892: 
+Xua#1137: a8
+MostDefinitelyGrant2#9892: 
+Xua#1137: b9
+MostDefinitelyGrant2#9892: 
+StarrFox#6312: do you correct the boards to always have logical answers?
+Xua#1137: wdym
+StarrFox#6312: the minesweeper app I use corrects the boards to always have a logical solve
+StarrFox#6312: rather than those rng picks
+Xua#1137: oh no this is random
+StarrFox#6312: I'm not really sure how they do it
+StarrFox#6312: might just be premade
+Xua#1137: boring
+StarrFox#6312: rng choices are morr annoying
+MostDefinitelyGrant2#9892: Timed out! You lost!
+StarrFox#6312: imo
+LyricLy#5695: I think you can do it by making a function from a solvable board to a new solvable board with one extra mine
+StarrFox#6312: I would just hope it's ok
+StarrFox#6312: would be interesting to try and figure out
+LyricLy#5695: that's... actually not trivial either is it really
+LyricLy#5695: the easiest method is of course to keep running a non-guessing solver on your boards until it can do it
+LyricLy#5695: or, actually, new idea
+LyricLy#5695: run the solver as you're generating?
+Zorkai#9999: K.trivia
+Kanade#5520: 
+StarrFox#6312: what if you solved backwards randomly
+Kanade#5520: <@!464910933660008451> Correct answer!
+Zorkai#9999: K.trivia
+Kanade#5520: 
+Kanade#5520: <@!464910933660008451> Wrong answer! The correct answer was "**I Would Have Been Your Daddy**"
+Zorkai#9999: K.trivia easy
+Kanade#5520: 
+StarrFox#6312: repeat
+Kanade#5520: <@!464910933660008451> Wrong answer! The correct answer was "**Caterpie**"
+Zorkai#9999: K.trivia
+Kanade#5520: 
+Kanade#5520: <@!464910933660008451> Wrong answer! The correct answer was "**Worms 4: Mayhem**"
+Zorkai#9999: K.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!464910933660008451> Wrong answer! The correct answer was "**2012**"
+Zorkai#9999: K.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!464910933660008451> Wrong answer! The correct answer was "**Rank 1 Legend**"
+Zorkai#9999: K.trivia easy
+Kanade#5520: 
+Zorkai#9999: K.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!464910933660008451> Correct answer!
+Zorkai#9999: K.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!464910933660008451> Correct answer!
+Zorkai#9999: K.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!464910933660008451> Correct answer!
+Kanade#5520: <@!464910933660008451> Timeout! The answer was "**Seinfeld**"
+Zorkai#9999: K.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!464910933660008451> Wrong answer! The correct answer was "**Jackie Earle Haley**"
+Zorkai#9999: K.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!464910933660008451> Correct answer!
+Zorkai#9999: I know the most answers, I played it too much
+Zorkai#9999: K.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!464910933660008451> Correct answer!
+Zorkai#9999: K.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!464910933660008451> Correct answer!
+Zorkai#9999: K.trivia easy
+Kanade#5520: 
+Kanade#5520: <@!464910933660008451> Wrong answer! The correct answer was "**M3**"
+Cy#2501: Todo list
+Todo#9724: Sorry, but you have no tasks!
+Cy#2501: Todo add Refractor the whole thing
+Todo#9724: Todo task successfully added!
+Zorkai#9999: &source
+Zorkai#9999: dc/source
+Discord Chan#0795: https://github.com/StarrFox/Discord-chan
+Cy#2501: ?choose refractor rewrite
+R. Danny#6348: rewrite
+Cy#2501: Fine
+Cy#2501: Todo clear
+Todo#9724: Successfully cleared your todo list.
+Cy#2501: Todo add Rewrite branch
+Todo#9724: Todo task successfully added!
+Cy#2501: Todo clear
+Todo#9724: Successfully cleared your todo list.
+Zorkai#9999: I took 3m to understand that it was from menus
+Zorkai#9999: self.start
+Zorkai#9999: ?tag menus
+R. Danny#6348: ```py
+from discord.ext import menus
+
+class CounterMenu(menus.Menu):
+    counter = 0
+
+    async def send_initial_message(self, ctx, channel):
+        return await channel.send(str(self.counter))
+
+    @menus.button('\N{HEAVY PLUS SIGN}')
+    async def add_button(self, payload):
+        self.counter += 1
+        await self.message.edit(content=str(self.counter))
+
+# In a command
+menu = CounterMenu()
+await menu.start(ctx)
+```
+install 
+```sh
+pip install -U git+https://github.com/Rapptz/discord-ext-menus
+```
+For pagination see: `?tag menupages`
+
+Check readme for more info & examples: <https://github.com/Rapptz/discord-ext-menus>
+Cy#2501: K.jsk
+Kanade#5520: Jishaku v1.18.0, discord.py `1.3.1`, `Python 3.7.5 (default, Nov  7 2019, 10:50:52) [GCC 8.3.0]` on `linux`
+Module was loaded 19 hours ago, cog was loaded 5 hours ago.
+
+Using 77.7 MB physical memory and 627.0 MB virtual memory, 71.7 MB of which unique to this process.
+Running on PID 7038 (`python3.7m`) with 7 thread(s).
+
+This bot is not sharded and can see 4 guild(s) and 16032 user(s).
+Average websocket latency: 238.62ms
+Zorkai#9999: ?rtfm py try
+R. Danny#6348: 
+Zorkai#9999: ?rtfm py except
+R. Danny#6348: 
+Cy#2501: Wait
+Cy#2501: How the heck u run 2 different bot instance which uses different branch
+Cy#2501: <:thrinking:597590667669274651>
+Cy#2501: On vps
+Maiakel#0325: ¯\\_(ツ)\_/¯
+ShadowHanzo#2108: ?tag edit "discord.gateway" https://i.imgur.com/uaO0cJa.png
+R. Danny#6348: Successfully edited tag.
+Leon#2018: ?help
+R. Danny#6348: 
+Sweeperbot#1761: ```
+I'm lazy
+
+​No Category:
+  help Shows this message
+
+Type ?help command for more info on a command.
+You can also type ?help category for more info on a category.
+```
+Cy#2501: Didnt even format the log
+Cy#2501: K.sudo sh ps
+Kanade#5520: 
+Cy#2501: bel piestatus Kanade
+Belphegor#0249: 
+Zorkai#9999: ?rtfm run_in_
+R. Danny#6348: 
+Zorkai#9999: ?rtfm run_in_executor
+R. Danny#6348: Could not find anything. Sorry.
+Zorkai#9999: ?rtfm py run_in_executor
+R. Danny#6348: 
+Arsen Cross#4114: +dong
+YMYBot#9749: 
+Lgan#0001: p-dbl
+Server Pets#6679: 
+Clearly#8297: ping?
+R. Danny#6348: <@238356301439041536>, 16 hours ago: https://kissanime.ac/Anime/boku-no-hero-academia-4th-season-sub.36225/
+
+<https://discordapp.com/channels/336642139381301249/381963689470984203/680484341356167172>
+StarrFox#6312: ?help
+R. Danny#6348: 
+Dutchy#6127: //jsk
+Charles#5244: Jishaku v1.17.1, discord.py `1.3.1`, `Python 3.8.1 (default, Dec 31 2019, 18:42:42) [GCC 7.4.0]` on `linux`
+Module was loaded 10 days ago, cog was loaded 10 days ago.
+
+Using 523.2 MB physical memory and 1.2 GB virtual memory, 514.9 MB of which unique to this process.
+Running on PID 26167 (`python3.8`) with 6 thread(s).
+
+This bot is automatically sharded and can see 390 guild(s) and 231541 user(s).
+Average websocket latency: 23.22ms
+StarrFox#6312: <@238356301439041536> dont use kissanime
+Dutchy#6127: +blotchy
+Koishi#8740: 449.05ms
+Dutchy#6127: O
+Programmer#5648: ?source error
+R. Danny#6348: Could not find command.
+Programmer#5648: ?source rtfm
+R. Danny#6348: <https://github.com/Rapptz/RoboDanny/blob/rewrite/cogs/api.py#L321-L329>
+Programmer#5648: Can i get command error source code?
+Kaylynn#4444: ... just look for it
+Programmer#5648: For example'
+Programmer#5648: ?tag
+R. Danny#6348: 
+Programmer#5648: ?tag.s?lx
+Maiakel#0325: ?
+Programmer#5648: Wait
+Kaylynn#4444: as i said, just look for it
+all the code for r. danny is on github
+Programmer#5648: I can’t find "{} is a required arguement that is missing" in `on_command_error` in bot.py
+Programmer#5648: ?mute
+Dutchy#6127: <@619861196807340042>
+Dutchy#6127: ?tag eh
+R. Danny#6348: Docs: https://discordpy.readthedocs.io/en/latest/ext/commands/commands.html#error-handling
+Example: <https://gist.github.com/EvieePy/7822af90858ef65012ea500bcecf1612>
+Programmer#5648: 🤔
+Dutchy#6127: ?rtfm missingrequiredarg
+R. Danny#6348: 
+Programmer#5648: So `if isinstance(error, commands.MissingRequiredArguement):`?
+Dutchy#6127: Yep
+Programmer#5648: What about missed arg
+Dutchy#6127: Then `error.param` for the missing arg
+Programmer#5648: I did that
+Programmer#5648: "Required arguement: user:discord.member.Member"
+Programmer#5648: The bot sent that
+Dutchy#6127: `error.param.name`
+Programmer#5648: Ok
+Programmer#5648: ?rtfm param.name
+R. Danny#6348: 
+Nerrix#5439: ?tag onefile
+R. Danny#6348: Tag not found. Did you mean...
+one
+file
+Nerrix#5439: ?tag one
+R. Danny#6348: 0⃣ = `0\N{combining enclosing keycap}`
+1⃣ = `1\N{combining enclosing keycap}`
+2⃣ = `2\N{combining enclosing keycap}`
+3⃣ = `3\N{combining enclosing keycap}`
+and so on up to 9⃣
+…but 🔟 = `\N{keycap ten}`
+Anti Lol#3119: 
+Nerrix#5439: ?tag connect
+R. Danny#6348: Tag not found. Did you mean...
+shard won't connect?
+create_connection
+Connie
+Nerrix#5439: ?tag create_connection
+R. Danny#6348: **Getting this?**
+```py
+TypeError: create_connection() got an unexpected keyword argument 'compression'
+```This most likely means your websocksts / aiohttp is out of date. Try updating via `pip install -U websockets` or `pip install -U aiohttp`
+Nerrix#5439: ?tag login
+R. Danny#6348: Tag not found. Did you mean...
+logging
+logo
+logan
+Nerrix#5439: ?tag start
+R. Danny#6348: 1. Before even attempting to create a discord bot, please **learn python** (`?tag lp`)
+2. To install discord.py, please run `python3 -m pip install discord.py` (linux), or `py -3 - m pip install discord.py` (windows)
+... a. If you wish to use voice functionality, please use `discord.py[voice]` instead of `discord.py`
+3. Take a look at <https://github.com/Rapptz/discord.py/blob/master/examples/basic_bot.py>. Mess around.
+4. When you start making your bot, use the **commands ext**: <https://discordpy.readthedocs.io/en/latest/ext/commands/commands.html>
+5. The library documentation is available at <https://discordpy.readthedocs.org/en/latest/>
+
+**The <#381965515721146390> and <#564950631455129636> channels in this server are related to using *this* library. If you want help with python questions, please ask in the discord.gg/python server.**
+
+If you are migrating from the old version of this library (0.16.XX; async) to  version 1.XX.XX please follow the migrating guide <http://discordpy.readthedocs.io/en/latest/migrating.html>
+Nerrix#5439: ?tags start
+R. Danny#6348: Member "start" not found
+Nerrix#5439: ?tag startboz
+R. Danny#6348: Tag not found. Did you mean...
+start
+starr
+startswith
+Nerrix#5439: ?tag asyncio
+R. Danny#6348: The library uses a method of parallelism called 'asynchronous programming'. To do this is uses the module `asyncio`.
+
+Unlike more traditional parallelism techniques, during "wait" periods, like for example during a web request, a special function, known as a coroutine will yield back to the event loop allowing other coroutines to run in it's waiting period.
+
+Functions that do not yield back to the event loop are known as blocking functions. Excessive periods of blocking code can cause havoc, unless planned out thoroughly.
+Nerrix#5439: ?tag asynci
+R. Danny#6348: Tag not found. Did you mean...
+asyncio
+async
+asyncio.async
+Nerrix#5439: ?tag task
+R. Danny#6348: Example in a cog:
+```py
+from discord.ext import tasks, commands
+
+class MyCog(commands.Cog):
+
+    def __init__(self, bot):
+        self.bot = bot
+        self.index = 0
+        self.printer.start()
+
+    def cog_unload(self):
+        self.printer.cancel()
+
+    @tasks.loop(seconds=5.0)
+    async def printer(self):
+        print(self.index)
+        self.index += 1
+
+    @printer.before_loop
+    async def before_printer(self):
+        print('waiting...')
+        await self.bot.wait_until_ready()
+
+def setup(bot):
+    bot.add_cog(MyCog(bot))```
+Full docs: <https://discordpy.readthedocs.io/en/latest/ext/tasks/>
+Nerrix#5439: ?tag tasks
+R. Danny#6348: Example in a cog:
+```py
+from discord.ext import tasks, commands
+
+class MyCog(commands.Cog):
+
+    def __init__(self, bot):
+        self.bot = bot
+        self.index = 0
+        self.printer.start()
+
+    def cog_unload(self):
+        self.printer.cancel()
+
+    @tasks.loop(seconds=5.0)
+    async def printer(self):
+        print(self.index)
+        self.index += 1
+
+    @printer.before_loop
+    async def before_printer(self):
+        print('waiting...')
+        await self.bot.wait_until_ready()
+
+def setup(bot):
+    bot.add_cog(MyCog(bot))```
+Full docs: <https://discordpy.readthedocs.io/en/latest/ext/tasks/>
+Avalanche7#5658: +don’t
+Avalanche7#5658: +dong
+YMYBot#9749: 
+Avalanche7#5658: Oooof
+Plank#2886: ?tags
+R. Danny#6348: Plank#2886 has no tags.
+Plank#2886: ?tagsearch
+Plank#2886: ?tag-search
+Xinto#0376: ?help
+R. Danny#6348: 
+Xinto#0376: ?help API
+R. Danny#6348: 
+Nerrix#5439: ?tag getloop
+R. Danny#6348: Tag not found. Did you mean...
+get
+loop
+Nerrix#5439: ?tag loop
+R. Danny#6348: There is now a special extension for just creating background loops:
+```py
+from discord.ext import tasks
+
+@tasks.loop(seconds=5)
+async def my_loop():
+    print('Hello World')
+
+my_loop.start()```
+The time until which the above loop will run is dependent upon human psychology, laws of energy and cosmos.
+That is:
+• You get bored of it
+• The power goes down and your script stops working
+• The universe explodes
+
+Read more about it here: https://discordpy.readthedocs.io/en/latest/ext/tasks/
+Satoru#6725: Uh! I can't find that auto trigger!
+chickenmatty#4766: e?at original
+Programmer#5648: ?rtfm create
+R. Danny#6348: 
+Programmer#5648: ?rtfm create_connection
+R. Danny#6348: Could not find anything. Sorry.
+StarrFox#6312: for most of the errors you can just send the str() of it
+R. Danny#6348: <@342244480709296139>, 15 hours ago: Payment
+
+<https://discordapp.com/channels/336642139381301249/381963689470984203/680511796142145709>
+Josh#6734: ?tag rawmessage
+R. Danny#6348: ```py
+class RawMessage(discord.Message):
+    def __init__(self, bot, channel_id, message_id):
+        self._state = bot._connection
+        self.id = message_id
+        self.channel = bot.get_channel(channel_id)
+    def __repr__(self):
+        return 'lazy'```
+Usage:
+```py
+message = RawMessage(bot, 258116015534243840,566412287779274754)
+await message.delete()```
+Note: many attributes and such will not be populated or present, but most methods should work fine.
+Mugiman#3310: ?help faq
+R. Danny#6348: 
+LyricLy#5695: ?tag Termux
+R. Danny#6348: dpy works fine on Termux. Install it without `[voice]` in the pip command. If you *do* need voice support, see ?tag Termux voice.
+LyricLy#5695: ?tag Termux Voice
+R. Danny#6348: cm/show Termux voice
+Cautious Memory#9597: **Note**: these instructions will compile from source, which can take a while.
+Also, if you want to use a virtualenv, make sure you activate it *before* following these steps.
+
+```
+pkg install python libffi libcrypt libopus ffmpeg clang make git
+pip install wheel cffi
+pip install -U discord.py[voice]
+```
+Fletcha#9630: cm/show Termux voice
+Cautious Memory#9597: **Note**: these instructions will compile from source, which can take a while.
+Also, if you want to use a virtualenv, make sure you activate it *before* following these steps.
+
+```
+pkg install python libffi libcrypt libopus ffmpeg clang make git
+pip install wheel cffi
+pip install -U discord.py[voice]
+```
+Zorkai#9999: ?rtfm on_user_update
+R. Danny#6348: 
+Егор#0001: ?tag links
+R. Danny#6348: Tag not found. Did you mean...
+link
+links club
+links setup
+Егор#0001: ?tag link
+R. Danny#6348: Helpless romanticist serial killer.
+Егор#0001: ?tag links setup
+R. Danny#6348: https://cdn.discordapp.com/attachments/381963689470984203/558463453568696330/20190321_203345.jpg
+randomSphere#4274: +dong
+YMYBot#9749: 
+randomSphere#4274: Nice
+Zorkai#9999: i have g502, firefly v2 and k55
+Zorkai#9999: it didn't cost too much
+Mugiman#3310: ?rtfm guild
+R. Danny#6348: 
+Mugiman#3310: ?rtfm guild.emojis
+R. Danny#6348: 
+Zorkai#9999: https://support.discordapp.com/hc/en-us/community/posts/360055030232-Add-Github-as-a-Profile-Connection?input_string=Adding%20a%20GitHub%20connection.
+Zorkai#9999: upvote this
+Lida#6399: //server status
+Charles#5244: <:info:603362826358095922> Information about **discord.py**
+Lida#6399: //help server
+Charles#5244: 
+Lida#6399: //status
+Lida#6399: /status
+Enri76#1234: 
+Lida#6399: //jumbo
+Lida#6399: +jumbo
+Lida#6399: $jumbo
+Lida#6399: ^jumbo
+Lida#6399: .jumbo
+Lida#6399: =jumbo
+Lida#6399: 💩 jumbo
+Lida#6399: 💩 help
+KiwiBot#5890: Page **1/8** (62) commands
+Lida#6399: 💩 e
+KiwiBot#5890: ```
+💩[emoji|e] <emoji>
+
+Allows to get emoji image
+```
+Lida#6399: 💩 e <:status_online:596576749790429200>
+KiwiBot#5890: 
+Soheab_#5757: 💩 source
+KiwiBot#5890: My source code can be found here:
+https://github.com/Fogapod/KiwiBot
+Soheab_#5757: 💩 source e
+KiwiBot#5890: My source code can be found here:
+https://github.com/Fogapod/KiwiBot
+DuckMasterAl#0001: ?charinfo 👋
+R. Danny#6348: `\U0001f44b`: WAVING HAND SIGN - 👋 — <http://www.fileformat.info/info/unicode/char/1f44b>
+Soheab_#5757: rw server info
+Charles#5244: <:info:603362826358095922> Information about **discord.py**
+😉 Ashu 😉#0690: ?rtfm ctx.get_chnnel
+R. Danny#6348: Could not find anything. Sorry.
+😉 Ashu 😉#0690: ?rtfm ctx.get_channel
+R. Danny#6348: Could not find anything. Sorry.
+😉 Ashu 😉#0690: ?rtfm client.get_channel
+R. Danny#6348: 
+Soheab_#5757: ?rtfm ctx.bot.get_channel
+R. Danny#6348: Could not find anything. Sorry.
+ImRock#0001: +cluster
+Welcomer#5491: 
+Skorpa#5632: ?tag basic
+R. Danny#6348: bot https://github.com/Rapptz/discord.py/blob/async/examples/basic_bot.py
+Zomatree#7757: ?rtfm embed.co
+R. Danny#6348: 
+Zomatree#7757: ?tag shard id
+R. Danny#6348: Tag not found. Did you mean...
+shard
+we shard
+sharding
+XtremeCoder#4598: x!help
+Xenon#7325: 
+XtremeBawt#3388: Music commands are disabled until further notice. Please check the main server, https://ingeniousapps.net/discord, for more information.
+XtremeBawt#3388: Music commands are disabled until further notice. Please check the main server, https://ingeniousapps.net/discord, for more information.
+XtremeBawt#3388: Music commands are disabled until further notice. Please check the main server, https://ingeniousapps.net/discord, for more information.
+XtremeBawt#3388: 
+Soheab_#5757: ?tag utils
+R. Danny#6348: discord.utils is just USEFUL:```py
+# how to get an object using condition
+unused = discord.utils.find(lambda role: not role.members, guild.roles)
+
+# for attributes, it's easier with
+admin = discord.utils.get(guild.roles, name="admin")
+
+# AND
+channel = discord.utils.get(guild.text_channels, name="help", topic="help channel")
+
+# when was the message created?
+created_at = discord.utils.snowflake_time(discord_id) # works for almost all IDs
+
+# Invite Me!
+invite = discord.utils.oauth_url(bot.user.id, guild.me.guild_permissions)
+
+# Escape markdowns...
+safe = discord.utils.escape_markdown("**Bold text** and ||spoiler||")
+
+# Don't Mention It!
+safe_everyone = discord.utils.escape_mentions(guild.me.mention)
+```
+Zomatree#7757: apt jsk py a=discord.Embed(); b=a.copy();b.add_field(name="1", value="1"); return a
+Champions#1090: 
+Soheab_#5757: S!eval
+```py
+import asyncio
+a = discord.Embed(title="lol")
+await ctx.send(embed=a)
+await asyncio.sleep(4)
+b = a.copy()
+b.add_field(name="lol",value="suck")
+```
+Sparklybot ✨#2325: 
+Sparklybot ✨#2325: ```py
+Command: S!eval
+```py
+import asyncio
+a = discord.Embed(title="lol")
+await ctx.send(embed=a)
+await asyncio.sleep(4)
+b = a.copy()
+b.add_field(name="lol",value="suck")
+``` || Member: Soheab_#5757|150665783268212746 || Server:discord.py|336642139381301249
+-----------------
+
+```
+Soheab_#5757: Oh wait
+Soheab_#5757: S!eval
+```py
+import asyncio
+a = discord.Embed(title="lol")
+cunt = await ctx.send(embed=a)
+await asyncio.sleep(4)
+b = a.copy()
+b.add_field(name="lol",value="suck")
+await cunt.edit(embed=b)
+```
+Sparklybot ✨#2325: 
+Sparklybot ✨#2325: ```py
+Command: S!eval
+```py
+import asyncio
+a = discord.Embed(title="lol")
+cunt = await ctx.send(embed=a)
+await asyncio.sleep(4)
+b = a.copy()
+b.add_field(name="lol",value="suck")
+await cunt.edit(embed=b)
+``` || Member: Soheab_#5757|150665783268212746 || Server:discord.py|336642139381301249
+-----------------
+
+```
+StarrFox#6312: this doesnt test their issue though
+Soheab_#5757: ¯\_(ツ)_/¯
+Kris#5836: +dong
+YMYBot#9749: 
+VapourVenom#9578: ?rtfm cache
+R. Danny#6348: 
+Josh#6734: <@183526467777462273>
+Josh#6734: Imagine
+Josh#6734: I feel like that'd look so stupid in person
+Beam me up Uranus#9828: God I hope not
+Beam me up Uranus#9828: I so hope these are fake
+Beam me up Uranus#9828: Or at least they're trying to figure out the design and that's one render
+Luc1412#1412: ?tag cog
+R. Danny#6348: <https://gist.github.com/EvieePy/d78c061a4798ae81be9825468fe146be>
+Beam me up Uranus#9828: I'll probably end up with a Pixel 5 too
+Beam me up Uranus#9828: Not if it looks like that lmao
+Beam me up Uranus#9828: My contract ends in October and I'll probably just end up buying the Pixel 5 outright
+large passenger-carrying vehicle#0268: ehh
+large passenger-carrying vehicle#0268: my current phone is a pixel 3a
+large passenger-carrying vehicle#0268: it'll last me a while
+Beam me up Uranus#9828: I've got a 3 XL and I'm pretty happy
+large passenger-carrying vehicle#0268: I'm thinking of getting a fxtec pro 1 because physical keyboards in 2020
+large passenger-carrying vehicle#0268: the keyboard layout is very... interesting though
+Luc1412#1412: ?tag async cog
+R. Danny#6348: Tag not found. Did you mean...
+async
+async-cb
+async eh
+Luc1412#1412: ?tag cog we
+R. Danny#6348: Tag not found. Did you mean...
+cog
+we
+rw cog
+Luc1412#1412: ?tag rw cog
+R. Danny#6348: https://gist.github.com/EvieePy/d78c061a4798ae81be9825468fe146be
+large passenger-carrying vehicle#0268: at least it has the correct amount of keys so I can put a custom layout on it if I wanted too
+Luc1412#1412: ?tag cogs
+R. Danny#6348: <https://gist.github.com/EvieePy/d78c061a4798ae81be9825468fe146be>
+Luc1412#1412: ?tag cogs init
+R. Danny#6348: Tag not found. Did you mean...
+cogs
+Cogs!=
+cogs.cogs
+Luc1412#1412: ?tag Cogs!=
+R. Danny#6348: Perfect When you use cogs, the cog is perfect
+Luc1412#1412: ?tag cogs.cogs
+R. Danny#6348: cogs.cogs.cogs
+Beam me up Uranus#9828: Why do you need a physical keybord
+large passenger-carrying vehicle#0268: I don't
+large passenger-carrying vehicle#0268: I just want one
+Beam me up Uranus#9828: Why do you want one
+large passenger-carrying vehicle#0268: because it looks interesting
+Beam me up Uranus#9828: I'll see you in hell when we die
+large passenger-carrying vehicle#0268: it's not going to be useful at all tbh
+Beam me up Uranus#9828: I'll see you in hell when we die
+large passenger-carrying vehicle#0268: you'll also see people who only put 9 keys on the home row
+🔰𝓢𝓷𝓸𝓸𝓹 𝓓𝓸𝓰🔰#9850: ?rtfm status
+R. Danny#6348: 
+large passenger-carrying vehicle#0268: actually, never mind, they get their own hell
+Josh#6734: Wow
+Clespy#4083: +dong
+YMYBot#9749: 
+Skorpa#5632: ?faq iamge
+R. Danny#6348: **How do I upload an image?**
+https://discordpy.readthedocs.io/en/latest/faq.html#how-do-i-upload-an-image
+**How do I use a local image file for an embed image?**
+https://discordpy.readthedocs.io/en/latest/faq.html#how-do-i-use-a-local-image-file-for-an-embed-image
+Soheab_#5757: ?tag cogs.cogs.cogs
+R. Danny#6348: Tag not found. Did you mean...
+cogs
+Cogs!=
+cogs.cogs
+Soheab_#5757: ?tag add cogs.cogs.cogs cogs.cogs.cogs.cogs
+R. Danny#6348: Tag cogs.cogs.cogs successfully created.
+Soheab_#5757: ?tag cogs
+R. Danny#6348: <https://gist.github.com/EvieePy/d78c061a4798ae81be9825468fe146be>
+Soheab_#5757: ?tag search cogs
+R. Danny#6348: 
+Soheab_#5757: ?tag add cogs.cogs.cogs.cogs cogs.cogs.cogs.cogs.cogs
+R. Danny#6348: Tag cogs.cogs.cogs.cogs successfully created.
+Soheab_#5757: ?tag add cogs.cogs.cogs.cogs.cogs cogs.cogs.cogs.cogs.cogs.cogs
+R. Danny#6348: Tag cogs.cogs.cogs.cogs.cogs successfully created.
+Soheab_#5757: ?tag search cogs
+R. Danny#6348: 
+Soheab_#5757: ?tag auto cogs
+R. Danny#6348: **Rewrite example: **
+<https://gist.github.com/Modelmat/ff2dc0953bf0f399fdd2083b74b4755d>
+**Async example: **
+<https://gist.github.com/Modelmat/b2f92ad6db3d89302649ceb6dcb19744>
+
+*Credits to both Mysterial & leovoel for the original GIST scripts.*
+
+These files have added the code which searches the `cogs` directory for python files.
+```py
+from os import listdir
+from os.path import isfile, join
+cogs_dir = "cogs"
+
+if __name__ == '__main__':
+    for extension in [f.replace('.py', '') for f in listdir(cogs_dir) if isfile(join(cogs_dir, f))]:
+        try:
+            bot.load_extension(cogs_dir + "." + extension)
+        except (discord.ClientException, ModuleNotFoundError):
+            print(f'Failed to load extension {extension}.')
+            traceback.print_exc()```
+Zomatree#7757: apt jsk py ```py
+@commands.check(lambda X: True)
+async def a(CTX): pass
+return type(a)```
+Champions#1090: <class 'function'>
+Zomatree#7757: apt jsk py _(1)
+Anti Lol#3119: 
+Zomatree#7757: apt jsk py 
+@commands.check(lambda X: True)
+async def a(CTX): return 2
+return a(1)
+Champions#1090: <coroutine object _repl_coroutine.<locals>.a at 0x7f8081e776c8>
+Zomatree#7757: apt jsk py await _
+Champions#1090: 2
+Skorpa#5632: ?help
+R. Danny#6348: 
+Skorpa#5632: ?source help
+R. Danny#6348: <https://github.com/Rapptz/RoboDanny/blob/rewrite/cogs/meta.py#L114-L200>
+Anti Lol#3119: 
+Skorpa#5632: ?source tag
+R. Danny#6348: <https://github.com/Rapptz/RoboDanny/blob/rewrite/cogs/tags.py#L266-L284>
+Zorkai#9999: ;eval return hasattr(ctx, "bot")
+MoonWolf#9228: **The code has been successfully executed. ✅**
+Sensei#6243: 
+MoonWolf#9228: ```py
+True
+```
+Zorkai#9999: >>>source
+Zorkai#9999: apt source
+Zorkai#9999: apt help
+Zorkai#9999: +dong
+YMYBot#9749: 
+Zorkai#9999: Bitch
+Soheab_#5757: Love how you first want to steal the code
+Zorkai#9999: I have an addiction to look at the source codes
+Zorkai#9999: don't judge me
+PikalaxALT#5823: ?rtfm .typing
+R. Danny#6348: 
+Sebastiano#3151: <@446650423416193034> sono privati
+Sebastiano#3151: per ora
+Sebastiano#3151: Quindi tu puoi usare solo i tuoi
+Sebastiano#3151: Benvenuto/Welcome <@499602690767061002>
+Enri76#1234: <@488398758812319745> ciao mi sono unito grazie al tuo video
+Enri76#1234: Posso farti delle domande?
+Sebastiano#3151: Ok
+Sebastiano#3151: Si
+Enri76#1234: Io ho provato ad installare Python ma verso metà download mi dice che è impossibile scaricarlo perché c’è un download attivo
+Enri76#1234: Io ho controllato anche il registro attività ed era tutto chiuso tranne il launcher di installazione
+Sebastiano#3151: Non c'entra python
+Sebastiano#3151: Prova a scaricare qualsiasi altra cosa
+Sebastiano#3151: E guarda se ti da lo stesso errore
+Enri76#1234: No
+Enri76#1234: Solo con il launcher di Pyhton
+Sebastiano#3151: Mh..
+Sebastiano#3151: discord.gg/python
+Sebastiano#3151: Chiedi qui
+Enri76#1234: Ah è un altra cosa, non so se ti ricordi il video che hai fatto su reple
+Sebastiano#3151: Si
+Enri76#1234: I file in descrizione non vanno più non so perché
+Enri76#1234: Aspetta che ti faccio vedere l’errore
+Sebastiano#3151: Ho controllato
+Sebastiano#3151: Vanno
+Enri76#1234: 
+Sebastiano#3151: Vau sui packages
+Sebastiano#3151: Ed installa Flask
+Enri76#1234: Come?
+Enri76#1234: <@488398758812319745>
+Sebastiano#3151: A sinistra
+Sebastiano#3151: C'è un cubo
+Sebastiano#3151: Su repl
+Sebastiano#3151: Premilo
+Sebastiano#3151: E cerca flask
+NCPlayz#7941: wdym Shenzhen is just a few miles from Hong Kong anyway
+NCPlayz#7941: (I exercise the right of free speech. Do not exorcise me)
+devon#4089: i exorcise the right of free speech
+Zorkai#9999: ?rtfm after.author
+R. Danny#6348: Could not find anything. Sorry.
+Zorkai#9999: ?rtfm event.author
+R. Danny#6348: Could not find anything. Sorry.
+Hillow#6756: ?tag embed
+R. Danny#6348: **Visualizer:** https://leovoel.github.io/embed-visualizer/
+https://cdn.discordapp.com/attachments/84319995256905728/252292324967710721/embed.png
+Nerrix#5439: ?tag host
+R. Danny#6348: Need to run your bot 24/7? Get a cheap VPS.
+
+<https://www.scaleway.com/>- Incredibly cheap but powerful VPSes, owned by <https://online.net/>, based in Europe.
+<https://www.digitalocean.com/> - US-based cheap VPSes. The gold standard. Locations available world wide.
+<https://www.ovh.co.uk/> - Cheap VPSes, used by many people. France and Canadian locations available.
+<https://www.time4vps.eu/> - Cheap VPSes, seemingly based in Lithuania.
+<https://www.linode.com/> - More cheap VPSes!
+<https://www.vultr.com/> - US-based, DigitalOcean-like.
+<https://galaxygate.net/> - A reliable, affordable, and trusted host, Used by Dank Memer, Rythm, and many other people.
+
+Self-hosting:
+Any modern hardware should work 100% fine.
+
+Free hosting:
+No.  There is no good free VPS hoster, outside of persuading somebody to host for you, which is incredibly unlikely.
+Nerrix#5439: ?tag hosting
+R. Danny#6348: Need to run your bot 24/7? Get a cheap VPS.
+
+<https://www.scaleway.com/>- Incredibly cheap but powerful VPSes, owned by <https://online.net/>, based in Europe.
+<https://www.digitalocean.com/> - US-based cheap VPSes. The gold standard. Locations available world wide.
+<https://www.ovh.co.uk/> - Cheap VPSes, used by many people. France and Canadian locations available.
+<https://www.time4vps.eu/> - Cheap VPSes, seemingly based in Lithuania.
+<https://www.linode.com/> - More cheap VPSes!
+<https://www.vultr.com/> - US-based, DigitalOcean-like.
+<https://galaxygate.net/> - A reliable, affordable, and trusted host, Used by Dank Memer, Rythm, and many other people.
+
+Self-hosting:
+Any modern hardware should work 100% fine.
+
+Free hosting:
+No.  There is no good free VPS hoster, outside of persuading somebody to host for you, which is incredibly unlikely.
+Nerrix#5439: ?tag hos
+R. Danny#6348: Tag not found. Did you mean...
+host
+hosts
+hosting
+Hillow#6756: ?tag avatar
+R. Danny#6348: Tag not found. Did you mean...
+anime avatar
+cool avatar
+avatar_url_as
+Hillow#6756: ?tag avatar_url_as
+R. Danny#6348: `"https://cdn.discordapp.com/avatars/{0.id}/{0.avatar}.{1}".format(user, format)`
+Soheab_#5757: No
+Soheab_#5757: user.avatar_url_as(static_format="png")
+Soheab_#5757: ?rtfm set_image
+R. Danny#6348: 
+Equity#3464: ?tag info avatar_url_as
+R. Danny#6348: 
+Soheab_#5757: ?tag local embed
+R. Danny#6348: ```py
+f = discord.File("some_file_path", filename="image.png")
+e = discord.Embed()
+e.set_image(url="attachment://image.png")
+await messagable.send(file=f, embed=e)```
+Note that the filename in the File constructor and the filename in the URL must match.
+Equity#3464: out of everyone, i thought it wouldn't be him
+Soheab_#5757: Vex has allot of tags
+Lorenzo#6154: ?tag list
+R. Danny#6348: 
+Painezor#8489: ?rtfm Memberconvert
+R. Danny#6348: 
+Lorenzo#6154: ?tag <@490948915168935956>ing in /usr/bin
+R. Danny#6348: test
+Lorenzo#6154: ive seen that pfp somewhere
+ShinySnover✨#5136: xd
+Soheab_#5757: S!avatar
+Sparklybot ✨#2325: 
+Soheab_#5757: S!eval
+
+```py
+f = await ctx.url_to_file(
+    "https://cdn.discordapp.com/avatars/150665783268212746/a_e7335ffb1c0a86f61dad84b8f4500604.gif", "image", "png")
+e = discord.Embed()
+e.set_image(url="attachment://image.png")
+await messagable.send(file=f, embed=e)```
+Sparklybot ✨#2325: 
+Sparklybot ✨#2325: ```py
+Command: S!eval
+
+```py
+f = await ctx.url_to_file(
+    "https://cdn.discordapp.com/avatars/150665783268212746/a_e7335ffb1c0a86f61dad84b8f4500604.gif", "image", "png")
+e = discord.Embed()
+e.set_image(url="attachment://image.png")
+await messagable.send(file=f, embed=e)``` || Member: Soheab_#5757|150665783268212746 || Server:discord.py|336642139381301249
+-----------------
+
+```
+Soheab_#5757: Where my embed
+Zorkai#9999: ?tag developer license
+R. Danny#6348: Tag not found. Did you mean...
+license
+developer mode
+shame developer
+Zorkai#9999: ?tag menus
+R. Danny#6348: ```py
+from discord.ext import menus
+
+class CounterMenu(menus.Menu):
+    counter = 0
+
+    async def send_initial_message(self, ctx, channel):
+        return await channel.send(str(self.counter))
+
+    @menus.button('\N{HEAVY PLUS SIGN}')
+    async def add_button(self, payload):
+        self.counter += 1
+        await self.message.edit(content=str(self.counter))
+
+# In a command
+menu = CounterMenu()
+await menu.start(ctx)
+```
+install 
+```sh
+pip install -U git+https://github.com/Rapptz/discord-ext-menus
+```
+For pagination see: `?tag menupages`
+
+Check readme for more info & examples: <https://github.com/Rapptz/discord-ext-menus>
+Soheab_#5757: S!eval
+```py
+f = await ctx.url_to_file(
+    "https://cdn.discordapp.com/avatars/150665783268212746/a_e7335ffb1c0a86f61dad84b8f4500604.gif", "image", "png")
+e = discord.Embed()
+e.set_image(url="attachment://image.png")
+await messagable.send(file=f, embed=e)```
+Sparklybot ✨#2325: ```py
+Command: S!eval
+```py
+f = await ctx.url_to_file(
+    "https://cdn.discordapp.com/avatars/150665783268212746/a_e7335ffb1c0a86f61dad84b8f4500604.gif", "image", "png")
+e = discord.Embed()
+e.set_image(url="attachment://image.png")
+await messagable.send(file=f, embed=e)``` || Member: Soheab_#5757|150665783268212746 || Server:discord.py|336642139381301249
+-----------------
+
+```
+Zomatree#7757: apt help test
+Champions#1090: 
+Zomatree#7757: apt jsk py _bot.get_command("test").aliases.append("test1")
+Zomatree#7757: apt test2
+Zomatree#7757: apt test1
+Soheab_#5757: S!eval
+```py
+f = await ctx.url_to_file(
+    "https://cdn.discordapp.com/avatars/150665783268212746/a_e7335ffb1c0a86f61dad84b8f4500604.gif", "image", "png")
+e = discord.Embed()
+e.set_image(url="attachment://image.png")
+await ctx.send(file=f, embed=e)```
+Sparklybot ✨#2325: ```py
+Command: S!eval
+```py
+f = await ctx.url_to_file(
+    "https://cdn.discordapp.com/avatars/150665783268212746/a_e7335ffb1c0a86f61dad84b8f4500604.gif", "image", "png")
+e = discord.Embed()
+e.set_image(url="attachment://image.png")
+await ctx.send(file=f, embed=e)``` || Member: Soheab_#5757|150665783268212746 || Server:discord.py|336642139381301249
+-----------------
+
+```
+Zomatree#7757: apt test1 1
+Soheab_#5757: I
+Zomatree#7757: ?tag custom commands
+R. Danny#6348: https://gist.github.com/Phxntxm/5027106223b366616823553cb03f4482
+Soheab_#5757: S!eval
+```py
+f = await ctx.url_to_file(
+    "https://cdn.discordapp.com/avatars/150665783268212746/a_e7335ffb1c0a86f61dad84b8f4500604.gif", "image", "png")
+await ctx.send(f)```
+Sparklybot ✨#2325: ```py
+Command: S!eval
+```py
+f = await ctx.url_to_file(
+    "https://cdn.discordapp.com/avatars/150665783268212746/a_e7335ffb1c0a86f61dad84b8f4500604.gif", "image", "png")
+await ctx.send(f)``` || Member: Soheab_#5757|150665783268212746 || Server:discord.py|336642139381301249
+-----------------
+
+```
+Soheab_#5757: Tf
+Zorkai#9999: ?tester
+ImRock#0001: +dev socketstats
+Welcomer#5491: 7986472859 socket events observed (251966.00/minute):
+```MESSAGE_REACTION_REMOVE_EMOJI: 71
+GIFT_CODE_UPDATE: 121
+READY: 961
+RESUMED: 5650
+INVITE_DELETE: 36701
+VOICE_SERVER_UPDATE: 38840
+GUILD_BAN_REMOVE: 43063
+GUILD_DELETE: 53943
+WEBHOOKS_UPDATE: 74951
+GUILD_MEMBERS_CHUNK: 89280
+CHANNEL_PINS_UPDATE: 97880
+GUILD_BAN_ADD: 99457
+GUILD_ROLE_DELETE: 104429
+MESSAGE_REACTION_REMOVE_ALL: 151232
+GUILD_UPDATE: 171045
+GUILD_ROLE_CREATE: 187864
+CHANNEL_DELETE: 238699
+INVITE_CREATE: 418782
+MESSAGE_DELETE_BULK: 606159
+GUILD_INTEGRATIONS_UPDATE: 685694
+GUILD_EMOJIS_UPDATE: 703149
+CHANNEL_CREATE: 880256
+GUILD_MEMBER_REMOVE: 1195899
+GUILD_CREATE: 1382205
+GUILD_MEMBER_ADD: 1654447
+MESSAGE_REACTION_REMOVE: 2469158
+None: 4662931
+MESSAGE_DELETE: 8136363
+GUILD_ROLE_UPDATE: 11120500
+MESSAGE_REACTION_ADD: 17698599
+GUILD_MEMBER_UPDATE: 20404179
+CHANNEL_UPDATE: 27546620
+VOICE_STATE_UPDATE: 31323270
+MESSAGE_UPDATE: 57034384
+TYPING_START: 166394496
+MESSAGE_CREATE: 243251760
+PRESENCE_UPDATE: 7387509821```
+Mugimon#1273: ?rtfm emoji
+R. Danny#6348: 
+Eugene#3778: ?help tester
+R. Danny#6348: 
+Eugene#3778: ?usage tester
+lgs#5544: ?rag error
+lgs#5544: rag
+lgs#5544: ok
+lgs#5544: ?tsg error
+lgs#5544: ?tag error
+R. Danny#6348: https://cdn.discordapp.com/attachments/381963689470984203/473174040916525077/unknown.png
+lgs#5544: there we go
+Hillow#6756: ?tag avatat
+R. Danny#6348: Tag not found. Did you mean...
+ava
+anime avatar
+cool avatar
+Hillow#6756: ?tag url_avatar
+R. Danny#6348: Tag not found. Did you mean...
+avatar_url_as
+anime avatar
+cool avatar
+Hillow#6756: ?tag avatar_url_as
+R. Danny#6348: `"https://cdn.discordapp.com/avatars/{0.id}/{0.avatar}.{1}".format(user, format)`
+lgs#5544: ?rtfm on_mention
+R. Danny#6348: 
+lgs#5544: ?rtfm mentioned
+R. Danny#6348: 
+lgs#5544: oh ok
+Soheab_#5757: Just do this user.avatar_url_as(static_format="png")
+Soheab_#5757: iOS users would thank you
+Lida#6399: ?tag \U
+R. Danny#6348: Tag not found. Did you mean...
+-U
+u
+no u
+Lida#6399: ?tag -U
+R. Danny#6348: This flag means the package will be uptdated
+Lida#6399: ?tag u
+R. Danny#6348: http://discordpy.readthedocs.io/en/latest/migrating.html
+Lida#6399: ?tag unicode
+R. Danny#6348: I � unicode
+Lida#6399: ?tag uni
+R. Danny#6348: Tag not found. Did you mean...
+Unix
+union
+uno
+Lida#6399: //source poll
+Charles#5244: ```py
+    @commandExtra(category="Polls")
+    async def poll(self, ctx, *, questions_and_choices: str):
+        """
+        delimit questions and answers by either | or ,
+        supports up to 10 choices
+        """
+        if "|" in questions_and_choices:
+            delimiter = "|"
+        elif "," in questions_and_choices:
+            delimiter = ","
+        else:
+            delimiter = None
+        if delimiter is not None:
+            questions_and_choices = questions_and_choices.split(delimiter)
+        else:
+            questions_and_choices = shlex.split(questions_and_choices)
+
+        if len(questions_and_choices) < 3:
+            return await ctx.send(get_text(ctx.guild, "utility", "utility.poll_short"))
+        elif len(questions_and_choices) > 11:
+            return await ctx.send(get_text(ctx.guild, "utility", "utility.poll_long"))
+
+        question = questions_and_choices[0]
+        choices = [(f"`{e}.`", v)
+                   for e, v in enumerate(questions_and_choices[1:], 1)]
+        reactions = [(to_keycap(e), v)
+                     for e, v in enumerate(questions_and_choices[1:], 1)]
+
+        try:
+            await ctx.message.delete()
+        except:
+            pass
+
+        answer = '\n'.join('%s %s' % t for t in choices)
+
+        embed = discord.Embed(color=self.bot.embed_color, title=question.replace("@", "@\u200b"), description=answer.replace("@", "@\u200b"))
+        embed.set_author(icon_url=ctx.author.avatar_url, name=get_text(ctx.guild, "utility", "utility.poll_by").format(ctx.author)) 
+        poll = await ctx.send(embed=embed)
+        for emoji, _ in reactions:
+            await poll.add_reaction(emoji)
+
+```
+Lida#6399: ?tag {}
+R. Danny#6348: Tag not found.
+Lida#6399: ?tag emoji uniccode
+R. Danny#6348: Tag not found. Did you mean...
+unicode emoji regex
+emojicode
+unicode
+Lida#6399: ?tag emojicode
+R. Danny#6348: https://www.emojicode.org/
+DerJonas#8109: ?rtfm send_file
+R. Danny#6348: Could not find anything. Sorry.
+Nerrix#5439: ?tag install
+R. Danny#6348: First, realize you need to have python 3.5.3+ installed. Whatever version you want to use for your bot, that is the version you want to install discord.py to. Depending on how you installed python, and how many versions you have on your system, there are a few ways you can typically invoke python via cmd (Windows) or via a terminal. The most typical ways are:
+
+**Windows:**
+`python`
+`py -3`
+`py -3.7` (or .6/.5, depending on which version you want)
+
+**Not windows:**
+`python`
+`python3`
+`python3.7` (or .6/.5 depending on which version you want)
+
+Try some of these depending on your system, and append ` -V` to the command, until you find the version that matches the one you are trying to use. Once you have that, you can then replace `python` in the following command, to ensure that you are installing discord.py to your preferred version of python:
+
+```
+# without voice
+python -m pip install -U discord.py
+# with voice
+python -m pip install -U discord.py[voice]
+```
+NoxiousFumes#9390: +dong
+YMYBot#9749: 
+Lida#6399: ?tag search emoji
+R. Danny#6348: 
+Eugene#3778: Aaa, why every 2nd github account has this pfp https://avatars1.githubusercontent.com/u/24046?s=400&v=4
+Fyssion#5985: <@!292212176494657536>
+Fyssion#5985: what is this bot
+xN̴͈̼Ọ̸̧V̶̨̳A̸̙̖™#9658: 
+Fyssion#5985: <@!292212176494657536> help
+Highlight#7215: 
+Fyssion#5985: interesting
+Fyssion#5985: oh discord redid the oauth invite screen
+Fyssion#5985: looks nice
+Fyssion#5985: but extremely off centered and small for some reason
+Equity#3464: looks v similar to githubs oauth
+Equity#3464: but nevertheless it looks nice
+aknalumos#7317: l-ping
+Life#2673: ```py
+Type         |Ping
+Average Lat. |24.4ms
+Latency      |57.6ms
+Typing       |74.58ms
+Discord      |46.77ms
+```
+aknalumos#7317: t.ping
+aknalumos#7317: trenchhhhhh <a:crii:586408788311932939>
+aknalumos#7317: l-play hamilton full
+Life#2673: Added the track **Hamilton: An American Musical FULL SOUNDTRACK** to the queue.
+Life#2673: 
+aknalumos#7317: 20 fucking hours?
+aknalumos#7317: wtf
+aknalumos#7317: <@!238356301439041536> bug?
+Fyssion#5985: so highlight DMs you when it sees a word that you have added to your highlight list
+Fyssion#5985: that's interesting
+aknalumos#7317: Basically for ghost ping <:fufu:605255050289348620>
+aknalumos#7317: and normal mention of your name
+twitch 🔋#7443: <:rooThink:596576798351949847>
+aknalumos#7317: twitchhhhh
+aknalumos#7317: <@!503212304171532289>
+aknalumos#7317: <a:yay:469953799394557962>
+Satoru#6725: 
+Sebastiano#3151: e?reload trigger
+Satoru#6725: 
+Sebastiano#3151: e?reload triggers
+Sebastiano#3151: e?at lisgt
+Satoru#6725: Uh! I can't find that auto trigger!
+Sebastiano#3151: e?at list
+Satoru#6725: You don't have any auto trigger!
+Sebastiano#3151: e?at cr test toast
+Satoru#6725: Done! You can now invoke the trigger doing `e?autotrigger test`!
+Satoru#6725: 
+Sebastiano#3151: e?reload triggers
+Sebastiano#3151: e?at test
+Satoru#6725: toast
+Zach#2679: ?rtfm limits
+R. Danny#6348: 
+Zach#2679: ?tag rate limits
+R. Danny#6348: ```
+REST:
+        POST Message |  5/5s    | per-channel
+      DELETE Message |  5/1s    | per-channel
+ PUT/DELETE Reaction |  1/0.25s | per-channel
+        PATCH Member |  10/10s  | per-guild
+   PATCH Member Nick |  1/1s    | per-guild
+      PATCH Username |  2/3600s | per-account
+      |All Requests| |  50/1s   | per-account
+WS:
+     Gateway Connect |   1/5s   | per-account
+     Presence Update |   5/60s  | per-session
+ |All Sent Messages| | 120/60s  | per-session```
+Satoru#6725: 
+Sebastiano#3151: e?reload triggers
+Sebastiano#3151: e?at list
+Satoru#6725: 
+Sebastiano#3151: no u
+pb#3476: is there a website to paste and compile codes for sharing?
+Sebastiano#3151: e?at del test
+Satoru#6725: Done!
+Sebastiano#3151: e?at cr lol lel is better
+Satoru#6725: Done! You can now invoke the trigger doing `e?autotrigger lol`!
+Sebastiano#3151: e?at lol
+Satoru#6725: lel is better
+Satoru#6725: 
+Sebastiano#3151: e?reload triggers
+Sebastiano#3151: e?ping
+Satoru#6725: :ping_pong: | 59ms
+Sebastiano#3151: e?ut
+Satoru#6725: 
+Sebastiano#3151: e?help at
+Satoru#6725: 
+Fyssion#5985: you can share code with hastebin.com or mystb.in
+Sebastiano#3151: e?at list
+Satoru#6725: 
+Jacksky#6848: ?rtfm guild
+R. Danny#6348: 
+Satoru#6725: Done! You can now invoke the trigger doing `e?autotrigger lmao`!
+Sebastiano#3151: e?at create lmao jiasncjnd
+Satoru#6725: jiasncjnd
+Sebastiano#3151: e?at lmao
+Sebastiano#3151: e?at list
+Satoru#6725: 
+Satoru#6725: Done!
+Sebastiano#3151: e?at del lmao
+DVSAEZI#2020: è python
+DVSAEZI#2020: ew
+Satoru#6725: 
+Sebastiano#3151: e?reload triggers
+Sebastiano#3151: e?at list
+Satoru#6725: 
+Sebastiano#3151: js is ew
+Sebastiano#3151: !d bump
+DISBOARD#2760: 
+Leon#2018: bel piestatus R. Danny
+Sebastiano#3151: e?beta list
+Satoru#6725: 
+Belphegor#0249: 
+DerJonas#8109: bel piestatus <@!80528701850124288>
+Belphegor#0249: 
+Leon#2018: Oof
+Leon#2018: bel piestatus
+Belphegor#0249: 
+Satoru#6725: 
+Sebastiano#3151: e?reload misx
+Satoru#6725: 
+Sebastiano#3151: e?reload misc
+ⓣɪ₥𝕠тa҉𝔦𝖓m🅔𝓷𝓉 ϝꍏη#7424: dd
+Satoru#6725: 
+Sebastiano#3151: e?stats
+ⓣɪ₥𝕠тa҉𝔦𝖓m🅔𝓷𝓉 ϝꍏη#7424: YES'
+ⓣɪ₥𝕠тa҉𝔦𝖓m🅔𝓷𝓉 ϝꍏη#7424: FINNALY

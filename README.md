@@ -8,57 +8,53 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`e?random [elements...]`
+`e?about `
 
-> Make a random choice 
-
-`e?feedback <feedback>`
-
-> Send a feedback to the bot or suggest a new command 
-
-`e?addemoji [name] [emoji_link]`
-
-> Add an emoji 
-
-`e?roleinfo <role>`
-
-> See a role info 
+> Info about the bot 
 
 `e?clear [amount=100]`
 
 > Delete Messages 
 
-`e?ping `
+`e?roleinfo <role>`
 
-> See bot latency 
+> See a role info 
 
-`e?say <message>`
+`e?male <thing> [member]`
 
-> Say something with Satoru 
+> Use this when someone says that a thing is a female but is a male 
 
 `e?kick [member] [reason]`
 
 > Kick a member 
 
-`e?profile [member]`
+`e?translate <text> [source] [destination]`
 
-> See a user's profile 
+> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
 
-`e?list `
+`e?female <thing> [member]`
 
-> See your list 
+> Use this when someone says that a thing is a male but is a female 
 
 `e?mute [member] [reason]`
 
 > Mute a member 
 
-`e?gun `
+`e?feedback <feedback>`
 
-> Make a gun battle 
+> Send a feedback to the bot or suggest a new command 
+
+`e?random [elements...]`
+
+> Make a random choice 
 
 `e?unmute [member]`
 
 > Unmute a member 
+
+`e?addemoji [name] [emoji_link]`
+
+> Add an emoji 
 
 `e?ban [member] [reason]`
 
@@ -68,25 +64,29 @@ Satoru is a Discord Bot made with discord.py
 
 > See a random image of Satoru Fujinuma 
 
-`e?autotrigger <trigger>`
+`e?say <message>`
 
-> None 
+> Say something with Satoru 
 
 `e?kayo `
 
 > See a random image of Kayo Hinazuki 
 
+`e?profile [member]`
+
+> See a user's profile 
+
+`e?list `
+
+> See your list 
+
 `e?guildinfo `
 
 > See the actual guild info 
 
-`e?looneytunes `
+`e?gun `
 
-> Which Looney Tunes are you? 
-
-`e?uptime `
-
-> See bot uptime 
+> Make a gun battle 
 
 `e?hug [member]`
 
@@ -96,31 +96,31 @@ Satoru is a Discord Bot made with discord.py
 
 > See a member's info 
 
-`e?invite `
+`e?ping `
 
-> Invite the bot to your server 
+> See bot latency 
 
-`e?avatar [member]`
+`e?looneytunes `
 
-> See a member avatar 
+> Which Looney Tunes are you? 
 
-`e?about `
+`e?uptime `
 
-> Info about the bot 
-
-`e?male <thing> [member]`
-
-> Use this when someone says that a thing is a female but is a male 
+> See bot uptime 
 
 `e?punch [member]`
 
 > Punch a user 
 
-`e?translate <text> [source] [destination]`
+`e?invite `
 
-> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
+> Invite the bot to your server 
 
-`e?female <thing> [member]`
+`e?autotrigger <trigger>`
 
-> Use this when someone says that a thing is a male but is a female 
+> See a response giving a trigger 
+
+`e?avatar [member]`
+
+> See a member avatar 
 

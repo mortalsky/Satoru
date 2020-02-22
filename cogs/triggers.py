@@ -21,7 +21,7 @@ class AutoTriggers(commands.Cog):
 
         l = json.load(f)
 
-      await ctx.send(l[str(ctx.author.id)][str(trigger)])
+      await ctx.send(l[str(trigger)]["response"])
 
     except KeyError:
 
@@ -40,9 +40,11 @@ class AutoTriggers(commands.Cog):
 
       res = ""
 
-      for a in l[str(ctx.author.id)]:
+      for a in l:
 
-        res += f"\n`{a}`"
+        if l[str(a)]["owner"] == str(ctx.author.id):
+          
+          res += f"\n`{a}`"
 
       emb = discord.Embed(description = res, colour = colour)
 
@@ -61,7 +63,7 @@ class AutoTriggers(commands.Cog):
 
       l = json.load(f)
 
-    l[str(ctx.author.id)] = {str(trigger): str(response)}
+    l[str(trigger)] = {"response": str(response), "owner": str(ctx.author.id)}
 
     with open("data/triggers.json", "w") as f:
 
@@ -77,8 +79,10 @@ class AutoTriggers(commands.Cog):
     with open("data/triggers.json", "r") as f:
 
       l = json.load(f)
-
-    l[str(ctx.author.id)].pop(str(trigger))
+    
+    if l[str(trigger)]["owner"] == str(ctx.author.id):
+      
+      l.pop(str(trigger))
 
     with open("data/triggers.json", "w") as f:
 

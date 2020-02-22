@@ -297,7 +297,7 @@ class Misc(commands.Cog):
 
       "Info about the bot"
 
-      emb = discord.Embed(description = f"""**Developer: `Sebastiano#5005`
+      emb = discord.Embed(description = f"""**Developer: `Sebastiano#3151`
 Library: `{discord.__version__}`
 Python: `{platform.python_version()}`
 Memory: `{psutil.virtual_memory()[2]}%`
