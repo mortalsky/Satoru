@@ -161,19 +161,7 @@ class Misc(commands.Cog):
 
       "Say something with Satoru"
 
-      if "@everyone" in message:
-        
-        a = message.replace("@everyone", "everyone")
-
-      elif "@here" in message:
-
-        a = message.replace("@here", "here")
-        
-      else:
-        
-        a = message
-        
-      await ctx.send(a)
+      await ctx.send(discord.utils.escape_mentions(message))
 
     @commands.group(invoke_without_command = True)
     async def list(self, ctx):
@@ -297,11 +285,17 @@ class Misc(commands.Cog):
 
       "Info about the bot"
 
+      uptime = datetime.now() - self.launchtime
+      hours, remainder = divmod(int(uptime.total_seconds()), 3600)
+      minutes, seconds = divmod(remainder, 60)
+      days, hours = divmod(hours, 24)
+
       emb = discord.Embed(description = f"""**Developer: `Sebastiano#3151`
 Library: `{discord.__version__}`
 Python: `{platform.python_version()}`
 Memory: `{psutil.virtual_memory()[2]}%`
 CPU: `{psutil.cpu_percent()}%`
+Uptime: `{days} Days {hours} Hours {minutes} Minutes {seconds} Seconds`
 Running on: `{platform.system()}`
 Guilds: `{len(self.bot.guilds)}`
 Users: `{len(self.bot.users)}`
@@ -409,6 +403,13 @@ Release Date: {r[season][episode]["release_date"]}
           await asyncio.sleep(3600)
 
         return await ctx.send(content = ctx.author.mention, embed = emb)
+
+    @commands.command(aliases = ["cb"])
+    async def codeblock(self, ctx, language, *, code):
+
+      "Transform a code to a codeblock"
+
+      await ctx.send(f"""```{language}\n{code}```""")
         
 def setup(bot):
     bot.add_cog(Misc(bot))

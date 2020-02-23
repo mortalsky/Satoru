@@ -2,6 +2,8 @@ import discord
 from discord.ext import commands
 import json
 
+colour = 0xbf794b
+
 class Profiles(commands.Cog):
 
   def __init__(self, bot):
@@ -23,11 +25,7 @@ class Profiles(commands.Cog):
 
     emb = discord.Embed(timestamp = ctx.message.created_at, colour = discord.Colour.blue())
 
-    
-
     emb.set_author(name = member.name, icon_url = member.avatar_url)
-
-    
 
     try:
 
@@ -54,6 +52,30 @@ class Profiles(commands.Cog):
     if image:
       
       emb.set_image(url = image)
+
+    await ctx.send(embed = emb)
+
+  @profile.command()
+  async def list(self, ctx):
+
+    "See who has a profile in the actual guild"
+
+    with open("data/profiles.json", "r") as f:
+
+      l = json.load(f)
+
+    res = ""
+
+    for a in l:
+
+      u = self.bot.get_user(int(a))
+
+      if u in ctx.guild.members:
+        
+        res += f"\n`{u}`"
+
+    emb = discord.Embed(description = res, colour = colour)
+    emb.set_author(name = f"Users in {ctx.guild.name}", icon_url = ctx.guild.icon_url)
 
     await ctx.send(embed = emb)
 

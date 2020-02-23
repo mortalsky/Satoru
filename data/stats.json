@@ -1,9 +1,9 @@
 {
     "library": "1.2.5",
     "python": "3.8.1",
-    "memory": 33.0,
-    "cpu": 23.3,
+    "memory": 26.7,
+    "cpu": 32.2,
     "running": "Linux",
     "guilds": 5,
-    "users": 15689
+    "users": 15703
 }

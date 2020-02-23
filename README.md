@@ -8,25 +8,13 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`e?about `
-
-> Info about the bot 
-
-`e?clear [amount=100]`
-
-> Delete Messages 
-
 `e?roleinfo <role>`
 
 > See a role info 
 
-`e?male <thing> [member]`
+`e?autotrigger <trigger>`
 
-> Use this when someone says that a thing is a female but is a male 
-
-`e?kick [member] [reason]`
-
-> Kick a member 
+> See a response giving a trigger 
 
 `e?translate <text> [source] [destination]`
 
@@ -36,9 +24,9 @@ Satoru is a Discord Bot made with discord.py
 
 > Use this when someone says that a thing is a male but is a female 
 
-`e?mute [member] [reason]`
+`e?kick [member] [reason]`
 
-> Mute a member 
+> Kick a member 
 
 `e?feedback <feedback>`
 
@@ -48,13 +36,21 @@ Satoru is a Discord Bot made with discord.py
 
 > Make a random choice 
 
-`e?unmute [member]`
+`e?mute [member] [reason]`
 
-> Unmute a member 
+> Mute a member 
 
 `e?addemoji [name] [emoji_link]`
 
 > Add an emoji 
+
+`e?unmute [member]`
+
+> Unmute a member 
+
+`e?say <message>`
+
+> Say something with Satoru 
 
 `e?ban [member] [reason]`
 
@@ -64,25 +60,29 @@ Satoru is a Discord Bot made with discord.py
 
 > See a random image of Satoru Fujinuma 
 
-`e?say <message>`
+`e?list `
 
-> Say something with Satoru 
+> See your list 
+
+`e?codeblock <language> <code>`
+
+> None 
 
 `e?kayo `
 
 > See a random image of Kayo Hinazuki 
 
-`e?profile [member]`
+`e?male <thing> [member]`
 
-> See a user's profile 
-
-`e?list `
-
-> See your list 
+> Use this when someone says that a thing is a female but is a male 
 
 `e?guildinfo `
 
 > See the actual guild info 
+
+`e?clear [amount=100]`
+
+> Delete Messages 
 
 `e?gun `
 
@@ -96,31 +96,35 @@ Satoru is a Discord Bot made with discord.py
 
 > See a member's info 
 
-`e?ping `
+`e?uptime `
 
-> See bot latency 
+> See bot uptime 
 
 `e?looneytunes `
 
 > Which Looney Tunes are you? 
 
-`e?uptime `
+`e?invite `
 
-> See bot uptime 
+> Invite the bot to your server 
 
 `e?punch [member]`
 
 > Punch a user 
 
-`e?invite `
-
-> Invite the bot to your server 
-
-`e?autotrigger <trigger>`
-
-> See a response giving a trigger 
-
 `e?avatar [member]`
 
 > See a member avatar 
+
+`e?about `
+
+> Info about the bot 
+
+`e?profile [member]`
+
+> See a user's profile 
+
+`e?ping `
+
+> See bot latency 
 

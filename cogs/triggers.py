@@ -21,7 +21,9 @@ class AutoTriggers(commands.Cog):
 
         l = json.load(f)
 
-      await ctx.send(l[str(trigger)]["response"])
+      message = discord.utils.escape_mentions(l[str(trigger)]["response"])
+
+      await ctx.send(message)
 
     except KeyError:
 
