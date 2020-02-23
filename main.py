@@ -1,13 +1,11 @@
 import discord
 from discord.ext import commands, tasks
-from discord import Webhook, AsyncWebhookAdapter
 import os
-from app import keep_alive, run
-import time
-import aiohttp
+from app import keep_alive
 import json
 import platform
 import psutil
+from datetime import datetime
 
 colour = 0xbf794b
 
@@ -15,6 +13,7 @@ bot = commands.AutoShardedBot(command_prefix = commands.when_mentioned_or('e?'))
 bot.remove_command('help')
 bot.load_extension('jishaku')
 
+launchtime = datetime.now()
 
 @tasks.loop(seconds = 10)
 async def stats():
@@ -23,6 +22,11 @@ async def stats():
 
     l = json.load(f)
 
+  uptime = datetime.now() - launchtime
+  hours, remainder = divmod(int(uptime.total_seconds()), 3600)
+  minutes, seconds = divmod(remainder, 60)
+  days, hours = divmod(hours, 24)
+
   l["library"] = discord.__version__
   l["python"] = platform.python_version()
   l["memory"] = psutil.virtual_memory()[2]
@@ -30,6 +34,7 @@ async def stats():
   l["running"] = platform.system()
   l["guilds"] = len(bot.guilds)
   l["users"] = len(bot.users)
+  l["uptime"] = f"{days}d {hours}h {minutes}m {seconds}s"
 
   with open("data/stats.json", "w") as f:
 

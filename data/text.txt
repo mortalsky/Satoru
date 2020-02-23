@@ -101768,3 +101768,116 @@ Sebastiano#3151: e?reload misc
 Sebastiano#3151: e?help
 Satoru#6725: 
 Cy#2501: Good
+GitHub#0000: 
+Cy#2501: K.sudo py
+@_bot.command(aliases=('cb',)
+async def codeblock(ctx, language, *, content):
+    t = kanade!.get_config('templates')
+    cb = t.mlcb.format(language, content)
+    await ctx.send(cb)
+Kanade#5520: 
+Cy#2501: K.sudo py
+@_bot.command(aliases=('cb',))
+async def codeblock(ctx, language, *, content):
+    t = kanade!.get_config('templates')
+    cb = t.mlcb.format(language, content)
+    await ctx.send(cb)
+Cy#2501: K.cb py test
+Kanade#5520: ```py
+test
+```
+Cy#2501: Simple
+Cy#2501: <:vv:597590298964656169>
+Tatsu#8792: 
+Programmer#5648: Online: :<:status_online:596576749790429200>:
+
+Idle: :<:status_idle:596576773488115722>:
+
+Do not disturb: :<:status_dnd:596576774364856321>:
+
+Offline: :<:status_offline:596576752013279242>:
+Programmer#5648: Wow
+Cy#2501: K.sudo sh cat .kanade.yml
+Kanade#5520: 
+Cy#2501: K.sudo py return json!.dumps(kanade!.get_config('emojis').data)
+Kanade#5520: 
+Cy#2501: K.sudo py return json!.dumps(kanade!.get_config('emojis').data, indent=4)
+Kanade#5520: 
+Sebastiano#3151: e?stats
+Satoru#6725: 
+Zorkai#9999: ?tag claim cooldown
+R. Danny#6348: Tag owner is still in server.
+Sebastiano#3151: e?list
+Satoru#6725: 
+Satoru#6725: Jishaku v1.17.1, discord.py `1.2.5`, `Python 3.8.1 (default, Feb  2 2020, 08:37:37) [GCC 8.3.0]` on `linux`
+Module was loaded 10 seconds ago, cog was loaded 10 seconds ago.
+
+Using 82.7 MB physical memory and 782.0 MB virtual memory, 69.0 MB of which unique to this process.
+Running on PID 483 (`prybar-python3`) with 9 thread(s).
+
+This bot is automatically sharded and can see 5 guild(s) and 15702 user(s).
+Average websocket latency: 58.41ms
+Sebastiano#3151: e?jsk
+GitHub#0000: 
+Satoru#6725: 
+Sebastiano#3151: e?stats
+Sebastiano#3151: e?ut
+Satoru#6725: 
+Dexter (Zeyad)#2002: ?rtfm check
+R. Danny#6348: 
+Zorkai#9999: ?tag it works
+R. Danny#6348: https://cdn.discordapp.com/attachments/381963689470984203/426132069677137920/heyitworks.mp4
+Life#2673: 
+Satoru#6725: 
+Sebastiano#3151: e?reload misc
+Sebastiano#3151: e?ut
+Satoru#6725: 
+Sebastiano#3151: e?list
+Satoru#6725: 
+Sebastiano#3151: e?list clear
+Satoru#6725: Done!
+Tsubasa#8884: ?tag cog.bot_check
+R. Danny#6348: Tag not found. Did you mean...
+cog_check
+cog check
+new cog check
+Tsubasa#8884: ?tag cog_check
+R. Danny#6348: ```py
+async def cog_check(self, ctx):
+  return YOUR CUSTOM CHECK HERE
+```
+Tsubasa#8884: ?tag new cog check
+R. Danny#6348: ```py
+def cog_check(self, ctx):
+       return ctx.guild is not None
+```
+Tsubasa#8884: ?tag cog check
+R. Danny#6348: ```py
+from discord.ext.commands import Cog
+
+class Owner(Cog):
+    """Commands only for the bot owner"""
+    def __init__(self, bot):
+        self.bot = bot
+
+    async def cog_check(self, ctx):
+        return await self.bot.is_owner(ctx.author)
+```
+Satoru#6725: 
+Sebastiano#3151: e?reload battle
+Satoru#6725: 
+Sebastiano#3151: e?gun
+Satoru#6725: 
+Dexter (Zeyad)#2002: ?rtfm delete_channel
+R. Danny#6348: Could not find anything. Sorry.
+Life#2673: 
+Satoru#6725: 
+Satoru#6725: 
+Sebastiano#3151: e?gun
+Dexter (Zeyad)#2002: ?rtfm delete
+R. Danny#6348: 
+Dexter (Zeyad)#2002: ?rtfm voicechannel.delete
+R. Danny#6348: 
+Sebastiano#3151: e?beta list
+Satoru#6725: 
+Life#2673: 

@@ -17,7 +17,6 @@ colour = 0xbf794b
 class Misc(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.launchtime = datetime.now()
 
     @commands.command()
     async def ping(self, ctx):
@@ -33,12 +32,11 @@ class Misc(commands.Cog):
 
       "See bot uptime"
 
-      uptime = datetime.now() - self.launchtime
-      hours, remainder = divmod(int(uptime.total_seconds()), 3600)
-      minutes, seconds = divmod(remainder, 60)
-      days, hours = divmod(hours, 24)
+      with open("data/stats.json", "r") as f:
+        
+        l = json.load(f)
 
-      emb = discord.Embed(description = f':clock: | {days} Days {hours} Hours {minutes} Minutes {seconds} Seconds', colour = colour)
+      emb = discord.Embed(description = f':clock: | {l["uptime"]}', colour = colour)
 
       await ctx.send(embed = emb)
 
@@ -285,17 +283,16 @@ class Misc(commands.Cog):
 
       "Info about the bot"
 
-      uptime = datetime.now() - self.launchtime
-      hours, remainder = divmod(int(uptime.total_seconds()), 3600)
-      minutes, seconds = divmod(remainder, 60)
-      days, hours = divmod(hours, 24)
+      with open("data/stats.json", "r") as f:
+
+        l = json.load(f)
 
       emb = discord.Embed(description = f"""**Developer: `Sebastiano#3151`
 Library: `{discord.__version__}`
 Python: `{platform.python_version()}`
 Memory: `{psutil.virtual_memory()[2]}%`
 CPU: `{psutil.cpu_percent()}%`
-Uptime: `{days} Days {hours} Hours {minutes} Minutes {seconds} Seconds`
+Uptime: `{l["uptime"]}`
 Running on: `{platform.system()}`
 Guilds: `{len(self.bot.guilds)}`
 Users: `{len(self.bot.users)}`

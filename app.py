@@ -15,7 +15,7 @@ def stats():
 
     l = json.load(f)
     
-  return render_template("stats.html", library = l["library"], python = l["python"], memory = l["memory"], cpu = l["cpu"], running = l["running"], guilds = l["guilds"], users = l["users"])
+  return render_template("stats.html", library = l["library"], python = l["python"], memory = l["memory"], cpu = l["cpu"], running = l["running"], guilds = l["guilds"], users = l["users"], uptime = l["uptime"])
 
 @app.route("/api/stats")
 def api_stats():

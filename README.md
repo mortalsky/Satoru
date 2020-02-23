@@ -8,6 +8,14 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
+`e?about `
+
+> Info about the bot 
+
+`e?male <thing> [member]`
+
+> Use this when someone says that a thing is a female but is a male 
+
 `e?roleinfo <role>`
 
 > See a role info 
@@ -19,6 +27,10 @@ Satoru is a Discord Bot made with discord.py
 `e?translate <text> [source] [destination]`
 
 > Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
+
+`e?ping `
+
+> See bot latency 
 
 `e?female <thing> [member]`
 
@@ -36,6 +48,10 @@ Satoru is a Discord Bot made with discord.py
 
 > Make a random choice 
 
+`e?clear [amount=100]`
+
+> Delete Messages 
+
 `e?mute [member] [reason]`
 
 > Mute a member 
@@ -48,13 +64,13 @@ Satoru is a Discord Bot made with discord.py
 
 > Unmute a member 
 
-`e?say <message>`
-
-> Say something with Satoru 
-
 `e?ban [member] [reason]`
 
 > Ban a member 
+
+`e?say <message>`
+
+> Say something with Satoru 
 
 `e?satoru `
 
@@ -66,23 +82,15 @@ Satoru is a Discord Bot made with discord.py
 
 `e?codeblock <language> <code>`
 
-> None 
+> Transform a code to a codeblock 
 
 `e?kayo `
 
 > See a random image of Kayo Hinazuki 
 
-`e?male <thing> [member]`
-
-> Use this when someone says that a thing is a female but is a male 
-
 `e?guildinfo `
 
 > See the actual guild info 
-
-`e?clear [amount=100]`
-
-> Delete Messages 
 
 `e?gun `
 
@@ -95,6 +103,10 @@ Satoru is a Discord Bot made with discord.py
 `e?userinfo [member]`
 
 > See a member's info 
+
+`e?profile [member]`
+
+> See a user's profile 
 
 `e?uptime `
 
@@ -115,16 +127,4 @@ Satoru is a Discord Bot made with discord.py
 `e?avatar [member]`
 
 > See a member avatar 
-
-`e?about `
-
-> Info about the bot 
-
-`e?profile [member]`
-
-> See a user's profile 
-
-`e?ping `
-
-> See bot latency 
 

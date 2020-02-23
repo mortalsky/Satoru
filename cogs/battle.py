@@ -17,6 +17,8 @@ class Battle(commands.Cog):
 
       "Make a gun battle"
 
+      l = {}
+
       end = False
 
       emb = discord.Embed(description = "Who react with :gun: more times wins!", colour = discord.Colour.green())
@@ -36,10 +38,6 @@ class Battle(commands.Cog):
         
         if str(reaction.emoji) == "🔫":
 
-          with open("data/gun.json", "r") as f:
-
-            l = json.load(f)
-
           try:
             
             l[str(user.id)] += 1
@@ -48,20 +46,12 @@ class Battle(commands.Cog):
 
             l[str(user.id)] = 1
 
-          with open("data/gun.json", "w") as f:
-            
-            json.dump(l, f , indent = 4)
-
         elif str(reaction.emoji) == "❌":
 
           if user == ctx.author:
 
-            with open("data/gun.json", "r") as f:
-              
-              l = json.load(f)
-
             res = ""
-
+            
             for a in l:
 
               res += f"\n<@{a}> - {l[a]}"
@@ -70,13 +60,8 @@ class Battle(commands.Cog):
 
             await ctx.send(embed = emb2)
 
-            with open("data/gun.json", "w") as f:
-              
-              f.write("{}")
-
             end = True
             
-
           else:
 
             msg = await ctx.send(f"{user.mention} only who started the game can stop it!")
