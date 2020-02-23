@@ -64,9 +64,7 @@ class Battle(commands.Cog):
             
           else:
 
-            msg = await ctx.send(f"{user.mention} only who started the game can stop it!")
-            await asyncio.sleep(4)
-            await msg.delete()
+            await user.send(f"{user.mention} only who started the game can stop it!")
             
     @commands.command(hidden = True)
     @commands.is_owner()
