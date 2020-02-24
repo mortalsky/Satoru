@@ -3,6 +3,7 @@ from discord.ext import commands
 import asyncio
 import os
 import json
+from datetime import datetime
 
 colour = 0xbf794b
 
@@ -34,7 +35,7 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
   @commands.is_owner()
   async def beta(self, ctx):
 
-    with open("data/blocked_commands.json", "r") as f:
+    with open("data/beta.json", "r") as f:
 
       l = json.load(f)
 
@@ -54,13 +55,13 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
   @commands.is_owner()
   async def add(self, ctx, *, user: discord.User):
 
-    with open("data/blocked_commands.json", "r") as f:
+    with open("data/beta.json", "r") as f:
 
       l = json.load(f)
 
     l[str(user.id)] = "True"
 
-    with open("data/blocked_commands.json", "w") as f:
+    with open("data/beta.json", "w") as f:
 
       json.dump(l, f, indent = 4)
 
@@ -70,13 +71,13 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
   @commands.is_owner()
   async def remove(self, ctx, *, user: discord.User):
 
-    with open("data/blocked_commands.json", "r") as f:
+    with open("data/beta.json", "r") as f:
 
       l = json.load(f)
 
     l.pop(str(user.id))
 
-    with open("data/blocked_commands.json", "w") as f:
+    with open("data/beta.json", "w") as f:
 
       json.dump(l, f, indent = 4)
 
@@ -198,6 +199,24 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
     await ctx.message.add_reaction("<:greenTick:596576670815879169>")
 
     await ctx.send(f"Uninstalled {package}!")
+
+  @commands.command()
+  @commands.is_owner()
+  async def asyncio(self, ctx, time, times = None):
+
+    if not times:
+
+      times = 1
+
+    await ctx.message.add_reaction("\U0001f44d")
+
+    for a in range(int(times)):
+      
+      await asyncio.sleep(int(time))
+
+    now = (int(datetime.now().strftime('%s')) - int(ctx.message.created_at.strftime('%s')))
+    
+    await ctx.send(f"{ctx.author.mention}, {now} seconds ago.")
 
 def setup(bot):
   bot.add_cog(Owner(bot))

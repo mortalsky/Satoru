@@ -123,20 +123,20 @@ Satoru is a Discord Bot made with discord.py
           for a in self.bot.commands:
             if a.cog_name == "Moderation":
               if not a.hidden:
-                mod += f"`{a.name}` "
+                mod += f"`{a.name}` :: "
 
           info = ""
 
           for a in self.bot.commands:
             if a.cog_name == "Info":
               if not a.hidden:
-                info += f"`{a.name}` "
+                info += f"`{a.name}` :: "
 
                 try:
                   
                   for b in a.commands:
 
-                    info += f"`{a.name} {b.name}` "
+                    info += f"`{a.name} {b.name}` :: "
 
                 except:
 
@@ -147,13 +147,13 @@ Satoru is a Discord Bot made with discord.py
           for a in self.bot.commands:
             if a.cog_name == "Profiles":
               if not a.hidden:
-                profiles += f"`{a.name}` "
+                profiles += f"`{a.name}` :: "
 
                 try:
                   
                   for b in a.commands:
 
-                    profiles += f"`{a.name} {b.name}` "
+                    profiles += f"`{a.name} {b.name}` :: "
 
                 except:
 
@@ -164,13 +164,13 @@ Satoru is a Discord Bot made with discord.py
           for a in self.bot.commands:
             if a.cog_name == "Misc":
               if not a.hidden:
-                misc += f"`{a.name}` "
+                misc += f"`{a.name}` :: "
 
                 try:
                   
                   for b in a.commands:
 
-                    misc += f"`{a.name} {b.name}` "
+                    misc += f"`{a.name} {b.name}` :: "
 
                 except:
 
@@ -181,13 +181,13 @@ Satoru is a Discord Bot made with discord.py
           for a in self.bot.commands:
             if a.cog_name == "Weeb":
               if not a.hidden:
-                weeb += f"`{a.name}` "
+                weeb += f"`{a.name}` :: "
 
                 try:
                   
                   for b in a.commands:
 
-                    weeb += f"`{a.name} {b.name}` "
+                    weeb += f"`{a.name} {b.name}` :: "
 
                 except:
 
@@ -198,13 +198,13 @@ Satoru is a Discord Bot made with discord.py
           for a in self.bot.commands:
             if a.cog_name == "AutoTriggers":
               if not a.hidden:
-                triggers += f"`{a.name}` "
+                triggers += f"`{a.name}` :: "
 
                 try:
                   
                   for b in a.commands:
 
-                    triggers += f"`{a.name} {b.name}` "
+                    triggers += f"`{a.name} {b.name}` :: "
 
                 except:
 

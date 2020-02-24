@@ -96,6 +96,15 @@ class Misc(commands.Cog):
       if t.dest == "ja":
 
         t.dest = "🇯🇵 | Ja"
+      
+      if t.src == "German":
+
+        t.src == "🇩🇪 | De"
+
+
+      if t.dest == "German":
+
+        t.dest == "🇩🇪 | De"
 
       emb = discord.Embed(colour = colour)
       emb.add_field(name = t.src, value = text, inline = False)
@@ -406,7 +415,28 @@ Release Date: {r[season][episode]["release_date"]}
 
       "Transform a code to a codeblock"
 
-      await ctx.send(f"""```{language}\n{code}```""")
+      if language == "raw":
+
+        await ctx.send(discord.utils.escape_markdown(f"""```{code}```"""))
+
+      else:
         
+        await ctx.send(f"""```{language}\n{code}```""")
+
+    @commands.command()
+    async def drake(self, ctx, top, *, bottom):
+
+      "Make the Drake Meme"
+
+      bottom = bottom.replace('"', " ")
+
+      url = f"https://api.alexflipnote.dev/drake?top={top}&bottom={bottom}"
+
+      emb = discord.Embed(colour = discord.Colour.dark_gold())
+
+      emb.set_image(url = url.replace(" ", "+"))
+
+      await ctx.send(embed = emb)
+
 def setup(bot):
     bot.add_cog(Misc(bot))

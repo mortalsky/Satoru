@@ -15,31 +15,6 @@ bot.load_extension('jishaku')
 
 launchtime = datetime.now()
 
-@tasks.loop(seconds = 10)
-async def stats():
-
-  with open("data/stats.json", "r") as f:
-
-    l = json.load(f)
-
-  uptime = datetime.now() - launchtime
-  hours, remainder = divmod(int(uptime.total_seconds()), 3600)
-  minutes, seconds = divmod(remainder, 60)
-  days, hours = divmod(hours, 24)
-
-  l["library"] = discord.__version__
-  l["python"] = platform.python_version()
-  l["memory"] = psutil.virtual_memory()[2]
-  l["cpu"] = psutil.cpu_percent()
-  l["running"] = platform.system()
-  l["guilds"] = len(bot.guilds)
-  l["users"] = len(bot.users)
-  l["uptime"] = f"{days}d {hours}h {minutes}m {seconds}s"
-
-  with open("data/stats.json", "w") as f:
-
-    json.dump(l, f, indent = 4)
-
 @bot.event
 async def on_ready():
 
@@ -69,6 +44,31 @@ async def on_ready():
         with open("data/commands.json", "w") as f:
           
           json.dump(l, f, indent = 4)
+
+@tasks.loop(seconds = 10)
+async def stats():
+
+  with open("data/stats.json", "r") as f:
+
+    l = json.load(f)
+
+  uptime = datetime.now() - launchtime
+  hours, remainder = divmod(int(uptime.total_seconds()), 3600)
+  minutes, seconds = divmod(remainder, 60)
+  days, hours = divmod(hours, 24)
+
+  l["library"] = discord.__version__
+  l["python"] = platform.python_version()
+  l["memory"] = psutil.virtual_memory()[2]
+  l["cpu"] = psutil.cpu_percent()
+  l["running"] = platform.system()
+  l["guilds"] = len(bot.guilds)
+  l["users"] = len(bot.users)
+  l["uptime"] = f"{days}d {hours}h {minutes}m {seconds}s"
+
+  with open("data/stats.json", "w") as f:
+
+    json.dump(l, f, indent = 4)
     
 @bot.event 
 async def on_message(message):
@@ -88,7 +88,7 @@ async def bot_check(ctx):
 
   if ctx.command.name == "gun":
     
-    with open("data/blocked_commands.json", "r") as f:
+    with open("data/beta.json", "r") as f:
     
       l = json.load(f)
 

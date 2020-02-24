@@ -70,7 +70,6 @@ class Moderation(commands.Cog):
 
       return
 
-
   @commands.command()
   @commands.has_permissions(kick_members = True)
   async def unmute(self, ctx, member: discord.Member = None):
@@ -84,6 +83,40 @@ class Moderation(commands.Cog):
     emb = discord.Embed(description = f"✅ | {member.mention} was unmuted by {ctx.author.mention}", colour = discord.Colour.green())
 
     await ctx.send(embed = emb)
+
+  @commands.command()
+  async def lock(self, ctx, *, channel: discord.TextChannel = None):
+
+    "Lock a Text Channel"
+
+    if not channel:
+
+      await ctx.channel.set_permissions(ctx.guild.default_role, send_messages = False)
+
+      await ctx.send(f"🔒 | Locked {ctx.channel.mention}.")
+
+    else:
+
+      await channel.set_permissions(ctx.guild.default_role, send_messages = False)
+
+      await ctx.send(f"🔒 | Locked {channel.mention}.")
+
+  @commands.command()
+  async def unlock(self, ctx, *, channel: discord.TextChannel = None):
+
+    "Unlock a Text Channel"
+
+    if not channel:
+
+      await ctx.channel.set_permissions(ctx.guild.default_role, send_messages = None)
+
+      await ctx.send(f"🔓 | Unlocked {ctx.channel.mention}.")
+
+    else:
+
+      await channel.set_permissions(ctx.guild.default_role, send_messages = None)
+
+      await ctx.send(f"🔓 | Unlocked {channel.mention}.")
 
 def setup(bot):
   bot.add_cog(Moderation(bot))

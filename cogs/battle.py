@@ -2,15 +2,14 @@ import discord
 from discord.ext import commands
 import asyncio
 import random
-import json
+import time
 
-#colour = 0xbf794b
+colour = 0xbf794b
 
 class Battle(commands.Cog):
+
     def __init__(self, bot):
         self.bot = bot
-
-    
 
     @commands.command()
     async def gun(self, ctx):
@@ -33,6 +32,8 @@ class Battle(commands.Cog):
         return user != self.bot.user
 
       while not end:
+
+        await asyncio.sleep(1)
         
         reaction, user = await self.bot.wait_for('reaction_add', check = check)
         
@@ -61,10 +62,6 @@ class Battle(commands.Cog):
             await ctx.send(embed = emb2)
 
             end = True
-            
-          else:
-
-            await user.send(f"{user.mention} only who started the game can stop it!")
             
     @commands.command(hidden = True)
     @commands.is_owner()
