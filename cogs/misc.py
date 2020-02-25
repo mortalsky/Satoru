@@ -438,5 +438,24 @@ Release Date: {r[season][episode]["release_date"]}
 
       await ctx.send(embed = emb)
 
+    @commands.command(name = "8ball", aliases = ["8b"])
+    async def _8ball(self, ctx, *, question):
+
+      "Ask 8ball a question"
+
+      messages = [
+        "Sure!",
+        "Obvious!",
+        "Hell no!",
+        "Stars say: \"Dude what the frick, no!\"."
+        "Stars say: \"Oh yes dude!\"."
+        "Haha, no."
+      ]
+
+      emb = discord.Embed(title = question, description = random.choice(messages), colour = colour, timestamp = ctx.message.created_at)
+      emb.set_author(name = ctx.author, icon_url = ctx.author.avatar_url_as(static_format = "png"))
+
+      await ctx.send(embed = emb)
+
 def setup(bot):
     bot.add_cog(Misc(bot))

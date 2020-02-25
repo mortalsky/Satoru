@@ -36,7 +36,7 @@ class Info(commands.Cog):
 
         if member.premium_since:
 
-          booster = f"🎆 | Booster since {member.premium_since}"
+          booster = f"🎆 | Booster since {member.premium_since.strftime('%m / %d / %Y (%H:%M)')}"
 
         else:
 
@@ -108,7 +108,7 @@ class Info(commands.Cog):
 
         if member.premium_since:
 
-          booster = f"🎆 | Booster since {member.premium_since}"
+          booster = f"🎆 | Booster since {member.premium_since.strftime('%m / %d / %Y (%H:%M)')}"
 
         else:
 

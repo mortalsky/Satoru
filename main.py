@@ -106,7 +106,6 @@ async def bot_check(ctx):
 
     return True
 
-
 @bot.event
 async def on_command_error(ctx, error):
 
