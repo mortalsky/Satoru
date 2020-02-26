@@ -308,7 +308,10 @@ Users: `{len(self.bot.users)}`
 Invite Link: [Click Me](https://satoru.seba.gq/invite)
 Website: [Click Me](https://satoru.seba.gq/)
 Support Server: [Click Me](https://discord.gg/w8cbssP)
-GitHub: [Click Me](https://github.com/ssebastianoo/Satoru)**""", colour = colour)
+GitHub: [Click Me](https://github.com/ssebastianoo/Satoru)
+Top.gg: [Click Me](https://top.gg/bot/635044836830871562)
+Vote me: [Clikc Me](https://top.gg/bot/635044836830871562/vote)
+**""", colour = colour)
 
       await ctx.send(embed = emb)
 

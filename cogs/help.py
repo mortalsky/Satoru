@@ -125,18 +125,19 @@ Satoru is a Discord Bot made with discord.py
               if not a.hidden:
                 mod += f"`{a.name}` :: "
 
-          info = ""
+          utility = ""
 
           for a in self.bot.commands:
-            if a.cog_name == "Info":
+            if a.cog_name == "Utility":
               if not a.hidden:
-                info += f"`{a.name}` :: "
+
+                utility += f"`{a.name}` :: "
 
                 try:
                   
                   for b in a.commands:
 
-                    info += f"`{a.name} {b.name}` :: "
+                    utility += f"`{a.name} {b.name}` :: "
 
                 except:
 
@@ -218,8 +219,8 @@ Satoru is a Discord Bot made with discord.py
 **MODERATION**
 {mod}
 
-**INFO**
-{info}
+**UTILITY**
+{utility}
 
 **PROFILE**
 {profiles}

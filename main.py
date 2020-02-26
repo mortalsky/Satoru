@@ -6,10 +6,28 @@ import json
 import platform
 import psutil
 from datetime import datetime
+import traceback
+import exc
 
 colour = 0xbf794b
 
-bot = commands.AutoShardedBot(command_prefix = commands.when_mentioned_or('e?'))
+def get_prefix(bot, message):
+
+  with open("data/prefixes.json", "r") as f:
+
+    l = json.load(f)
+
+  try:
+
+    prefix = [l[str(message.guild.id)], str(f"{(bot.user.mention)} ")]
+
+  except KeyError:
+
+    prefix = "e?"
+
+  return prefix
+
+bot = commands.AutoShardedBot(command_prefix = get_prefix)
 bot.remove_command('help')
 bot.load_extension('jishaku')
 
@@ -69,19 +87,6 @@ async def stats():
   with open("data/stats.json", "w") as f:
 
     json.dump(l, f, indent = 4)
-    
-@bot.event 
-async def on_message(message):
-
-  await bot.process_commands(message)
-
-  with open('data/text.txt', 'a') as f:
-
-    f.write(f'{message.author}: {message.content}\n')
-
-  if message.author == bot.user:
-      return
-
 
 @bot.check
 async def bot_check(ctx):
@@ -112,6 +117,12 @@ async def on_command_error(ctx, error):
   if isinstance(error, commands.CommandNotFound):
 
     return
+
+  if isinstance(error, commands.MissingPermissions):
+    
+    if ctx.author.id == 488398758812319745:
+      
+      return await ctx.reinvoke()
 
   emb = discord.Embed(title = "Error", description = f"```css\n{error}\n```\nJoin the [support server](https://discord.gg/w8cbssP) for help.", colour = discord.Colour.red(), timestamp = ctx.message.created_at)
   emb.set_footer(text = ctx.author, icon_url = ctx.author.avatar_url)

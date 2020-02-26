@@ -8,37 +8,41 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`e?drake <top> <bottom>`
-
-> Make the Drake Meme 
-
-`e?userinfo [member]`
-
-> See a member's info 
-
-`e?8ball <question>`
-
-> Ask 8ball a question 
-
 `e?autotrigger <trigger>`
 
 > See a response giving a trigger 
 
-`e?looneytunes `
+`e?say <message>`
 
-> Which Looney Tunes are you? 
+> Say something with Satoru 
 
 `e?hug [member]`
 
 > Hug a user 
 
+`e?codeblock <language> <code>`
+
+> Transform a code to a codeblock 
+
+`e?list `
+
+> See your list 
+
+`e?drake <top> <bottom>`
+
+> Make the Drake Meme 
+
+`e?profile [member]`
+
+> See a user's profile 
+
+`e?8ball <question>`
+
+> Ask 8ball a question 
+
 `e?gun `
 
 > Make a gun battle 
-
-`e?invite `
-
-> Invite the bot to your server 
 
 `e?ban [member] [reason]`
 
@@ -48,99 +52,99 @@ Satoru is a Discord Bot made with discord.py
 
 > Delete Messages 
 
-`e?avatar [member]`
+`e?prefix <prefix>`
 
-> See a member avatar 
+> Set a custom prefix 
 
-`e?profile [member]`
+`e?looneytunes `
 
-> See a user's profile 
-
-`e?codeblock <language> <code>`
-
-> Transform a code to a codeblock 
+> Which Looney Tunes are you? 
 
 `e?kick [member] [reason]`
 
 > Kick a member 
 
-`e?roleinfo <role>`
+`e?invite `
 
-> See a role info 
-
-`e?list `
-
-> See your list 
-
-`e?about `
-
-> Info about the bot 
-
-`e?ping `
-
-> See bot latency 
-
-`e?mute [member] [reason]`
-
-> Mute a member 
-
-`e?guildinfo `
-
-> See the actual guild info 
-
-`e?male <thing> [member]`
-
-> Use this when someone says that a thing is a female but is a male 
-
-`e?uptime `
-
-> See bot uptime 
-
-`e?unmute [member]`
-
-> Unmute a member 
-
-`e?female <thing> [member]`
-
-> Use this when someone says that a thing is a male but is a female 
-
-`e?translate <text> [source] [destination]`
-
-> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
-
-`e?lock [channel]`
-
-> Lock a Text Channel 
-
-`e?random [elements...]`
-
-> Make a random choice 
-
-`e?feedback <feedback>`
-
-> Send a feedback to the bot or suggest a new command 
-
-`e?unlock [channel]`
-
-> Unlock a Text Channel 
+> Invite the bot to your server 
 
 `e?punch [member]`
 
 > Punch a user 
 
-`e?addemoji [name] [emoji_link]`
+`e?mute [member] [reason]`
 
-> Add an emoji 
+> Mute a member 
+
+`e?avatar [member]`
+
+> See a member avatar 
 
 `e?satoru `
 
 > See a random image of Satoru Fujinuma 
 
-`e?say <message>`
+`e?unmute [member]`
 
-> Say something with Satoru 
+> Unmute a member 
+
+`e?userinfo [member]`
+
+> See a member's info 
+
+`e?ping `
+
+> See bot latency 
+
+`e?about `
+
+> Info about the bot 
+
+`e?lock [channel]`
+
+> Lock a Text Channel 
 
 `e?kayo `
 
 > See a random image of Kayo Hinazuki 
+
+`e?roleinfo <role>`
+
+> See a role info 
+
+`e?uptime `
+
+> See bot uptime 
+
+`e?male <thing> [member]`
+
+> Use this when someone says that a thing is a female but is a male 
+
+`e?unlock [channel]`
+
+> Unlock a Text Channel 
+
+`e?guildinfo `
+
+> See the actual guild info 
+
+`e?translate <text> [source] [destination]`
+
+> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
+
+`e?female <thing> [member]`
+
+> Use this when someone says that a thing is a male but is a female 
+
+`e?feedback <feedback>`
+
+> Send a feedback to the bot or suggest a new command 
+
+`e?random [elements...]`
+
+> Make a random choice 
+
+`e?addemoji [name] [emoji_link]`
+
+> Add an emoji 
 
