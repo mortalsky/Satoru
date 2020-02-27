@@ -6,24 +6,24 @@ import json
 import platform
 import psutil
 from datetime import datetime
-import traceback
-import exc
 
 colour = 0xbf794b
 
+with open("data/prefixes.json", "r") as f:
+
+    json_prefixes = json.load(f)
+
 def get_prefix(bot, message):
 
-  with open("data/prefixes.json", "r") as f:
-
-    l = json.load(f)
+  global json_prefixes
 
   try:
 
-    prefix = [l[str(message.guild.id)], str(f"{(bot.user.mention)} ")]
+    prefix = commands.when_mentioned_or(str(json_prefixes[str(message.guild.id)]))(bot, message)
 
   except KeyError:
 
-    prefix = "e?"
+    prefix = commands.when_mentioned_or("e?")(bot, message)
 
   return prefix
 

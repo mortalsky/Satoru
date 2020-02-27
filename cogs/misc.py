@@ -297,7 +297,7 @@ class Misc(commands.Cog):
         l = json.load(f)
 
       emb = discord.Embed(description = f"""**Developer: `Sebastiano#3151`
-Library: `{discord.__version__}`
+Library: `discord.py {discord.__version__}`
 Python: `{platform.python_version()}`
 Memory: `{psutil.virtual_memory()[2]}%`
 CPU: `{psutil.cpu_percent()}%`
@@ -459,6 +459,65 @@ Release Date: {r[season][episode]["release_date"]}
       emb.set_author(name = ctx.author, icon_url = ctx.author.avatar_url_as(static_format = "png"))
 
       await ctx.send(embed = emb)
+
+    @commands.command()
+    async def raw(self, ctx, *, message):
+
+      "Show a message without markdown"
+
+      message = discord.utils.escape_mentions(message)
+      a = commands.clean_content(fix_channel_mentions = True, escape_markdown = True)
+      message0 = await a.convert(ctx, message)
+      message1 = discord.utils.escape_markdown(message0)
+
+      emb = discord.Embed(colour = colour)
+      emb.add_field(name = "Raw", value = message0, inline = False)
+      emb.add_field(name = "Escape Markdown", value = message1, inline = False)
+
+      await ctx.send(embed = emb)
+
+    @commands.command()
+    async def messages(self, ctx, limit = 500, channel: discord.TextChannel = None, member: discord.Member = None):
+
+      """See how many messages a member sent in a channel in the last tot messages
+Use `messages <limit> <channel> <member>`"""
+
+      if not channel:
+
+        channel = ctx.channel
+
+      if not member:
+
+        member = ctx.author
+        
+        a = "You"
+
+      else:
+
+        member = member
+        a = member.mention
+
+      async with ctx.typing():
+        
+        messages = await channel.history(limit=limit).flatten()
+        count = len([x for x in messages if x.author.id == member.id])
+        
+        emb = discord.Embed(description = f"{a} sent **{count}** messages in {channel.mention} in the last **{limit}** messages.", colour = colour)
+        
+        await ctx.send(embed = emb)
+
+    @commands.command()
+    async def spoiler(self, ctx, *, message):
+
+      "Make a message with a lot of spoilers"
+
+      res = ""
+
+      for a in message:
+
+        res += f"||{a}||"
+
+      await ctx.send(discord.utils.escape_mentions(message))
 
 def setup(bot):
     bot.add_cog(Misc(bot))

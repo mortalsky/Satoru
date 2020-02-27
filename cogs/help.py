@@ -1,7 +1,8 @@
 import discord
 from discord.ext import commands
+import json
 
-#colour = 0xbf794b
+colour = 0xbf794b
 
 class Help(commands.Cog):
     def __init__(self, bot):
@@ -38,7 +39,19 @@ Satoru is a Discord Bot made with discord.py
     @commands.command(hidden = True)
     async def help(self, ctx, *, command: str = None):
 
-      if ctx.prefix == f"<@!{self.bot.user.id}> ":
+      with open("data/prefixes.json", "r") as f:
+
+        l = json.load(f)
+
+      try:
+
+        prefix2 = l[str(ctx.guild.id)]
+
+      except KeyError:
+
+        prefix2 = "e?"
+
+      if ctx.prefix == f"<@{self.bot.user.id}> ":
         
         prf = f"@{self.bot.user} "
           
@@ -52,7 +65,6 @@ Satoru is a Discord Bot made with discord.py
       emb = discord.Embed(title = "Help", colour = 0xbf794b)
       emb.set_footer(text = f"Need help about a command? try {prf}help command")
       
-
       if command:
         
         cmd = self.bot.get_command(command)
@@ -211,7 +223,7 @@ Satoru is a Discord Bot made with discord.py
 
                   pass
           
-          res = f"""Prefixes: `e?`, `@{self.bot.user}`
+          res = f"""Server Prefixes: `{prefix2}`, `@{self.bot.user}`
 
 [Support Server](https://discord.gg/w8cbssP)
 [Command List](https://satoru.seba.gq/commands)
