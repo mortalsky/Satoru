@@ -38,7 +38,7 @@ async def on_ready():
 
   print('Ready as', bot.user)
 
-  await bot.change_presence(status = discord.Status.idle, activity = discord.Activity(type = discord.ActivityType.streaming, name = 'e?help', url = 'https://www.twitch.tv/itermosifoni'))
+  await bot.change_presence(status = discord.Status.idle, activity = discord.Activity(type = discord.ActivityType.streaming, name = 'e?help', url = 'https://www.twitch.tv/sebord_'))
 
   stats.start()
 
@@ -49,7 +49,6 @@ async def on_ready():
   with open("data/commands.json", "r") as f:
 
     l = json.load(f)
-
 
   for a in bot.commands:
 

@@ -33,7 +33,9 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-{commands}""")
+{commands}
+
+[![Run on Repl.it](https://repl.it/badge/github/ssebastianoo/Satoru)](https://repl.it/github/ssebastianoo/Satoru)""")
 
 
     @commands.command(hidden = True)
