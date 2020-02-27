@@ -27,7 +27,7 @@ def get_prefix(bot, message):
 
   return prefix
 
-bot = commands.AutoShardedBot(command_prefix = get_prefix)
+bot = commands.AutoShardedBot(command_prefix = get_prefix, description = "Multifunction weeb bot with moderation, fun and more.")
 bot.remove_command('help')
 bot.load_extension('jishaku')
 
