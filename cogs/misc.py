@@ -10,6 +10,7 @@ import psutil
 import platform
 import random
 import pytz
+import traceback
 
 translator = Translator()
 
@@ -248,32 +249,6 @@ class Misc(commands.Cog):
        
        await ctx.send(embed = discord.Embed(description = "[Invite Me](https://satoru.seba.gq/invite)", colour = colour))
 
-    @commands.command(aliases = ["av"])
-    async def avatar(self, ctx, *, member: discord.Member = None):
-
-      "See a member avatar"
-
-      if not member:
-
-        member = ctx.author
-
-      else:
-
-        member = member
-
-      if member.nick:
-
-        nick = member.nick
-
-      else:
-
-        nick = member.name
-
-      emb = discord.Embed(colour = member.colour, timestamp = ctx.message.created_at)
-      emb.set_image(url =  str(member.avatar_url_as(static_format = "png")))
-      emb.set_footer(text = nick, icon_url = member.guild.icon_url)
-      await ctx.send(embed = emb)
-
     @commands.command(aliases = ["stats"])
     async def about(self, ctx):
 
@@ -452,6 +427,14 @@ Release Date: {r[season][episode]["release_date"]}
 
       "Show a message without markdown"
 
+      try:
+        
+        message = ((await self.bot.get_channel(ctx.channel.id).fetch_message(message)).content)
+
+      except:
+
+        message = message
+        
       message = discord.utils.escape_mentions(message)
       a = commands.clean_content(fix_channel_mentions = True, escape_markdown = True)
       message0 = await a.convert(ctx, message)

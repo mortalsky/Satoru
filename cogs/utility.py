@@ -508,5 +508,31 @@ Offline  ::   {offline_b}
 
           await ctx.send("Done!")
 
+    @commands.command(aliases = ["av"])
+    async def avatar(self, ctx, *, member: discord.Member = None):
+
+      "See a member avatar"
+
+      if not member:
+
+        member = ctx.author
+
+      else:
+
+        member = member
+
+      if member.nick:
+
+        nick = member.nick
+
+      else:
+
+        nick = member.name
+
+      emb = discord.Embed(colour = member.colour, timestamp = ctx.message.created_at)
+      emb.set_image(url =  str(member.avatar_url_as(static_format = "png")))
+      emb.set_footer(text = nick, icon_url = member.guild.icon_url)
+      await ctx.send(embed = emb)
+
 def setup(bot):
     bot.add_cog(Utility(bot))

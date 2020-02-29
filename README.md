@@ -8,25 +8,25 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`e?list `
-
-> See your list 
-
 `e?helm [arg]`
 
 > See the head of a player with the helm (if there is) 
 
-`e?cubehead [arg]`
+`e?list `
 
-> See the head of a player in a 3D way 
+> See your list 
 
 `e?codeblock <language> <code>`
 
 > Transform a code to a codeblock 
 
-`e?users `
+`e?cubehead [arg]`
 
-> See users stats 
+> See the head of a player in a 3D way 
+
+`e?drake <top> <bottom>`
+
+> Make the Drake Meme 
 
 `e?autotrigger <trigger>`
 
@@ -36,17 +36,17 @@ Satoru is a Discord Bot made with discord.py
 
 > See the bust of a player 
 
-`e?drake <top> <bottom>`
+`e?prefix <prefix>`
 
-> Make the Drake Meme 
-
-`e?body [arg]`
-
-> See the body of a player 
+> Set a custom prefix 
 
 `e?8ball <question>`
 
 > Ask 8ball a question 
+
+`e?body [arg]`
+
+> See the body of a player 
 
 `e?ban [member] [reason]`
 
@@ -56,9 +56,9 @@ Satoru is a Discord Bot made with discord.py
 
 > Delete Messages 
 
-`e?hug [member]`
+`e?say <message>`
 
-> Hug a user 
+> Say something with Satoru 
 
 `e?raw <message>`
 
@@ -72,6 +72,10 @@ Satoru is a Discord Bot made with discord.py
 
 > See a user's profile 
 
+`e?userinfo [member]`
+
+> See a member's info 
+
 `e?messages [limit=500] [channel] [member]`
 
 > See how many messages a member sent in a channel in the last tot messages
@@ -81,6 +85,10 @@ Use `messages <limit> <channel> <member>`
 
 > Mute a member 
 
+`e?roleinfo <role>`
+
+> See a role info 
+
 `e?spoiler <message>`
 
 > Make a message with a lot of spoilers 
@@ -89,97 +97,89 @@ Use `messages <limit> <channel> <member>`
 
 > Unmute a member 
 
-`e?looneytunes `
+`e?guildinfo `
 
-> Which Looney Tunes are you? 
-
-`e?ping `
-
-> See bot latency 
+> See the actual guild info 
 
 `e?timezone [timezone]`
 
 > See what time is in a country 
 
+`e?looneytunes `
+
+> Which Looney Tunes are you? 
+
 `e?lock [channel]`
 
 > Lock a Text Channel 
+
+`e?users `
+
+> See users stats 
 
 `e?invite `
 
 > Invite the bot to your server 
 
-`e?prefix <prefix>`
-
-> Set a custom prefix 
-
-`e?uptime `
-
-> See bot uptime 
-
 `e?unlock [channel]`
 
 > Unlock a Text Channel 
-
-`e?avatar [member]`
-
-> See a member avatar 
-
-`e?punch [member]`
-
-> Punch a user 
-
-`e?translate <text> [source] [destination]`
-
-> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
-
-`e?about `
-
-> Info about the bot 
-
-`e?userinfo [member]`
-
-> See a member's info 
-
-`e?satoru `
-
-> See a random image of Satoru Fujinuma 
-
-`e?feedback <feedback>`
-
-> Send a feedback to the bot or suggest a new command 
-
-`e?male <thing> [member]`
-
-> Use this when someone says that a thing is a female but is a male 
-
-`e?roleinfo <role>`
-
-> See a role info 
-
-`e?kayo `
-
-> See a random image of Kayo Hinazuki 
 
 `e?addemoji [name] [emoji_link]`
 
 > Add an emoji 
 
+`e?ping `
+
+> See bot latency 
+
+`e?hug [member]`
+
+> Hug a user 
+
+`e?punch [member]`
+
+> Punch a user 
+
+`e?about `
+
+> Info about the bot 
+
+`e?avatar [member]`
+
+> See a member avatar 
+
+`e?uptime `
+
+> See bot uptime 
+
+`e?male <thing> [member]`
+
+> Use this when someone says that a thing is a female but is a male 
+
+`e?satoru `
+
+> See a random image of Satoru Fujinuma 
+
+`e?translate <text> [source] [destination]`
+
+> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
+
 `e?female <thing> [member]`
 
 > Use this when someone says that a thing is a male but is a female 
+
+`e?kayo `
+
+> See a random image of Kayo Hinazuki 
 
 `e?skin [arg]`
 
 > See a skin of player 
 
-`e?guildinfo `
+`e?feedback <feedback>`
 
-> See the actual guild info 
-
-`e?say <message>`
-
-> Say something with Satoru 
+> Send a feedback to the bot or suggest a new command 
 
 `e?random [elements...]`
 

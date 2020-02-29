@@ -6,6 +6,7 @@ import json
 import platform
 import psutil
 from datetime import datetime
+import traceback
 
 colour = 0xbf794b
 
@@ -112,6 +113,8 @@ async def bot_check(ctx):
 
 @bot.event
 async def on_command_error(ctx, error):
+
+  traceback.print_exc()
 
   if isinstance(error, commands.CommandNotFound):
 
