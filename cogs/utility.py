@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import json
+import aiohttp
 
 colour = 0xbf794b
 
@@ -419,24 +420,26 @@ class Utility(commands.Cog):
 
       "See users stats"
 
-      members = len([x for x in ctx.guild.members if not x.bot])
-      online = len([x for x in ctx.guild.members if x.status == discord.Status.online and not x.bot])
-      dnd = len([x for x in ctx.guild.members if x.status == discord.Status.dnd and not x.bot])
-      idle = len([x for x in ctx.guild.members if x.status == discord.Status.idle and not x.bot])
-      offline = len([x for x in ctx.guild.members if x.status == discord.Status.offline and not x.bot])
+      async with ctx.typing():
 
-      members_b = len([x for x in ctx.guild.members if x.bot])
-      online_b = len([x for x in ctx.guild.members if x.status == discord.Status.online and x.bot])
-      dnd_b = len([x for x in ctx.guild.members if x.status == discord.Status.dnd and x.bot])
-      idle_b = len([x for x in ctx.guild.members if x.status == discord.Status.idle and x.bot])
-      offline_b = len([x for x in ctx.guild.members if x.status == discord.Status.offline and x.bot])
+        members = len([x for x in ctx.guild.members if not x.bot])
+        online = len([x for x in ctx.guild.members if x.status == discord.Status.online and not x.bot])
+        dnd = len([x for x in ctx.guild.members if x.status == discord.Status.dnd and not x.bot])
+        idle = len([x for x in ctx.guild.members if x.status == discord.Status.idle and not x.bot])
+        offline = len([x for x in ctx.guild.members if x.status == discord.Status.offline and not x.bot])
 
-      online_t = len([x for x in ctx.guild.members if x.status == discord.Status.online])
-      dnd_t = len([x for x in ctx.guild.members if x.status == discord.Status.dnd])
-      idle_t = len([x for x in ctx.guild.members if x.status == discord.Status.idle])
-      offline_t = len([x for x in ctx.guild.members if x.status == discord.Status.offline])
+        members_b = len([x for x in ctx.guild.members if x.bot])
+        online_b = len([x for x in ctx.guild.members if x.status == discord.Status.online and x.bot])
+        dnd_b = len([x for x in ctx.guild.members if x.status == discord.Status.dnd and x.bot])
+        idle_b = len([x for x in ctx.guild.members if x.status == discord.Status.idle and x.bot])
+        offline_b = len([x for x in ctx.guild.members if x.status == discord.Status.offline and x.bot])
 
-      stats = f"""
+        online_t = len([x for x in ctx.guild.members if x.status == discord.Status.online])
+        dnd_t = len([x for x in ctx.guild.members if x.status == discord.Status.dnd])
+        idle_t = len([x for x in ctx.guild.members if x.status == discord.Status.idle])
+        offline_t = len([x for x in ctx.guild.members if x.status == discord.Status.offline])
+
+        stats = f"""
 ------  ALL   ------
 
 Total    ::   {ctx.guild.member_count}
@@ -463,9 +466,47 @@ Offline  ::   {offline_b}
 """
 
 
-      emb = discord.Embed(description = f"```prolog\n{stats}\n```", colour = discord.Colour.blurple())
+        emb = discord.Embed(description = f"```prolog\n{stats}\n```", colour = discord.Colour.blurple())
 
       await ctx.send(embed = emb)
+
+    
+    @commands.command(aliases = ["ae"])
+    async def addemoji(self, ctx, name = None, emoji_link = None):
+
+      "Add an emoji"
+
+      if not name:
+
+        name = ctx.author.name
+
+      if not emoji_link:
+        
+        async with aiohttp.ClientSession() as ses:
+
+          for a in ctx.message.attachments:
+
+            link = a.url
+          
+          res = await ses.get(link)
+          
+          img = await res.read()
+          
+          await ctx.guild.create_custom_emoji(name = name, image = img, reason = f"Emoji added by {ctx.author}")
+
+          await ctx.send("Done!")
+
+      else:
+        
+        async with aiohttp.ClientSession() as ses:
+          
+          res = await ses.get(emoji_link)
+          
+          img = await res.read()
+          
+          await ctx.guild.create_custom_emoji(name = name, image = img, reason = f"Emoji added by {ctx.author}")
+
+          await ctx.send("Done!")
 
 def setup(bot):
     bot.add_cog(Utility(bot))

@@ -127,43 +127,6 @@ class Misc(commands.Cog):
       await msg.add_reaction("<a:upvote:639355848031993867>")
       await ctx.send("Done!")
 
-    @commands.command(aliases = ["ae"])
-    async def addemoji(self, ctx, name = None, emoji_link = None):
-
-      "Add an emoji"
-
-      if not name:
-
-        name = ctx.author.name
-
-      if not emoji_link:
-        
-        async with aiohttp.ClientSession() as ses:
-
-          for a in ctx.message.attachments:
-
-            link = a.url
-          
-          res = await ses.get(link)
-          
-          img = await res.read()
-          
-          await ctx.guild.create_custom_emoji(name = name, image = img, reason = f"Emoji added by {ctx.author}")
-
-          await ctx.send("Done!")
-
-      else:
-        
-        async with aiohttp.ClientSession() as ses:
-          
-          res = await ses.get(emoji_link)
-          
-          img = await res.read()
-          
-          await ctx.guild.create_custom_emoji(name = name, image = img, reason = f"Emoji added by {ctx.author}")
-
-          await ctx.send("Done!")
-
     @commands.command()
     async def say(self, ctx, *, message):
 
