@@ -9,6 +9,7 @@ from datetime import datetime
 import psutil
 import platform
 import random
+import pytz
 
 translator = Translator()
 
@@ -180,18 +181,20 @@ class Misc(commands.Cog):
         with open("data/list.json", "r") as f:
           
           l = json.load(f)
-          
+
+        counter = 0
         res = ""
         
         for a in l[str(ctx.author.id)]:
           
-          res += f"{a}\n"
+          counter += 1
+          res += f"\n{counter} :: {a}"
 
       except KeyError:
 
-        res = ""
+        res = "List is empty"
           
-      emb = discord.Embed(description = res, colour = colour)
+      emb = discord.Embed(description = f"```prolog\n{res}\n```", colour = colour)
 
       await ctx.send(embed = emb)
 
@@ -217,6 +220,27 @@ class Misc(commands.Cog):
         json.dump(l, f, indent = 4)
 
       await ctx.send("Done!") 
+
+    @list.command()
+    async def remove(self, ctx, number_obj: int):
+
+      "Remobe an obj from the list"
+
+      with open("data/list.json", "r") as f:
+
+        l = json.load(f)
+
+      number_obj -= 1
+
+      print(str(ctx.author.id)[int(number_obj)])
+
+      l[str(ctx.author.id)].pop(int(number_obj))
+
+      with open("data/list.json", "w") as f:
+
+        json.dump(l, f, indent = 4)
+
+      await ctx.send("Done!")
 
     @list.command()
     async def clear(self, ctx):
@@ -261,7 +285,7 @@ class Misc(commands.Cog):
        
        await ctx.send(embed = discord.Embed(description = "[Invite Me](https://satoru.seba.gq/invite)", colour = colour))
 
-    @commands.command()
+    @commands.command(aliases = ["av"])
     async def avatar(self, ctx, *, member: discord.Member = None):
 
       "See a member avatar"
@@ -482,6 +506,10 @@ Release Date: {r[season][episode]["release_date"]}
       """See how many messages a member sent in a channel in the last tot messages
 Use `messages <limit> <channel> <member>`"""
 
+      if limit > 5000:
+
+        limit = 5000
+
       if not channel:
 
         channel = ctx.channel
@@ -517,7 +545,64 @@ Use `messages <limit> <channel> <member>`"""
 
         res += f"||{a}||"
 
-      await ctx.send(discord.utils.escape_mentions(message))
+      await ctx.send(discord.utils.escape_mentions(res))
+
+    def from_utc(self, timezone):
+
+      local_tz = pytz.timezone(str(timezone))
+      
+      local_dt = datetime.now().replace(tzinfo=pytz.utc).astimezone(local_tz)
+
+      return local_tz.normalize(local_dt).strftime("%d %b %Y - %I:%M:%S %p")
+
+    @commands.command(aliases = ["tz", "timezones"])
+    async def timezone(self, ctx, *, timezone = None):
+
+      "See what time is in a country"
+
+      if not timezone:
+
+        rome = self.from_utc("Europe/Rome")
+        paris = self.from_utc("Europe/Paris")
+        tokyo = self.from_utc("Asia/Tokyo") 
+        london = self.from_utc("Europe/London")
+        berlin = self.from_utc("Europe/Berlin")
+        moscow = self.from_utc("Europe/Moscow")
+        toronto = self.from_utc("America/Toronto")
+        detroit = self.from_utc("America/Detroit")
+        shanghai = self.from_utc("Asia/Shanghai")
+        helsinki = self.from_utc("Europe/Helsinki")
+        newyork = self.from_utc("America/New_York")
+        amsterdam = self.from_utc("Europe/Amsterdam")
+
+        emb = discord.Embed(description = f"""```prolog
+Rome       ::   {rome}
+Paris      ::   {paris}
+Tokyo      ::   {tokyo}
+London     ::   {london}
+Berlin     ::   {berlin}
+Moscow     ::   {moscow}
+Toronto    ::   {toronto}
+Detroit    ::   {detroit}
+Shanghai   ::   {shanghai}
+Helsinki   ::   {helsinki}
+New York   ::   {newyork}
+Amsterdam  ::   {amsterdam}
+```""", colour = discord.Colour.blurple())
+
+        return await ctx.send(embed = emb)
+
+      try:
+      
+        emb = discord.Embed(description = f"```prolog\n{timezone} :: {self.from_utc(str(timezone))}\n```", colour = colour)
+
+        await ctx.send(embed = emb)
+
+      except:
+
+        emb = discord.Embed(description = f"**{timezone}** is not a valid timezone!\n\nUse a format like this: **Europe/Rome**.\n\n[Here](https://timezonedb.com/time-zones) is a list of timezones", colour = discord.Colour.red())
+
+        await ctx.send(embed = emb)
 
 def setup(bot):
     bot.add_cog(Misc(bot))

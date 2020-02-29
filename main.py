@@ -9,25 +9,25 @@ from datetime import datetime
 
 colour = 0xbf794b
 
-with open("data/prefixes.json", "r") as f:
+def get_prefix(bot, message):
+
+  with open("data/prefixes.json", "r") as f:
 
     json_prefixes = json.load(f)
 
-def get_prefix(bot, message):
-
-  global json_prefixes
-
   try:
 
-    prefix = commands.when_mentioned_or(str(json_prefixes[str(message.guild.id)]))(bot, message)
+    oof = str(json_prefixes[str(message.guild.id)])
+
+    prefix = commands.when_mentioned_or(f"{oof} ", oof)(bot, message)
 
   except KeyError:
 
-    prefix = commands.when_mentioned_or("e?")(bot, message)
+    prefix = commands.when_mentioned_or("e? ", "e?")(bot, message)
 
   return prefix
 
-bot = commands.AutoShardedBot(command_prefix = get_prefix, description = "Multifunction weeb bot with moderation, fun and more.")
+bot = commands.AutoShardedBot(command_prefix = get_prefix, description = "Multifunction weeb bot with moderation, fun and more.", case_insensitive = True)
 bot.remove_command('help')
 bot.load_extension('jishaku')
 

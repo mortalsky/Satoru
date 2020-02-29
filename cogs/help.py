@@ -65,7 +65,7 @@ Satoru is a Discord Bot made with discord.py
 
       res = ""      
       emb = discord.Embed(title = "Help", colour = 0xbf794b)
-      emb.set_footer(text = f"Need help about a command? try {prf}help command")
+      emb.set_footer(text = f"Need help about a command? Try {prf}help command")
       
       if command:
         
@@ -224,6 +224,23 @@ Satoru is a Discord Bot made with discord.py
                 except:
 
                   pass
+
+          mc = ""
+
+          for a in self.bot.commands:
+            if a.cog_name == "Minecraft":
+              if not a.hidden:
+                mc += f"`{a.name}` :: "
+
+                try:
+                  
+                  for b in a.commands:
+
+                    mc += f"`{a.name} {b.name}` :: "
+
+                except:
+
+                  pass
           
           res = f"""Server Prefixes: `{prefix2}`, `@{self.bot.user}`
 
@@ -246,7 +263,10 @@ Satoru is a Discord Bot made with discord.py
 {weeb}
 
 **AUTO TRIGGERS**
-{triggers}"""
+{triggers}
+
+**MINECRAFT**
+{mc}"""
 
       emb.description = res
 

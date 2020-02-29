@@ -1,7 +1,7 @@
 {
     "488398758812319745": {
         "description": "Hello, I'm a random Discord user and I like to make bots with `discord.py`. I program in Python and HTML and here is my [GitHub Account](https://github.com/ssebastianoo). At the moment I am learning Flask and Socket.\nOwner of <@!635044836830871562> (this bot lel).",
-        "image": "https://cdn.discordapp.com/attachments/448285120634421278/680916928214335503/phubimg.png"
+        "image": "https://cdn.discordapp.com/attachments/381963689470984203/682453949894098954/background.png"
     },
     "428273380844765185": {
         "description": "I'm Lida.",
@@ -13,7 +13,7 @@
     },
     "354316246759636992": {
         "description": "Random weeb",
-        "image": "https://cdn.discordapp.com/avatars/354316246759636992/898cf280eb7e4cb4250987dcfa31c6ad.png?size=1024"
+        "image": "https://cdn.discordapp.com/attachments/381963689470984203/682454093004013609/Screenshot_2020-02-26-12-04-52-453.jpeg"
     },
     "212643981593411584": {
         "description": "Owner of Zarilda \ud83c\udf89",
@@ -29,6 +29,14 @@
     },
     "205680187394752512": {
         "description": "Not set, use `e?profile description <description>`",
+        "image": "none"
+    },
+    "410865885117415424": {
+        "description": "a",
+        "image": "none"
+    },
+    "682501154038611970": {
+        "description": "Not set, use `profile description <description>`",
         "image": "none"
     }
 }

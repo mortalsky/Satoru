@@ -12,13 +12,40 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
   def __init__(self, bot):
     self.bot = bot
 
+  @commands.Cog.listener()
+  async def on_command_completion(self, ctx):
+
+    with open("data/logs.json", "r") as f:
+
+      l = json.load(f)
+
+    l.append(f"{ctx.author} :: {ctx.command}")
+
+    with open("data/logs.json", "w") as f:
+
+      json.dump(l, f, indent = 4)
+
   @commands.command()
   @commands.is_owner()
-  async def roles(self, ctx):
+  async def last(self, ctx, commands = 5):
 
-    emb = discord.Embed(title = 'Take Roles', description = ''':ping_pong: `Updates`''', colour = 0xbf794b)
-    msg = await ctx.send(embed = emb)
-    await msg.add_reaction('🏓')
+    "See last commands run by the users"
+
+    with open("data/logs.json", "r") as f:
+
+      l = json.load(f)
+
+    num = len(l)
+
+    res = ""
+
+    for a in range(commands):
+
+      num -= 1
+      res += f"\n{l[num]}"
+
+    emb = discord.Embed(title = f"Last {commands} commands ran", description = f"```prolog\n{res}\n```", colour = discord.Colour.blurple())
+    await ctx.send(embed = emb)
 
   @commands.command()
   async def emoji(self, ctx, emoji: discord.Emoji = None):

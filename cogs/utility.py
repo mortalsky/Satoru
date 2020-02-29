@@ -103,6 +103,14 @@ class Utility(commands.Cog):
 
           bot = "~~🤖 | Not a Bot~~"
 
+        if member.is_on_mobile():
+
+          mobile = "📱 | Active on Mobile"
+
+        else:
+
+          mobile = "🖥️ | Active on Computer"
+
         emb = discord.Embed(title = member.name, description = f"""😀  | {member.name}
 
 🔢 | {member.discriminator}
@@ -114,6 +122,8 @@ class Utility(commands.Cog):
 {act}
 
 🤍 | {member.status}
+
+{mobile}
 
 🍰 | Created at {member.created_at.strftime("%m / %d / %Y (%H:%M)")}
 
@@ -175,6 +185,14 @@ class Utility(commands.Cog):
 
           bot = "~~🤖 | Not a Bot~~"
 
+        if member.is_on_mobile():
+
+          mobile = "📱 | Active on Mobile"
+
+        else:
+
+          mobile = "🖥️ | Active on Computer"
+
         emb = discord.Embed(title = member.name, description = f"""😀  | {member.name}
 
 🔢 | {member.discriminator}
@@ -186,6 +204,8 @@ class Utility(commands.Cog):
 {act}
 
 🤍 | {member.status}
+
+{mobile}
 
 🍰 | Created at {member.created_at.strftime("%m / %d / %Y (%H:%M)")}
 
@@ -237,6 +257,7 @@ class Utility(commands.Cog):
       else:
 
         default = "~~📐 | Not By Default~~"
+
 
       emb = discord.Embed(title = role.name, description = f"""
 😀  | {role.name}
@@ -390,6 +411,59 @@ class Utility(commands.Cog):
       if guild.banner:
 
         emb.set_image(url = guild.banner_url)
+
+      await ctx.send(embed = emb)
+
+    @commands.command()
+    async def users(self, ctx):
+
+      "See users stats"
+
+      members = len([x for x in ctx.guild.members if not x.bot])
+      online = len([x for x in ctx.guild.members if x.status == discord.Status.online and not x.bot])
+      dnd = len([x for x in ctx.guild.members if x.status == discord.Status.dnd and not x.bot])
+      idle = len([x for x in ctx.guild.members if x.status == discord.Status.idle and not x.bot])
+      offline = len([x for x in ctx.guild.members if x.status == discord.Status.offline and not x.bot])
+
+      members_b = len([x for x in ctx.guild.members if x.bot])
+      online_b = len([x for x in ctx.guild.members if x.status == discord.Status.online and x.bot])
+      dnd_b = len([x for x in ctx.guild.members if x.status == discord.Status.dnd and x.bot])
+      idle_b = len([x for x in ctx.guild.members if x.status == discord.Status.idle and x.bot])
+      offline_b = len([x for x in ctx.guild.members if x.status == discord.Status.offline and x.bot])
+
+      online_t = len([x for x in ctx.guild.members if x.status == discord.Status.online])
+      dnd_t = len([x for x in ctx.guild.members if x.status == discord.Status.dnd])
+      idle_t = len([x for x in ctx.guild.members if x.status == discord.Status.idle])
+      offline_t = len([x for x in ctx.guild.members if x.status == discord.Status.offline])
+
+      stats = f"""
+------  ALL   ------
+
+Total    ::   {ctx.guild.member_count}
+Online   ::   {online_t}
+Dnd      ::   {dnd_t}
+Idle     ::   {idle_t}
+Offline  ::   {offline_t}
+
+------ HUMANS ------
+
+Total    ::   {members}
+Online   ::   {online}
+Dnd      ::   {dnd}
+Idle     ::   {idle}
+Offline  ::   {offline}
+
+------  BOTS  ------
+
+Total    ::   {members_b}
+Online   ::   {online_b}
+Dnd      ::   {dnd_b}
+Idle     ::   {idle_b}
+Offline  ::   {offline_b}
+"""
+
+
+      emb = discord.Embed(description = f"```prolog\n{stats}\n```", colour = discord.Colour.blurple())
 
       await ctx.send(embed = emb)
 

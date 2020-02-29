@@ -35,7 +35,13 @@ class Profiles(commands.Cog):
 
         if l[str(member.id)]["image"] != "none":
 
-          image = l[str(member.id)]["image"]
+          if l[str(member.id)]["image"] == "None":
+
+            image = None
+
+          else:
+
+            image = l[str(member.id)]["image"]
 
         else:
 
@@ -43,7 +49,7 @@ class Profiles(commands.Cog):
 
     except KeyError:
       
-      description = "Profile not created yet, use `e?profile create`"
+      description = "Profile not created yet, use `profile create`"
 
       image = None
 
@@ -72,9 +78,9 @@ class Profiles(commands.Cog):
 
       if u in ctx.guild.members:
         
-        res += f"\n`{u}`"
+        res += f"\n{u}"
 
-    emb = discord.Embed(description = res, colour = colour)
+    emb = discord.Embed(description = f"```prolog\n{res}\n```", colour = colour)
     emb.set_author(name = f"Users in {ctx.guild.name}", icon_url = ctx.guild.icon_url)
 
     await ctx.send(embed = emb)
@@ -88,7 +94,7 @@ class Profiles(commands.Cog):
 
       l = json.load(f)
 
-    l[str(ctx.author.id)] = {"description": "Not set, use `e?profile description <description>`", "image": "none"}
+    l[str(ctx.author.id)] = {"description": "Not set, use `profile description <description>`", "image": "none"}
 
     with open("data/profiles.json", "w") as f:
 
@@ -135,12 +141,12 @@ class Profiles(commands.Cog):
 
     except KeyError:
 
-      await ctx.send("You didn't create your profile! Use `e?profile create`.")
+      await ctx.send("You didn't create your profile! Use `profile create`.")
 
   @profile.command(aliases = ["img"])
   async def image(self, ctx, *, image_url = None):
 
-    "Set profile's image"
+    "Set profile's image, use `profile image remove` to remove the image"
 
     with open("data/profiles.json", "r") as f:
 
@@ -156,7 +162,13 @@ class Profiles(commands.Cog):
 
       else:
 
-        url = image_url
+        if image_url.lower() == "remove":
+
+          url = None
+
+        else:
+          
+          url = image_url
       
       l[str(ctx.author.id)]["image"] = str(url)
       
@@ -168,7 +180,7 @@ class Profiles(commands.Cog):
 
     except KeyError:
 
-      await ctx.send("You didn't create your profile! Use `e?profile create`.")
+      await ctx.send("You didn't create your profile! Use `profile create`.")
       
 def setup(bot):
   bot.add_cog(Profiles(bot))
