@@ -208,6 +208,23 @@ Satoru is a Discord Bot made with discord.py
 
                   pass
 
+          battle = ""
+
+          for a in self.bot.commands:
+            if a.cog_name == "Weeb":
+              if not a.hidden:
+                battle += f"`{a.name}` :: "
+
+                try:
+                  
+                  for b in a.commands:
+
+                    battle += f"`{a.name} {b.name}` :: "
+
+                except:
+
+                  pass
+
           triggers = ""
 
           for a in self.bot.commands:
@@ -266,7 +283,10 @@ Satoru is a Discord Bot made with discord.py
 {triggers}
 
 **MINECRAFT**
-{mc}"""
+{mc}
+
+**BATTLE**
+{battle}"""
 
       emb.description = res
 
