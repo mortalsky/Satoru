@@ -62,135 +62,107 @@ class Battle(commands.Cog):
             await ctx.send(embed = emb2)
 
             end = True
-            
-    @commands.command(hidden = True)
-    @commands.is_owner()
-    async def battle(self, ctx, member: discord.Member = None):
 
-      if member == ctx.author:
+    @commands.command(aliases = ["hg"])
+    async def hungergames(self, ctx, *, members = None):
 
-        await ctx.send("You can't battle yourself!")
-        return
+      "Create an Hunger Game! If members is none, bot will choose 8 random members."
 
-      points = [5, 10, 15, 20, 25]
+      # 1 --
+      #     |---
+      # 2 --    |
+      #         |----             I spent like 30 mins
+      # 3 --    |    |            only for this shitty
+      #     |---     |            comment, lmao.
+      # 4 --         |         
+      #              |----- 0       
+      # 5 --         |
+      #     |---     |
+      # 6 --    |    |
+      #         |--- 
+      # 7 --    |
+      #     |---
+      # 8 --
 
-      xp1 = 150
-      xp2 = 150
+      if members:
 
-      ne = discord.Embed(colour = 0xbf794b)
+        x = members.split(" ")
 
-      turn = 1
+      else:
 
-      def check(m):
-        
-        return m.author == ctx.author and m.channel == ctx.channel
+        x = ctx.guild.members
 
-      if not member:
-
-        await ctx.send(f"[❌] You must specify a member! `{ctx.prefix}battle @member`")
-        
       try:
 
-        ne.description = f"{member.mention}, do you accept this battle? (reply with `yes` or `no`)"
-        await ctx.send(embed = ne)
-        msg = await self.bot.wait_for('message', check=check, timeout = 60)
+        players = random.sample(x, 8)
 
-        if msg.content.lower() == "yes":
+      except ValueError:
 
-          ne.description = "Let's start!"
-          await ctx.send(embed = ne)
+        return await ctx.send("Min 8 players!")
+      
+      emb = discord.Embed(colour = discord.Colour.blurple(), title = "Hunger Games")
 
-        elif msg.content.lower() == "no":
-
-          ne.description = "Ok, bye:wave:!"
-          await ctx.send(embed = ne)
-          return
-
-        else:
-
-          return
-
-      except asyncio.timeOutError:
-
-        ne.description = f"[:clock:] {ctx.author.mention} time out!"
-
-        await ctx.send(embed = ne)
-
-      emb = discord.Embed(title = f"{ctx.author.name} VS {member.name}", colour = discord.Colour.red(), description = f'{ctx.author.mention}\'s life: {xp1}\n{member.mention}\'s life: {xp2}')
+      emb.description = f"""
+{players[0]} 
+`----- VS -----`     
+{players[1]}  
+                  
+{players[2]}
+`----- VS -----`
+{players[3]}
+                  
+{players[4]}
+`----- VS -----`     
+{players[5]}    
+                  
+{players[6]}
+`----- VS -----`    
+{players[7]}   
+"""
 
       msg = await ctx.send(embed = emb)
 
-      end = False
+      await asyncio.sleep(2)
 
-      while not end:
-        
-        if turn == 1:
+      onevtwo = random.choice([players[0], players[1]])
+      threevfour = random.choice([players[2], players[3]])
+      fivevsix = random.choice([players[4], players[5]])
+      sevenveight = random.choice([players[6], players[7]])
 
-            await ctx.send(f"{ctx.author.mention} do you `attack` or `defend`?")
+      emb.description = f"""
+{onevtwo}     
+`----- VS -----`          
+{threevfour}        
+                 
+{fivevsix}
+----- VS -----
+{sevenveight}
+"""
 
-            m = await self.bot.wait_for('message', check=check, timeout = 60)
+      await msg.edit(embed = emb)
 
-            if m.content.lower() == "attack":
+      await asyncio.sleep(2)
 
-              r = random.choice(points)
+      onevthree = random.choice([onevtwo, threevfour])
+      fivevseven = random.choice([fivevsix, sevenveight])
 
-              xp2 = (xp2 - int(r))
+      emb.description = f"""
+{onevthree}
 
-              emb.description += f"\n{ctx.author.mention} attacked {member.mention} who lost {r} points!"
+`----- VS -----`       
+                  
+{fivevseven}
+"""
+      await msg.edit(embed = emb)
 
-              await msg.delete()
-              msg = await ctx.send(embed = emb)
+      await asyncio.sleep(2)
 
-              turn = 2
+      winner = random.choice([onevthree, fivevseven])
 
-            elif m.content.lower() == "defend":
-
-              r = random.choice(points)
-
-              xp1 = (xp1 + int(r))
-
-              emb.description += f"\n{ctx.author.mention} defended, xps increment of {r}!"
-
-              await ctx.send(embed = emb)
-
-              turn = 2
-              
-        elif turn == 2: 
-
-            await ctx.send(f"{member.mention} do you `attack` or `defend`?")
-
-            m = await self.bot.wait_for('message', check=check, timeout = 60)
-
-            if m.content == "attack":
-
-              r = random.choice(points)
-
-              xp1 = (xp1 - int(r))
-
-              emb.description += f"\n{member.mention} attacked {ctx.author.mention} who lost {r} points!"
-
-              await msg.delete()
-              msg = await ctx.send(embed = emb)
-
-              turn = 2
-
-            elif m.content == "defend":
-
-              r = random.choice(points)
-
-              xp2 = (xp2 + int(r))
-
-              emb.description += f"\n{member.mention.mention} defended, xps increment of {r}!"
-
-              await ctx.send(embed = emb)
-
-              turn = 1
-
-      
-
-
-        
-
+      emb.description = f"""
+**👑 {winner} 👑**
+"""
+      await msg.edit(embed = emb)
 
 def setup(bot):
     bot.add_cog(Battle(bot))
