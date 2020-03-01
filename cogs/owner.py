@@ -117,9 +117,7 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
     emb1 = discord.Embed(title = f'Loaded {extension}!', colour = 0xbf794b)
     msg = await ctx.send(embed = emb)
     await asyncio.sleep(0.5)
-    error = discord.Embed(title = f"""UH! There was an error with {extension}! Check this list:
->>> `The extension doesn't exist`
-`The extension is already loaded`""", colour = 0xbf794b)
+    error = discord.Embed(title = f"""UH! There was an error with {extension}!""", colour = 0xbf794b)
     
     try:
       
@@ -139,9 +137,7 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
     emb1 = discord.Embed(title = f'Reloaded {extension}!', colour = 0xbf794b)
     msg = await ctx.send(embed = emb)
     await asyncio.sleep(0.5)
-    error = discord.Embed(title = f"""UH! There was an error with {extension}!
->>> `The extension doesn't exist`
-`The extension is not loaded yet`""", colour = 0xbf794b)
+    error = discord.Embed(title = f"""UH! There was an error with {extension}!""", colour = 0xbf794b)
     
     try:
       
@@ -162,9 +158,7 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
     emb1 = discord.Embed(title = f'Unloaded {extension}!', colour = 0xbf794b)
     msg = await ctx.send(embed = emb)
     await asyncio.sleep(0.5)
-    error = discord.Embed(title = f"""UH! There was an error with {extension}! Check this list:
->>> `The extension doesn't exist`
-`The extension is already unloaded`""", colour = 0xbf794b)
+    error = discord.Embed(title = f"""UH! There was an error with {extension}!""", colour = 0xbf794b)
     
     try:
       
@@ -227,13 +221,24 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
 
     await ctx.send(f"Uninstalled {package}!")
 
+
   @commands.command()
   @commands.is_owner()
-  async def asyncio(self, ctx, time, times = None):
+  async def asyncio(self, ctx, time, times = None, thing = None):
+
+    "Sleep little Satoru"
 
     if not times:
 
       times = 1
+
+    if thing:
+
+      thing = f"**{thing}**"
+
+    else:
+
+      thing = " "
 
     await ctx.message.add_reaction("\U0001f44d")
 
@@ -241,9 +246,9 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
       
       await asyncio.sleep(int(time))
 
-    now = (int(datetime.now().strftime('%s')) - int(ctx.message.created_at.strftime('%s')))
+    before = ctx.message.created_at
     
-    await ctx.send(f"{ctx.author.mention}, {now} seconds ago.")
+    await ctx.send(f"{ctx.author.mention}, at `{before.strftime('%d %b %Y - %I:%M %p')}` {thing}")
 
 def setup(bot):
   bot.add_cog(Owner(bot))

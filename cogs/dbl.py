@@ -9,7 +9,7 @@ class TopGG(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.token = os.environ.get("dbltoken") 
-        self.dblpy = dbl.DBLClient(self.bot, self.token, autopost=True) 
+        self.dbl = dbl.DBLClient(self.bot, self.token, autopost=True) 
 
     async def on_guild_post():
 

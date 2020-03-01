@@ -272,7 +272,7 @@ Website: [Click Me](https://satoru.seba.gq/)
 Support Server: [Click Me](https://discord.gg/w8cbssP)
 GitHub: [Click Me](https://github.com/ssebastianoo/Satoru)
 Top.gg: [Click Me](https://top.gg/bot/635044836830871562)
-Vote me: [Clikc Me](https://top.gg/bot/635044836830871562/vote)
+Vote me: [Click Me](https://top.gg/bot/635044836830871562/vote)
 **""", colour = colour)
 
       await ctx.send(embed = emb)
@@ -508,20 +508,22 @@ Use `messages <limit> <channel> <member>`"""
 
       if not timezone:
 
-        rome = self.from_utc("Europe/Rome")
-        paris = self.from_utc("Europe/Paris")
-        tokyo = self.from_utc("Asia/Tokyo") 
-        london = self.from_utc("Europe/London")
-        berlin = self.from_utc("Europe/Berlin")
-        moscow = self.from_utc("Europe/Moscow")
-        toronto = self.from_utc("America/Toronto")
-        detroit = self.from_utc("America/Detroit")
-        shanghai = self.from_utc("Asia/Shanghai")
-        helsinki = self.from_utc("Europe/Helsinki")
-        newyork = self.from_utc("America/New_York")
-        amsterdam = self.from_utc("Europe/Amsterdam")
+        async with ctx.typing():
 
-        emb = discord.Embed(description = f"""```prolog
+          rome = self.from_utc("Europe/Rome")
+          paris = self.from_utc("Europe/Paris")
+          tokyo = self.from_utc("Asia/Tokyo") 
+          london = self.from_utc("Europe/London")
+          berlin = self.from_utc("Europe/Berlin")
+          moscow = self.from_utc("Europe/Moscow")
+          toronto = self.from_utc("America/Toronto")
+          detroit = self.from_utc("America/Detroit")
+          shanghai = self.from_utc("Asia/Shanghai")
+          helsinki = self.from_utc("Europe/Helsinki")
+          newyork = self.from_utc("America/New_York")
+          amsterdam = self.from_utc("Europe/Amsterdam")
+
+          emb = discord.Embed(description = f"""```prolog
 Rome       ::   {rome}
 Paris      ::   {paris}
 Tokyo      ::   {tokyo}
@@ -540,7 +542,7 @@ Amsterdam  ::   {amsterdam}
 
       try:
       
-        emb = discord.Embed(description = f"```prolog\n{timezone} :: {self.from_utc(str(timezone))}\n```", colour = colour)
+        emb = discord.Embed(description = f"```prolog\n{timezone} :: {self.from_utc(str(timezone))}\n```", colour = discord.Colour.blurple())
 
         await ctx.send(embed = emb)
 

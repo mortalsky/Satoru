@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import json
 import aiohttp
+import os
 
 colour = 0xbf794b
 
@@ -466,7 +467,7 @@ Offline  ::   {offline_b}
 """
 
 
-        emb = discord.Embed(description = f"```prolog\n{stats}\n```", colour = discord.Colour.blurple())
+      emb = discord.Embed(description = f"```prolog\n{stats}\n```", colour = discord.Colour.blurple())
 
       await ctx.send(embed = emb)
 
@@ -533,6 +534,28 @@ Offline  ::   {offline_b}
       emb.set_image(url =  str(member.avatar_url_as(static_format = "png")))
       emb.set_footer(text = nick, icon_url = member.guild.icon_url)
       await ctx.send(embed = emb)
+
+    @commands.command(aliases = ["cf"])
+    async def createfile(self, ctx, name, *, text):
+
+      "Create a file"
+
+      async with ctx.typing():
+
+        if name in os.listdir():
+
+          name = f"{ctx.author.name}-{name}"
+
+        f = open(name,"w+")
+        f.write(text)
+
+        file = discord.File(name)
+
+      f.close()
+
+      await ctx.send(file = file)
+
+      os.remove(name)
 
 def setup(bot):
     bot.add_cog(Utility(bot))
