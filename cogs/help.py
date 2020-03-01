@@ -211,7 +211,7 @@ Satoru is a Discord Bot made with discord.py
           battle = ""
 
           for a in self.bot.commands:
-            if a.cog_name == "Weeb":
+            if a.cog_name == "Battle":
               if not a.hidden:
                 battle += f"`{a.name}` :: "
 
