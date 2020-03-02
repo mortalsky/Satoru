@@ -63,10 +63,10 @@ class Battle(commands.Cog):
 
             end = True
 
-    @commands.command(aliases = ["hg"])
+    @commands.command(aliases = ["hungergame", "hg"])
     async def hungergames(self, ctx, *, members = None):
 
-      "Create an Hunger Game! If members is none, bot will choose 8 random members."
+      "Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....`"
 
       # 1 --
       #     |---
@@ -86,7 +86,7 @@ class Battle(commands.Cog):
 
       if members:
 
-        x = members.split(" ")
+        x = members.split(",")
 
       else:
 
@@ -103,21 +103,21 @@ class Battle(commands.Cog):
       emb = discord.Embed(colour = discord.Colour.blurple(), title = "Hunger Games")
 
       emb.description = f"""
-{players[0]} 
+**{players[0]}** 
 `----- VS -----`     
-{players[1]}  
+**{players[1]}**  
                   
-{players[2]}
+**{players[2]}**
 `----- VS -----`
-{players[3]}
+**{players[3]}**
                   
-{players[4]}
+**{players[4]}**
 `----- VS -----`     
-{players[5]}    
+**{players[5]}**    
                   
-{players[6]}
+**{players[6]}**
 `----- VS -----`    
-{players[7]}   
+**{players[7]}**     
 """
 
       msg = await ctx.send(embed = emb)
@@ -130,13 +130,13 @@ class Battle(commands.Cog):
       sevenveight = random.choice([players[6], players[7]])
 
       emb.description = f"""
-{onevtwo}     
+**{onevtwo}**     
 `----- VS -----`          
-{threevfour}        
+**{threevfour}**        
                  
-{fivevsix}
------ VS -----
-{sevenveight}
+**{fivevsix}**
+`----- VS -----`   
+**{sevenveight}**
 """
 
       await msg.edit(embed = emb)
@@ -147,11 +147,11 @@ class Battle(commands.Cog):
       fivevseven = random.choice([fivevsix, sevenveight])
 
       emb.description = f"""
-{onevthree}
+**{onevthree}**
 
 `----- VS -----`       
                   
-{fivevseven}
+**{fivevseven}**
 """
       await msg.edit(embed = emb)
 
