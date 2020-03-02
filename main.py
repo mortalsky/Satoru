@@ -9,6 +9,7 @@ from datetime import datetime
 import traceback
 from dotenv import load_dotenv
 import jishaku
+from app import keep_alive
 
 colour = 0xbf794b
 
@@ -137,6 +138,7 @@ for filename in os.listdir('./cogs'):
   if filename.endswith('.py'):
     bot.load_extension(f'cogs.{filename[:-3]}')
 
+keep_alive()
 load_dotenv(dotenv_path = ".env")
 token = os.environ.get('secret')
 bot.run(token)

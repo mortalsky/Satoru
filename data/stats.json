@@ -1,10 +1,10 @@
 {
     "library": "1.3.2",
     "python": "3.8.1",
-    "memory": 77.2,
-    "cpu": 7.1,
-    "running": "Windows",
+    "memory": 26.6,
+    "cpu": 35.0,
+    "running": "Linux",
     "guilds": 12,
-    "users": 42676,
-    "uptime": "0d 0h 28m 18s"
+    "users": 102293,
+    "uptime": "0d 6h 4m 31s"
 }

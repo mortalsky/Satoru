@@ -11,6 +11,7 @@ import platform
 import random
 import pytz
 import traceback
+import time
 
 translator = Translator()
 
@@ -25,9 +26,22 @@ class Misc(commands.Cog):
 
       "See bot latency"
 
+      start = time.perf_counter()
+
+      msg = await ctx.send(f"Ping...")
+
+      end = time.perf_counter()
+      duration = (end - start) * 1000
+
       pong = round(self.bot.latency * 1000)
 
-      await ctx.send(f":ping_pong: | {pong}ms")
+      emb = discord.Embed(colour = discord.Colour.blurple(), description = f"""
+```prolog
+Latency  :: {pong}ms
+Response :: {duration:.2f}ms
+```""", timestamp = ctx.message.created_at, title = ":ping_pong: | Pong!")
+
+      await msg.edit(embed = emb, content = None)
 
     @commands.command(aliases = ["ut"])
     async def uptime(self, ctx):

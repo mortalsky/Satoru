@@ -8,198 +8,198 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`e?body [arg]`
+`e?bust [arg]`
 
-> See the body of a player 
+> See the bust of a player 
 
-`e?prefix <prefix>`
+`e?uptime `
 
-> Set a custom prefix 
-
-`e?hungergames [members]`
-
-> None 
-
-`e?userinfo [member]`
-
-> See a member's info 
-
-`e?looneytunes `
-
-> Which Looney Tunes are you? 
-
-`e?ban [member] [reason]`
-
-> Ban a member 
-
-`e?roleinfo <role>`
-
-> See a role info 
-
-`e?invite `
-
-> Invite the bot to your server 
-
-`e?kick [member] [reason]`
-
-> Kick a member 
-
-`e?guildinfo `
-
-> See the actual guild info 
-
-`e?about `
-
-> Info about the bot 
-
-`e?mute [member] [reason]`
-
-> Mute a member 
-
-`e?users `
-
-> See users stats 
+> See bot uptime 
 
 `e?male <thing> [member]`
 
 > Use this when someone says that a thing is a female but is a male 
 
-`e?unmute [member]`
+`e?punch [member]`
 
-> Unmute a member 
+> Punch a user 
 
-`e?addemoji [name] [emoji_link]`
+`e?userinfo [member]`
 
-> Add an emoji 
+> See a member's info 
+
+`e?body [arg]`
+
+> See the body of a player 
+
+`e?translate <text> [source] [destination]`
+
+> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
 
 `e?female <thing> [member]`
 
 > Use this when someone says that a thing is a male but is a female 
 
-`e?lock [channel]`
+`e?satoru `
 
-> Lock a Text Channel 
+> See a random image of Satoru Fujinuma 
 
-`e?avatar [member]`
+`e?roleinfo <role>`
 
-> See a member avatar 
+> See a role info 
+
+`e?feedback <feedback>`
+
+> Send a feedback to the bot or suggest a new command 
+
+`e?ban [member] [reason]`
+
+> Ban a member 
+
+`e?kayo `
+
+> See a random image of Kayo Hinazuki 
 
 `e?random [elements...]`
 
 > Make a random choice 
 
-`e?unlock [channel]`
+`e?guildinfo `
 
-> Unlock a Text Channel 
+> See the actual guild info 
 
-`e?createfile <name> <text>`
+`e?say <message>`
 
-> Create a file 
+> Say something with Satoru 
+
+`e?kick [member] [reason]`
+
+> Kick a member 
+
+`e?users `
+
+> See users stats 
+
+`e?list `
+
+> See your list 
+
+`e?mute [member] [reason]`
+
+> Mute a member 
+
+`e?addemoji [name] [emoji_link]`
+
+> Add an emoji 
+
+`e?unmute [member]`
+
+> Unmute a member 
 
 `e?codeblock <language> <code>`
 
 > Transform a code to a codeblock 
 
+`e?clear [amount=100]`
+
+> Delete Messages 
+
+`e?avatar [member]`
+
+> See a member avatar 
+
+`e?lock [channel]`
+
+> Lock a Text Channel 
+
 `e?drake <top> <bottom>`
 
 > Make the Drake Meme 
+
+`e?about `
+
+> Info about the bot 
+
+`e?createfile <name> <text>`
+
+> Create a file 
+
+`e?unlock [channel]`
+
+> Unlock a Text Channel 
 
 `e?8ball <question>`
 
 > Ask 8ball a question 
 
+`e?ping `
+
+> See bot latency 
+
+`e?hungergames [members]`
+
+> Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....` 
+
+`e?profile [member]`
+
+> See a user's profile 
+
+`e?autotrigger <trigger>`
+
+> See a response giving a trigger 
+
 `e?raw <message>`
 
 > Show a message without markdown 
+
+`e?hug [member]`
+
+> Hug a user 
 
 `e?messages [limit=500] [channel] [member]`
 
 > See how many messages a member sent in a channel in the last tot messages
 Use `messages <limit> <channel> <member>` 
 
-`e?profile [member]`
+`e?skin [arg]`
 
-> See a user's profile 
-
-`e?hug [member]`
-
-> Hug a user 
+> See a skin of player 
 
 `e?spoiler <message>`
 
 > Make a message with a lot of spoilers 
 
-`e?punch [member]`
+`e?looneytunes `
 
-> Punch a user 
-
-`e?gun `
-
-> Make a gun battle 
-
-`e?timezone [timezone]`
-
-> See what time is in a country 
-
-`e?satoru `
-
-> See a random image of Satoru Fujinuma 
-
-`e?kayo `
-
-> See a random image of Kayo Hinazuki 
-
-`e?ping `
-
-> See bot latency 
-
-`e?uptime `
-
-> See bot uptime 
-
-`e?autotrigger <trigger>`
-
-> See a response giving a trigger 
-
-`e?translate <text> [source] [destination]`
-
-> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
-
-`e?feedback <feedback>`
-
-> Send a feedback to the bot or suggest a new command 
-
-`e?skin [arg]`
-
-> See a skin of player 
-
-`e?say <message>`
-
-> Say something with Satoru 
+> Which Looney Tunes are you? 
 
 `e?head [arg]`
 
 > See the head of a player 
 
-`e?list `
+`e?timezone [timezone]`
 
-> See your list 
+> See what time is in a country 
+
+`e?prefix <prefix>`
+
+> Set a custom prefix 
+
+`e?invite `
+
+> Invite the bot to your server 
 
 `e?helm [arg]`
 
 > See the head of a player with the helm (if there is) 
 
+`e?gun `
+
+> Make a gun battle 
+
 `e?cubehead [arg]`
 
 > See the head of a player in a 3D way 
-
-`e?clear [amount=100]`
-
-> Delete Messages 
-
-`e?bust [arg]`
-
-> See the bust of a player 
 
 
 
