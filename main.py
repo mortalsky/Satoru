@@ -65,7 +65,7 @@ async def on_ready():
           
           json.dump(l, f, indent = 4)
 
-@tasks.loop(seconds = 10)
+@tasks.loop(seconds = 20)
 async def stats():
 
   with open("data/stats.json", "r") as f:
