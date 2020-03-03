@@ -165,6 +165,20 @@ Response :: {duration:.2f}ms
       await ctx.send("Done!")
 
     @commands.command()
+    async def google(self, ctx, *, search):
+
+      "Search something on google"
+
+      search0 = f"https://google.com/search?q={search}"
+
+      url = search0.replace(" ", "%20")
+
+      emb = discord.Embed(title = search, url = url, colour = discord.Colour.blurple())
+      emb.set_footer(icon_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/753px-Google_%22G%22_Logo.svg.png", text = "Google Search")
+
+      await ctx.send(embed = emb)
+
+    @commands.command()
     async def say(self, ctx, *, message):
 
       "Say something with Satoru"
