@@ -8,6 +8,22 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
+`e?cubehead [arg]`
+
+> See the head of a player in a 3D way 
+
+`e?profile [member]`
+
+> See a user's profile 
+
+`e?ping `
+
+> See bot latency 
+
+`e?about `
+
+> Info about the bot 
+
 `e?bust [arg]`
 
 > See the bust of a player 
@@ -116,10 +132,6 @@ Satoru is a Discord Bot made with discord.py
 
 > Make the Drake Meme 
 
-`e?about `
-
-> Info about the bot 
-
 `e?createfile <name> <text>`
 
 > Create a file 
@@ -128,29 +140,29 @@ Satoru is a Discord Bot made with discord.py
 
 > Unlock a Text Channel 
 
-`e?8ball <question>`
-
-> Ask 8ball a question 
-
-`e?ping `
-
-> See bot latency 
-
 `e?hungergames [members]`
 
 > Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....` 
 
-`e?profile [member]`
+`e?8ball <question>`
 
-> See a user's profile 
+> Ask 8ball a question 
+
+`e?invite `
+
+> Invite the bot to your server 
+
+`e?raw <message>`
+
+> Show a message without markdown 
 
 `e?autotrigger <trigger>`
 
 > See a response giving a trigger 
 
-`e?raw <message>`
+`e?gun `
 
-> Show a message without markdown 
+> Make a gun battle 
 
 `e?hug [member]`
 
@@ -185,21 +197,9 @@ Use `messages <limit> <channel> <member>`
 
 > Set a custom prefix 
 
-`e?invite `
-
-> Invite the bot to your server 
-
 `e?helm [arg]`
 
 > See the head of a player with the helm (if there is) 
-
-`e?gun `
-
-> Make a gun battle 
-
-`e?cubehead [arg]`
-
-> See the head of a player in a 3D way 
 
 
 

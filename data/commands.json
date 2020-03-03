@@ -1,4 +1,8 @@
 {
+    "cubehead [arg]": "See the head of a player in a 3D way",
+    "profile [member]": "See a user's profile",
+    "ping ": "See bot latency",
+    "about ": "Info about the bot",
     "bust [arg]": "See the bust of a player",
     "uptime ": "See bot uptime",
     "male <thing> [member]": "Use this when someone says that a thing is a female but is a male",
@@ -26,15 +30,14 @@
     "avatar [member]": "See a member avatar",
     "lock [channel]": "Lock a Text Channel",
     "drake <top> <bottom>": "Make the Drake Meme",
-    "about ": "Info about the bot",
     "createfile <name> <text>": "Create a file",
     "unlock [channel]": "Unlock a Text Channel",
-    "8ball <question>": "Ask 8ball a question",
-    "ping ": "See bot latency",
     "hungergames [members]": "Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....`",
-    "profile [member]": "See a user's profile",
-    "autotrigger <trigger>": "See a response giving a trigger",
+    "8ball <question>": "Ask 8ball a question",
+    "invite ": "Invite the bot to your server",
     "raw <message>": "Show a message without markdown",
+    "autotrigger <trigger>": "See a response giving a trigger",
+    "gun ": "Make a gun battle",
     "hug [member]": "Hug a user",
     "messages [limit=500] [channel] [member]": "See how many messages a member sent in a channel in the last tot messages\nUse `messages <limit> <channel> <member>`",
     "skin [arg]": "See a skin of player",
@@ -43,8 +46,5 @@
     "head [arg]": "See the head of a player",
     "timezone [timezone]": "See what time is in a country",
     "prefix <prefix>": "Set a custom prefix",
-    "invite ": "Invite the bot to your server",
-    "helm [arg]": "See the head of a player with the helm (if there is)",
-    "gun ": "Make a gun battle",
-    "cubehead [arg]": "See the head of a player in a 3D way"
+    "helm [arg]": "See the head of a player with the helm (if there is)"
 }

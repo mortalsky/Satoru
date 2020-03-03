@@ -12,6 +12,9 @@ import random
 import pytz
 import traceback
 import time
+import praw
+
+reddit = praw.Reddit(client_id='MBUXLwBBM0mj6A', client_secret='u8fiBhqend_J0oA2nkbsIbEDtu8', user_agent='sebamemes')
 
 translator = Translator()
 
@@ -53,6 +56,25 @@ Response :: {duration:.2f}ms
         l = json.load(f)
 
       emb = discord.Embed(description = f':clock: | {l["uptime"]}', colour = colour)
+
+      await ctx.send(embed = emb)
+
+    @commands.command()
+    async def meme(self, ctx):
+      
+      "Get a random meme"
+
+      async with ctx.typing():
+        
+        emb = discord.Embed(colour = discord.Colour.blurple())
+    
+        r = random.choice([a for a in reddit.subreddit("dankmemes").hot(limit = 50)])
+
+        emb.title = r.title
+        emb.description = f"<a:upvote:639355848031993867> | {r.ups}"
+        emb.url = r.url
+        emb.set_image(url = r.url)
+        emb.set_footer(text = "r/dankmemes")
 
       await ctx.send(embed = emb)
 
@@ -202,7 +224,7 @@ Response :: {duration:.2f}ms
     @list.command()
     async def remove(self, ctx, number_obj: int):
 
-      "Remobe an obj from the list"
+      "Remove an obj from the list"
 
       with open("data/list.json", "r") as f:
 
