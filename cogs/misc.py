@@ -169,7 +169,10 @@ Response :: {duration:.2f}ms
 
       "Say something with Satoru"
 
-      await ctx.send(discord.utils.escape_mentions(message))
+      a = commands.clean_content(use_nicknames = True)
+      message = await a.convert(ctx, message)
+
+      await ctx.send(message)
 
     @commands.group(invoke_without_command = True)
     async def list(self, ctx):
