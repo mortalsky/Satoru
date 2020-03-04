@@ -58,7 +58,7 @@ class Profiles(commands.Cog):
 
     try:
 
-      emb.add_field(name = "Total Money", value = f"{l[str(ctx.author.id)]['money']}💸")
+      emb.add_field(name = "Total Money", value = f"{l[str(member.id)]['money']}💸")
 
     except KeyError:
 
@@ -192,7 +192,7 @@ class Profiles(commands.Cog):
       await ctx.send("You didn't create your profile! Use `profile create`.")
 
   @commands.command()
-  @commands.cooldown(1, 30, commands.BucketType.guild)
+  @commands.cooldown(1, 30, commands.BucketType.user)
   async def work(self, ctx):
 
     "Work and earn money"

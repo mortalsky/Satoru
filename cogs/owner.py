@@ -250,5 +250,14 @@ class Owner(commands.Cog, command_attrs=dict(hidden=True)):
     
     await ctx.send(f"{ctx.author.mention}, at `{before.strftime('%d %b %Y - %I:%M %p')}` {thing}")
 
+  @commands.command()
+  @commands.is_owner()
+  async def nick(self, ctx, *, nick):
+
+    "Nickname the bot"
+
+    await ctx.guild.me.edit(nick = nick)
+    await ctx.message.add_reaction("<:greenTick:596576670815879169>")
+
 def setup(bot):
   bot.add_cog(Owner(bot))
