@@ -8,7 +8,6 @@ import psutil
 from datetime import datetime
 import traceback
 from dotenv import load_dotenv
-import jishaku
 from app import keep_alive
 
 colour = 0xbf794b
@@ -27,7 +26,7 @@ def get_prefix(bot, message):
 
   except KeyError:
 
-    prefix = commands.when_mentioned_or("e? ", "e?")(bot, message)
+    prefix = commands.when_mentioned_or("er! ", "er!")(bot, message)
 
   return prefix
 
@@ -42,7 +41,7 @@ async def on_ready():
 
   print('Ready as', bot.user)
 
-  await bot.change_presence(status = discord.Status.idle, activity = discord.Activity(type = discord.ActivityType.streaming, name = 'e?help', url = 'https://www.twitch.tv/sebord_'))
+  await bot.change_presence(status = discord.Status.idle, activity = discord.Streaming(name = "er!help", url = "https://twitch.tv/sebord_"))
 
   stats.start()
 
@@ -129,6 +128,12 @@ async def on_command_error(ctx, error):
       
       return await ctx.reinvoke()
 
+  if isinstance(error, commands.CommandOnCooldown):
+
+    if ctx.author.id == 488398758812319745:
+      
+      return await ctx.reinvoke()
+
   emb = discord.Embed(title = "Error", description = f"```css\n{error}\n```\nJoin the [support server](https://discord.gg/w8cbssP) for help.", colour = discord.Colour.red(), timestamp = ctx.message.created_at)
   emb.set_footer(text = ctx.author, icon_url = ctx.author.avatar_url)
 
@@ -138,7 +143,7 @@ for filename in os.listdir('./cogs'):
   if filename.endswith('.py'):
     bot.load_extension(f'cogs.{filename[:-3]}')
 
-keep_alive()
 load_dotenv(dotenv_path = ".env")
+keep_alive()
 token = os.environ.get('secret')
 bot.run(token)

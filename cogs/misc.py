@@ -18,7 +18,7 @@ reddit = praw.Reddit(client_id='MBUXLwBBM0mj6A', client_secret='u8fiBhqend_J0oA2
 
 translator = Translator()
 
-colour = 0xbf794b
+colour = 0xfffca6
 
 class Misc(commands.Cog):
     def __init__(self, bot):
@@ -297,10 +297,12 @@ Response :: {duration:.2f}ms
 
     @commands.command()
     async def invite(self, ctx):
+      
+      "Invite the bot to your server"
 
-       "Invite the bot to your server"
+      invite = discord.utils.oauth_url(self.bot.user.id, permissions = discord.Permissions(permissions = 1074129990))
        
-       await ctx.send(embed = discord.Embed(description = "[Invite Me](https://satoru.seba.gq/invite)", colour = colour))
+      await ctx.send(f"<{invite}>")
 
     @commands.command(aliases = ["stats"])
     async def about(self, ctx):
@@ -529,7 +531,9 @@ Use `messages <limit> <channel> <member>`"""
         messages = await channel.history(limit=limit).flatten()
         count = len([x for x in messages if x.author.id == member.id])
         
-        emb = discord.Embed(description = f"{a} sent **{count}** messages in {channel.mention} in the last **{limit}** messages.", colour = colour)
+        perc = ((100 * int(count))/int(limit))
+        
+        emb = discord.Embed(description = f"{a} sent **{count} ({perc}%)** messages in {channel.mention} in the last **{limit}** messages.", colour = colour)
         
         await ctx.send(embed = emb)
 
@@ -604,6 +608,64 @@ Amsterdam  ::   {amsterdam}
         emb = discord.Embed(description = f"**{timezone}** is not a valid timezone!\n\nUse a format like this: **Europe/Rome**.\n\n[Here](https://timezonedb.com/time-zones) is a list of timezones", colour = discord.Colour.red())
 
         await ctx.send(embed = emb)
+
+    @commands.command()
+    async def poll(self, ctx, poll, *, options = None):
+
+      "Make a poll"
+
+      if not options:
+
+        emb = discord.Embed(title = f"⁉️ | {poll}", colour = discord.Colour.blurple())
+        emb.set_footer(text = "Vote")
+
+        msg = await ctx.send(embed = emb)
+        await msg.add_reaction("👍")
+        await msg.add_reaction("👎")
+
+        return
+
+      options = options.split(",")
+
+      if len(options) > 10:
+
+        return await ctx.send("Max 10 options!")
+
+      elif len(options) < 2:
+
+        return await ctx.send("Min 2 options!")
+
+      count = 0
+
+      emojis = ['1⃣', '2⃣', '3⃣', '4⃣', '5⃣', '6⃣', '7⃣', '8⃣', '9⃣', '🔟']
+
+      res = ""
+
+      for a in options:
+
+        emoji = emojis[int(count)]
+        count += 1
+        res += f"\n{emoji} - {a}"
+
+      emb = discord.Embed(title = f"⁉️ | {poll}", description = res, colour = discord.Colour.blurple())
+      emb.set_footer(text = "Vote")
+
+      msg = await ctx.send(embed = emb)
+
+      for a in emojis[:len(options)]:
+
+        await msg.add_reaction(a)
+
+    @commands.command()
+    async def clap(self, ctx, *message):
+      
+      "clap clap"
+
+      clap = " 👏 ".join(message)
+      a = commands.clean_content(use_nicknames = True)
+      msg = await a.convert(ctx, clap)
+
+      await ctx.send(msg)
 
 def setup(bot):
     bot.add_cog(Misc(bot))

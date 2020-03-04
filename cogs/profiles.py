@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import json
+import random
 
 colour = 0xbf794b
 
@@ -55,6 +56,14 @@ class Profiles(commands.Cog):
 
     emb.description = description
 
+    try:
+
+      emb.add_field(name = "Total Money", value = f"{l[str(ctx.author.id)]['money']}💸")
+
+    except KeyError:
+
+      pass
+
     if image:
       
       emb.set_image(url = image)
@@ -94,7 +103,7 @@ class Profiles(commands.Cog):
 
       l = json.load(f)
 
-    l[str(ctx.author.id)] = {"description": "Not set, use `profile description <description>`", "image": "none"}
+    l[str(ctx.author.id)] = {"description": "Not set, use `profile description <description>`", "image": "none", "money": 0}
 
     with open("data/profiles.json", "w") as f:
 
@@ -181,6 +190,64 @@ class Profiles(commands.Cog):
     except KeyError:
 
       await ctx.send("You didn't create your profile! Use `profile create`.")
-      
+
+  @commands.command()
+  @commands.cooldown(1, 30, commands.BucketType.guild)
+  async def work(self, ctx):
+
+    "Work and earn money"
+
+    random_money = random.choice(range(5, 100))
+
+    with open("data/profiles.json", "r") as f:
+
+      l = json.load(f)
+
+    try:
+
+      l[str(ctx.author.id)]["money"] += random_money
+
+      with open("data/profiles.json", "w") as f:
+
+        json.dump(l, f, indent = 4)
+
+    except KeyError:
+
+      return await ctx.send("You didn't create your profile! Use `profile create`.")
+
+    with open("data/profiles.json", "r") as f:
+
+      l = json.load(f)
+
+    emb = discord.Embed(title = "Good Work!", description = f"You earned **{random_money}💸** and you now have a total of **{l[str(ctx.author.id)]['money']}💸** money.", colour = discord.Colour.green(), timestamp = ctx.message.created_at)
+    emb.set_author(name = ctx.author.name, icon_url = ctx.author.avatar_url)
+
+    await ctx.send(embed = emb)
+
+  @commands.command(aliases = ["lb"])
+  async def leaderboard(self, ctx):
+
+    "See users lb"
+
+    users = []
+
+    with open("data/profiles.json", "r") as f:
+
+      l = json.load(f)
+
+    lb = sorted(l, key=lambda x : l[x].get('money', 0), reverse=True)
+
+    res = ""
+
+    for a in lb:
+
+      u = self.bot.get_user(int(a))
+
+      res += f"\n`{u}` - **{l[str(a)]['money']}💸**"
+
+    emb = discord.Embed(title = "Leaderboard", description = res, colour = discord.Colour.blurple(), timestamp = ctx.message.created_at)
+
+    await ctx.send(embed = emb) 
+
 def setup(bot):
   bot.add_cog(Profiles(bot))

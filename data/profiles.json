@@ -1,42 +1,57 @@
 {
     "488398758812319745": {
         "description": "Hello, I'm a random Discord user and I like to make bots with `discord.py`. I program in Python and HTML and here is my [GitHub Account](https://github.com/ssebastianoo). At the moment I am learning Flask and Socket.\nOwner of <@!635044836830871562> (this bot lel).",
-        "image": "https://cdn.discordapp.com/attachments/381963689470984203/682453949894098954/background.png"
+        "image": "https://cdn.discordapp.com/attachments/381963689470984203/682453949894098954/background.png",
+        "money": 131
     },
     "428273380844765185": {
         "description": "I'm Lida.",
-        "image": "https://cdn.discordapp.com/avatars/428273380844765185/a2164075e48dfcb10ded0cf92fd6eb0e.png"
+        "image": "https://cdn.discordapp.com/avatars/428273380844765185/a2164075e48dfcb10ded0cf92fd6eb0e.png",
+        "money": 0
     },
     "150665783268212746": {
         "description": "Owner of Sparklybot \u2728",
-        "image": "https://images-ext-2.discordapp.net/external/2g4iPf1WqZsFFu27lxkpcwlBJ5Fo6Ex6bry6lDsqdXM/https/images-ext-1.discordapp.net/external/VUrx38G0cwV7jsdti1R3SIbWRbeBBw9Iyl3dgS12z8A/%253Fsize%253D4096/https/cdn.discordapp.com/avatars/150665783268212746/a_e7335ffb1c0a86f61dad84b8f4500604.gif"
+        "image": "https://images-ext-2.discordapp.net/external/2g4iPf1WqZsFFu27lxkpcwlBJ5Fo6Ex6bry6lDsqdXM/https/images-ext-1.discordapp.net/external/VUrx38G0cwV7jsdti1R3SIbWRbeBBw9Iyl3dgS12z8A/%253Fsize%253D4096/https/cdn.discordapp.com/avatars/150665783268212746/a_e7335ffb1c0a86f61dad84b8f4500604.gif",
+        "money": 0
     },
     "354316246759636992": {
         "description": "Random weeb",
-        "image": "https://cdn.discordapp.com/attachments/381963689470984203/682454093004013609/Screenshot_2020-02-26-12-04-52-453.jpeg"
+        "image": "https://cdn.discordapp.com/attachments/381963689470984203/682454093004013609/Screenshot_2020-02-26-12-04-52-453.jpeg",
+        "money": 0
     },
     "212643981593411584": {
         "description": "Owner of Zarilda \ud83c\udf89",
-        "image": "https://cdn.discordapp.com/avatars/212643981593411584/82c960e4a4bcd73668094c3cd6d7832d.png?size=4096"
+        "image": "https://cdn.discordapp.com/avatars/212643981593411584/82c960e4a4bcd73668094c3cd6d7832d.png?size=4096",
+        "money": 0
     },
     "487720196631560204": {
         "description": "Owner of <@601072942318747648> <a:SonoIlMigliore:668907513327910952>",
-        "image": "https://cdn.discordapp.com/avatars/487720196631560204/a_9c8bcbe18b8aa1b3c0daceecaee915cf.png?size=2048"
+        "image": "https://cdn.discordapp.com/avatars/487720196631560204/a_9c8bcbe18b8aa1b3c0daceecaee915cf.png?size=2048",
+        "money": 0
     },
     "285148358815776768": {
         "description": "[click here for COOM](https://www.bonappetit.com/recipes/slideshow/egg-recipes)",
-        "image": "none"
+        "image": "none",
+        "money": 0
     },
     "205680187394752512": {
         "description": "Not set, use `e?profile description <description>`",
-        "image": "none"
+        "image": "none",
+        "money": 0
     },
     "410865885117415424": {
         "description": "a",
-        "image": "none"
+        "image": "none",
+        "money": 0
     },
     "682501154038611970": {
         "description": "Not set, use `profile description <description>`",
-        "image": "none"
+        "image": "none",
+        "money": 0
+    },
+    "463386987605262347": {
+        "description": "A cosa serve il profilo?",
+        "image": "https://cdn.discordapp.com/attachments/611325982191910933/684817009992794243/fire.png",
+        "money": 0
     }
 }
