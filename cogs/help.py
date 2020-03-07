@@ -19,7 +19,17 @@ class Help(commands.Cog):
 
           if a.name != "jishaku":
             
-            commands += f"`e?{a.name} {a.signature}`\n\n> {a.help} \n\n"
+            commands += f"`{a.name} {a.signature}`\n\n> {a.help} \n\n"
+
+            try:
+              
+              for b in a.commands:
+                
+                commands += f"`{a.name} {b.name} {b.signature}`\n\n> {b.help} \n\n"
+
+            except:
+              
+              pass
     
       with open("README.md", "w") as f:
       

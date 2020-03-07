@@ -8,222 +8,270 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`e?autotrigger <trigger>`
+`google <search>`
 
-> See a response giving a trigger 
+> Search something on google 
 
-`e?helm [arg]`
+`random [elements...]`
 
-> See the head of a player with the helm (if there is) 
+> Make a random choice 
 
-`e?codeblock <language> <code>`
+`createfile <name> <text>`
 
-> Transform a code to a codeblock 
+> Create a file 
 
-`e?punch [member]`
+`unmute [member]`
 
-> Punch a user 
+> Unmute a member 
 
-`e?userinfo [member]`
+`say <message>`
 
-> See a member's info 
+> Say something with Satoru 
 
-`e?cubehead [arg]`
+`clear [amount=100]`
 
-> See the head of a player in a 3D way 
+> Delete Messages 
 
-`e?drake <top> <bottom>`
+`lock [channel]`
 
-> Make the Drake Meme 
+> Lock a Text Channel 
 
-`e?satoru `
+`list `
 
-> See a random image of Satoru Fujinuma 
+> See your list 
 
-`e?roleinfo <role>`
+`list add <item>`
 
-> See a role info 
+> Add something to the list 
 
-`e?bust [arg]`
+`list remove <number_obj>`
 
-> See the bust of a player 
+> Remove an obj from the list 
 
-`e?leaderboard `
+`list clear `
 
-> See users lb 
+> Clear the list 
 
-`e?8ball <question>`
+`hug [member]`
 
-> Ask 8ball a question 
+> Hug a user 
 
-`e?kayo `
+`unlock [channel]`
 
-> See a random image of Kayo Hinazuki 
+> Unlock a Text Channel 
 
-`e?guildinfo `
-
-> See the actual guild info 
-
-`e?hungergames [members]`
-
-> Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....` 
-
-`e?body [arg]`
-
-> See the body of a player 
-
-`e?raw <message>`
-
-> Show a message without markdown 
-
-`e?users `
-
-> See users stats 
-
-`e?gun `
+`gun `
 
 > Make a gun battle 
 
-`e?ban [member] [reason]`
+`codeblock <language> <code>`
 
-> Ban a member 
+> Transform a code to a codeblock 
 
-`e?profile [member]`
+`hungergames [members]`
 
-> See a user's profile 
+> Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....` 
 
-`e?messages [limit=500] [channel] [member]`
+`drake <top> <bottom>`
+
+> Make the Drake Meme 
+
+`8ball <question>`
+
+> Ask 8ball a question 
+
+`prefix <prefix>`
+
+> Set a custom prefix 
+
+`prefix reset `
+
+> Reset the default prefix 
+
+`skin [arg]`
+
+> See a skin of player 
+
+`raw <message>`
+
+> Show a message without markdown 
+
+`work `
+
+> Work and earn money 
+
+`head [arg]`
+
+> See the head of a player 
+
+`messages [limit=500] [channel] [member]`
 
 > See how many messages a member sent in a channel in the last tot messages
 Use `messages <limit> <channel> <member>` 
 
-`e?addemoji [name] [emoji_link]`
+`autotrigger <trigger>`
 
-> Add an emoji 
+> See a response giving a trigger 
 
-`e?list `
+`autotrigger delete <trigger>`
 
-> See your list 
+> Delete an auto trigger 
 
-`e?spoiler <message>`
+`autotrigger list `
+
+> See your auto triggers 
+
+`autotrigger create <trigger> <response>`
+
+> Create an auto trigger 
+
+`helm [arg]`
+
+> See the head of a player with the helm (if there is) 
+
+`punch [member]`
+
+> Punch a user 
+
+`spoiler <message>`
 
 > Make a message with a lot of spoilers 
 
-`e?kick [member] [reason]`
+`userinfo [member]`
 
-> Kick a member 
+> See a member's info 
 
-`e?avatar [member]`
+`cubehead [arg]`
 
-> See a member avatar 
+> See the head of a player in a 3D way 
 
-`e?ping `
+`satoru `
 
-> See bot latency 
+> See a random image of Satoru Fujinuma 
 
-`e?timezone [timezone]`
-
-> See what time is in a country 
-
-`e?mute [member] [reason]`
-
-> Mute a member 
-
-`e?looneytunes `
+`looneytunes `
 
 > Which Looney Tunes are you? 
 
-`e?createfile <name> <text>`
+`ping `
 
-> Create a file 
+> See bot latency 
 
-`e?uptime `
+`timezone [timezone]`
+
+> See what time is in a country 
+
+`roleinfo <role>`
+
+> See a role info 
+
+`leaderboard `
+
+> See users lb 
+
+`bust [arg]`
+
+> See the bust of a player 
+
+`kayo `
+
+> See a random image of Kayo Hinazuki 
+
+`uptime `
 
 > See bot uptime 
 
-`e?poll <poll> [options]`
-
-> Make a poll 
-
-`e?unmute [member]`
-
-> Unmute a member 
-
-`e?invite `
+`invite `
 
 > Invite the bot to your server 
 
-`e?clear [amount=100]`
+`poll <poll> [options]`
 
-> Delete Messages 
+> Make a poll 
 
-`e?lock [channel]`
+`guildinfo `
 
-> Lock a Text Channel 
+> See the actual guild info 
 
-`e?meme `
+`body [arg]`
 
-> Get a random meme 
+> See the body of a player 
 
-`e?about `
+`about `
 
 > Info about the bot 
 
-`e?clap [message...]`
+`meme `
+
+> Get a random meme 
+
+`clap [message...]`
 
 > clap clap 
 
-`e?hug [member]`
+`users `
 
-> Hug a user 
+> See users stats 
 
-`e?unlock [channel]`
+`ban [member] [reason]`
 
-> Unlock a Text Channel 
+> Ban a member 
 
-`e?translate <text> [source] [destination]`
-
-> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
-
-`e?male <thing> [member]`
+`male <thing> [member]`
 
 > Use this when someone says that a thing is a female but is a male 
 
-`e?feedback <feedback>`
+`profile [member]`
 
-> Send a feedback to the bot or suggest a new command 
+> See a user's profile 
 
-`e?female <thing> [member]`
+`profile description <description>`
+
+> Set profile's description 
+
+`profile list `
+
+> See who has a profile in the actual guild 
+
+`profile image [image_url]`
+
+> Set profile's image, use `profile image remove` to remove the image 
+
+`profile create `
+
+> Create your profile 
+
+`profile delete `
+
+> Delete your profile 
+
+`translate <text> [source] [destination]`
+
+> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
+
+`addemoji [name] [emoji_link]`
+
+> Add an emoji 
+
+`kick [member] [reason]`
+
+> Kick a member 
+
+`female <thing> [member]`
 
 > Use this when someone says that a thing is a male but is a female 
 
-`e?google <search>`
+`feedback <feedback>`
 
-> Search something on google 
+> Send a feedback to the bot or suggest a new command 
 
-`e?random [elements...]`
+`avatar [member]`
 
-> Make a random choice 
+> See a member avatar 
 
-`e?skin [arg]`
+`mute [member] [reason]`
 
-> See a skin of player 
-
-`e?prefix <prefix>`
-
-> Set a custom prefix 
-
-`e?say <message>`
-
-> Say something with Satoru 
-
-`e?work `
-
-> Work and earn money 
-
-`e?head [arg]`
-
-> See the head of a player 
+> Mute a member 
 
 
 

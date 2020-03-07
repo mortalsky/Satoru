@@ -60,6 +60,16 @@ async def on_ready():
       if a.name != "jishaku":
         
         l[f"{a.name} {a.signature}"] = a.help
+
+        try:
+              
+              for b in a.commands:
+                
+                l[f"{a.name} {b.name} {b.signature}"] = b.help
+
+        except:
+              
+              pass
         
         with open("data/commands.json", "w") as f:
           
