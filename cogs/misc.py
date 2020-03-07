@@ -13,8 +13,12 @@ import pytz
 import traceback
 import time
 import praw
+from dotenv import load_dotenv
+import os
 
-reddit = praw.Reddit(client_id='MBUXLwBBM0mj6A', client_secret='u8fiBhqend_J0oA2nkbsIbEDtu8', user_agent='sebamemes')
+load_dotenv(dotenv_path = ".env")
+
+reddit = praw.Reddit(client_id='MBUXLwBBM0mj6A', client_secret = os.getenv("reddit"), user_agent='sebamemes')
 
 translator = Translator()
 

@@ -8,41 +8,29 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`e?helm [arg]`
-
-> See the head of a player with the helm (if there is) 
-
 `e?autotrigger <trigger>`
 
 > See a response giving a trigger 
 
-`e?hug [member]`
+`e?helm [arg]`
 
-> Hug a user 
-
-`e?list `
-
-> See your list 
-
-`e?cubehead [arg]`
-
-> See the head of a player in a 3D way 
+> See the head of a player with the helm (if there is) 
 
 `e?codeblock <language> <code>`
 
 > Transform a code to a codeblock 
 
-`e?userinfo [member]`
-
-> See a member's info 
-
 `e?punch [member]`
 
 > Punch a user 
 
-`e?bust [arg]`
+`e?userinfo [member]`
 
-> See the bust of a player 
+> See a member's info 
+
+`e?cubehead [arg]`
+
+> See the head of a player in a 3D way 
 
 `e?drake <top> <bottom>`
 
@@ -56,21 +44,13 @@ Satoru is a Discord Bot made with discord.py
 
 > See a role info 
 
+`e?bust [arg]`
+
+> See the bust of a player 
+
 `e?leaderboard `
 
 > See users lb 
-
-`e?hungergames [members]`
-
-> Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....` 
-
-`e?say <message>`
-
-> Say something with Satoru 
-
-`e?body [arg]`
-
-> See the body of a player 
 
 `e?8ball <question>`
 
@@ -84,21 +64,29 @@ Satoru is a Discord Bot made with discord.py
 
 > See the actual guild info 
 
-`e?gun `
+`e?hungergames [members]`
 
-> Make a gun battle 
+> Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....` 
+
+`e?body [arg]`
+
+> See the body of a player 
 
 `e?raw <message>`
 
 > Show a message without markdown 
 
-`e?ban [member] [reason]`
-
-> Ban a member 
-
 `e?users `
 
 > See users stats 
+
+`e?gun `
+
+> Make a gun battle 
+
+`e?ban [member] [reason]`
+
+> Ban a member 
 
 `e?profile [member]`
 
@@ -109,117 +97,129 @@ Satoru is a Discord Bot made with discord.py
 > See how many messages a member sent in a channel in the last tot messages
 Use `messages <limit> <channel> <member>` 
 
-`e?kick [member] [reason]`
-
-> Kick a member 
-
 `e?addemoji [name] [emoji_link]`
 
 > Add an emoji 
+
+`e?list `
+
+> See your list 
 
 `e?spoiler <message>`
 
 > Make a message with a lot of spoilers 
 
-`e?mute [member] [reason]`
+`e?kick [member] [reason]`
 
-> Mute a member 
+> Kick a member 
 
 `e?avatar [member]`
 
 > See a member avatar 
 
+`e?ping `
+
+> See bot latency 
+
 `e?timezone [timezone]`
 
 > See what time is in a country 
 
-`e?unmute [member]`
+`e?mute [member] [reason]`
 
-> Unmute a member 
-
-`e?createfile <name> <text>`
-
-> Create a file 
+> Mute a member 
 
 `e?looneytunes `
 
 > Which Looney Tunes are you? 
 
-`e?ping `
+`e?createfile <name> <text>`
 
-> See bot latency 
-
-`e?clear [amount=100]`
-
-> Delete Messages 
-
-`e?poll <poll> [options]`
-
-> Make a poll 
-
-`e?lock [channel]`
-
-> Lock a Text Channel 
-
-`e?invite `
-
-> Invite the bot to your server 
-
-`e?work `
-
-> Work and earn money 
+> Create a file 
 
 `e?uptime `
 
 > See bot uptime 
 
-`e?clap [message...]`
+`e?poll <poll> [options]`
 
-> clap clap 
+> Make a poll 
 
-`e?unlock [channel]`
+`e?unmute [member]`
 
-> Unlock a Text Channel 
+> Unmute a member 
 
-`e?about `
+`e?invite `
 
-> Info about the bot 
+> Invite the bot to your server 
+
+`e?clear [amount=100]`
+
+> Delete Messages 
+
+`e?lock [channel]`
+
+> Lock a Text Channel 
 
 `e?meme `
 
 > Get a random meme 
 
-`e?male <thing> [member]`
+`e?about `
 
-> Use this when someone says that a thing is a female but is a male 
+> Info about the bot 
+
+`e?clap [message...]`
+
+> clap clap 
+
+`e?hug [member]`
+
+> Hug a user 
+
+`e?unlock [channel]`
+
+> Unlock a Text Channel 
 
 `e?translate <text> [source] [destination]`
 
 > Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
 
-`e?female <thing> [member]`
+`e?male <thing> [member]`
 
-> Use this when someone says that a thing is a male but is a female 
+> Use this when someone says that a thing is a female but is a male 
 
 `e?feedback <feedback>`
 
 > Send a feedback to the bot or suggest a new command 
 
-`e?skin [arg]`
+`e?female <thing> [member]`
 
-> See a skin of player 
-
-`e?random [elements...]`
-
-> Make a random choice 
+> Use this when someone says that a thing is a male but is a female 
 
 `e?google <search>`
 
 > Search something on google 
 
+`e?random [elements...]`
+
+> Make a random choice 
+
+`e?skin [arg]`
+
+> See a skin of player 
+
 `e?prefix <prefix>`
 
 > Set a custom prefix 
+
+`e?say <message>`
+
+> Say something with Satoru 
+
+`e?work `
+
+> Work and earn money 
 
 `e?head [arg]`
 

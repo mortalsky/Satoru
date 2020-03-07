@@ -26,7 +26,7 @@ def get_prefix(bot, message):
 
   except KeyError:
 
-    prefix = commands.when_mentioned_or("er! ", "er!")(bot, message)
+    prefix = commands.when_mentioned_or("e? ", "e?")(bot, message)
 
   return prefix
 
@@ -41,7 +41,7 @@ async def on_ready():
 
   print('Ready as', bot.user)
 
-  await bot.change_presence(status = discord.Status.idle, activity = discord.Streaming(name = "er!help", url = "https://twitch.tv/sebord_"))
+  await bot.change_presence(status = discord.Status.idle, activity = discord.Streaming(name = "e?help", url = "https://twitch.tv/sebord_"))
 
   stats.start()
 
