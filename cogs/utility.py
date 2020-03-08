@@ -557,5 +557,56 @@ Offline  ::   {offline_b}
 
       os.remove(name)
 
+    @commands.command()
+    async def top(self, ctx, limit = 500, *, channel: discord.TextChannel = None):
+
+      "See a list of top users in a channel"
+
+      msg1 = await ctx.send("Loading messages...")
+
+      async with ctx.typing():
+      
+        if not channel: channel = ctx.channel 
+
+        if limit > 5000:
+
+          limit = 5000
+      
+        res = {} 
+        ch = await channel.history(limit = limit).flatten() 
+      
+        for a in ch:
+        
+          res[a.author] = {'messages': len([b for b in ch if b.author.id == a.author.id])}
+           
+        lb = sorted(res, key=lambda x : res[x].get('messages', 0), reverse=True)
+        
+        oof = ""
+
+        counter = 0
+        
+        for a in lb:
+
+          counter += 1
+
+          if counter > 10:
+
+            pass
+
+          else:
+            
+            oof += f"{str(a):<20} :: {res[a]['messages']}\n"
+
+        prolog = f"""```prolog
+{'User':<20} :: Messages
+
+{oof}
+```
+"""
+        emb = discord.Embed(description = f"Top {channel.mention} users (last {limit} messages): {prolog}", colour = discord.Color.blurple())
+
+      await ctx.send(embed = emb)
+      await msg1.delete()
+
 def setup(bot):
     bot.add_cog(Utility(bot))

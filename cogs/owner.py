@@ -7,7 +7,7 @@ from datetime import datetime
 
 colour = 0xbf794b
 
-class Owner(commands.Cog, command_attrs=dict(hidden=True)):
+class Owner(commands.Cog, command_attrs = dict(hidden = True)):
 
   def __init__(self, bot):
     self.bot = bot

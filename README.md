@@ -8,25 +8,21 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`google <search>`
+`unmute [member]`
 
-> Search something on google 
+> Unmute a member 
 
 `random [elements...]`
 
 > Make a random choice 
 
-`createfile <name> <text>`
+`google <search>`
 
-> Create a file 
+> Search something on google 
 
-`unmute [member]`
+`space <text>`
 
-> Unmute a member 
-
-`say <message>`
-
-> Say something with Satoru 
+> Make a lot of spaces between letters 
 
 `clear [amount=100]`
 
@@ -35,6 +31,14 @@ Satoru is a Discord Bot made with discord.py
 `lock [channel]`
 
 > Lock a Text Channel 
+
+`say <message>`
+
+> Say something with Satoru 
+
+`unlock [channel]`
+
+> Unlock a Text Channel 
 
 `list `
 
@@ -52,33 +56,21 @@ Satoru is a Discord Bot made with discord.py
 
 > Clear the list 
 
-`hug [member]`
+`hungergames [members]`
 
-> Hug a user 
-
-`unlock [channel]`
-
-> Unlock a Text Channel 
-
-`gun `
-
-> Make a gun battle 
+> Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....` 
 
 `codeblock <language> <code>`
 
 > Transform a code to a codeblock 
 
-`hungergames [members]`
+`gun `
 
-> Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....` 
+> Make a gun battle 
 
 `drake <top> <bottom>`
 
 > Make the Drake Meme 
-
-`8ball <question>`
-
-> Ask 8ball a question 
 
 `prefix <prefix>`
 
@@ -92,6 +84,18 @@ Satoru is a Discord Bot made with discord.py
 
 > See a skin of player 
 
+`8ball <question>`
+
+> Ask 8ball a question 
+
+`head [arg]`
+
+> See the head of a player 
+
+`hug [member]`
+
+> Hug a user 
+
 `raw <message>`
 
 > Show a message without markdown 
@@ -100,18 +104,13 @@ Satoru is a Discord Bot made with discord.py
 
 > Work and earn money 
 
-`head [arg]`
-
-> See the head of a player 
-
-`messages [limit=500] [channel] [member]`
-
-> See how many messages a member sent in a channel in the last tot messages
-Use `messages <limit> <channel> <member>` 
-
 `autotrigger <trigger>`
 
 > See a response giving a trigger 
+
+`autotrigger create <trigger> <response>`
+
+> Create an auto trigger 
 
 `autotrigger delete <trigger>`
 
@@ -121,37 +120,46 @@ Use `messages <limit> <channel> <member>`
 
 > See your auto triggers 
 
-`autotrigger create <trigger> <response>`
-
-> Create an auto trigger 
-
 `helm [arg]`
 
 > See the head of a player with the helm (if there is) 
 
-`punch [member]`
+`messages [limit=500] [channel] [member]`
 
-> Punch a user 
-
-`spoiler <message>`
-
-> Make a message with a lot of spoilers 
+> See how many messages a member sent in a channel in the last tot messages
+Use `messages <limit> <channel> <member>` 
 
 `userinfo [member]`
 
 > See a member's info 
 
+`punch [member]`
+
+> Punch a user 
+
+`createfile <name> <text>`
+
+> Create a file 
+
 `cubehead [arg]`
 
 > See the head of a player in a 3D way 
+
+`spoiler <message>`
+
+> Make a message with a lot of spoilers 
+
+`roleinfo <role>`
+
+> See a role info 
 
 `satoru `
 
 > See a random image of Satoru Fujinuma 
 
-`looneytunes `
+`bust [arg]`
 
-> Which Looney Tunes are you? 
+> See the bust of a player 
 
 `ping `
 
@@ -161,53 +169,37 @@ Use `messages <limit> <channel> <member>`
 
 > See what time is in a country 
 
-`roleinfo <role>`
+`looneytunes `
 
-> See a role info 
+> Which Looney Tunes are you? 
 
 `leaderboard `
 
 > See users lb 
 
-`bust [arg]`
+`guildinfo `
 
-> See the bust of a player 
+> See the actual guild info 
 
 `kayo `
 
 > See a random image of Kayo Hinazuki 
 
+`body [arg]`
+
+> See the body of a player 
+
 `uptime `
 
 > See bot uptime 
-
-`invite `
-
-> Invite the bot to your server 
 
 `poll <poll> [options]`
 
 > Make a poll 
 
-`guildinfo `
+`invite `
 
-> See the actual guild info 
-
-`body [arg]`
-
-> See the body of a player 
-
-`about `
-
-> Info about the bot 
-
-`meme `
-
-> Get a random meme 
-
-`clap [message...]`
-
-> clap clap 
+> Invite the bot to your server 
 
 `users `
 
@@ -217,9 +209,29 @@ Use `messages <limit> <channel> <member>`
 
 > Ban a member 
 
-`male <thing> [member]`
+`meme `
 
-> Use this when someone says that a thing is a female but is a male 
+> Get a random meme 
+
+`clap [message...]`
+
+> clap clap 
+
+`addemoji [name] [emoji_link]`
+
+> Add an emoji 
+
+`about `
+
+> Info about the bot 
+
+`reddit <subreddit>`
+
+> Get a random post from a subreddit 
+
+`kick [member] [reason]`
+
+> Kick a member 
 
 `profile [member]`
 
@@ -245,25 +257,17 @@ Use `messages <limit> <channel> <member>`
 
 > Delete your profile 
 
+`male <thing> [member]`
+
+> Use this when someone says that a thing is a female but is a male 
+
 `translate <text> [source] [destination]`
 
-> Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
+> Translate a phrase in every language. Use - translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
 
-`addemoji [name] [emoji_link]`
+`source `
 
-> Add an emoji 
-
-`kick [member] [reason]`
-
-> Kick a member 
-
-`female <thing> [member]`
-
-> Use this when someone says that a thing is a male but is a female 
-
-`feedback <feedback>`
-
-> Send a feedback to the bot or suggest a new command 
+> See Bot source on github 
 
 `avatar [member]`
 
@@ -272,6 +276,18 @@ Use `messages <limit> <channel> <member>`
 `mute [member] [reason]`
 
 > Mute a member 
+
+`vote `
+
+> Vote the bot on top.gg 
+
+`female <thing> [member]`
+
+> Use this when someone says that a thing is a male but is a female 
+
+`feedback <feedback>`
+
+> Send a feedback to the bot or suggest a new command 
 
 
 

@@ -72,7 +72,7 @@ Response :: {duration:.2f}ms
         
         emb = discord.Embed(colour = discord.Colour.blurple())
     
-        r = random.choice([a for a in reddit.subreddit("dankmemes").hot(limit = 50)])
+        r = random.choice([a for a in reddit.subreddit("dankmemes").hot(limit = 50) if not a.is_self])
 
         emb.title = r.title
         emb.description = f"<a:upvote:639355848031993867> | {r.ups}"
@@ -81,11 +81,31 @@ Response :: {duration:.2f}ms
         emb.set_footer(text = "r/dankmemes")
 
       await ctx.send(embed = emb)
+    
+    @commands.command()
+    async def reddit(self, ctx, *, subreddit):
+      
+      "Get a random post from a subreddit"
+
+      async with ctx.typing():
+        
+        emb = discord.Embed(colour = discord.Colour.blurple())
+    
+        r = random.choice([a for a in reddit.subreddit(str(subreddit)).hot(limit = 100) if not a.is_self])
+
+        emb.title = r.title
+        emb.description = f"<a:upvote:639355848031993867> | {r.ups}"
+        emb.url = r.url
+        emb.set_image(url = r.url)
+        emb.set_author(name = r.author)
+        emb.set_footer(text = r.subreddit.display_name)
+
+      await ctx.send(embed = emb)
 
     @commands.command(aliases = ["tr"])
     async def translate(self, ctx, text, source = None, destination = None):
 
-      'Translate a phrase in every language. Use - e?translate "your text here" first_language second_language - Write languages as en, it, es, fr....'
+      'Translate a phrase in every language. Use - translate "your text here" first_language second_language - Write languages as en, it, es, fr....'
 
       if destination:
         
@@ -668,6 +688,33 @@ Amsterdam  ::   {amsterdam}
       clap = " 👏 ".join(message)
       a = commands.clean_content(use_nicknames = True)
       msg = await a.convert(ctx, clap)
+
+      await ctx.send(msg)
+
+    @commands.command(aliases = ["src", "github"])
+    async def source(self, ctx):
+
+      "See Bot source on github"
+
+      await ctx.send("https://github.com/ssebastianoo/Satoru")
+
+    @commands.command()
+    async def vote(self, ctx):
+
+      "Vote the bot on top.gg"
+
+      await ctx.send("https://top.gg/bot/635044836830871562/vote")
+
+    @commands.command(aliases = ["spaces"])
+    async def space(self, ctx, *, text):
+
+      "Make a lot of spaces between letters"
+
+      message = "  ".join(text)
+
+      convert = commands.clean_content(use_nicknames = True)
+
+      msg = await convert.convert(ctx, message)
 
       await ctx.send(msg)
 
