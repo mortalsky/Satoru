@@ -224,7 +224,7 @@ class Owner(commands.Cog, command_attrs = dict(hidden = True)):
 
   @commands.command()
   @commands.is_owner()
-  async def asyncio(self, ctx, time, times = None, thing = None):
+  async def asyncio(self, ctx, time, times = None, *, thing = None):
 
     "Sleep little Satoru"
 

@@ -109,7 +109,7 @@ class Profiles(commands.Cog):
 
       json.dump(l, f, indent = 4)
 
-    await ctx.send("Done! You can now set your description with `e?profile description <your description>` and your image with `e?profile image <image url>`")
+    await ctx.send("Done! You can now set your description with `profile description <your description>` and your image with `profile image <image url>`")
 
   @profile.command()
   async def delete(self, ctx):
@@ -229,8 +229,6 @@ class Profiles(commands.Cog):
 
     "See users lb"
 
-    users = []
-
     with open("data/profiles.json", "r") as f:
 
       l = json.load(f)
@@ -239,11 +237,21 @@ class Profiles(commands.Cog):
 
     res = ""
 
+    counter = 0
+
     for a in lb:
 
-      u = self.bot.get_user(int(a))
+      counter += 1
 
-      res += f"\n`{u}` - **{l[str(a)]['money']}💸**"
+      if counter > 10:
+
+        pass
+      
+      else:
+        
+        u = self.bot.get_user(int(a))
+
+        res += f"\n**{counter}.** `{u}` - **{l[str(a)]['money']}💸**"
 
     emb = discord.Embed(title = "Leaderboard", description = res, colour = discord.Colour.blurple(), timestamp = ctx.message.created_at)
 

@@ -689,7 +689,7 @@ Amsterdam  ::   {amsterdam}
       a = commands.clean_content(use_nicknames = True)
       msg = await a.convert(ctx, clap)
 
-      await ctx.send(msg)
+      await ctx.send(f"👏 {msg} 👏")
 
     @commands.command(aliases = ["src", "github"])
     async def source(self, ctx):
@@ -710,13 +710,82 @@ Amsterdam  ::   {amsterdam}
 
       "Make a lot of spaces between letters"
 
-      message = "  ".join(text)
+      a = commands.clean_content(use_nicknames = True)
 
-      convert = commands.clean_content(use_nicknames = True)
+      msg = await a.convert(ctx, text)
 
-      msg = await convert.convert(ctx, message)
+      message = "  ".join(msg)
 
-      await ctx.send(msg)
+      await ctx.send(message)
+
+    @commands.command(aliases = ["doggo"])
+    async def dog(self, ctx):
+
+      "Get a random dog picture"
+
+      async with aiohttp.ClientSession() as cs:
+        
+        async with cs.get('https://dog.ceo/api/breeds/image/random') as r:
+          
+          res = await r.json()  
+          
+          url = res["message"]
+
+      if ctx.author.nick:
+
+        nick = ctx.author.nick
+
+      else:
+
+        nick = ctx.author.name
+
+      emb = discord.Embed(title = "Doggo", url = url, colour = colour, timestamp = ctx.message.created_at)
+      emb.set_author(name = nick, icon_url = ctx.author.avatar_url)
+      emb.set_image(url = url)
+      
+      await ctx.send(embed = emb)
+
+    @commands.command(aliases = ["catto", "pussy"])
+    async def cat(self, ctx):
+
+      "Get a random cat picture"
+
+      async with aiohttp.ClientSession() as cs:
+        
+        async with cs.get('https://api.thecatapi.com/v1/images/search') as r:
+          
+          res = await r.json()  # returns dict
+          
+          url = res[0]['url']
+
+      if ctx.author.nick:
+
+        nick = ctx.author.nick
+
+      else:
+
+        nick = ctx.author.name
+
+      emb = discord.Embed(title = "Cat", url = url, colour = colour, timestamp = ctx.message.created_at)
+      emb.set_author(name = nick, icon_url = ctx.author.avatar_url)
+      emb.set_image(url = url)
+      
+      await ctx.send(embed = emb)
+
+    @commands.command(hidden = True)
+    async def players(self, ctx, *, game):
+
+      "See how many players are playing a game"
+
+      players = len([a for a in ctx.guild.members if a.activity and a.activity.name == game])
+
+      if players == 0:
+
+        return await ctx.send(f"Nobody in {ctx.guild.name} is playing {game}.")
+
+      emb = discord.Embed(description = f"{players} users in {ctx.guild.name} are playing {game}.", colour = colour)
+
+      await ctx.send(embed = emb)
 
 def setup(bot):
     bot.add_cog(Misc(bot))

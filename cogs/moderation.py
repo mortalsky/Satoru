@@ -17,7 +17,7 @@ class Moderation(commands.Cog):
     await ctx.message.delete()
     await ctx.channel.purge(limit = amount)
 
-  @commands.command()
+  @commands.group(invoke_without_command = True)
   @commands.has_permissions(ban_members = True)
   async def ban(self, ctx, member: discord.Member = None, *, reason = None):
 
@@ -25,10 +25,33 @@ class Moderation(commands.Cog):
 
     await member.ban(reason = reason, delete_message_days = 2)
 
-    emb = discord.Embed(description = f"✅ | {member.mention} was banned by {ctx.author.mention}", colour = discord.Colour.red())
+    emb = discord.Embed(description = f"✅ | {member.mention} has been banned by {ctx.author.mention}", colour = discord.Colour.red())
 
     await ctx.send(embed = emb)
 
+  @ban.command(aliases = ["force", "super", "id"])
+  @commands.has_permissions(ban_members = True)
+  async def sudo(self, ctx, user_id: int, *, reason = None):
+
+    "Ban a user that is not in the actual guild"
+
+    await ctx.guild.ban(discord.Object(id = user_id), reason = reason, delete_message_days = 2)
+
+    emb = discord.Embed(description = f"✅ | <@{user_id}> ({user_id}) has been banned by {ctx.author.mention}", colour = discord.Colour.red())
+
+    await ctx.send(embed = emb)
+
+  @commands.command()
+  @commands.has_permissions(ban_members = True)
+  async def unban(self, ctx, user_id: int):
+
+    "Unban a user"
+
+    await ctx.guild.unban(discord.Object(id = user_id))
+
+    emb = discord.Embed(description = f"✅ | <@{user_id}> ({user_id}) has been unbanned by {ctx.author.mention}", colour = discord.Colour.green())
+
+    await ctx.send(embed = emb)
 
   @commands.command()
   @commands.has_permissions(kick_members = True)
@@ -38,7 +61,7 @@ class Moderation(commands.Cog):
 
     await member.kick(reason = reason)
 
-    emb = discord.Embed(description = f"✅ | {member.mention} was kicked by {ctx.author.mention}", colour = discord.Colour.red())
+    emb = discord.Embed(description = f"✅ | {member.mention} has been kicked by {ctx.author.mention}", colour = discord.Colour.red())
 
     await ctx.send(embed = emb)
 
@@ -56,7 +79,7 @@ class Moderation(commands.Cog):
 
     await member.add_roles(r, reason = reason)
 
-    emb = discord.Embed(description = f"✅ | {member.mention} was muted by {ctx.author.mention}", colour = discord.Colour.red())
+    emb = discord.Embed(description = f"✅ | {member.mention} has been muted by {ctx.author.mention}", colour = discord.Colour.red())
 
     await ctx.send(embed = emb)
 
@@ -80,7 +103,7 @@ class Moderation(commands.Cog):
 
     await member.remove_roles(r)
 
-    emb = discord.Embed(description = f"✅ | {member.mention} was unmuted by {ctx.author.mention}", colour = discord.Colour.green())
+    emb = discord.Embed(description = f"✅ | {member.mention} has been unmuted by {ctx.author.mention}", colour = discord.Colour.green())
 
     await ctx.send(embed = emb)
 

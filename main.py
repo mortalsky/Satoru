@@ -43,8 +43,6 @@ async def on_ready():
 
   await bot.change_presence(status = discord.Status.idle, activity = discord.Streaming(name = "e?help", url = "https://twitch.tv/sebord_"))
 
-  stats.start()
-
   with open("data/commands.json", "w") as f:
     
     f.write("{}")
@@ -100,6 +98,8 @@ async def stats():
 
     json.dump(l, f, indent = 4)
 
+stats.start()
+
 @bot.check
 async def bot_check(ctx):
 
@@ -128,6 +128,9 @@ async def on_command_error(ctx, error):
 
   traceback.print_exc()
 
+  emb = discord.Embed(title = "Error", description = f"```css\n{error}\n```\nJoin the [support server](https://discord.gg/w8cbssP) for help.", colour = discord.Colour.red(), timestamp = ctx.message.created_at)
+  emb.set_footer(text = ctx.author, icon_url = ctx.author.avatar_url)
+
   if isinstance(error, commands.CommandNotFound):
 
     return
@@ -144,8 +147,9 @@ async def on_command_error(ctx, error):
       
       return await ctx.reinvoke()
 
-  emb = discord.Embed(title = "Error", description = f"```css\n{error}\n```\nJoin the [support server](https://discord.gg/w8cbssP) for help.", colour = discord.Colour.red(), timestamp = ctx.message.created_at)
-  emb.set_footer(text = ctx.author, icon_url = ctx.author.avatar_url)
+    else:
+
+      return await ctx.author.send(embed = emb)
 
   await ctx.send(embed = emb)
 

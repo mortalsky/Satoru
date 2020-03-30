@@ -52,13 +52,9 @@ class Events(commands.Cog):
     guild = member.guild
     channel = self.bot.get_channel(578550625638285332)
 
-    if guild.id == 57854844268786483:
+    if guild.id == 578548442687864832:
 
-      emb = discord.Embed(title = "Welcome!", description = f"{member.mention}({member} joined {guild.name}! Have fun here!", colour = discord.Colour.green(), timestamp = member.joined_at)
-      emb.set_author(name = member, icon_url = member.avatar_url)
-      emb.set_thumbnail(url = member.avatar_url)
-
-      await channel.send(embed = emb)
+      await channel.send(f"<:join:694105538316992532> {member.mention} ({member}) joined!")
 
   @commands.Cog.listener()
   async def on_member_remove(self, member):
@@ -66,13 +62,9 @@ class Events(commands.Cog):
     guild = member.guild
     channel = self.bot.get_channel(578550625638285332)
 
-    if guild.id == 57854844268786483:
+    if guild.id == 578548442687864832:
 
-      emb = discord.Embed(title = "Bye Bye!", description = f"{member.mention}({member} left {guild.name}!", colour = discord.Colour.red(), timestamp = datetime.utcnow())
-      emb.set_author(name = member, icon_url = member.avatar_url)
-      emb.set_thumbnail(url = member.avatar_url)
-
-      await channel.send(embed = emb)
+      await channel.send(f"<:leave:694103681272119346> {member.mention} ({member}) left...")
       
 def setup(bot):
   bot.add_cog(Events(bot))

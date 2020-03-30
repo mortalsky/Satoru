@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import json
+import asyncio
 
 colour = 0xbf794b
 
@@ -127,7 +128,8 @@ Satoru is a Discord Bot made with discord.py
           return
 
         await ctx.send(embed = emb)
-        
+        await ctx.message.add_reaction("<:greenTick:596576670815879169>")
+
         return
 
       for c in self.bot.commands:
@@ -300,89 +302,24 @@ Satoru is a Discord Bot made with discord.py
 
       emb.description = res
 
-      await ctx.send(embed = emb)
+      msg = await ctx.send(embed = emb)
 
-    @commands.command(hidden = True, aliases = ["cmd", "cmds", "command"])
-    async def commands(self, ctx):
+      await ctx.message.add_reaction("<:greenTick:596576670815879169>")
 
-      "See all commands"
-
-      count = 0
-
-      pag = commands.Paginator(prefix = f"```\n", suffix = "\n```", max_size = 50)
-
-      for a in self.bot.commands:
-
-        if not a.hidden:
-          
-          pag.add_line(f"{a.name} {a.signature}")
-
-      msg = await ctx.send(f"Page number {count}/{len(pag.pages)}\n{pag.pages[0]}")
-
-      await msg.add_reaction("◀️")
-      await msg.add_reaction("▶️")
-      await msg.add_reaction("⏹️")
+      await msg.add_reaction(str("<:status_dnd:596576774364856321>"))
 
       def check(reaction, user):
+
+        return user == ctx.author and str(reaction.emoji) == '<:status_dnd:596576774364856321>'
+
+      try:
         
-        return user == ctx.author 
+        await self.bot.wait_for("reaction_add", check = check, timeout = 190)
+        await msg.delete()
 
-      end = False
+      except asyncio.TimeoutError:
 
-      while not end:
-        
-        reaction, user = await self.bot.wait_for('reaction_add', check = check)
-          
-        if str(reaction.emoji) == "▶️":
-          
-            count += 1
+        return 
 
-            if count == 1:
-              
-              await msg.edit(content = f"Page number {count}/{len(pag.pages)}\n{pag.pages[1]}")
-
-            elif count == 2:
-
-              await msg.edit(content = f"Page number {count}/{len(pag.pages)}\n{pag.pages[1]}")
-            
-            else:
-
-              if count > len(pag.pages):
-
-                count = 0
-              
-              else:
-
-                count = count
-
-              await msg.edit(content = f"Page number {count}/{len(pag.pages)}\n{pag.pages[count]}")
-
-        elif str(reaction.emoji) == "◀️":
-
-            count -= 1
-
-            if count == 1:
-              
-              await msg.edit(content = f"Page number {count}\n{pag.pages[1]}")
-
-            elif count == 2:
-
-              await msg.edit(content = f"Page number {count}\n{pag.pages[2]}")
-
-            elif count == 0:
-
-              await msg.edit(content = f"Page number {count}\n{pag.pages[0]}")
-            
-            else:
-
-              count = 0
-
-              await msg.edit(content = f"Page number {count}\n{pag.pages[0]}")
-
-        elif str(reaction.emoji) == "⏹️":
- 
-            end = True
-
-      
 def setup(bot):
     bot.add_cog(Help(bot))

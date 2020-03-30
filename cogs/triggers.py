@@ -71,7 +71,7 @@ class AutoTriggers(commands.Cog):
 
       json.dump(l, f, indent = 4)
 
-    await ctx.send(f"Done! You can now invoke the trigger doing `e?autotrigger {trigger}`!")
+    await ctx.send(f"Done! You can now invoke the trigger doing `autotrigger {trigger}`!")
 
   @autotrigger.command(aliases = ["del"])
   async def delete(self, ctx, *, trigger):

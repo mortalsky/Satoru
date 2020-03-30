@@ -61,167 +61,78 @@ class Utility(commands.Cog):
 
         member = ctx.author
 
-        if member.nick:
+      if member.nick:
 
-          nick = f"😄 | {member.nick}"
+        nick = f"😄 | {member.nick}"
 
-        else: 
+      else: 
 
-          nick = "~~😄 | No Nickname~~"
+        nick = "~~😄 | No Nickname~~"
 
-        if member.activity:
+      if member.activity:
 
-          act = f"🎮 | {member.activity.name}"
+        act = f"🎮 | {member.activity.name}"
 
-        else: 
+      else: 
 
-          act = "~~🎮 | No Activity~~"
+        act = "~~🎮 | No Activity~~"
 
-        roles = ""
+      roles = ""
 
-        if member.premium_since:
+      if member.premium_since:
 
-          booster = f"🎆 | Booster since {member.premium_since.strftime('%m / %d / %Y (%H:%M)')}"
-
-        else:
-
-          booster = "~~🎆 | Not a Booster~~"
-
-        for a in member.roles:
-
-          if a.name == "@everyone":
-
-            roles += "@everyone "
-
-          else:
-
-            roles += f"{a.mention} "
-
-        if member.bot:
-
-          bot = "🤖 | Bot"
-
-        else:
-
-          bot = "~~🤖 | Not a Bot~~"
-
-        if member.is_on_mobile():
-
-          mobile = "📱 | Active on Mobile"
-
-        else:
-
-          mobile = "🖥️ | Active on Computer"
-
-        emb = discord.Embed(title = member.name, description = f"""😀  | {member.name}
-
-🔢 | {member.discriminator}
-
-🆔 | {member.id}
-
-{nick}
-
-{act}
-
-🤍 | {member.status}
-
-{mobile}
-
-🍰 | Created at {member.created_at.strftime("%m / %d / %Y (%H:%M)")}
-
-➡️ | Joined at {member.joined_at.strftime("%m / %d / %Y (%H:%M)")}
-
-{bot}
-
-{booster}
-
-📜 | {roles}""",colour = member.colour, timestamp = ctx.message.created_at)
-        emb.set_thumbnail(url = member.avatar_url)
-        emb.set_footer(text = ctx.guild.name, icon_url = ctx.guild.icon_url)
-
-        await ctx.send(embed = emb)
+        booster = f"🎆 | Booster since {member.premium_since.strftime('%m / %d / %Y (%H:%M)')}"
 
       else:
 
-        if member.nick:
+        booster = "~~🎆 | Not a Booster~~"
 
-          nick = f"😄 | {member.nick}"
+      for a in member.roles:
 
-        else: 
+        if a.name == "@everyone":
 
-          nick = "~~😄 | No Nickname~~"
-
-        if member.activity:
-
-          act = f"🎮 | {member.activity.name}"
-
-        else: 
-
-          act = "~~🎮 | No Activity~~"
-
-        roles = ""
-
-        if member.premium_since:
-
-          booster = f"🎆 | Booster since {member.premium_since.strftime('%m / %d / %Y (%H:%M)')}"
+          roles += "@everyone "
 
         else:
 
-          booster = "~~🎆 | Not a Booster~~"
+          roles += f"{a.mention} "
 
-        for a in member.roles:
+      if member.bot:
 
-          if a.name == "@everyone":
+        bot = "🤖 | Bot"
 
-            roles += "@everyone "
+      else:
 
-          else:
+        bot = "~~🤖 | Not a Bot~~"
 
-            roles += f"{a.mention} "
+      if member.is_on_mobile():
 
-        if member.bot:
+        mobile = "📱 | Active on Mobile"
 
-          bot = "🤖 | Bot"
+      else:
 
-        else:
+        mobile = "🖥️ | Active on Computer"
 
-          bot = "~~🤖 | Not a Bot~~"
-
-        if member.is_on_mobile():
-
-          mobile = "📱 | Active on Mobile"
-
-        else:
-
-          mobile = "🖥️ | Active on Computer"
-
-        emb = discord.Embed(title = member.name, description = f"""😀  | {member.name}
-
+      emb = discord.Embed(title = member.name, description = f"""
+😀  | {member.name}
 🔢 | {member.discriminator}
-
 🆔 | {member.id}
-
 {nick}
+{bot}
+{booster}
 
 {act}
-
 🤍 | {member.status}
-
 {mobile}
 
 🍰 | Created at {member.created_at.strftime("%m / %d / %Y (%H:%M)")}
-
 ➡️ | Joined at {member.joined_at.strftime("%m / %d / %Y (%H:%M)")}
 
-{bot}
-
-{booster}
-
 📜 | {roles}""",colour = member.colour, timestamp = ctx.message.created_at)
-        emb.set_thumbnail(url = member.avatar_url)
-        emb.set_footer(text = ctx.guild.name, icon_url = ctx.guild.icon_url)
+      emb.set_thumbnail(url = member.avatar_url)
+      emb.set_footer(text = ctx.guild.name, icon_url = ctx.guild.icon_url)
 
-        await ctx.send(embed = emb)
+      await ctx.send(embed = emb)
 
     @commands.command(aliases = ["ri"])
     async def roleinfo(self, ctx, *, role: discord.Role):
@@ -263,33 +174,24 @@ class Utility(commands.Cog):
 
       emb = discord.Embed(title = role.name, description = f"""
 😀  | {role.name}
-
 🆔 | {role.id}
-
 📢 | {role.mention}
 
 🍰 | Created at {role.created_at.strftime("%m / %d / %Y (%H:%M)")}
-
 🙅 | {len(role.members)} users
-
 📑 | {role.position}° position
-
 🎨 | {role.colour}
 
 🛑 | {role.permissions.value} Perms Value
-
 {hoist}
-
 {managed}
-
 {mentionable}
-
 {default}
 """, colour = role.colour, timestamp = ctx.message.created_at)
       emb.set_footer(text = ctx.guild.name, icon_url = ctx.guild.icon_url)
       await ctx.send(embed = emb)
 
-    @commands.command(aliases = ["gi"])
+    @commands.command(aliases = ["gi", "server", "serverinfo", "si"])
     async def guildinfo(self, ctx):
 
       "See the actual guild info"
@@ -371,39 +273,24 @@ class Utility(commands.Cog):
       bots = sum(m.bot for m in ctx.guild.members)
       
       emb = discord.Embed(timestamp = ctx.message.created_at, title = guild.name, description = f"""😀  | {guild.name}
-
 🆔 | {guild.id}
-
 🗺️ | {guild.region}
-
-😴 | {guild.afk_timeout} Seconds
-
-{afk}
-
-👤 | {guild.owner.mention}
-
+👤 | {guild.owner.mention} ({guild.owner})
 🍰 | Created at {guild.created_at.strftime("%m / %d / %Y (%H:%M)")}
 
+😴 | {guild.afk_timeout} Seconds
+{afk}
 {unav}
-
 👮 | {guild.verification_level} 
-
 {features}
-
 {level}
 
 {boosters}
-
 👥 | {guild.member_count} Members
-
 <:status_online:596576749790429200> | {online} Members
-
 <:status_dnd:596576774364856321> | {dnd} Members
-
 <:status_idle:596576773488115722> | {idle} Members
-
 <:status_offline:596576752013279242> | {offline} Members
-
 🤖 | {bots} Bots
 
 📜 | {roles}""", colour = ctx.author.colour)
@@ -416,7 +303,7 @@ class Utility(commands.Cog):
 
       await ctx.send(embed = emb)
 
-    @commands.command()
+    @commands.command(aliases = ["userstats"])
     async def users(self, ctx):
 
       "See users stats"
