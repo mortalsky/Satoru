@@ -1,0 +1,11 @@
+data/beta.json
+data/commands.json
+data/list.json
+data/private.json
+data/profiles.json
+data/triggers.json
+data/stats.json
+data/prefixes.json
+data/gun.json
+data/cookie.json
+.env

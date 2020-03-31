@@ -1,0 +1,6 @@
+flask
+discord.py
+jishaku
+googletrans
+psutil
+platform
