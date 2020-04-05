@@ -238,6 +238,24 @@ class Battle(commands.Cog):
     emb = discord.Embed(description = res, colour = 0xa8603d)
 
     await ctx.send(embed = emb)
+    
+  @cookie.command(aliases = ["stats", "info"])
+  async def stat(self, ctx, *, user: discord.User = None):
+    
+    if not user:
+
+      user = ctx.author
+
+    with open("data/cookie.json", "r") as f:
+
+      l = json.load(f)
+
+    cookies = l[str(user.id)]
+
+    emb = discord.Embed(description = f"**{cookies}** Cookies 🍪!", colour = 0xa8603d)
+    emb.set_author(name = user.name, icon_url = user.avatar_url_as(static_format="png"))
+
+    await ctx.send(embed = emb)
 
 def setup(bot):
     bot.add_cog(Battle(bot))
