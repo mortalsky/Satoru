@@ -8,262 +8,13 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`invite `
-
-> Invite the bot to your server 
-
-`about `
-
-> Info about the bot 
-
-`male <thing> [member]`
-
-> Use this when someone says that a thing is a female but is a male 
-
-`female <thing> [member]`
-
-> Use this when someone says that a thing is a male but is a female 
-
-`random [elements...]`
-
-> Make a random choice 
-
-`codeblock <language> <code>`
-
-> Transform a code to a codeblock 
-
-`drake <top> <bottom>`
-
-> Make the Drake Meme 
-
-`8ball <question>`
-
-> Ask 8ball a question 
-
-`raw <message>`
-
-> Show a message without markdown 
-
-`messages [limit=500] [channel] [member]`
-
-> See how many messages a member sent in a channel in the last tot messages
-Use `messages <limit> <channel> <member>` 
-
-`spoiler <message>`
-
-> Make a message with a lot of spoilers 
-
-`timezone [timezone]`
-
-> See what time is in a country 
-
-`poll <poll> [options]`
-
-> Make a poll 
-
-`clap [message...]`
-
-> clap clap 
-
-`source `
-
-> See Bot source on github 
-
-`vote `
-
-> Vote the bot on top.gg 
-
-`space <text>`
-
-> Make a lot of spaces between letters 
-
-`head [arg]`
-
-> See the head of a player 
-
-`dog `
-
-> Get a random dog picture 
-
-`cat `
-
-> Get a random cat picture 
-
-`skin [arg]`
-
-> See a skin of player 
-
-`helm [arg]`
-
-> See the head of a player with the helm (if there is) 
-
-`cubehead [arg]`
-
-> See the head of a player in a 3D way 
-
-`bust [arg]`
-
-> See the bust of a player 
-
-`body [arg]`
-
-> See the body of a player 
-
-`gun `
-
-> Make a gun battle 
-
-`hungergames [members]`
-
-> Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....` 
-
-`clear [amount=100]`
-
-> Delete Messages 
-
-`hug [member]`
-
-> Hug a user 
-
-`prefix <prefix>`
-
-> Set a custom prefix 
-
-`prefix reset `
-
-> Reset the default prefix 
-
-`cookie `
-
-> COOKIE CHALLENGE 
-
-`cookie leaderboard `
-
-> Top Cookie users 
-
-`work `
-
-> Work and earn money 
-
-`userinfo [member]`
-
-> See a member's info 
-
-`roleinfo <role>`
-
-> See a role info 
-
-`guildinfo `
-
-> See the actual guild info 
-
-`users `
-
-> See users stats 
-
-`profile [member]`
-
-> See a user's profile 
-
-`profile create `
-
-> Create your profile 
-
-`profile list `
-
-> See who has a profile in the actual guild 
-
-`profile delete `
-
-> Delete your profile 
-
-`profile description <description>`
-
-> Set profile's description 
-
-`profile image [image_url]`
-
-> Set profile's image, use `profile image remove` to remove the image 
-
-`addemoji [name] [emoji_link]`
-
-> Add an emoji 
-
-`ping `
-
-> See bot latency 
-
-`avatar [member]`
-
-> See a member avatar 
-
-`createfile <name> <text>`
-
-> Create a file 
-
-`uptime `
-
-> See bot uptime 
-
-`meme `
-
-> Get a random meme 
-
-`top [limit=500] [channel]`
-
-> See a list of top users in a channel 
-
-`autotrigger <trigger>`
-
-> See a response giving a trigger 
-
-`autotrigger delete <trigger>`
-
-> Delete an auto trigger 
-
-`autotrigger list `
-
-> See your auto triggers 
-
-`autotrigger create <trigger> <response>`
-
-> Create an auto trigger 
-
-`reddit <subreddit>`
-
-> Get a random post from a subreddit 
-
-`ban [member] [reason]`
-
-> Ban a member 
-
-`ban sudo <user_id> [reason]`
-
-> Ban a user that is not in the actual guild 
-
-`translate <text> [source] [destination]`
-
-> Translate a phrase in every language. Use - translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
-
-`unban <user_id>`
-
-> Unban a user 
-
-`feedback <feedback>`
-
-> Send a feedback to the bot or suggest a new command 
-
-`google <search>`
-
-> Search something on google 
-
 `say <message>`
 
 > Say something with Satoru 
 
-`kick [member] [reason]`
+`dog `
 
-> Kick a member 
+> Get a random dog picture 
 
 `list `
 
@@ -281,6 +32,107 @@ Use `messages <limit> <channel> <member>`
 
 > Clear the list 
 
+`cat `
+
+> Get a random cat picture 
+
+`clear [amount=100]`
+
+> Delete Messages 
+
+`looneytunes `
+
+> Which Looney Tunes are you? 
+
+`skin [arg]`
+
+> See a skin of player 
+
+`invite `
+
+> Invite the bot to your server 
+
+`head [arg]`
+
+> See the head of a player 
+
+`helm [arg]`
+
+> See the head of a player with the helm (if there is) 
+
+`about `
+
+> Info about the bot 
+
+`cubehead [arg]`
+
+> See the head of a player in a 3D way 
+
+`male <thing> [member]`
+
+> Use this when someone says that a thing is a female but is a male 
+
+`bust [arg]`
+
+> See the bust of a player 
+
+`female <thing> [member]`
+
+> Use this when someone says that a thing is a male but is a female 
+
+`random [elements...]`
+
+> Make a random choice 
+
+`body [arg]`
+
+> See the body of a player 
+
+`codeblock <language> <code>`
+
+> Transform a code to a codeblock 
+
+`drake <top> <bottom>`
+
+> Make the Drake Meme 
+
+`ban [member] [reason]`
+
+> Ban a member 
+
+`ban sudo <user_id> [reason]`
+
+> Ban a user that is not in the actual guild 
+
+`8ball <question>`
+
+> Ask 8ball a question 
+
+`unban <user_id>`
+
+> Unban a user 
+
+`raw <message>`
+
+> Show a message without markdown 
+
+`messages [limit=500] [channel] [member]`
+
+> See how many messages a member sent in a channel in the last tot messages
+Use `messages <limit> <channel> <member>` 
+
+`spoiler <message>`
+
+> Make a message with a lot of spoilers 
+
+`kick [member] [reason]`
+
+> Kick a member 
+
+`timezone [timezone]`
+
+> See what time is in a country 
+
 `mute [member] [reason]`
 
 > Mute a member 
@@ -289,33 +141,185 @@ Use `messages <limit> <channel> <member>`
 
 > Unmute a member 
 
-`leaderboard `
+`poll <poll> [options]`
 
-> See users lb 
+> Make a poll 
 
 `lock [channel]`
 
 > Lock a Text Channel 
 
-`punch [member]`
+`clap [message...]`
 
-> Punch a user 
+> clap clap 
 
 `unlock [channel]`
 
 > Unlock a Text Channel 
 
+`source `
+
+> See Bot source on github 
+
+`vote `
+
+> Vote the bot on top.gg 
+
+`space <text>`
+
+> Make a lot of spaces between letters 
+
+`hug [member]`
+
+> Hug a user 
+
+`profile [member]`
+
+> See a user's profile 
+
+`profile description <description>`
+
+> Set profile's description 
+
+`profile list `
+
+> See who has a profile in the actual guild 
+
+`profile image [image_url]`
+
+> Set profile's image, use `profile image remove` to remove the image 
+
+`profile create `
+
+> Create your profile 
+
+`profile delete `
+
+> Delete your profile 
+
+`gun `
+
+> Make a gun battle 
+
+`punch [member]`
+
+> Punch a user 
+
 `satoru `
 
 > See a random image of Satoru Fujinuma 
+
+`prefix <prefix>`
+
+> Set a custom prefix 
+
+`prefix reset `
+
+> Reset the default prefix 
 
 `kayo `
 
 > See a random image of Kayo Hinazuki 
 
-`looneytunes `
+`hungergames [members]`
 
-> Which Looney Tunes are you? 
+> Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....` 
+
+`autotrigger <trigger>`
+
+> See a response giving a trigger 
+
+`autotrigger create <trigger> <response>`
+
+> Create an auto trigger 
+
+`autotrigger delete <trigger>`
+
+> Delete an auto trigger 
+
+`autotrigger list `
+
+> See your auto triggers 
+
+`cookie `
+
+> COOKIE CHALLENGE 
+
+`cookie leaderboard `
+
+> Top Cookie users 
+
+`cookie stats [user]`
+
+> None 
+
+`userinfo [member]`
+
+> See a member's info 
+
+`roleinfo <role>`
+
+> See a role info 
+
+`guildinfo `
+
+> See the actual guild info 
+
+`users `
+
+> See users stats 
+
+`ping `
+
+> See bot latency 
+
+`work `
+
+> Work and earn money 
+
+`addemoji [name] [emoji_link]`
+
+> Add an emoji 
+
+`uptime `
+
+> See bot uptime 
+
+`avatar [member]`
+
+> See a member avatar 
+
+`meme `
+
+> Get a random meme 
+
+`createfile <name> <text>`
+
+> Create a file 
+
+`reddit <subreddit>`
+
+> Get a random post from a subreddit 
+
+`leaderboard `
+
+> See users lb 
+
+`top [limit=500] [channel]`
+
+> See a list of top users in a channel 
+
+`translate <text> [source] [destination]`
+
+> Translate a phrase in every language. Use - translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
+
+`feedback <feedback>`
+
+> Send a feedback to the bot or suggest a new command 
+
+`google <search>`
+
+> Search something on google 
 
 
 

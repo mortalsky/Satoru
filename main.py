@@ -149,7 +149,7 @@ async def on_command_error(ctx, error):
 
     else:
 
-      return await ctx.author.send(embed = emb)
+      return await ctx.send(embed = emb, delete_after = 5)
 
   await ctx.send(embed = emb)
 

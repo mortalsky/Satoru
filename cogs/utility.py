@@ -114,7 +114,7 @@ class Utility(commands.Cog):
         mobile = "🖥️ | Active on Computer"
 
       emb = discord.Embed(title = member.name, description = f"""
-😀  | {member.name}
+😀 | {member.name}
 🔢 | {member.discriminator}
 🆔 | {member.id}
 {nick}

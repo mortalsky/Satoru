@@ -34,7 +34,7 @@ class Events(commands.Cog):
 
     ch = self.bot.get_channel(607358470907494420)
 
-    emb = discord.Embed(description = f"""👈 | {self.bot.user.mention} left **{guild.name}**!
+    emb = discord.Embed(description = f"""<:leave:694103681272119346> | {self.bot.user.mention} left **{guild.name}**!
 🆔 | {guild.id}
 👤 | {guild.owner}
 🔢 | {guild.member_count} Members
