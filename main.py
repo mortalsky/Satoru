@@ -12,8 +12,6 @@ from app import keep_alive
 
 colour = 0xbf794b
 
-#git test
-
 def get_prefix(bot, message):
 
   with open("data/prefixes.json", "r") as f:
