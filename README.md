@@ -1,4 +1,5 @@
 # Satoru
+<<<<<<< HEAD
 Satoru is a Discord Bot made with discord.py
 - Moderation
 - Info 
@@ -352,3 +353,6 @@ Use `messages <limit> <channel> <member>`
 
 
 [![Run on Repl.it](https://repl.it/badge/github/ssebastianoo/Satoru)](https://repl.it/github/ssebastianoo/Satoru)
+=======
+A multifunction weeb Discord Bot
+>>>>>>> c4fdd0c87d44994bcf16685ef59bb69499c72253
