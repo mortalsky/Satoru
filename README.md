@@ -1,5 +1,4 @@
 # Satoru
-<<<<<<< HEAD
 Satoru is a Discord Bot made with discord.py
 - Moderation
 - Info 
