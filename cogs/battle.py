@@ -4,13 +4,15 @@ import asyncio
 import random
 import json
 from discord.ext.commands.cooldowns import BucketType
+import os
 
 colour = 0xbf794b
 
 class Battle(commands.Cog):
   
   def __init__(self, bot):
-        self.bot = bot
+    self.bot = bot
+    self.hg_playing = []
 
   @commands.command()
   async def gun(self, ctx):
@@ -37,8 +39,6 @@ class Battle(commands.Cog):
       reaction, user = await self.bot.wait_for('reaction_add', check = check)
       
       if str(reaction.emoji) == "🔫":
-
-        await asyncio.sleep(1)
 
         try:
           
@@ -91,6 +91,16 @@ class Battle(commands.Cog):
     #     |---
     # 8 --
 
+    if not ctx.channel.id in self.hg_playing:
+
+      pass
+
+    else:
+
+      return await ctx.send("I'm already playing a game in this channel!", delete_after = 5)
+
+    self.hg_playing.append(ctx.channel.id)
+
     if members:
 
       x = members.split(",")
@@ -105,6 +115,7 @@ class Battle(commands.Cog):
 
     except ValueError:
 
+      self.hg_playing.remove(ctx.channel.id)
       return await ctx.send("Min 8 players!")
     
     emb = discord.Embed(colour = discord.Colour.blurple(), title = "Hunger Games")
@@ -170,8 +181,10 @@ class Battle(commands.Cog):
 **👑 {winner} 👑**
 """
     await msg.edit(embed = emb)
+    
+    self.hg_playing.remove(ctx.channel.id)
 
-  @commands.group(invoke_without_command = True)
+  @commands.group(invoke_without_command = True, aliases = ["egg", "eggs", "cookies"])
   @commands.cooldown(1, 5, BucketType.user) 
   async def cookie(self, ctx):
 

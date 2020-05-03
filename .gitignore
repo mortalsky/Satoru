@@ -8,4 +8,6 @@ data/stats.json
 data/prefixes.json
 data/gun.json
 data/cookie.json
+data/logs.json
+data/seed.json
 .env

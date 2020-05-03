@@ -270,6 +270,40 @@ Satoru is a Discord Bot made with discord.py
                 except:
 
                   pass
+
+          seed = ""
+
+          for a in self.bot.commands:
+            if a.cog_name == "SeedCollector":
+              if not a.hidden:
+                seed += f"`{a.name}` :: "
+
+                try:
+                  
+                  for b in a.commands:
+
+                    seed += f"`{a.name} {b.name}` :: "
+
+                except:
+
+                  pass
+
+          images = ""
+
+          for a in self.bot.commands:
+            if a.cog_name == "Images":
+              if not a.hidden:
+                images += f"`{a.name}` :: "
+
+                try:
+                  
+                  for b in a.commands:
+
+                    images += f"`{a.name} {b.name}` :: "
+
+                except:
+
+                  pass
           
           res = f"""Server Prefixes: `{prefix2}`, `@{self.bot.user}`
 
@@ -281,6 +315,9 @@ Satoru is a Discord Bot made with discord.py
 
 **UTILITY**
 {utility}
+
+**IMAGES**
+{images}
 
 **PROFILE**
 {profiles}
@@ -296,6 +333,9 @@ Satoru is a Discord Bot made with discord.py
 
 **MINECRAFT**
 {mc}
+
+**SEED COLLECTOR**
+{seed}
 
 **BATTLE**
 {battle}"""

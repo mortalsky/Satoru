@@ -15,6 +15,7 @@ dblpy = "^0.3.4"
 pytz = "^2019.3"
 python-dotenv = "^0.12.0"
 praw = "^6.5"
+Pillow = "^7.1"
 
 [tool.poetry.dev-dependencies]
 

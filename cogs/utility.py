@@ -3,6 +3,7 @@ from discord.ext import commands
 import json
 import aiohttp
 import os
+import io
 
 colour = 0xbf794b
 
@@ -192,11 +193,17 @@ class Utility(commands.Cog):
       await ctx.send(embed = emb)
 
     @commands.command(aliases = ["gi", "server", "serverinfo", "si"])
-    async def guildinfo(self, ctx):
+    async def guildinfo(self, ctx, guild_id = None):
 
       "See the actual guild info"
 
-      guild = ctx.guild
+      if not guild_id:
+        
+        guild = ctx.guild
+
+      else:
+
+        guild = self.bot.get_guild(guild_id)
 
       if guild.afk_channel:
 
@@ -396,7 +403,7 @@ Offline  ::   {offline_b}
 
           await ctx.send("Done!")
 
-    @commands.command(aliases = ["av"])
+    @commands.group(aliases = ["av", "prfp", "propic"], invoke_without_command = True)
     async def avatar(self, ctx, *, member: discord.Member = None):
 
       "See a member avatar"
@@ -421,6 +428,35 @@ Offline  ::   {offline_b}
       emb.set_image(url =  str(member.avatar_url_as(static_format = "png")))
       emb.set_footer(text = nick, icon_url = member.guild.icon_url)
       await ctx.send(embed = emb)
+
+    @avatar.command(aliases = ["img"])
+    async def image(self, ctx, *, member: discord.Member = None):
+
+      "See a member avatar via file"
+
+      if not member:
+        member = ctx.author
+
+      url = str(member.avatar_url_as(static_format = "png"))
+
+      if ".png" in url:
+        name = f"{member.display_name}.png"
+
+      elif ".gif" in url:
+        name = f"{member.display_name}.gif"
+
+      else:
+        name = f"{member.display_name}.png"
+
+      async with aiohttp.ClientSession() as cs:
+          
+          async with cs.get(url) as r:
+            
+            res = await r.read()
+          
+      await ctx.send(file = discord.File(io.BytesIO(res), filename = name))
+
+      await cs.close()
 
     @commands.command(aliases = ["cf"])
     async def createfile(self, ctx, name, *, text):
@@ -494,6 +530,19 @@ Offline  ::   {offline_b}
 
       await ctx.send(embed = emb)
       await msg1.delete()
+
+    @commands.command(aliases = ["inviteinfo", "ii"], hidden = True)
+    async def infoinvite(self, ctx, invite: discord.Invite):
+
+      res = f"""
+**Server**: {invite.guild.name}
+**Code**: {invite.code}
+**Uses**: {invite.uses}
+**Creator**: {invite.inviter}
+**Max Age**: {invite.max_age}
+"""
+#**Created**: {invite.created_at.strftime('%d %b %Y (%X)')}
+      await ctx.send(res)
 
 def setup(bot):
     bot.add_cog(Utility(bot))

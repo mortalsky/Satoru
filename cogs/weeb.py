@@ -34,29 +34,6 @@ class Weeb(commands.Cog):
     emb.set_image(url = r)
     await ctx.send(embed = emb)
 
-  @commands.command()
-  async def punch(self, ctx, *, member: discord.Member = None):
-    """Punch a user"""
-
-    punch = [
-      "https://media.giphy.com/media/pX29yxBwpqoh2/giphy.gif", "https://media1.giphy.com/media/PO9aIzHerOX1S/giphy.gif", "https://media0.giphy.com/media/YjHx1taZwpfd6/source.gif", "https://media1.giphy.com/media/LdsJrFnANh6HS/giphy.gif", "https://media1.tenor.com/images/0dbb53b0f2a8730ea3c8a0e2502b6bac/tenor.gif?itemid=10194762", "https://66.media.tumblr.com/818ef1e9f58d8058893eae667add6f1e/tumblr_nshd9zA9nn1uac4ivo1_400.gif", "https://i.pinimg.com/originals/bc/96/17/bc9617a2460e4640fcd9cf474bea2c10.gif", "https://qph.fs.quoracdn.net/main-qimg-024b359517a272d10b26f703c37e5c28", "https://i.pinimg.com/originals/d4/17/ce/d417ce25489868ae4bf177de73308aa5.gif", "https://cdn172.picsart.com/222035215014201.gif?to=min&r=1024", "https://stambergadinchiostro.altervista.org/wp-content/uploads/2018/02/One-Punch-3.gif"
-    ]
-
-    r = random.choice(punch)
-
-    if member == ctx.author:
-
-      await ctx.send('It looks like you like to punch yourself...')
-      return
-
-    if member == self.bot.user:
-      await ctx.send('Don\'t punch me baka🤬!')
-      return
-
-    emb = discord.Embed(title = 'Punch!', description = f'{ctx.author.mention} punched {member.mention}', colour = colour, url = r)
-    emb.set_image(url = r)
-    await ctx.send(embed = emb)
-
   @commands.command(aliases = ['s'])
   async def satoru(self, ctx):
 

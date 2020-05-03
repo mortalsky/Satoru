@@ -65,6 +65,6 @@ class Events(commands.Cog):
     if guild.id == 578548442687864832:
 
       await channel.send(f"<:leave:694103681272119346> {member.mention} ({member}) left...")
-      
+
 def setup(bot):
   bot.add_cog(Events(bot))

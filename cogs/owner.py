@@ -4,6 +4,7 @@ import asyncio
 import os
 import json
 from datetime import datetime
+import traceback
 
 colour = 0xbf794b
 
@@ -117,7 +118,6 @@ class Owner(commands.Cog, command_attrs = dict(hidden = True)):
     emb1 = discord.Embed(title = f'Loaded {extension}!', colour = 0xbf794b)
     msg = await ctx.send(embed = emb)
     await asyncio.sleep(0.5)
-    error = discord.Embed(title = f"""UH! There was an error with {extension}!""", colour = 0xbf794b)
     
     try:
       
@@ -125,8 +125,11 @@ class Owner(commands.Cog, command_attrs = dict(hidden = True)):
       
       await msg.edit(embed = emb1)
 
-    except:
-      
+    except Exception as e:
+
+      traceback.print_exc()
+
+      error = discord.Embed(title = f"""UH! There was an error with {extension}!""", description = str(e), colour = 0xbf794b)
       await msg.edit(embed = error)
 
   @commands.command()
@@ -137,7 +140,6 @@ class Owner(commands.Cog, command_attrs = dict(hidden = True)):
     emb1 = discord.Embed(title = f'Reloaded {extension}!', colour = 0xbf794b)
     msg = await ctx.send(embed = emb)
     await asyncio.sleep(0.5)
-    error = discord.Embed(title = f"""UH! There was an error with {extension}!""", colour = 0xbf794b)
     
     try:
       
@@ -146,8 +148,11 @@ class Owner(commands.Cog, command_attrs = dict(hidden = True)):
       
       await msg.edit(embed = emb1)
 
-    except:
-      
+    except Exception as e:
+
+      traceback.print_exc()
+
+      error = discord.Embed(title = f"""UH! There was an error with {extension}!""", description = str(e), colour = 0xbf794b)
       await msg.edit(embed = error)
     
 
@@ -158,7 +163,6 @@ class Owner(commands.Cog, command_attrs = dict(hidden = True)):
     emb1 = discord.Embed(title = f'Unloaded {extension}!', colour = 0xbf794b)
     msg = await ctx.send(embed = emb)
     await asyncio.sleep(0.5)
-    error = discord.Embed(title = f"""UH! There was an error with {extension}!""", colour = 0xbf794b)
     
     try:
       
@@ -166,8 +170,11 @@ class Owner(commands.Cog, command_attrs = dict(hidden = True)):
       
       await msg.edit(embed = emb1)
 
-    except:
-      
+    except Exception as e:
+
+      traceback.print_exc()
+
+      error = discord.Embed(title = f"""UH! There was an error with {extension}!""", description = str(e), colour = 0xbf794b)
       await msg.edit(embed = error)
 
   @commands.command()

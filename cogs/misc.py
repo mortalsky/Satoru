@@ -15,6 +15,7 @@ import time
 import praw
 from dotenv import load_dotenv
 import os
+import io
 
 load_dotenv(dotenv_path = ".env")
 
@@ -467,20 +468,33 @@ Release Date: {r[season][episode]["release_date"]}
         
         await ctx.send(f"""```{language}\n{code}```""")
 
-    @commands.command()
-    async def drake(self, ctx, top, *, bottom):
+    @commands.command(usage = "[top] [bottom]")
+    async def drake(self, ctx, *, text):
 
-      "Make the Drake Meme"
+      "Make the Drake Meme, use \",\" to separate"
+
+      text = text.split(", ")
+
+      top = text[0]
+      bottom = text[1]
 
       bottom = bottom.replace('"', " ")
 
       url = f"https://api.alexflipnote.dev/drake?top={top}&bottom={bottom}"
 
-      emb = discord.Embed(colour = discord.Colour.dark_gold())
+      url = url.replace(" ", "+")
 
-      emb.set_image(url = url.replace(" ", "+"))
+      async with ctx.typing():
+        
+        async with aiohttp.ClientSession() as cs:
+          
+          async with cs.get(url) as r:
+            
+            res = await r.read()
+          
+        await ctx.send(file = discord.File(io.BytesIO(res), filename="Drake.png"))
 
-      await ctx.send(embed = emb)
+      await cs.close()
 
     @commands.command(name = "8ball", aliases = ["8b"])
     async def _8ball(self, ctx, *, question):
