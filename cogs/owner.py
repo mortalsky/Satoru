@@ -324,10 +324,10 @@ class Owner(commands.Cog, command_attrs = dict(hidden = True)):
 
             if ret is None:
                 if value:
-                    await ctx.send(f'```py\n{value}\n```')
+                    await ctx.send(value)
             else:
                 self._last_result = ret
-                await ctx.send(f'```py\n{value}{ret}\n```')
+                await ctx.send(f'{value}{ret}')
 
 def setup(bot):
   bot.add_cog(Owner(bot))
