@@ -5,6 +5,11 @@ import os
 import json
 from datetime import datetime
 import traceback
+import textwrap
+import io
+from contextlib import redirect_stdout
+import sys
+import copy
 
 colour = 0xbf794b
 
@@ -12,6 +17,16 @@ class Owner(commands.Cog, command_attrs = dict(hidden = True)):
 
   def __init__(self, bot):
     self.bot = bot
+    self._last_result = None
+
+  def cleanup_code(self, content):
+        """Automatically removes code blocks from the code."""
+        # remove ```py\n```
+        if content.startswith('```') and content.endswith('```'):
+            return '\n'.join(content.split('\n')[1:-1])
+
+        # remove `foo`
+        return content.strip('` \n')
 
   @commands.Cog.listener()
   async def on_command_completion(self, ctx):
@@ -265,6 +280,54 @@ class Owner(commands.Cog, command_attrs = dict(hidden = True)):
 
     await ctx.guild.me.edit(nick = nick)
     await ctx.message.add_reaction("<:greenTick:596576670815879169>")
+
+  @commands.command(hidden=True)
+  @commands.is_owner()
+  async def eval(self, ctx, *, body: str):
+        """Evaluates a code"""
+
+        env = {
+            'bot': self.bot,
+            'ctx': ctx,
+            'channel': ctx.channel,
+            'author': ctx.author,
+            'guild': ctx.guild,
+            'message': ctx.message,
+            '_': self._last_result
+        }
+
+        env.update(globals())
+
+        body = self.cleanup_code(body)
+        stdout = io.StringIO()
+
+        to_compile = f'async def func():\n{textwrap.indent(body, "  ")}'
+
+        try:
+            exec(to_compile, env)
+        except Exception as e:
+            return await ctx.send(f'```py\n{e.__class__.__name__}: {e}\n```')
+
+        func = env['func']
+        try:
+            with redirect_stdout(stdout):
+                ret = await func()
+        except Exception as e:
+            value = stdout.getvalue()
+            await ctx.send(f'```py\n{value}{traceback.format_exc()}\n```')
+        else:
+            value = stdout.getvalue()
+            try:
+                await ctx.message.add_reaction('\u2705')
+            except:
+                pass
+
+            if ret is None:
+                if value:
+                    await ctx.send(f'```py\n{value}\n```')
+            else:
+                self._last_result = ret
+                await ctx.send(f'```py\n{value}{ret}\n```')
 
 def setup(bot):
   bot.add_cog(Owner(bot))

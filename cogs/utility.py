@@ -1,9 +1,12 @@
 import discord
 from discord.ext import commands
+from discord.ext.commands.cooldowns import BucketType
 import json
 import aiohttp
 import os
 import io
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
 
 colour = 0xbf794b
 
@@ -543,6 +546,32 @@ Offline  ::   {offline_b}
 """
 #**Created**: {invite.created_at.strftime('%d %b %Y (%X)')}
       await ctx.send(res)
+
+    @commands.command(aliases = ["yt"])
+    @commands.max_concurrency(1, per=BucketType.default, wait=False)
+    async def youtube(self, ctx, *, query):
+
+      "Search a video on YouTube"
+
+      loading = str(self.bot.get_emoji(625409860053237770))
+
+      emb = discord.Embed(description = f"{loading} | Searching **{query}**", colour = 0xffaa2b)
+
+      msg = await ctx.send(embed = emb)
+
+      query = query.replace(" ", "%20")
+      page = urlopen(f"https://www.youtube.com/results?search_query={query}")
+      soup = BeautifulSoup(page.read(), "html.parser")
+      page.close()
+
+      a_html = soup.find_all("a")
+
+      for b in a_html:
+        if '/watch?v=' in str(b):
+          url = b["href"]
+          break
+
+      await msg.edit(content = f"https://youtube.com{url}", embed = None)
 
 def setup(bot):
     bot.add_cog(Utility(bot))

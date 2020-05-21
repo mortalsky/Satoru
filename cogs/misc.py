@@ -84,6 +84,7 @@ Response :: {duration:.2f}ms
       await ctx.send(embed = emb)
     
     @commands.command()
+    @commands.is_owner()
     async def reddit(self, ctx, *, subreddit):
       
       "Get a random post from a subreddit"

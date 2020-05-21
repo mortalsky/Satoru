@@ -61,6 +61,8 @@ class AutoTriggers(commands.Cog):
 
     "Create an auto trigger"
 
+    trigger = discord.utils.escape_mentions(trigger)
+
     with open("data/triggers.json", "r") as f:
 
       l = json.load(f)
@@ -78,19 +80,52 @@ class AutoTriggers(commands.Cog):
 
     "Delete an auto trigger"
 
+    check = str(self.bot.get_emoji(707144339444465724))
+
     with open("data/triggers.json", "r") as f:
 
       l = json.load(f)
     
     if l[str(trigger)]["owner"] == str(ctx.author.id):
-      
       l.pop(str(trigger))
 
-    with open("data/triggers.json", "w") as f:
+    else:
+      emb = discord.Embed(description = "You are not the owner of this trigger!", colour = discord.Colour.red())
+      return await ctx.send(embed = emb)
 
+    with open("data/triggers.json", "w") as f:
       json.dump(l, f, indent = 4)
 
-    await ctx.send(f"Done!")
+    emb = discord.Embed(description = f"{check} | Done!", colour = discord.Colour.green())
+    await ctx.send(embed = emb)
+
+  @autotrigger.command()
+  async def edit(self, ctx, trigger, *, response):
+
+    "Edit an auto trigger"
+
+    check = str(self.bot.get_emoji(707144339444465724))
+
+    with open("data/triggers.json", "r") as f:
+      l = json.load(f)
+
+    try:
+      if l[str(trigger)]["owner"] == str(ctx.author.id):
+        l[str(trigger)]["repsonse"] = str(response)
+
+      else:
+        emb = discord.Embed(description = "You are not the owner of this trigger!", colour = discord.Colour.red())
+        return await ctx.send(embed = emb)
+
+    except KeyError:
+        emb = discord.Embed(description = f"Trigger "**{trigger}**" not found.", colour = discord.Colour.red())
+        return await ctx.send(embed = emb)
+
+    with open("data/triggers.json", "w") as f:
+      json.dump(l, f, indent = 4)
+
+    emb = discord.Embed(description = f"{check} | Done!", colour = discord.Colour.green())
+    await ctx.send(embed = emb)
 
 def setup(bot):
   bot.add_cog(AutoTriggers(bot))

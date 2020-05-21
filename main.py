@@ -126,30 +126,25 @@ async def bot_check(ctx):
 @bot.event
 async def on_command_error(ctx, error):
 
-  traceback.print_exc()
-
   emb = discord.Embed(title = "Error", description = f"```css\n{error}\n```\nJoin the [support server](https://discord.gg/w8cbssP) for help.", colour = discord.Colour.red(), timestamp = ctx.message.created_at)
   emb.set_footer(text = ctx.author, icon_url = ctx.author.avatar_url)
 
   if isinstance(error, commands.CommandNotFound):
-
     return
 
   if isinstance(error, commands.MissingPermissions):
-    
     if ctx.author.id == 488398758812319745:
-      
       return await ctx.reinvoke()
 
   if isinstance(error, commands.CommandOnCooldown):
-
     if ctx.author.id == 488398758812319745:
-      
       return await ctx.reinvoke()
 
     else:
-
       return await ctx.send(embed = emb, delete_after = 5)
+
+  if isinstance(error, commands.MaxConcurrencyReached):
+    return
 
   await ctx.send(embed = emb)
 

@@ -190,8 +190,20 @@ class Battle(commands.Cog):
 
     "COOKIE CHALLENGE"
 
+    count = discord.Embed(title = "**3**", colour = 0xa8603d)
+    count.set_footer(text = "First one to take the cookie wins🍪!")
+
+    msg = await ctx.send(embed = count)
+    await asyncio.sleep(1)
+    count.title = "**2**"
+    await msg.edit(embed = count)
+    await asyncio.sleep(1)
+    count.title = "**1**"
+    await msg.edit(embed = count)
+    await asyncio.sleep(1)
+
     emb = discord.Embed(description = "First one to take the cookie wins🍪!", colour = 0xa8603d)
-    msg = await ctx.send(embed = emb)
+    await msg.edit(embed = emb)
     await msg.add_reaction("🍪")
 
     def check(reaction, user):
