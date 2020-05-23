@@ -314,11 +314,12 @@ class Owner(commands.Cog, command_attrs = dict(hidden = True)):
                 ret = await func()
         except Exception as e:
             value = stdout.getvalue()
+            await ctx.message.add_reaction("<:redTick:596576672149667840>")
             await ctx.send(f'```py\n{value}{traceback.format_exc()}\n```')
         else:
             value = stdout.getvalue()
             try:
-                await ctx.message.add_reaction('\u2705')
+                await ctx.message.add_reaction('<a:check:707144339444465724>')
             except:
                 pass
 

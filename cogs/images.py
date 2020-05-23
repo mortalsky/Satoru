@@ -10,7 +10,7 @@ class Images(commands.Cog):
   def __init__(self, bot):
     self.bot = bot 
 
-  @commands.command(name = "change my mind", aliases = ["cmm", "mind", "change me"])
+  @commands.command(aliases = ["cmm", "mind", "change me"])
   async def change_my_mind(self, ctx, *, text):
 
     "Change my mind meme"

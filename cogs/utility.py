@@ -10,6 +10,22 @@ from bs4 import BeautifulSoup
 
 colour = 0xbf794b
 
+async def youtube(query):
+
+  query = query.replace(" ", "%20")
+  page = urlopen(f"https://www.youtube.com/results?search_query={query}")
+  soup = BeautifulSoup(page.read(), "html.parser")
+  page.close()
+
+  a_html = soup.find_all("a")
+
+  for b in a_html:
+    if '/watch?v=' in str(b):
+      url = b["href"]
+      break
+
+  return url
+
 class Utility(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
@@ -559,17 +575,7 @@ Offline  ::   {offline_b}
 
       msg = await ctx.send(embed = emb)
 
-      query = query.replace(" ", "%20")
-      page = urlopen(f"https://www.youtube.com/results?search_query={query}")
-      soup = BeautifulSoup(page.read(), "html.parser")
-      page.close()
-
-      a_html = soup.find_all("a")
-
-      for b in a_html:
-        if '/watch?v=' in str(b):
-          url = b["href"]
-          break
+      url = str(await youtube(query))
 
       await msg.edit(content = f"https://youtube.com{url}", embed = None)
 
