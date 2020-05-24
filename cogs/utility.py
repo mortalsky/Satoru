@@ -585,9 +585,11 @@ Offline  ::   {offline_b}
       "See Spotify activity of a member"
       
       member = member or ctx.author 
+
+      error = discord.Embed(description = f"<:redTick:596576672149667840> | I can't find any **Spotify** activity!", colour = discord.Colour.red())
   
       if not member.activity:
-        return await ctx.send("I can't find any Spotify activity")
+        return await ctx.send(embed = error)
        
       for a in member.activities:
         if a.name == "Spotify":
@@ -600,15 +602,15 @@ Offline  ::   {offline_b}
           album = a.album
       
           emb = discord.Embed(colour = colour)
-          emb.add_field(name = "Title", value = f"[{title}]({url})")
-          emb.add_field(name = "Duration", value = duration)
-          emb.add_field(name = "Artist(s)", value = artists) 
-          emb.add_field(name = "Album", value = album)
+          emb.add_field(name = "Title", value = f"[{title}]({url})", inline = False)
+          emb.add_field(name = "Artist(s)", value = artists, inline = False) 
+          emb.add_field(name = "Album", value = album, inline = False)
+          emb.add_field(name = "Duration", value = duration, inline = False)
           emb.set_image(url = image)
-          emb.set_thumbnail(url =  member.avatar_url_as(static_format = "png"))
+          emb.set_author(name = member, icon_url = member.avatar_url, url = url)
           return await ctx.send(embed = emb)
          
-      await ctx.send("I can't find any Spotify activity.")
+      await ctx.send(embed = error)
 
 
 def setup(bot):
