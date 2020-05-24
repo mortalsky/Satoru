@@ -7,6 +7,7 @@ import os
 import io
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
+from datetime import datetime, timedelta
 
 colour = 0xbf794b
 
@@ -598,20 +599,26 @@ Offline  ::   {offline_b}
           duration = str(a.duration)[:-7]
           url = "https://open.spotify.com/track/" + a.track_id
           colour = a.colour
-          artists = " ".join(a.artists)
+          artists = " | ".join(a.artists)
           album = a.album
+          now = datetime.now()
+          start = a.start
+          end = a.end
+          remaining = str(end - now + timedelta(seconds = 1))[:-7]
+          listened = str(now - start)[:-7]
       
           emb = discord.Embed(colour = colour)
           emb.add_field(name = "Title", value = f"[{title}]({url})", inline = False)
           emb.add_field(name = "Artist(s)", value = artists, inline = False) 
           emb.add_field(name = "Album", value = album, inline = False)
           emb.add_field(name = "Duration", value = duration, inline = False)
+          emb.add_field(name = "Listened", value = listened, inline = False)
+          emb.add_field(name = "Remaining", value = remaining, inline = False)
           emb.set_image(url = image)
           emb.set_author(name = member, icon_url = member.avatar_url, url = url)
           return await ctx.send(embed = emb)
          
       await ctx.send(embed = error)
-
 
 def setup(bot):
     bot.add_cog(Utility(bot))
