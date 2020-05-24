@@ -99,7 +99,7 @@ class AutoTriggers(commands.Cog):
     emb = discord.Embed(description = f"{check} | Done!", colour = discord.Colour.green())
     await ctx.send(embed = emb)
 
-  @autotrigger.command()
+  @autotrigger.command(hidden = True)
   async def edit(self, ctx, trigger, *, response):
 
     "Edit an auto trigger"

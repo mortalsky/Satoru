@@ -2,6 +2,7 @@ from io import BytesIO
 from PIL import Image, ImageFont, ImageDraw, ImageOps
 import discord
 from discord.ext import commands
+from discord.ext.commands.cooldowns import BucketType
 import aiohttp
 import traceback
 
@@ -107,6 +108,34 @@ class Images(commands.Cog):
       base.save(b, "png")
       b.seek(0)
       await ctx.send(file = discord.File(fp = b, filename = "mike.png"))
+
+      await cs.close()
+
+  @commands.command()
+  @commands.cooldown(1, 5, BucketType.user)
+  async def disabled(self, ctx, *, member: discord.Member = None):
+
+    "Is someone disabled?"
+
+    member = member or ctx.author
+
+    if member == self.bot.user:
+      return await ctx.send("no u")
+
+    async with ctx.typing():
+
+      async with aiohttp.ClientSession() as cs:
+          async with cs.get(str(member.avatar_url_as(format = "png"))) as r:
+              res = await r.read()  
+
+      base = Image.open('assets/am-i-disabled.png').convert("RGBA")
+      mask = Image.open('assets/circle-mask.jpg').convert("L").resize((210, 210))
+      img = Image.open(BytesIO(res)).resize((210, 210)).convert("RGBA")
+      base.paste(img, (200, 20), mask)
+      b = BytesIO() 
+      base.save(b, "png")
+      b.seek(0)
+      await ctx.send(file = discord.File(fp=b, filename = "disabled.png"))
 
       await cs.close()
 

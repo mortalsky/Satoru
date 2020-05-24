@@ -11,3 +11,4 @@ data/cookie.json
 data/logs.json
 data/seed.json
 .env
+__pycache__

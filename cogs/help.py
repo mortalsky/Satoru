@@ -34,7 +34,10 @@ class Help(commands.Cog):
     
       with open("README.md", "w") as f:
       
-        f.write(f"""# Satoru
+        f.write(f"""
+# LICENSE
+**Do you see any LICENSE.md or LICENSE.txt? What? No? Yeet so you can't use this code!**
+# Satoru
 Satoru is a Discord Bot made with discord.py
 - Moderation
 - Info 
