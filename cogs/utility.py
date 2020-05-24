@@ -578,6 +578,38 @@ Offline  ::   {offline_b}
       url = str(await youtube(query))
 
       await msg.edit(content = f"https://youtube.com{url}", embed = None)
+      
+    @commands.command()
+    async def spotify(self, ctx, *, member: discord.Member = None):
+      
+      "See Spotify activity of a member"
+      
+      member = member or ctx.author 
+  
+      if not member.activity:
+        return await ctx.send("I can't find any Spotify activity")
+       
+      for a in member.activities:
+        if a.name == "Spotify":
+          title = a.title
+          image = a.album_cover_url
+          duration = str(a.duration)[:-7]
+          url = "https://open.spotify.com/track/" + a.track_id
+          colour = a.colour
+          artists = " ".join(a.artists)
+          album = a.album
+      
+          emb = discord.Embed(colour = colour)
+          emb.add_field(name = "Title", value = f"[{title}]({url})")
+          emb.add_field(name = "Duration", value = duration)
+          emb.add_field(name = "Artist(s)", value = artists) 
+          emb.add_field(name = "Album", value = album)
+          emb.set_image(url = image)
+          emb.set_thumbnail(url =  member.avatar_url_as(static_format = "png"))
+          return await ctx.send(embed = emb)
+         
+      await ctx.send("I can't find any Spotify activity.")
+
 
 def setup(bot):
     bot.add_cog(Utility(bot))
