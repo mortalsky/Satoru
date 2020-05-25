@@ -26,14 +26,39 @@ class Images(commands.Cog):
     return False
 
   async def mike(self, img):
-      img = Image.open(BytesIO(img)).resize((500, 500))
-      img.putalpha(100)
-      base = Image.open('assets/mike.png').resize((500, 500))
-      base.paste(img, (0, 0), img)
-      b = BytesIO()
-      base.save(b, "png")
-      b.seek(0)
-      return b
+    img = Image.open(BytesIO(img)).resize((500, 500))
+    img.putalpha(100)
+    base = Image.open('assets/mike.png').resize((500, 500))
+    base.paste(img, (0, 0), img)
+    b = BytesIO()
+    base.save(b, "png")
+    b.seek(0)
+    return b
+
+  async def punch(self, img1, img2):
+    base = Image.open('assets/punch.png').convert("RGBA")
+    img1 = Image.open(BytesIO(img1)).resize((210, 210)).convert("RGBA")
+    img2 = Image.open(BytesIO(img2)).resize((300, 300)).convert("RGBA")
+    base.paste(img1, (40, 35), img1)
+    base.paste(img2, (480, 30), img2)
+    b = BytesIO() 
+    base.save(b, "png")
+    b.seek(0)
+    return b
+
+  async def disabled(self, img):
+    base = Image.open('assets/am-i-disabled.png').convert("RGBA")
+    mask = Image.open('assets/circle-mask.jpg').convert("L").resize((210, 210))
+    img = Image.open(BytesIO(img)).resize((210, 210)).convert("RGBA")
+    if await self.has_transparency(img):
+      base.paste(img, (200, 20), img)
+    else:
+      base.paste(img, (200, 20), mask)
+    b = BytesIO() 
+    base.save(b, "png")
+    b.seek(0)
+
+    return b
 
   @commands.command(aliases = ["cmm", "mind", "change me"])
   async def change_my_mind(self, ctx, *, text):
@@ -76,8 +101,8 @@ class Images(commands.Cog):
 
       await cs.close()
 
-  @commands.command()
-  async def punch(self, ctx, *, member: discord.Member = None):
+  @commands.command(name = "punch")
+  async def _punch(self, ctx, *, member: discord.Member = None):
 
     "Punch someone"
 
@@ -97,14 +122,8 @@ class Images(commands.Cog):
           async with cs2.get(str(member.avatar_url_as(format = "png"))) as r:
               res1 = await r.read()  
 
-      base = Image.open('assets/punch.png').convert("RGBA")
-      img1 = Image.open(BytesIO(res1)).resize((210, 210)).convert("RGBA")
-      img2 = Image.open(BytesIO(res2)).resize((300, 300)).convert("RGBA")
-      base.paste(img1, (40, 35), img1)
-      base.paste(img2, (480, 30), img2)
-      b = BytesIO() 
-      base.save(b, "png")
-      b.seek(0)
+      b = await self.punch(res1, res2)
+
       await ctx.send(file = discord.File(fp=b, filename = "punch.png"))
 
       await cs1.close()
@@ -128,9 +147,9 @@ class Images(commands.Cog):
 
       await cs.close()
 
-  @commands.command()
+  @commands.command(name = "disabled")
   @commands.cooldown(1, 5, BucketType.user)
-  async def disabled(self, ctx, *, member: discord.Member = None):
+  async def _disabled(self, ctx, *, member: discord.Member = None):
 
     "Is someone disabled?"
 
@@ -145,16 +164,8 @@ class Images(commands.Cog):
           async with cs.get(str(member.avatar_url_as(format = "png"))) as r:
               res = await r.read()  
 
-      base = Image.open('assets/am-i-disabled.png').convert("RGBA")
-      mask = Image.open('assets/circle-mask.jpg').convert("L").resize((210, 210))
-      img = Image.open(BytesIO(res)).resize((210, 210)).convert("RGBA")
-      if await self.has_transparency(img):
-        base.paste(img, (200, 20), img)
-      else:
-        base.paste(img, (200, 20), mask)
-      b = BytesIO() 
-      base.save(b, "png")
-      b.seek(0)
+      b = await self.disabled(res)
+      
       await ctx.send(file = discord.File(fp=b, filename = "disabled.png"))
 
       await cs.close()
