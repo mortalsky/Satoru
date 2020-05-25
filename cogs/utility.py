@@ -671,6 +671,7 @@ Offline  ::   {offline_b}
           file.close()
           f = discord.File(fp = f"too_big.txt")
           await ctx.send(file = f)
+          os.remove("too_big.txt")
         
       if type.lower() == "role":
         res = [a for a in ctx.guild.roles if text.lower() in a.name.lower() or text.lower() in str(a.id) or text.lower() in str(a.colour).lower()]
@@ -697,6 +698,7 @@ Offline  ::   {offline_b}
           file.close()
           f = discord.File(fp = f"too_big.txt")
           await ctx.send(file = f)
+          os.remove("too_big.txt")
   
 def setup(bot):
     bot.add_cog(Utility(bot))
