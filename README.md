@@ -11,9 +11,45 @@ Satoru is a Discord Bot made with discord.py
 
 # Commands
 
-`kayo `
+`profile [member]`
 
-> See a random image of Kayo Hinazuki 
+> See a user's profile 
+
+`profile image [image_url]`
+
+> Set profile's image, use `profile image remove` to remove the image 
+
+`profile create `
+
+> Create your profile 
+
+`profile delete `
+
+> Delete your profile 
+
+`profile description <description>`
+
+> Set profile's description 
+
+`profile list `
+
+> See who has a profile in the actual guild 
+
+`seed [seed]`
+
+> See a seed 
+
+`seed create [seed] | [title] | [description] | [image]`
+
+> Create a seed 
+
+`seed delete <seed>`
+
+> Delete a seed 
+
+`seed list `
+
+> See all seeds 
 
 `change_my_mind <text>`
 
@@ -31,97 +67,193 @@ Satoru is a Discord Bot made with discord.py
 
 > Is someone disabled? 
 
-`ban [member] [reason]`
+`prefix <prefix>`
 
-> Ban a member 
+> Set a custom prefix 
 
-`ban sudo <user_id> [reason]`
+`prefix reset `
 
-> Ban a user that is not in the actual guild 
+> Reset the default prefix 
 
-`unban <user_id>`
+`work `
 
-> Unban a user 
+> Work and earn money 
 
-`gun `
+`ping `
 
-> Make a gun battle 
+> See bot latency 
 
-`kick [member] [reason]`
+`userinfo [member]`
 
-> Kick a member 
+> See a member's info 
 
-`hungergames [members]`
+`uptime `
 
-> Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....` 
+> See bot uptime 
 
-`mute [member] [reason]`
+`roleinfo <role>`
 
-> Mute a member 
+> See a role info 
 
-`cookie `
+`meme `
 
-> COOKIE CHALLENGE 
+> Get a random meme 
 
-`cookie stat [user]`
+`leaderboard `
 
-> None 
+> See users lb 
 
-`cookie leaderboard `
+`guildinfo [guild_id]`
 
-> Top Cookie users 
+> See the actual guild info 
 
-`unmute [member]`
+`reddit <subreddit>`
 
-> Unmute a member 
+> Get a random post from a subreddit 
 
-`lock [channel]`
+`users `
 
-> Lock a Text Channel 
+> See users stats 
 
-`unlock [channel]`
+`translate <text> [source] [destination]`
 
-> Unlock a Text Channel 
+> Translate a phrase in every language. Use - translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
 
-`profile [member]`
+`addemoji [name] [emoji_link]`
 
-> See a user's profile 
+> Add an emoji 
 
-`profile delete `
+`feedback <feedback>`
 
-> Delete your profile 
+> Send a feedback to the bot or suggest a new command 
 
-`profile description <description>`
+`createfile <name> <text>`
 
-> Set profile's description 
+> Create a file 
 
-`profile list `
+`google <search>`
 
-> See who has a profile in the actual guild 
+> Search something on google 
 
-`profile image [image_url]`
+`avatar [member]`
 
-> Set profile's image, use `profile image remove` to remove the image 
+> See a member avatar 
 
-`profile create `
+`avatar image [member]`
 
-> Create your profile 
+> See a member avatar via file 
 
-`seed [seed]`
+`bust [arg]`
 
-> See a seed 
+> See the bust of a player 
 
-`seed create [seed] | [title] | [description] | [image]`
+`say <message>`
 
-> Create a seed 
+> Say something with Satoru 
 
-`seed delete <seed>`
+`list `
 
-> Delete a seed 
+> See your list 
 
-`seed list `
+`list remove <number_obj>`
 
-> See all seeds 
+> Remove an obj from the list 
+
+`list clear `
+
+> Clear the list 
+
+`list add <item>`
+
+> Add something to the list 
+
+`skin [arg]`
+
+> See a skin of player 
+
+`head [arg]`
+
+> See the head of a player 
+
+`top [limit=500] [channel]`
+
+> See a list of top users in a channel 
+
+`clear [amount=100]`
+
+> Delete Messages 
+
+`helm [arg]`
+
+> See the head of a player with the helm (if there is) 
+
+`youtube <query>`
+
+> Search a video on YouTube 
+
+`cubehead [arg]`
+
+> See the head of a player in a 3D way 
+
+`spotify [member]`
+
+> See Spotify activity of a member 
+
+`body [arg]`
+
+> See the body of a player 
+
+`hug [member]`
+
+> Hug a user 
+
+`looneytunes `
+
+> Which Looney Tunes are you? 
+
+`invite `
+
+> Invite the bot to your server 
+
+`autotrigger <trigger>`
+
+> See a response giving a trigger 
+
+`autotrigger delete <trigger>`
+
+> Delete an auto trigger 
+
+`autotrigger edit <trigger> <response>`
+
+> Edit an auto trigger 
+
+`autotrigger list `
+
+> See your auto triggers 
+
+`autotrigger create <trigger> <response>`
+
+> Create an auto trigger 
+
+`about `
+
+> Info about the bot 
+
+`male <thing> [member]`
+
+> Use this when someone says that a thing is a female but is a male 
+
+`satoru `
+
+> See a random image of Satoru Fujinuma 
+
+`female <thing> [member]`
+
+> Use this when someone says that a thing is a male but is a female 
+
+`kayo `
+
+> See a random image of Kayo Hinazuki 
 
 `random [elements...]`
 
@@ -143,230 +275,98 @@ Satoru is a Discord Bot made with discord.py
 
 > Show a message without markdown 
 
-`prefix <prefix>`
-
-> Set a custom prefix 
-
-`prefix reset `
-
-> Reset the default prefix 
-
 `messages [limit=500] [channel] [member]`
 
 > See how many messages a member sent in a channel in the last tot messages
 Use `messages <limit> <channel> <member>` 
 
-`work `
+`ban [member] [reason]`
 
-> Work and earn money 
+> Ban a member 
 
-`ping `
+`ban sudo <user_id> [reason]`
 
-> See bot latency 
+> Ban a user that is not in the actual guild 
 
 `spoiler <message>`
 
 > Make a message with a lot of spoilers 
 
-`userinfo [member]`
+`unban <user_id>`
 
-> See a member's info 
+> Unban a user 
 
-`uptime `
+`gun `
 
-> See bot uptime 
+> Make a gun battle 
 
 `timezone [timezone]`
 
 > See what time is in a country 
 
-`roleinfo <role>`
-
-> See a role info 
-
-`meme `
-
-> Get a random meme 
-
 `poll <poll> [options]`
 
 > Make a poll 
-
-`leaderboard `
-
-> See users lb 
-
-`guildinfo [guild_id]`
-
-> See the actual guild info 
-
-`bust [arg]`
-
-> See the bust of a player 
-
-`reddit <subreddit>`
-
-> Get a random post from a subreddit 
 
 `clap [message...]`
 
 > clap clap 
 
-`users `
+`hungergames [members]`
 
-> See users stats 
+> Create an Hunger Game! If members is none, bot will choose 8 random members. Use `,` to separate players, Ex. `hungergames lmao, lel, lol....` 
 
-`translate <text> [source] [destination]`
+`kick [member] [reason]`
 
-> Translate a phrase in every language. Use - translate "your text here" first_language second_language - Write languages as en, it, es, fr.... 
+> Kick a member 
 
 `source `
 
 > See Bot source on github 
 
-`addemoji [name] [emoji_link]`
+`mute [member] [reason]`
 
-> Add an emoji 
+> Mute a member 
 
-`skin [arg]`
+`cookie `
 
-> See a skin of player 
+> COOKIE CHALLENGE 
+
+`cookie leaderboard `
+
+> Top Cookie users 
+
+`cookie stat [user]`
+
+> None 
 
 `vote `
 
 > Vote the bot on top.gg 
 
-`feedback <feedback>`
+`unmute [member]`
 
-> Send a feedback to the bot or suggest a new command 
-
-`createfile <name> <text>`
-
-> Create a file 
-
-`head [arg]`
-
-> See the head of a player 
-
-`avatar [member]`
-
-> See a member avatar 
-
-`avatar image [member]`
-
-> See a member avatar via file 
-
-`google <search>`
-
-> Search something on google 
+> Unmute a member 
 
 `space <text>`
 
 > Make a lot of spaces between letters 
 
-`helm [arg]`
+`lock [channel]`
 
-> See the head of a player with the helm (if there is) 
-
-`satoru `
-
-> See a random image of Satoru Fujinuma 
-
-`say <message>`
-
-> Say something with Satoru 
+> Lock a Text Channel 
 
 `dog `
 
 > Get a random dog picture 
 
-`cubehead [arg]`
+`unlock [channel]`
 
-> See the head of a player in a 3D way 
-
-`list `
-
-> See your list 
-
-`list clear `
-
-> Clear the list 
-
-`list add <item>`
-
-> Add something to the list 
-
-`list remove <number_obj>`
-
-> Remove an obj from the list 
+> Unlock a Text Channel 
 
 `cat `
 
 > Get a random cat picture 
-
-`body [arg]`
-
-> See the body of a player 
-
-`top [limit=500] [channel]`
-
-> See a list of top users in a channel 
-
-`youtube <query>`
-
-> Search a video on YouTube 
-
-`spotify [member]`
-
-> See Spotify activity of a member 
-
-`clear [amount=100]`
-
-> Delete Messages 
-
-`hug [member]`
-
-> Hug a user 
-
-`looneytunes `
-
-> Which Looney Tunes are you? 
-
-`invite `
-
-> Invite the bot to your server 
-
-`autotrigger <trigger>`
-
-> See a response giving a trigger 
-
-`autotrigger edit <trigger> <response>`
-
-> Edit an auto trigger 
-
-`autotrigger list `
-
-> See your auto triggers 
-
-`autotrigger create <trigger> <response>`
-
-> Create an auto trigger 
-
-`autotrigger delete <trigger>`
-
-> Delete an auto trigger 
-
-`about `
-
-> Info about the bot 
-
-`male <thing> [member]`
-
-> Use this when someone says that a thing is a female but is a male 
-
-`female <thing> [member]`
-
-> Use this when someone says that a thing is a male but is a female 
 
 
 

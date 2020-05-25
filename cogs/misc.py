@@ -802,5 +802,23 @@ Amsterdam  ::   {amsterdam}
 
       await ctx.send(embed = emb)
 
+    @commands.command(aliases = ["owo"])
+    async def owoify(self, ctx, *, text):
+      "OwO"
+
+      text = text.replace(" ", "+")
+      text = text.replace("\n", "+")
+
+      a = commands.clean_content(use_nicknames = True)
+      text = await a.convert(ctx, text)
+
+      async with aiohttp.ClientSession() as cs:
+          r = await cs.get(f"https://nekos.life/api/v2/owoify?text={text}")
+          b = await r.json()
+
+      await ctx.send(b["owo"])
+
+      await cs.close()
+
 def setup(bot):
     bot.add_cog(Misc(bot))

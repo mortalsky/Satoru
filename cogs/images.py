@@ -11,6 +11,30 @@ class Images(commands.Cog):
   def __init__(self, bot):
     self.bot = bot 
 
+  async def has_transparency(self, img):
+    if img.mode == "P":
+        transparent = img.info.get("transparency", -1)
+        for _, index in img.getcolors():
+            if index == transparent:
+                return True
+
+    elif img.mode == "RGBA":
+      extrema = img.getextrema()
+      if extrema[3][0] < 255:
+          return True
+
+    return False
+
+  async def mike(self, img):
+      img = Image.open(BytesIO(img)).resize((500, 500))
+      img.putalpha(100)
+      base = Image.open('assets/mike.png').resize((500, 500))
+      base.paste(img, (0, 0), img)
+      b = BytesIO()
+      base.save(b, "png")
+      b.seek(0)
+      return b
+
   @commands.command(aliases = ["cmm", "mind", "change me"])
   async def change_my_mind(self, ctx, *, text):
 
@@ -86,13 +110,12 @@ class Images(commands.Cog):
       await cs1.close()
       await cs2.close()
 
-  @commands.command()
-  async def mike(self, ctx, member: discord.Member = None):
+  @commands.command(name = "mike")
+  async def _mike(self, ctx, member: discord.Member = None):
 
     "Mike Bruhzowski"
 
-    if not member: 
-      member = ctx.author
+    member = member or ctx.author
 
     async with ctx.typing():
 
@@ -100,13 +123,7 @@ class Images(commands.Cog):
           async with cs.get(str(member.avatar_url_as(format = "png"))) as r:
               res = await r.read()  
 
-      img = Image.open(BytesIO(res)).resize((500, 500))
-      img.putalpha(100)
-      base = Image.open('assets/mike.png').resize((500, 500))
-      base.paste(img, (0, 0), img)
-      b = BytesIO()
-      base.save(b, "png")
-      b.seek(0)
+      b = await self.mike(res)
       await ctx.send(file = discord.File(fp = b, filename = "mike.png"))
 
       await cs.close()
@@ -131,7 +148,10 @@ class Images(commands.Cog):
       base = Image.open('assets/am-i-disabled.png').convert("RGBA")
       mask = Image.open('assets/circle-mask.jpg').convert("L").resize((210, 210))
       img = Image.open(BytesIO(res)).resize((210, 210)).convert("RGBA")
-      base.paste(img, (200, 20), mask)
+      if await self.has_transparency(img):
+        base.paste(img, (200, 20), img)
+      else:
+        base.paste(img, (200, 20), mask)
       b = BytesIO() 
       base.save(b, "png")
       b.seek(0)

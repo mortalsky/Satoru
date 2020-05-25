@@ -618,7 +618,31 @@ Offline  ::   {offline_b}
           emb.set_author(name = member, icon_url = member.avatar_url, url = url)
           return await ctx.send(embed = emb)
          
-      await ctx.send(embed = error)
+      await ctx.send(embed = error) 
+      
+    @commands.command(hidden = True)
+    @commands.cooldown(1,5,BucketType.user)
+    async def search(self, ctx, *, query):
+      
+      query = query.split("--")
+      if len(query) == 1:
+        query[1] = "user"
+
+      text = str(query[0])[:-1]
+
+      msg = await ctx.send(f"Searching **{query[0]}**...")
+      
+      if query[1].lower() == "user":
+        res = [str(a) for a in ctx.guild.members if text.lower() in a.display_name.lower() or text.lower() in a.name.lower()]
+        try:
+         await ctx.send(res)
+        except:
+          file = open("too_big.txt", "w")
+          file.write("\n".join(res))
+          file.close()
+          f = discord.File(fp = f"too_big.txt")
+          await ctx.send(file = f)
+          await msg.delete()
 
 def setup(bot):
     bot.add_cog(Utility(bot))
