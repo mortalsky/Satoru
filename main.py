@@ -33,6 +33,7 @@ def get_prefix(bot, message):
 bot = commands.AutoShardedBot(command_prefix = get_prefix, description = "Multifunction weeb bot with moderation, fun and more.", case_insensitive = True)
 bot.remove_command('help')
 bot.load_extension('jishaku')
+bot.colour = 0xfffca6
 
 launchtime = datetime.now()
 

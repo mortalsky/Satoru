@@ -623,26 +623,80 @@ Offline  ::   {offline_b}
     @commands.command(hidden = True)
     @commands.cooldown(1,5,BucketType.user)
     async def search(self, ctx, *, query):
+
+      "Search a user, a role or an emoji in the server"
       
-      query = query.split("--")
+      query = query.split(" --")
+
       if len(query) == 1:
-        query[1] = "user"
+        type = "user"
 
-      text = str(query[0])[:-1]
+      else:
+        type = query[1]
 
-      msg = await ctx.send(f"Searching **{query[0]}**...")
+      text = str(query[0])
+
       
-      if query[1].lower() == "user":
-        res = [str(a) for a in ctx.guild.members if text.lower() in a.display_name.lower() or text.lower() in a.name.lower()]
+      if type.lower() == "user":
+        res = [a for a in ctx.guild.members if text.lower() in a.display_name.lower() or text.lower() in str(a).lower() or text.lower() in str(a.id)]
         try:
-         await ctx.send(res)
+          res_ = ""
+          for a in res:
+
+            perms = ctx.channel.permissions_for(a)
+            badges = ""
+            if ctx.guild.owner == a:
+              badges += "<:serverowner:714472902241550378>"
+            if perms.manage_messages is True:
+              badges += "<:ModHammer:714479952552001536>"
+
+            if a.nick:
+              res_ += f"- **`{str(a)}`**{badges} (**{a.nick}**)\n"
+
+            else:
+              res_ += f"- **`{str(a)}`**{badges}\n"
+
+          emb = discord.Embed(description = res_, colour = self.bot.colour)
+          emb.set_footer(text = f"Users with \"{text}\" keyword.")
+          await ctx.send(embed = emb)
         except:
+          res_ = ""
+          for a in res:
+            if a.nick:
+              res_ += f"- {str(a)} ({a.nick})\n"
+            else:
+              res_ += f"- {str(a)}\n"
           file = open("too_big.txt", "w")
-          file.write("\n".join(res))
+          file.write(res_)
           file.close()
           f = discord.File(fp = f"too_big.txt")
           await ctx.send(file = f)
-          await msg.delete()
+        
+      if type.lower() == "role":
+        res = [a for a in ctx.guild.roles if text.lower() in a.name.lower() or text.lower() in str(a.id) or text.lower() in str(a.colour).lower()]
+        try:
+          res_ = ""
 
+          for a in res:
+
+            perms = a.permissions
+            badges = ""
+            if perms.manage_messages is True or perms.administrator is True:
+              badges += "<:ModHammer:714479952552001536>"
+            res_ += f"- {a.mention} {badges}\n"
+
+          emb = discord.Embed(description = res_, colour = self.bot.colour)
+          emb.set_footer(text = f"Roles with \"{text}\" keyword.")
+          await ctx.send(embed = emb)
+        except:
+          res_ = ""
+          for a in res:
+            res_ += f"- {a.mention}\n"
+          file = open("too_big.txt", "w")
+          file.write(res_)
+          file.close()
+          f = discord.File(fp = f"too_big.txt")
+          await ctx.send(file = f)
+  
 def setup(bot):
     bot.add_cog(Utility(bot))

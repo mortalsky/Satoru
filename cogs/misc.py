@@ -104,70 +104,60 @@ Response :: {duration:.2f}ms
 
       await ctx.send(embed = emb)
 
-    @commands.command(aliases = ["tr"])
-    async def translate(self, ctx, text, source = None, destination = None):
-
-      'Translate a phrase in every language. Use - translate "your text here" first_language second_language - Write languages as en, it, es, fr....'
-
+    async def translate(self, text, source = None, destination = None):
+      
       if destination:
-        
         t = translator.translate(text, dest = destination)
 
       elif source:
-
         t = translator.translate(text, src = source)
 
       else:
-
         t = translator.translate(text)
 
-      if t.dest == "en":
+      return t
 
+    @commands.command(aliases = ["tr"], name = "translate")
+    async def translate_(self, ctx, text, source = None, destination = None):
+
+      'Translate a phrase in every language. Use - translate "your text here" first_language second_language - Write languages as en, it, es, fr....'
+
+      t = await self.translate(text, source, destination)
+
+      if t.dest == "en":
         t.dest = "🇬🇧 | En"
 
       if t.src == "en":
-
         t.src = "🇬🇧 | En"
 
       if t.dest == "es":
-
         t.dest = "🇪🇸 | Es"
 
       if t.src == "es":
-
         t.src = "🇪🇸 | Es"
 
       if t.src == "it":
-
         t.src = "🇮🇹 | It"
 
       if t.dest == "it":
-
         t.dest = "🇮🇹 | It"
 
       if t.src == "fr":
-
         t.src = "🇫🇷 | Fr"
 
       if t.dest == "fr":
-
         t.dest = "🇫🇷 | Fr"
 
       if t.src == "ja":
-
         t.src = "🇯🇵 | Ja"
 
       if t.dest == "ja":
-
         t.dest = "🇯🇵 | Ja"
       
       if t.src == "German":
-
         t.src == "🇩🇪 | De"
 
-
       if t.dest == "German":
-
         t.dest == "🇩🇪 | De"
 
       emb = discord.Embed(colour = colour)
