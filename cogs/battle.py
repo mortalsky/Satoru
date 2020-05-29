@@ -185,6 +185,7 @@ class Battle(commands.Cog):
     self.hg_playing.remove(ctx.channel.id)
 
   @commands.group(invoke_without_command = True, aliases = ["egg", "eggs", "cookies"])
+  @commands.max_concurrency(1, BucketType.channel)
   @commands.cooldown(1, 5, BucketType.user) 
   async def cookie(self, ctx):
 
@@ -207,7 +208,7 @@ class Battle(commands.Cog):
     await msg.add_reaction("🍪")
 
     def check(reaction, user):
-      return user != self.bot.user and str(reaction.emoji) == '🍪' and reaction.message.id == msg.id
+      return user.bot is False and str(reaction.emoji) == '🍪' and reaction.message.id == msg.id
 
     msg0 = await self.bot.wait_for("reaction_add", check = check)
 
@@ -216,19 +217,15 @@ class Battle(commands.Cog):
     await msg.edit(embed = emb)
 
     with open("data/cookie.json", "r") as f:
-
       l = json.load(f)
 
     try:
-      
       l[str(msg0[1].id)] += 1
 
     except KeyError:
-
       l[str(msg0[1].id)] = 1
 
     with open("data/cookie.json", "w") as f:
-
       json.dump(l, f, indent = 4)
 
   @cookie.command(aliases = ["lb", "top"])
