@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from discord.ext.commands.cooldowns import BucketType
 import aiohttp
 import json
 import random
@@ -15,7 +16,7 @@ import time
 import praw
 from dotenv import load_dotenv
 import os
-import io
+from io import BytesIO
 
 load_dotenv(dotenv_path = ".env")
 
@@ -57,7 +58,7 @@ Response :: {duration:.2f}ms
       "See bot uptime"
 
       with open("data/stats.json", "r") as f:
-        
+
         l = json.load(f)
 
       emb = discord.Embed(description = f':clock: | {l["uptime"]}', colour = colour)
@@ -180,29 +181,52 @@ Response :: {duration:.2f}ms
       await msg.add_reaction("<a:upvote:639355848031993867>")
       await ctx.send("Done!")
 
-    @commands.command()
-    async def google(self, ctx, *, search):
-
-      "Search something on google"
-
-      search0 = f"https://google.com/search?q={search}"
-
-      url = search0.replace(" ", "%20")
-
-      emb = discord.Embed(title = search, url = url, colour = discord.Colour.blurple())
-      emb.set_footer(icon_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/753px-Google_%22G%22_Logo.svg.png", text = "Google Search")
-
-      await ctx.send(embed = emb)
+    @feedback.error
+    async def feedback_error(self, ctx, error):
+      if isinstance(error, commands.MissingRequiredArgument):
+        a = commands.clean_content(use_nicknames = True)
+        ctx.prefix = await a.convert(ctx, ctx.prefix)
+        emb = discord.Embed(description = f"<:redTick:596576672149667840> | Wrong usage! Use `{ctx.prefix}feedback <your feedback>`.", colour = discord.Colour.red())
+        return await ctx.send(embed = emb, delete_after = 10) 
 
     @commands.command()
-    async def say(self, ctx, *, message):
+    async def say(self, ctx, *, message = None):
 
       "Say something with Satoru"
 
+      if not message:
+        if ctx.message.attachments:
+          file = await ctx.message.attachments[0].to_file()
+          return await ctx.send(file = file)
+        else:
+          emb = discord.Embed(description = f"<:redTick:596576672149667840> | Wrong usage! Use `{ctx.prefix}say <your message>`.", colour = discord.Colour.red())
+          return await ctx.send(embed = emb, delete_after = 10) 
+      if ctx.message.attachments:
+        file = await ctx.message.attachments[0].to_file()
+      else:
+        file = None
       a = commands.clean_content(use_nicknames = True)
       message = await a.convert(ctx, message)
 
-      await ctx.send(message)
+      await ctx.send(message, file = file)
+
+    @say.error
+    async def say_error(self, ctx, error):
+      if isinstance(error, commands.MissingRequiredArgument):
+        a = commands.clean_content(use_nicknames = True)
+        ctx.prefix = await a.convert(ctx, ctx.prefix)
+        emb = discord.Embed(description = f"<:redTick:596576672149667840> | Wrong usage! Use `{ctx.prefix}say <your message>`.", colour = discord.Colour.red())
+        return await ctx.send(embed = emb, delete_after = 10) 
+      else:
+        await ctx.send(error)
+
+    @commands.command()
+    @commands.cooldown(1, 5, BucketType.user)
+    async def leave(self, ctx, *, member: discord.Member = None):
+      "Fake leave the guild"
+      member = member or ctx.author
+      await ctx.send(f"<:leave:694103681272119346> {member.mention} has left **{ctx.guild.name}**")
+
 
     @commands.group(invoke_without_command = True)
     async def list(self, ctx):
@@ -424,13 +448,13 @@ Release Date: {r[season][episode]["release_date"]}
 
       await ctx.send("Ok!")
 
-      if type == "seconds" or "second" or "sec" or "secs" or "s":
+      if type in ["second", "seconds", "s", "sec", "secs"]:
         
         await asyncio.sleep(int(time))
 
         return await ctx.send(content = ctx.author.mention, embed = emb)
 
-      elif type == "minutes":
+      elif type in ["minutes", "min", "mins", "m", "minute"]:
 
         for a in range(int(time)):
 
@@ -438,7 +462,7 @@ Release Date: {r[season][episode]["release_date"]}
 
         return await ctx.send(content = ctx.author.mention, embed = emb)
 
-      elif type == "hours" or "hour" or "h":
+      elif type in ["hour", "hours", "h"]:
 
         for a in range(int(time)):
 
@@ -579,7 +603,7 @@ Use `messages <limit> <channel> <member>`"""
 
       await ctx.send(discord.utils.escape_mentions(res))
 
-    def from_utc(self, timezone):
+    async def from_utc(self, timezone):
 
       local_tz = pytz.timezone(str(timezone))
       
@@ -596,18 +620,18 @@ Use `messages <limit> <channel> <member>`"""
 
         async with ctx.typing():
 
-          rome = self.from_utc("Europe/Rome")
-          paris = self.from_utc("Europe/Paris")
-          tokyo = self.from_utc("Asia/Tokyo") 
-          london = self.from_utc("Europe/London")
-          berlin = self.from_utc("Europe/Berlin")
-          moscow = self.from_utc("Europe/Moscow")
-          toronto = self.from_utc("America/Toronto")
-          detroit = self.from_utc("America/Detroit")
-          shanghai = self.from_utc("Asia/Shanghai")
-          helsinki = self.from_utc("Europe/Helsinki")
-          newyork = self.from_utc("America/New_York")
-          amsterdam = self.from_utc("Europe/Amsterdam")
+          rome = await self.from_utc("Europe/Rome")
+          paris = await self.from_utc("Europe/Paris")
+          tokyo = await self.from_utc("Asia/Tokyo") 
+          london = await self.from_utc("Europe/London")
+          berlin = await self.from_utc("Europe/Berlin")
+          moscow = await self.from_utc("Europe/Moscow")
+          toronto = await self.from_utc("America/Toronto")
+          detroit = await self.from_utc("America/Detroit")
+          shanghai = await self.from_utc("Asia/Shanghai")
+          helsinki = await self.from_utc("Europe/Helsinki")
+          newyork = await self.from_utc("America/New_York")
+          amsterdam = await self.from_utc("Europe/Amsterdam")
 
           emb = discord.Embed(description = f"""```prolog
 Rome       ::   {rome}
@@ -809,6 +833,30 @@ Amsterdam  ::   {amsterdam}
       await ctx.send(b["owo"])
 
       await cs.close()
+
+    @commands.command()
+    async def mention(self, ctx, member: discord.Member = None, channel: discord.TextChannel = None):
+      "See who pinged / mentioned a member"
+      message = None
+      async with ctx.typing():
+        member = member or ctx.author
+        channel = channel or ctx.channel
+        async for a in channel.history(limit=5000):
+          if a.id == ctx.message.id:
+            pass
+          else:
+            if member.mention in a.content:
+              message = a
+              break
+
+        if not message:
+          emb = discord.Embed(description = f"<:redTick:596576672149667840> | Last mention is too old or {member.mention} got never mentioned and I can't find it!", colour = discord.Colour.red())
+          return await ctx.send(embed = emb, delete_after = 10)
+
+        emb = discord.Embed(description = message.content, timestamp = message.created_at, colour = message.author.colour)
+        emb.set_author(name = message.author, icon_url = message.author.avatar_url_as(static_format = "png"))
+
+        await ctx.send(embed = emb)
 
 def setup(bot):
     bot.add_cog(Misc(bot))
