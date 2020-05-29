@@ -44,41 +44,22 @@ async def on_ready():
 
   await bot.change_presence(status = discord.Status.idle, activity = discord.Streaming(name = "e?help", url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"))
 
-  with open("data/commands.json", "w") as f:
-    
-    f.write("{}")
-
-  with open("data/commands.json", "r") as f:
-
-    l = json.load(f)
+  f = open("data/commands.txt", "w")
 
   for a in bot.commands:
-
     if not a.hidden:
-
       if a.name != "jishaku":
-        
-        l[f"{a.name} {a.signature}"] = a.help
-
         try:
-              
-              for b in a.commands:
-                
-                l[f"{a.name} {b.name} {b.signature}"] = b.help
-
+          for b in a.commands:
+            f.write(f"e?{a.name} {b.name} {b.signature} = {b.help}\n")
         except:
-              
-              pass
-        
-        with open("data/commands.json", "w") as f:
-          
-          json.dump(l, f, indent = 4)
+          f.write(f"e?{a.name} {a.signature} = {a.help}\n")
+  f.close()
 
 @tasks.loop(seconds = 20)
 async def stats():
 
   with open("data/stats.json", "r") as f:
-
     l = json.load(f)
 
   uptime = datetime.now() - launchtime
