@@ -36,7 +36,6 @@ def commands():
   commands = {}
   for a in f:
     a = a.split(" = ")
-    print(f"{len(a)} {a}")
     if len(a) > 1:
       name = a[0]
       help = a[1]
