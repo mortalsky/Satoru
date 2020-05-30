@@ -30,6 +30,14 @@ class Misc(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
+    async def hastebin(self, data):
+      data = bytes(data, 'utf-8')
+      async with aiohttp.ClientSession() as cs:
+        async with cs.post('https://hastebin.com/documents', data = data) as r:
+          res = await r.json()
+          key = res["key"]
+          return f"https://hastebin.com/{key}"
+
     @commands.command()
     async def ping(self, ctx):
 
@@ -858,5 +866,62 @@ Amsterdam  ::   {amsterdam}
 
         await ctx.send(embed = emb)
 
+    @commands.command()
+    async def binary(self , ctx, *, text):
+
+      msg = await ctx.send(f"**Choose:\n- 📝 `Binary` to `Text`.\n- 💻 `Text` to `Binary`.**")
+      await msg.add_reaction("📝")
+      await msg.add_reaction("💻")
+
+      def check(reaction, user):
+        return user.id == ctx.author.id and reaction.message.id == msg.id
+
+      end = False
+
+      while not end:
+
+        try:
+          msg_ = await self.bot.wait_for("reaction_add", check = check, timeout = 30)
+          
+        except asyncio.TimeoutError:
+          return await ctx.send(f":clock: | {ctx.author.mention} **Timeout**!", delete_after = 60)
+          
+        if str(msg_[0]) == "💻":
+          text = ' '.join(format(ord(x), 'b') for x in text)
+          try:
+            emb = discord.Embed(description = text, colour = 0x36393E)
+            await ctx.send(embed = emb)
+            await msg.delete()
+          except:
+            text = await self.hastebin(text)
+            await ctx.send(f"**{ctx.author.mention} text was too long, I uploaded it here:**\n- {text}")
+            await msg.delete()
+          end = True
+          
+        elif str(msg_[0]) == "📝":
+          b = text.split()
+          try:
+            ascii_string = ""
+            for a in b:
+              oof = int(a, 2)
+              ascii_character = chr(oof)
+              ascii_string += ascii_character
+          except:
+            await ctx.send(f"**{ctx.author.mention} I can't encode it, are you sure that it is a Binary code?**", delete_after = 40)
+            return await msg.delete()
+          try:
+            emb = discord.Embed(description = ascii_string, colour = 0x36393E)
+            await ctx.send(embed = emb)
+            await msg.delete()
+          except:
+            text = await self.hastebin(text)
+            await ctx.send(f"**{ctx.author.mention} text was too long, I uploaded it here:**\n- {text}")
+            await msg.delete()
+          end = True
+
+        else:
+          end = False
+          
 def setup(bot):
-    bot.add_cog(Misc(bot))
+  bot.add_cog(Misc(bot))
+
