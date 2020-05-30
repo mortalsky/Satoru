@@ -869,6 +869,8 @@ Amsterdam  ::   {amsterdam}
     @commands.command()
     async def binary(self , ctx, *, text):
 
+      text = discord.utils.escape_markdown(text)
+
       msg = await ctx.send(f"**Choose:\n- 📝 `Binary` to `Text`.\n- 💻 `Text` to `Binary`.**")
       await msg.add_reaction("📝")
       await msg.add_reaction("💻")
