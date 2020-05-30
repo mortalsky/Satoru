@@ -429,19 +429,15 @@ Offline  ::   {offline_b}
       "See a member avatar"
 
       if not member:
-
         member = ctx.author
 
       else:
-
         member = member
 
       if member.nick:
-
         nick = member.nick
 
       else:
-
         nick = member.name
 
       emb = discord.Embed(colour = member.colour, timestamp = ctx.message.created_at)
@@ -649,12 +645,15 @@ Offline  ::   {offline_b}
               badges += "<:serverowner:714472902241550378>"
             if perms.manage_messages is True:
               badges += "<:ModHammer:714479952552001536>"
-
+              
+            if a.premium_since:
+              badges += "<a:booster:714618072153063524>" 
+              
             if a.nick:
-              res_ += f"- **`{str(a)}`**{badges} (**{a.nick}**)\n"
+              res_ += f"**`{str(a)}`**{badges} (**{a.nick}**)\n"
 
             else:
-              res_ += f"- **`{str(a)}`**{badges}\n"
+              res_ += f"**`{str(a)}`**{badges}\n"
 
           emb = discord.Embed(description = res_, colour = self.bot.colour)
           emb.set_footer(text = f"Users with \"{text}\" keyword.")
@@ -684,7 +683,7 @@ Offline  ::   {offline_b}
             badges = ""
             if perms.manage_messages is True or perms.administrator is True:
               badges += "<:ModHammer:714479952552001536>"
-            res_ += f"- {a.mention} {badges}\n"
+            res_ += f"{a.mention} {badges}\n"
 
           emb = discord.Embed(description = res_, colour = self.bot.colour)
           emb.set_footer(text = f"Roles with \"{text}\" keyword.")
@@ -692,7 +691,7 @@ Offline  ::   {offline_b}
         except:
           res_ = ""
           for a in res:
-            res_ += f"- {a.mention}\n"
+            res_ += f"{a.mention}\n"
           file = open("too_big.txt", "w")
           file.write(res_)
           file.close()

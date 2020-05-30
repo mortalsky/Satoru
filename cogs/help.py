@@ -9,49 +9,6 @@ class Help(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.Cog.listener()
-    async def on_ready(self):
-      
-      commands = ""
-
-      for a in self.bot.commands:
-
-        if not a.hidden:
-
-          if a.name != "jishaku":
-            
-            commands += f"`{a.name} {a.signature}`\n\n> {a.help} \n\n"
-
-            try:
-              
-              for b in a.commands:
-                
-                commands += f"`{a.name} {b.name} {b.signature}`\n\n> {b.help} \n\n"
-
-            except:
-              
-              pass
-    
-      with open("README.md", "w") as f:
-      
-        f.write(f"""
-# LICENSE
-**Do you see any LICENSE.md or LICENSE.txt? What? No? Yeet so you can't use this code!**
-# Satoru
-Satoru is a Discord Bot made with discord.py
-- Moderation
-- Info 
-- Misc
-
-**[Invite the bot](https://discordapp.com/api/oauth2/authorize?client_id=635044836830871562&permissions=321606&scope=bot)**
-
-# Commands
-
-{commands}
-
-[![Run on Repl.it](https://repl.it/badge/github/ssebastianoo/Satoru)](https://repl.it/github/ssebastianoo/Satoru)""")
-
-
     @commands.command(hidden = True)
     async def help(self, ctx, *, command: str = None):
 

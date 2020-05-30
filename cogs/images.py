@@ -37,23 +37,35 @@ class Images(commands.Cog):
 
   async def punch(self, img1, img2):
     base = Image.open('assets/punch.png').convert("RGBA")
+    
+    mask1 = Image.open('assets/circle-mask.jpg').convert("L").resize((210, 210))
+    mask2 = Image.open('assets/circle-mask.jpg').convert("L").resize((300, 300))
+
     img1 = Image.open(BytesIO(img1)).resize((210, 210)).convert("RGBA")
     img2 = Image.open(BytesIO(img2)).resize((300, 300)).convert("RGBA")
-    base.paste(img1, (40, 35), img1)
-    base.paste(img2, (480, 30), img2)
+
+    if await self.has_transparency(img1):
+      base.paste(img1, (40, 35), img1)
+    else:
+      base.paste(img1, (40, 35), mask1)
+    if await self.has_transparency(img2):
+      base.paste(img2, (480, 30), img2)
+    else:
+      base.paste(img2, (480, 30), mask2)
     b = BytesIO() 
     base.save(b, "png")
     b.seek(0)
     return b
 
   async def disabled(self, img):
-    base = Image.open('assets/am-i-disabled.png').convert("RGBA")
-    mask = Image.open('assets/circle-mask.jpg').convert("L").resize((210, 210))
-    img = Image.open(BytesIO(img)).resize((210, 210)).convert("RGBA")
+
+    base = Image.open('assets/am-i-disabled.png').convert("RGBA").resize((800, 650))
+    mask = Image.open('assets/circle-mask.jpg').convert("L").resize((300, 300))
+    img = Image.open(BytesIO(img)).resize((300, 300)).convert("RGBA")
     if await self.has_transparency(img):
-      base.paste(img, (200, 20), img)
+      base.paste(img, (250, 20), img)
     else:
-      base.paste(img, (200, 20), mask)
+      base.paste(img, (250, 20), mask)
     b = BytesIO() 
     base.save(b, "png")
     b.seek(0)
@@ -138,8 +150,14 @@ class Images(commands.Cog):
 
     async with ctx.typing():
 
+      if ctx.message.attachments:
+        url = ctx.message.attachments[0].url
+      
+      else:
+        url = str(member.avatar_url_as(format = "png"))
+
       async with aiohttp.ClientSession() as cs:
-          async with cs.get(str(member.avatar_url_as(format = "png"))) as r:
+          async with cs.get(url) as r:
               res = await r.read()  
 
       b = await self.mike(res)
@@ -160,8 +178,14 @@ class Images(commands.Cog):
 
     async with ctx.typing():
 
+      if ctx.message.attachments:
+        url = ctx.message.attachments[0].url
+      
+      else:
+        url = str(member.avatar_url_as(format = "png"))
+
       async with aiohttp.ClientSession() as cs:
-          async with cs.get(str(member.avatar_url_as(format = "png"))) as r:
+          async with cs.get(url) as r:
               res = await r.read()  
 
       b = await self.disabled(res)

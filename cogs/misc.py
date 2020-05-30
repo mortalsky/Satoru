@@ -652,13 +652,13 @@ Amsterdam  ::   {amsterdam}
 
       try:
       
-        emb = discord.Embed(description = f"```prolog\n{timezone} :: {self.from_utc(str(timezone))}\n```", colour = discord.Colour.blurple())
+        emb = discord.Embed(description = f"```prolog\n{timezone} :: {await self.from_utc(str(timezone))}\n```", colour = discord.Colour.blurple())
 
         await ctx.send(embed = emb)
 
       except:
 
-        emb = discord.Embed(description = f"**{timezone}** is not a valid timezone!\n\nUse a format like this: **Europe/Rome**.\n\n[Here](https://timezonedb.com/time-zones) is a list of timezones", colour = discord.Colour.red())
+        emb = discord.Embed(description = f"**{timezone}** is not a valid timezone!\n\nUse a format like this: **Europe/Rome**.\n\n[Here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) is a list of timezones", colour = discord.Colour.red())
 
         await ctx.send(embed = emb)
 

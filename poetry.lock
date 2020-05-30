@@ -134,6 +134,32 @@ requests = "*"
 
 [[package]]
 category = "main"
+description = "gTTS (Google Text-to-Speech), a Python library and CLI tool to interface with Google Translate text-to-speech API"
+name = "gtts"
+optional = false
+python-versions = ">=2.7"
+version = "2.1.1"
+
+[package.dependencies]
+beautifulsoup4 = "*"
+click = "*"
+gtts-token = ">=1.1.3"
+requests = "*"
+six = "*"
+
+[[package]]
+category = "main"
+description = "Calculates a token to run the Google Translate text to speech"
+name = "gtts-token"
+optional = false
+python-versions = "*"
+version = "1.1.3"
+
+[package.dependencies]
+requests = "*"
+
+[[package]]
+category = "main"
 description = "Python humanize utilities"
 name = "humanize"
 optional = false
@@ -301,6 +327,14 @@ version = "1.9.5"
 
 [[package]]
 category = "main"
+description = "Library for performing speech recognition, with support for several engines and APIs, online and offline."
+name = "speechrecognition"
+optional = false
+python-versions = "*"
+version = "3.8.1"
+
+[[package]]
+category = "main"
 description = "A python module that will check for package updates."
 name = "update-checker"
 optional = false
@@ -358,7 +392,7 @@ idna = ">=2.0"
 multidict = ">=4.0"
 
 [metadata]
-content-hash = "3d16124a7f9ed34daf658ce798334b7c3b1b002a767316aef2290bc68a62613c"
+content-hash = "59743c2156fd10579905e74ed50dba0cd2063e5a53d5c0dfc74110d4bebaa166"
 python-versions = "^3.7"
 
 [metadata.hashes]
@@ -375,6 +409,8 @@ dblpy = ["75112dcbcb57c5ec5dc299d3bc840621b90e5e6d3e0035c5875bee407f6b27bf", "80
 "discord.py" = ["7424be26b07b37ecad4404d9383d685995a0e0b3df3f9c645bdd3a4d977b83b4"]
 flask = ["13f9f196f330c7c2c5d7a5cf91af894110ca0215ac051b5844701f2bfd934d52", "45eb5a6fd193d6cf7e0cf5d8a5b31f83d5faae0293695626f539a823e93b13f6"]
 googletrans = ["bb4e2a6ee72a24870e696a14238b7305f855a05206ecae10bd50052651984cc5"]
+gtts = ["2ca2e880b560767d4ec74281d996ffdeda9012abc99968595b615e309a90cffe", "e07e1729ca6d26c46d687bc29c321079a90719e1edb1ac25e0c229cd55b44539", "feaebc9cf64138d68a05b965f2cdb9ea8ee962bbb8237d91c621bf910fc1123c"]
+gtts-token = ["9d6819a85b813f235397ef931ad4b680f03d843c9b2a9e74dd95175a4bc012c5"]
 humanize = ["0b3157df0f3fcdcb7611180d305a23fd4b6290eb23586e058762f8576348fbab", "de8ef6ffee618a9d369b3d1fb1359780ccaa2cc76a0e777c6ff21f04d19a0eb8"]
 idna = ["7588d1c14ae4c77d74036e8c22ff447b26d0fde8f007354fd48a7814db15b7cb", "a068a21ceac8a4d63dbfd964670474107f541babbd2250d61922f029858365fa"]
 import-expression = ["8ad5863222e8aecb8178c456f3a62a553029860ab5dbc50d3f5ccf480eb034da", "9bf1e5cd5ef61930b35e6eccabab3d9f4c67f5096c88471f7aca50adc6fa4804"]
@@ -393,6 +429,7 @@ ratelimiter = ["5c395dcabdbbde2e5178ef3f89b568a3066454a6ddc223b76473dac22f89b4f7
 requests = ["43999036bfa82904b6af1d99e4882b560e5e2c68e5c4b0aa03b655f3d7d73fee", "b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6"]
 six = ["236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a", "8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"]
 soupsieve = ["bdb0d917b03a1369ce964056fc195cfdff8819c40de04695a80bc813c3cfa1f5", "e2c1c5dee4a1c36bcb790e0fabd5492d874b8ebd4617622c4f6a731701060dda"]
+speechrecognition = ["4d8f73a0c05ec70331c3bacaa89ecc06dfa8d9aba0899276664cda06ab597e8e"]
 update-checker = ["59cfad7f9a0ee99f95f1dfc60f55bf184937bcab46a7270341c2c33695572453", "70e39446fccf77b21192cf7a8214051fa93a636dc3b5c8b602b589d100a168b8"]
 urllib3 = ["2f3db8b19923a873b3e5256dc9c2dedfa883e33d87c690d9c7913e1f40673cdc", "87716c2d2a7121198ebcb7ce7cccf6ce5e9ba539041cfbaeecfb641dc0bf6acc"]
 websocket-client = ["0fc45c961324d79c781bab301359d5a1b00b13ad1b10415a4780229ef71a5549", "d735b91d6d1692a6a181f2a8c9e0238e5f6373356f561bb9dc4c7af36f452010"]
